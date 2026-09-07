@@ -1,0 +1,28 @@
+{
+  "authoritativeClaimsStatus": "KNOWN",
+  "base": "FAIL",
+  "capabilities": {
+    "Accessible": "NOT_CLAIMED",
+    "Archive-Experimental": "NOT_CLAIMED",
+    "Fixed-Experimental": "NOT_CLAIMED",
+    "Mapping": "NOT_CLAIMED"
+  },
+  "corpusVersion": "0.1.1",
+  "experimentalReporting": {
+    "fixedExperimentalCapabilityDeclared": false,
+    "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+    "physicalFixedRenditionPresent": false
+  },
+  "fixture": "invalid/missing-root-language",
+  "notTestedRequirementIds": [
+    "SPD-ID-013"
+  ],
+  "notes": [],
+  "operationalStatus": "COMPLETE",
+  "violations": [
+    {
+      "requirement": "SPD-I18N-003",
+      "resource": "EPUB/content.xhtml"
+    }
+  ]
+}

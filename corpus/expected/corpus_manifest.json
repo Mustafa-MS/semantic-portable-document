@@ -1,0 +1,122 @@
+[
+  {
+    "dir": "ltr",
+    "document_id": "d_cc3abc4e45b14b50b715b7c773d56f75",
+    "lang": "en",
+    "purpose": "Baseline semantic/render/mapping behavior",
+    "revision_id": "r_e656de958450452c9021099f305defc3",
+    "source": "corpus/sources/T01.xhtml",
+    "test_id": "T01",
+    "title": "Basic Semantic Document"
+  },
+  {
+    "dir": "ltr",
+    "document_id": "d_41cb5d826c754768b128341b9955aa24",
+    "lang": "en",
+    "purpose": "One node to multiple fixed fragments",
+    "revision_id": "r_5364285e2a5e476fb725e1895e107fa4",
+    "source": "corpus/sources/T02.xhtml",
+    "test_id": "T02",
+    "title": "Long Multipage Paragraphs"
+  },
+  {
+    "dir": "ltr",
+    "document_id": "d_4fc9d9cc46ed418e814e12b94805b1af",
+    "lang": "en",
+    "purpose": "Persistent table/cell identity and fragmentation",
+    "revision_id": "r_375bfc620f7a471292cac6a23a96e009",
+    "source": "corpus/sources/T03.xhtml",
+    "test_id": "T03",
+    "title": "Complex Tables"
+  },
+  {
+    "dir": "ltr",
+    "document_id": "d_3568ca26739b4657acf48ce76ac67665",
+    "lang": "en",
+    "purpose": "Figure identity and cross-reference preservation",
+    "revision_id": "r_8d50e01bae5d417794a1d12cdba0b306",
+    "source": "corpus/sources/T04.xhtml",
+    "test_id": "T04",
+    "title": "Figures and Captions"
+  },
+  {
+    "dir": "ltr",
+    "document_id": "d_8f68572f4f0e445483c7511a5d8f07b9",
+    "lang": "en",
+    "purpose": "MathML rendering and equation identity",
+    "revision_id": "r_49983f18d883450bb0cb221c72ce11d8",
+    "source": "corpus/sources/T05.xhtml",
+    "test_id": "T05",
+    "title": "Mathematics"
+  },
+  {
+    "dir": "ltr",
+    "document_id": "d_ecf9282ea90e4c7fbfc78237ffa6075b",
+    "lang": "en",
+    "purpose": "Logical relationships versus physical placement",
+    "revision_id": "r_64b3c85e6a6540669a5111470b49a143",
+    "source": "corpus/sources/T06.xhtml",
+    "test_id": "T06",
+    "title": "Footnotes and Endnotes"
+  },
+  {
+    "dir": "ltr",
+    "document_id": "d_aa9e242c036c4cda92beb881f05b36c6",
+    "lang": "en",
+    "purpose": "Logical order versus column geometry",
+    "revision_id": "r_20dc44b1288c47b982a8633e6650dc5f",
+    "source": "corpus/sources/T07.xhtml",
+    "test_id": "T07",
+    "title": "Multi-column Layout"
+  },
+  {
+    "dir": "rtl",
+    "document_id": "d_05a84440d47448ec9d76526b3e47ed7e",
+    "lang": "ar",
+    "purpose": "RTL as a first-class baseline",
+    "revision_id": "r_263e2261deed47c0b18e776a17aabba7",
+    "source": "corpus/sources/T08.xhtml",
+    "test_id": "T08",
+    "title": "Arabic Document"
+  },
+  {
+    "dir": "rtl",
+    "document_id": "d_399f88fa37d245b5879f46b673e3eedb",
+    "lang": "ar",
+    "purpose": "Mixed-direction logical/visual mapping",
+    "revision_id": "r_f8d411f8e02045cd89075b827106e166",
+    "source": "corpus/sources/T09.xhtml",
+    "test_id": "T09",
+    "title": "Mixed Arabic/English"
+  },
+  {
+    "dir": "ltr",
+    "document_id": "d_b213c48262f542568c65df4d17ed3363",
+    "lang": "en",
+    "purpose": "Realistic research structure and revision fixture",
+    "revision_id": "r_27290679b2464cf9bd99476923797d5a",
+    "source": "corpus/sources/T10.xhtml",
+    "test_id": "T10",
+    "title": "Academic Paper"
+  },
+  {
+    "dir": "ltr",
+    "document_id": "d_640d90a389a54e74ad773a277465d7e2",
+    "lang": "en",
+    "purpose": "Exact page-oriented structure",
+    "revision_id": "r_a061b5d2478147ce95e9242e113d485d",
+    "source": "corpus/sources/T11.xhtml",
+    "test_id": "T11",
+    "title": "Business/Legal Document"
+  },
+  {
+    "dir": "ltr",
+    "document_id": "d_db33b8f0b60443b2bcff6762d8644d63",
+    "lang": "en",
+    "purpose": "Semantic versus fixed accessibility",
+    "revision_id": "r_0aa0abe4efed454ea5a7f22853051b8d",
+    "source": "corpus/sources/T12.xhtml",
+    "test_id": "T12",
+    "title": "Accessibility Stress"
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "coverage": {
+    "expected": 6,
+    "mapped": 3,
+    "ratio": 0.5
+  },
+  "document": "d_8f68572f4f0e445483c7511a5d8f07b9",
+  "fixedRendition": "f_fa793df5f3054b63989442a0ddb80ac2",
+  "fixedRenditionHash": "sha256:c1e829892635d5490cdd0b96eeb2efe108c3b9533526edadb80a0e94923426bc",
+  "mappings": [
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            47.999998,
+            76.52343425152333,
+            193.79296136529297,
+            76.52343425152333,
+            193.79296136529297,
+            100.52343325152333,
+            47.999998,
+            100.52343325152333
+          ],
+          "textRange": [
+            0,
+            11
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_4582b08af87047de9e75cba1df0951a3"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            244.1953023251953,
+            160.1977302719191,
+            351.29309693847335,
+            160.1977302719191,
+            351.29309693847335,
+            186.94272900754413,
+            244.1953023251953,
+            186.94272900754413
+          ],
+          "textRange": [
+            0,
+            19
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_ce8ce1040a294f408f80cf718f6dd0a7"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            47.999998,
+            199.5144790764498,
+            263.9860877636596,
+            199.5144790764498,
+            263.9860877636596,
+            210.5094784683248,
+            47.999998,
+            210.5094784683248
+          ],
+          "textRange": [
+            0,
+            44
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_4e4eef195e5e4dd8bae3a40f2ab458a7"
+    }
+  ],
+  "pages": [
+    {
+      "height": 841.91998,
+      "id": "pg_1",
+      "unit": "pt",
+      "width": 594.95996
+    }
+  ],
+  "renderer": "chromium",
+  "revision": "r_49983f18d883450bb0cb221c72ce11d8",
+  "schemaVersion": "0.1-experimental",
+  "unmatched": [
+    {
+      "node": "n_8f23974349fc489aa4261ab98458ee70",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_949f133a4666441e93e79e99077544de",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_fe95e579d6954c8c9962ebc3d219dd54",
+      "reason": "logical token sequence not found in extracted PDF words"
+    }
+  ]
+}

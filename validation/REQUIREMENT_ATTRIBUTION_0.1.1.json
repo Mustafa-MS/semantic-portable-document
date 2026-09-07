@@ -1,0 +1,436 @@
+{
+  "version": "0.1.1",
+  "kind": "NON-NORMATIVE VALIDATION INFRASTRUCTURE",
+  "noFormatSemanticsChanged": true,
+  "blocked": {
+    "document": [
+      "SPD-CAP-002",
+      "SPD-CAP-003",
+      "SPD-ID-002",
+      "SPD-INT-004",
+      "SPD-INT-005"
+    ],
+    "inventory": [
+      "SPD-RES-001",
+      "SPD-RES-002",
+      "SPD-RES-003",
+      "SPD-RES-004",
+      "SPD-RES-005",
+      "SPD-RES-006",
+      "SPD-INT-003",
+      "SPD-INT-004",
+      "SPD-INT-005"
+    ],
+    "state": [
+      "SPD-INT-006",
+      "SPD-STATE-002",
+      "SPD-STATE-003",
+      "SPD-STATE-006",
+      "SPD-STATE-007"
+    ],
+    "semanticIndex": [
+      "SPD-ID-006"
+    ]
+  },
+  "rules": [
+    {
+      "requirementId": "SPD-ANN-004",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "Changing an in-package annotation does not create a semantic Revision ID but invalidates a sealed state whose inventory binds that annotation; external annotations evolve independently unless incorporated.",
+      "prerequisites": [],
+      "predicate": "Changing an in-package annotation does not create a semantic Revision ID but invalidates a sealed state whose inventory binds that annotation; external annotations evolve independently unless incorporated.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-ARCH-001",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "A conforming document has exactly one authoritative semantic representation.",
+      "prerequisites": [],
+      "predicate": "A conforming document has exactly one authoritative semantic representation.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-BASE-002",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "Applicable EPUB 3.3 OCF requirements apply unless this profile further restricts them.",
+      "prerequisites": [],
+      "predicate": "Applicable EPUB 3.3 OCF requirements apply unless this profile further restricts them.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-BASE-005",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "A Base package includes navigation, an authoritative XHTML spine, identity metadata, inventory, offline required resources, semantic structure, logical text, and integrity digests.",
+      "prerequisites": [],
+      "predicate": "A Base package includes navigation, an authoritative XHTML spine, identity metadata, inventory, offline required resources, semantic structure, logical text, and integrity digests.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-CAP-002",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "Documents declare only capability ID and version; normative or experimental status is specification-controlled.",
+      "prerequisites": [
+        "document"
+      ],
+      "predicate": "Documents declare only capability ID and version; normative or experimental status is specification-controlled.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-CAP-003",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "EPUB discovery metadata and the authoritative document-state capability declaration agree exactly.",
+      "prerequisites": [
+        "document"
+      ],
+      "predicate": "EPUB discovery metadata and the authoritative document-state capability declaration agree exactly.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-DISC-001",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "container.xml contains exactly one link for each required SPD document-state, resource-inventory, and lifecycle-state relationship.",
+      "prerequisites": [],
+      "predicate": "container.xml contains exactly one link for each required SPD document-state, resource-inventory, and lifecycle-state relationship.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-DISC-002",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "Each SPD descriptor link has the exact provisional relationship token, application/json media type, and a safe path resolving to one existing resource.",
+      "prerequisites": [],
+      "predicate": "Each SPD descriptor link has the exact provisional relationship token, application/json media type, and a safe path resolving to one existing resource.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-ID-002",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "Every committed semantic state has an opaque canonical lowercase RFC 9562 UUID URN Revision ID.",
+      "prerequisites": [
+        "document"
+      ],
+      "predicate": "Every committed semantic state has an opaque canonical lowercase RFC 9562 UUID URN Revision ID.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-ID-006",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "Node IDs are unique in the current authoritative semantic revision.",
+      "prerequisites": [
+        "semanticIndex"
+      ],
+      "predicate": "Node IDs are unique in the current authoritative semantic revision.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-INT-003",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "Integrity detects modification of semantic content, normative styles/assets, mapping, fixed rendition, and state metadata when applicable.",
+      "prerequisites": [
+        "inventory"
+      ],
+      "predicate": "Integrity detects modification of semantic content, normative styles/assets, mapping, fixed rendition, and state metadata when applicable.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-INT-004",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "semanticStateDigest is computed by the normative UTF-8 inventory projection over resources whose affects contains semantic.",
+      "prerequisites": [
+        "document",
+        "inventory"
+      ],
+      "predicate": "semanticStateDigest is computed by the normative UTF-8 inventory projection over resources whose affects contains semantic.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-INT-005",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "renditionInputDigest is computed by the normative projection over resources affecting semantic or rendering; presentation-only change stales fixed without changing Revision ID.",
+      "prerequisites": [
+        "document",
+        "inventory"
+      ],
+      "predicate": "renditionInputDigest is computed by the normative projection over resources affecting semantic or rendering; presentation-only change stales fixed without changing Revision ID.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-INT-006",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "descriptorDigest is SHA-256 of RFC 8785 JCS state JSON with descriptorDigest omitted, producing a cycle-free digest graph.",
+      "prerequisites": [
+        "state"
+      ],
+      "predicate": "descriptorDigest is SHA-256 of RFC 8785 JCS state JSON with descriptorDigest omitted, producing a cycle-free digest graph.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-MAP-011",
+      "applicability": "known explicit Mapping claim",
+      "requiredEvidence": "A Mapping claim includes valid page identifiers, status, provenance, logical ranges where used, and page-bounded geometry.",
+      "prerequisites": [],
+      "predicate": "A Mapping claim includes valid page identifiers, status, provenance, logical ranges where used, and page-bounded geometry.",
+      "overlapBehavior": "Emit both for readable visible quad outside declared page bounds.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-MAP-012",
+      "applicability": "known explicit Mapping claim",
+      "requiredEvidence": "Mapping geometry uses finite page-local CSS reference pixels with top-left origin, x right, y down, TL-TR-BR-BL quads, and declared rendition-local page dimensions.",
+      "prerequisites": [],
+      "predicate": "Mapping geometry uses finite page-local CSS reference pixels with top-left origin, x right, y down, TL-TR-BR-BL quads, and declared rendition-local page dimensions.",
+      "overlapBehavior": "Emit both for readable visible quad outside declared page bounds.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-RES-001",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "A document maintains exactly one normative resource inventory.",
+      "prerequisites": [
+        "inventory"
+      ],
+      "predicate": "A document maintains exactly one normative resource inventory.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-RES-002",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "Each inventory entry has a normalized NFC path, media type, byte length, SHA-256 digest, role, and explicit affects array.",
+      "prerequisites": [
+        "inventory"
+      ],
+      "predicate": "Each inventory entry has a normalized NFC path, media type, byte length, SHA-256 digest, role, and explicit affects array.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-RES-003",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "The inventory lists every ZIP entry including non-normative caches except the inventory itself and lifecycle state descriptor.",
+      "prerequisites": [
+        "inventory"
+      ],
+      "predicate": "The inventory lists every ZIP entry including non-normative caches except the inventory itself and lifecycle state descriptor.",
+      "overlapBehavior": "Emit both for unlisted non-exempt resources, including caches; no filename/role division.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-RES-004",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "Inventory digests cover the exact decompressed bytes returned for the named ZIP entry.",
+      "prerequisites": [
+        "inventory"
+      ],
+      "predicate": "Inventory digests cover the exact decompressed bytes returned for the named ZIP entry.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-RES-005",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "Each resource explicitly declares whether it affects semantic state, rendering input, both, or neither; role alone is not effect classification.",
+      "prerequisites": [
+        "inventory"
+      ],
+      "predicate": "Each resource explicitly declares whether it affects semantic state, rendering input, both, or neither; role alone is not effect classification.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-RES-006",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "Any unlisted ZIP entry other than the two self-referential exceptions fails conformance.",
+      "prerequisites": [
+        "inventory"
+      ],
+      "predicate": "Any unlisted ZIP entry other than the two self-referential exceptions fails conformance.",
+      "overlapBehavior": "Emit both for unlisted non-exempt resources, including caches; no filename/role division.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-SEC-001",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "Base does not require JavaScript or executable macros.",
+      "prerequisites": [],
+      "predicate": "Base does not require JavaScript or executable macros.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-SEC-004",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "A font required for authoritative rendering is packaged and is not remote.",
+      "prerequisites": [],
+      "predicate": "A font required for authoritative rendering is packaged and is not remote.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-SEC-005",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "A stylesheet required for authoritative rendering is packaged and is not remote.",
+      "prerequisites": [],
+      "predicate": "A stylesheet required for authoritative rendering is packaged and is not remote.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-SEC-006",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "An image required for authoritative rendering is packaged and is not remote.",
+      "prerequisites": [],
+      "predicate": "An image required for authoritative rendering is packaged and is not remote.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-SEM-002",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "The authoritative rendition consists of one or more ordered XHTML content documents.",
+      "prerequisites": [],
+      "predicate": "The authoritative rendition consists of one or more ordered XHTML content documents.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-STATE-001",
+      "applicability": "processor execution evidence only; NOT_APPLICABLE in document-only profile",
+      "requiredEvidence": "A stale fixed rendition is not presented as the current authoritative fixed representation.",
+      "prerequisites": [],
+      "predicate": "A stale fixed rendition is not presented as the current authoritative fixed representation.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-STATE-002",
+      "applicability": "SEALED lifecycle only",
+      "requiredEvidence": "A sealed state binds the semantic Revision ID, normative inventory, any claimed fixed rendition, and any applicable mapping artifact.",
+      "prerequisites": [
+        "state"
+      ],
+      "predicate": "A sealed state binds the semantic Revision ID, normative inventory, any claimed fixed rendition, and any applicable mapping artifact.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-STATE-003",
+      "applicability": "SEALED lifecycle only",
+      "requiredEvidence": "Changing normative semantic content invalidates the sealed state.",
+      "prerequisites": [
+        "state"
+      ],
+      "predicate": "Changing normative semantic content invalidates the sealed state.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-STATE-005",
+      "applicability": "current document; conditional on the registry capability and required evidence",
+      "requiredEvidence": "A fixed rendition is current only when revision ID, renditionInputDigest, and resource digest match current verified state; otherwise it is stale.",
+      "prerequisites": [],
+      "predicate": "A fixed rendition is current only when revision ID, renditionInputDigest, and resource digest match current verified state; otherwise it is stale.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-STATE-006",
+      "applicability": "SEALED lifecycle only",
+      "requiredEvidence": "A semantic-only revision may be SEALED; if fixed is present in SEALED it is current.",
+      "prerequisites": [
+        "state"
+      ],
+      "predicate": "A semantic-only revision may be SEALED; if fixed is present in SEALED it is current.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    },
+    {
+      "requirementId": "SPD-STATE-007",
+      "applicability": "known explicit Mapping claim",
+      "requiredEvidence": "A Mapping claim requires a current fixed rendition and a bound mapping artifact; current fixed without Mapping is permitted.",
+      "prerequisites": [
+        "state"
+      ],
+      "predicate": "A Mapping claim requires a current fixed rendition and a bound mapping artifact; current fixed without Mapping is permitted.",
+      "overlapBehavior": "Retain every independently established applicable predicate; no primary-error suppression.",
+      "externalToolAttribution": "Only guarded entries in externalDiagnostics; otherwise native evidence required."
+    }
+  ],
+  "externalDiagnostics": [
+    {
+      "code": "OPF-060",
+      "pattern": "Duplicate entry in the ZIP file",
+      "ids": [
+        "SPD-BASE-002"
+      ],
+      "category": "OCF"
+    },
+    {
+      "code": "RSC-016",
+      "pattern": "(?i)(parsing|well.formed|XML)",
+      "ids": [
+        "SPD-SEM-002"
+      ],
+      "category": "XHTML/XML"
+    },
+    {
+      "code": "RSC-005",
+      "pattern": "Duplicate ID",
+      "ids": [
+        "SPD-ID-006"
+      ],
+      "category": "content identity"
+    },
+    {
+      "code": "RSC-005",
+      "pattern": "(?i)(element .*not allowed|missing required element|bad XML)",
+      "ids": [
+        "SPD-SEM-002"
+      ],
+      "category": "XHTML/XML"
+    },
+    {
+      "code": "RSC-006",
+      "pattern": "(?i)https?://[^ ]+\\.css",
+      "ids": [
+        "SPD-SEC-005"
+      ],
+      "category": "offline CSS"
+    },
+    {
+      "code": "RSC-006",
+      "pattern": "(?i)https?://[^ ]+\\.(png|jpg|jpeg|gif|svg)",
+      "ids": [
+        "SPD-SEC-006"
+      ],
+      "category": "offline image"
+    },
+    {
+      "code": "RSC-008",
+      "pattern": "(?i)https?://[^ ]+\\.(woff2?|ttf|otf)",
+      "ids": [
+        "SPD-SEC-004"
+      ],
+      "category": "offline font"
+    }
+  ],
+  "externalDefault": "Retain raw evidence; no automatic SPD failure attribution.",
+  "experimental": [
+    "physicalFixedRenditionPresent",
+    "fixedExperimentalCapabilityDeclared",
+    "fixedExperimentalEvaluationStatus"
+  ]
+}

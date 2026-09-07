@@ -1,0 +1,9 @@
+[project]
+name = "semantic-portable-document"
+version = "0.1.0rc1"
+description = "Research tooling for Semantic Portable Document Format 0.1 RC1"
+requires-python = ">=3.12"
+license = {text = "Apache-2.0"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

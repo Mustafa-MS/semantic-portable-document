@@ -1,0 +1,30 @@
+{
+  "historicalPackagesUnchanged": 70,
+  "historicalExpectedFilesUnchanged": 70,
+  "historicalManifestUnchanged": true,
+  "protectedHistoricalAndSchemaFiles": 104,
+  "protectedChanges": [],
+  "modifiedExistingRequirements": [
+    "SPD-BASE-001",
+    "SPD-BASE-002",
+    "SPD-BASE-004",
+    "SPD-SEC-001",
+    "SPD-SEC-002",
+    "SPD-SEC-003",
+    "SPD-SEC-004",
+    "SPD-SEC-005",
+    "SPD-SEC-006",
+    "SPD-SEC-007",
+    "SPD-SEC-008"
+  ],
+  "addedRequirements": [
+    "SPD-PASS-001",
+    "SPD-PASS-002",
+    "SPD-PASS-003",
+    "SPD-RS-001",
+    "SPD-RS-002"
+  ],
+  "unchangedRequirements": 102,
+  "newFixturesReproducedByteIdentically": 37,
+  "newManifestSha256": "943e9794e756b07e3180651329d78aa3bc7522c769f94457083b1d009a7bb7cc"
+}

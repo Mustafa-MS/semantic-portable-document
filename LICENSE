@@ -1,0 +1,45 @@
+SPD repository licensing
+========================
+
+This repository uses an explicit split license.
+
+Software and code
+-----------------
+
+Source code, scripts, validators, test programs, build configuration, and CI
+configuration are licensed under the Apache License, Version 2.0
+(SPDX: Apache-2.0):
+
+https://www.apache.org/licenses/LICENSE-2.0
+
+This scope includes code under `harness/`, `mapping/`, `renderers/`, `scripts/`,
+`semantic_pdf/`, `validation/`, `validator-a/`, and `validator-b/`; Python test
+programs under `tests/`; and repository automation under `.github/`.
+
+Specification and documentation
+-------------------------------
+
+The SPD specification, prose documentation, schemas, reports, conformance
+fixtures, and other non-code research material are licensed under the Creative
+Commons Attribution 4.0 International license (SPDX: CC-BY-4.0):
+
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+This scope includes `spec/`, `docs/`, `schemas/`, `reports/`, the root Markdown
+documents, the conformance packages and expected results under `tests/`, and
+research material under `corpus/` and `benchmarks/`, except for source-code files
+covered by Apache-2.0 above.
+
+Attribution may be given as: “Semantic Portable Document (SPD) contributors.”
+When redistributing modified documentation, indicate that changes were made and
+link to the source repository where practical.
+
+Third-party material
+--------------------
+
+Third-party components and test assets, if any, remain subject to their own
+licenses and notices. No license in this file grants rights to third-party marks.
+
+Unless a file or directory states otherwise, the scope rules above control.
+Contributors retain copyright in their contributions and license them under the
+applicable terms when contributing.

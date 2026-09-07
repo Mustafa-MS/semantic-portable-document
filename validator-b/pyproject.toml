@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "spd-validator-b"
+version = "0.1.3rc1"
+description = "Independent Python conformance validator for Semantic Portable Document Format 0.1 RC1"
+requires-python = ">=3.12"
+license = {text = "Apache-2.0"}
+dependencies = [
+  "jsonschema[format]>=4.23,<5",
+  "lxml>=5.3,<7",
+  "tinycss2>=1.4,<2",
+  "rfc8785>=0.1.4,<1",
+  "PyYAML>=6.0,<7",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.3,<10", "hypothesis>=6.120,<7"]
+
+[project.scripts]
+spd-validator-b = "spd_validator_b.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["spd_validator_b"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"../validation/REQUIREMENT_ATTRIBUTION_0.1.2.json" = "spd_validator_b/data/REQUIREMENT_ATTRIBUTION_0.1.2.json"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

@@ -1,0 +1,1554 @@
+{
+  "corpusVersion": "0.1.2",
+  "counts": {
+    "edge": 13,
+    "invalid": 39,
+    "security": 37,
+    "valid": 18
+  },
+  "fixtureCount": 107,
+  "fixtures": [
+    {
+      "category": "edge",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/edge/cjk-vertical/expected.json",
+      "expectedResultSha256": "82645216fbd2a66d1ee5ce3bf3e8e61032e60dba9b5fc2ea9ca4ed91d43e7d88",
+      "id": "edge/cjk-vertical",
+      "name": "cjk-vertical",
+      "notes": [],
+      "package": "tests/edge/cjk-vertical/document.epub",
+      "packageSha256": "820276ccb1243d76097816972934edcd3e0ced54a50d15934311aac95337e767",
+      "primaryRequirements": []
+    },
+    {
+      "category": "edge",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/edge/combining-character-range/expected.json",
+      "expectedResultSha256": "737788d2a774ef989cb1f4efc50d62fc8f144d680c1d60ca597c91b971b3c677",
+      "id": "edge/combining-character-range",
+      "name": "combining-character-range",
+      "notes": [],
+      "package": "tests/edge/combining-character-range/document.epub",
+      "packageSha256": "c8a916fc9526592535844972488c438f0fed276061f2e5586919b2f6c1f90ee4",
+      "primaryRequirements": []
+    },
+    {
+      "category": "edge",
+      "claimedCapabilities": [
+        "Fixed-Experimental"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/edge/css-change-stales-fixed/expected.json",
+      "expectedResultSha256": "7ffbbef1ef8e764c68f39af31a31facb0c09436f0448c0d9b550c3226bc1192a",
+      "id": "edge/css-change-stales-fixed",
+      "name": "css-change-stales-fixed",
+      "notes": [],
+      "package": "tests/edge/css-change-stales-fixed/document.epub",
+      "packageSha256": "2e4a83d10fea8004d7867d14e6335a27ecc1f85995ce13e03dd98158afc8234c",
+      "primaryRequirements": []
+    },
+    {
+      "category": "edge",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/edge/deep-lists/expected.json",
+      "expectedResultSha256": "1cdc8a5a23144beba697ad3a54489d27ddaecbf33b69d0dbd3e10235eba909e9",
+      "id": "edge/deep-lists",
+      "name": "deep-lists",
+      "notes": [],
+      "package": "tests/edge/deep-lists/document.epub",
+      "packageSha256": "4bd33ba7acee070592c201481ca3338e7e81b2e31dba067c8a56e7458fdd0af6",
+      "primaryRequirements": []
+    },
+    {
+      "category": "edge",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/edge/emoji-range/expected.json",
+      "expectedResultSha256": "c6d47d981eeb836ae42e3f264bb9e9fc3ab864f20e953486204db0b26c90cf6f",
+      "id": "edge/emoji-range",
+      "name": "emoji-range",
+      "notes": [],
+      "package": "tests/edge/emoji-range/document.epub",
+      "packageSha256": "7d9f92e0cb7032f182015b8908635126a7f34e89d1c5cb4b1aecaa0f6ac47f05",
+      "primaryRequirements": []
+    },
+    {
+      "category": "edge",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/edge/empty-section/expected.json",
+      "expectedResultSha256": "8974ef495e475c1eaa17220b0bfa85421b65d3a924135f56d0d88e82e5207dc3",
+      "id": "edge/empty-section",
+      "name": "empty-section",
+      "notes": [],
+      "package": "tests/edge/empty-section/document.epub",
+      "packageSha256": "503651c762039265839c6eec2b26d5201c5f14225f0a8209bde3a2ca751c9176",
+      "primaryRequirements": []
+    },
+    {
+      "category": "edge",
+      "claimedCapabilities": [
+        "Fixed-Experimental"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/edge/font-change-stales-fixed/expected.json",
+      "expectedResultSha256": "4216c17beca1978ff3d748ef27147a974fe5ed7809c132bf1b1acd8493d0efa1",
+      "id": "edge/font-change-stales-fixed",
+      "name": "font-change-stales-fixed",
+      "notes": [],
+      "package": "tests/edge/font-change-stales-fixed/document.epub",
+      "packageSha256": "0ccaa9dc33bc840c64a31ea0708e44baa50e2a769f299e029eab206c26f479a0",
+      "primaryRequirements": []
+    },
+    {
+      "category": "edge",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/edge/node-not-visible/expected.json",
+      "expectedResultSha256": "5a70dfac89f601b9c18e7eb2983b24506ac70cbdba8b0048417c46aa8f00d5dd",
+      "id": "edge/node-not-visible",
+      "name": "node-not-visible",
+      "notes": [],
+      "package": "tests/edge/node-not-visible/document.epub",
+      "packageSha256": "dc125709384168bed9d6e37a7a17dd2b3c691e034afad08775b1041565b48e5a",
+      "primaryRequirements": []
+    },
+    {
+      "category": "edge",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/edge/partial-mapping/expected.json",
+      "expectedResultSha256": "c297361e8d417b9b5eaa80d811c8436ae95477ee5160912a2c46478a232883bc",
+      "id": "edge/partial-mapping",
+      "name": "partial-mapping",
+      "notes": [],
+      "package": "tests/edge/partial-mapping/document.epub",
+      "packageSha256": "878352191221c9acbb27200c0eb661bc5e2854dfd7ab3e61a823c34178058748",
+      "primaryRequirements": []
+    },
+    {
+      "category": "edge",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/edge/rtl-range/expected.json",
+      "expectedResultSha256": "66b6651eee218ac82ec89b83b58a63cbe3ae18c091c1cbf9c1039bb70a187df7",
+      "id": "edge/rtl-range",
+      "name": "rtl-range",
+      "notes": [],
+      "package": "tests/edge/rtl-range/document.epub",
+      "packageSha256": "da2da35d84b3c53d4250472091dfa1e29e50c5898b15921907fae056279b42a8",
+      "primaryRequirements": []
+    },
+    {
+      "category": "edge",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/edge/table-spanning-pages/expected.json",
+      "expectedResultSha256": "8e635c63ef76393c2b71dca2f9b66b0b61b11c11b7d486cfa8a262376f0646bb",
+      "id": "edge/table-spanning-pages",
+      "name": "table-spanning-pages",
+      "notes": [],
+      "package": "tests/edge/table-spanning-pages/document.epub",
+      "packageSha256": "0c03c1f423ee98b90fc6a8da6d7bf1a44ef28d16ab11823f8cc7df14081a0646",
+      "primaryRequirements": []
+    },
+    {
+      "category": "edge",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/edge/unsupported-mapping/expected.json",
+      "expectedResultSha256": "5354472ac247b6a4bad9b10e5133e4d53e9d210290aac06da321ca32a5280868",
+      "id": "edge/unsupported-mapping",
+      "name": "unsupported-mapping",
+      "notes": [],
+      "package": "tests/edge/unsupported-mapping/document.epub",
+      "packageSha256": "547a2b86d158dc78fba57c22e291d5e9cb5e9404cb97f07a4e9b8e71d51c98d7",
+      "primaryRequirements": []
+    },
+    {
+      "category": "edge",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/edge/very-long-paragraph/expected.json",
+      "expectedResultSha256": "8859db0cf7ef38873d6a6a1d853bee87d7665a7017225c10d61eb96dda444836",
+      "id": "edge/very-long-paragraph",
+      "name": "very-long-paragraph",
+      "notes": [],
+      "package": "tests/edge/very-long-paragraph/document.epub",
+      "packageSha256": "97da56dedf72b3dcd6afeb592e9260f617f5ddd4afefa1a0d5e629a18688b171",
+      "primaryRequirements": []
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/bad-resource-hash/expected.json",
+      "expectedResultSha256": "76669e3cef6957fca4890222a387c5f903c84627ae54c4a226849c3245493882",
+      "id": "invalid/bad-resource-hash",
+      "name": "bad-resource-hash",
+      "notes": [],
+      "package": "tests/invalid/bad-resource-hash/document.epub",
+      "packageSha256": "19b4199d7708e10074cb2fa51059340eef257a41ecc82be4f3c8377693162d70",
+      "primaryRequirements": [
+        "SPD-INT-003"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/capability-status-not-user-controlled/expected.json",
+      "expectedResultSha256": "b127994c2b573e2c563f7d6308a9d6fdcec8f9c8417c27435cdc38b8c0d36e6c",
+      "id": "invalid/capability-status-not-user-controlled",
+      "name": "capability-status-not-user-controlled",
+      "notes": [],
+      "package": "tests/invalid/capability-status-not-user-controlled/document.epub",
+      "packageSha256": "5d8a8ab56381a0d1ef01ec64ae8bd9e8db8eb0edd10db39238a5dc6efbd45a6e",
+      "primaryRequirements": [
+        "SPD-CAP-002"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/cross-spine-duplicate-node-id/expected.json",
+      "expectedResultSha256": "c6dc17758f235a6d3c4a5f1a09c278581aa2f3f57d986a42baa4dbc588b55dfd",
+      "id": "invalid/cross-spine-duplicate-node-id",
+      "name": "cross-spine-duplicate-node-id",
+      "notes": [
+        "Each XHTML has locally unique IDs; n_article01 repeats across the authoritative revision."
+      ],
+      "package": "tests/invalid/cross-spine-duplicate-node-id/document.epub",
+      "packageSha256": "7e38a98b2c52e2552613cd5ef22046f1ee39c9ffc273a06470b1b0d712e0a5d3",
+      "primaryRequirements": [
+        "SPD-ID-006"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/descriptor-discovery-conflict/expected.json",
+      "expectedResultSha256": "4b6b284244555b88407c0049732cabb29098c719a02ebb34dcb6740247447229",
+      "id": "invalid/descriptor-discovery-conflict",
+      "name": "descriptor-discovery-conflict",
+      "notes": [],
+      "package": "tests/invalid/descriptor-discovery-conflict/document.epub",
+      "packageSha256": "964fabfad3c5db0fa9a7a79692493fd0b25d124c0f2cc82376c1225ad54fd438",
+      "primaryRequirements": [
+        "SPD-DISC-002"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/descriptor-discovery-missing/expected.json",
+      "expectedResultSha256": "2d0a89b44cc7ec4fc215b3b8e0e18d34ff7dc88feee69fff693159c002e92288",
+      "id": "invalid/descriptor-discovery-missing",
+      "name": "descriptor-discovery-missing",
+      "notes": [],
+      "package": "tests/invalid/descriptor-discovery-missing/document.epub",
+      "packageSha256": "5302054ce8cee31ffa2d4af7a523182580d7d464753eceb8499b5d2dc7da859b",
+      "primaryRequirements": [
+        "SPD-DISC-001"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/duplicate-node-id/expected.json",
+      "expectedResultSha256": "08694278c39fec75bcc559e617263f85d8b7383a13a2e485b62cff0a222840f3",
+      "id": "invalid/duplicate-node-id",
+      "name": "duplicate-node-id",
+      "notes": [],
+      "package": "tests/invalid/duplicate-node-id/document.epub",
+      "packageSha256": "83d7242dc155c8915b50e54a4d85a0bbe662d51ae96dded6047c5df92a4fdb0d",
+      "primaryRequirements": [
+        "SPD-ID-006"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/duplicate-normalized-path/expected.json",
+      "expectedResultSha256": "783d1c8e050614eeb691656bbc7d1af5fadf14debb338ffcdd2584ded38be0c9",
+      "id": "invalid/duplicate-normalized-path",
+      "name": "duplicate-normalized-path",
+      "notes": [],
+      "package": "tests/invalid/duplicate-normalized-path/document.epub",
+      "packageSha256": "3a32c886b7920e089a8c1624d0df95c03307a842a5cdd4b8c70bf0abd4996d89",
+      "primaryRequirements": [
+        "SPD-BASE-002"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/event-handler/expected.json",
+      "expectedResultSha256": "f8bd667d567a6f883fbb3a634cf354db5dd96f4a8ea5a576a98f01a94a5b3755",
+      "id": "invalid/event-handler",
+      "name": "event-handler",
+      "notes": [],
+      "package": "tests/invalid/event-handler/document.epub",
+      "packageSha256": "93d1fe2dbf19a687df1441c8e5be5e1fd26b7d1bcffbe8a94c90b958148f4c68",
+      "primaryRequirements": [
+        "SPD-SEC-001"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/external-required-css/expected.json",
+      "expectedResultSha256": "a5998d673c16e3c6e0db6d48f9c4bc95b80dc25c8e6b0296e3ec13e13f68f51d",
+      "id": "invalid/external-required-css",
+      "name": "external-required-css",
+      "notes": [],
+      "package": "tests/invalid/external-required-css/document.epub",
+      "packageSha256": "736becb1a57b763114188c5d5f92f54d7efab7502da4057c660d0e1fe16bb21a",
+      "primaryRequirements": [
+        "SPD-SEC-005"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/external-required-font/expected.json",
+      "expectedResultSha256": "cce3ab700b4db7f8808cc29065d82cede59dc13f39628330d4f7faafb486bb11",
+      "id": "invalid/external-required-font",
+      "name": "external-required-font",
+      "notes": [],
+      "package": "tests/invalid/external-required-font/document.epub",
+      "packageSha256": "35b7f76b10f6059f001492b44b1016725e0c694ba7727d4047642b8e03acfa2a",
+      "primaryRequirements": [
+        "SPD-SEC-004"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/external-required-image/expected.json",
+      "expectedResultSha256": "b03817807d1f55082feba37798883ebd1d40d4f4f61e396a61a7ba1446411b64",
+      "id": "invalid/external-required-image",
+      "name": "external-required-image",
+      "notes": [],
+      "package": "tests/invalid/external-required-image/document.epub",
+      "packageSha256": "f66558fb085027113665e5962af229555b53372b676cd49a61c93b73e4df53fb",
+      "primaryRequirements": [
+        "SPD-SEC-006"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/invalid-table-semantics/expected.json",
+      "expectedResultSha256": "69f7da95832a50fa1b47378e12d831233f16eaeb3616ba383d4bccd89723a488",
+      "id": "invalid/invalid-table-semantics",
+      "name": "invalid-table-semantics",
+      "notes": [],
+      "package": "tests/invalid/invalid-table-semantics/document.epub",
+      "packageSha256": "f0925982397f2932ab1fc0f3ce204c16a13cd62820e534735e98c95bb56411f5",
+      "primaryRequirements": [
+        "SPD-SEM-013"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/invalid-xhtml/expected.json",
+      "expectedResultSha256": "a57e4c2752e560586b039fa97f2a123cc405e8e718c46b5379a612ae8d622b3c",
+      "id": "invalid/invalid-xhtml",
+      "name": "invalid-xhtml",
+      "notes": [],
+      "package": "tests/invalid/invalid-xhtml/document.epub",
+      "packageSha256": "6019a48c745987fef21b8e8895b7f340750cd6c8edb71b9337238b6543f321dc",
+      "primaryRequirements": [
+        "SPD-SEM-002"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/javascript/expected.json",
+      "expectedResultSha256": "f18cc4511850f4537f8da177f707392a3483292f571f47b0bc5a160cd5f139c0",
+      "id": "invalid/javascript",
+      "name": "javascript",
+      "notes": [],
+      "package": "tests/invalid/javascript/document.epub",
+      "packageSha256": "eea5d55ec2e73d2372fdf6ce2489ac4cad0270866e9d84c5b518fea6c0beb597",
+      "primaryRequirements": [
+        "SPD-SEC-001"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/mapping-invalid-geometry/expected.json",
+      "expectedResultSha256": "6848465d40b2852a91acbb4017196ed9c0816ec0fc8e839490d2ea9ae3e3c620",
+      "id": "invalid/mapping-invalid-geometry",
+      "name": "mapping-invalid-geometry",
+      "notes": [],
+      "package": "tests/invalid/mapping-invalid-geometry/document.epub",
+      "packageSha256": "1918ea0ece62c0726514453fb7dee19d8d49b9571f1d3f62e45304f953ee09f3",
+      "primaryRequirements": [
+        "SPD-MAP-011"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/mapping-invalid-page/expected.json",
+      "expectedResultSha256": "e9f34f6dd8b72b84bbb10d3ac2e69f4b30a335080b8393917243b562e4f69e0f",
+      "id": "invalid/mapping-invalid-page",
+      "name": "mapping-invalid-page",
+      "notes": [],
+      "package": "tests/invalid/mapping-invalid-page/document.epub",
+      "packageSha256": "3e004c5a7f84132e8be21792ccb4ffa376f3dc90f79e30712f99f4fbc4381b2a",
+      "primaryRequirements": [
+        "SPD-MAP-011"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/mapping-invalid-range/expected.json",
+      "expectedResultSha256": "52c38d3f8ffba3ab02208f14e575246740efdacec823c946a9ee7ecd93639178",
+      "id": "invalid/mapping-invalid-range",
+      "name": "mapping-invalid-range",
+      "notes": [],
+      "package": "tests/invalid/mapping-invalid-range/document.epub",
+      "packageSha256": "12e4c2391bad564c864b5fd53e0970b9c3e8f49d76e87359fd7ce2242415cc6d",
+      "primaryRequirements": [
+        "SPD-MAP-008"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/mapping-with-stale-fixed/expected.json",
+      "expectedResultSha256": "5dc4cd82e1e51d5bb7ccf6b6bccedc46c7de87c1cb2234f51b2b1783a6dfd123",
+      "id": "invalid/mapping-with-stale-fixed",
+      "name": "mapping-with-stale-fixed",
+      "notes": [],
+      "package": "tests/invalid/mapping-with-stale-fixed/document.epub",
+      "packageSha256": "f0eb7197d18cba56d24d17b63c912aa7c34d9772c244a536aacf04e05fbf1b21",
+      "primaryRequirements": [
+        "SPD-STATE-007"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/mapping-wrong-rendition/expected.json",
+      "expectedResultSha256": "adad2bfd8fe53139d28b0b17e71ffdbc693449aeb1e9add537597db552db3787",
+      "id": "invalid/mapping-wrong-rendition",
+      "name": "mapping-wrong-rendition",
+      "notes": [],
+      "package": "tests/invalid/mapping-wrong-rendition/document.epub",
+      "packageSha256": "5f238934a2c2688edb3c868dc0d355db5d71283e65880af27d4f6da45cbd55ce",
+      "primaryRequirements": [
+        "SPD-MAP-002"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/mapping-wrong-revision/expected.json",
+      "expectedResultSha256": "36d3955d03a6dc152dc8961831ea51ca4dfe90e5e40d8bca434b291f9ded5e07",
+      "id": "invalid/mapping-wrong-revision",
+      "name": "mapping-wrong-revision",
+      "notes": [],
+      "package": "tests/invalid/mapping-wrong-revision/document.epub",
+      "packageSha256": "88a0c996ce0f4c15c1c267e126ccc53cb198de5e07fb834bfbb8d4a24e20b911",
+      "primaryRequirements": [
+        "SPD-MAP-002"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/missing-document-id/expected.json",
+      "expectedResultSha256": "057875df6be4ff77a4b13d4dc3acdd0b4df53a801061d111127ddef5d7162f2d",
+      "id": "invalid/missing-document-id",
+      "name": "missing-document-id",
+      "notes": [],
+      "package": "tests/invalid/missing-document-id/document.epub",
+      "packageSha256": "5b68614b1e80d6f65c63b9a972b54c7513ff9d6a76ff66f0f85301fd0a699ef9",
+      "primaryRequirements": [
+        "SPD-ID-001"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/missing-revision-id/expected.json",
+      "expectedResultSha256": "a09f36229242b368825c0ca0a3cc14841e4e388d8946da0a2686938cca6867d3",
+      "id": "invalid/missing-revision-id",
+      "name": "missing-revision-id",
+      "notes": [],
+      "package": "tests/invalid/missing-revision-id/document.epub",
+      "packageSha256": "7fcae1bfca7a5d80ad9f18e0d11625c5dd2ce4ff4233d339a98b4b0f622076e1",
+      "primaryRequirements": [
+        "SPD-ID-002"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/missing-root-direction/expected.json",
+      "expectedResultSha256": "d072602275941d803ab53ffbf51fb28b498e33933e7094853ce2907f04ed1694",
+      "id": "invalid/missing-root-direction",
+      "name": "missing-root-direction",
+      "notes": [],
+      "package": "tests/invalid/missing-root-direction/document.epub",
+      "packageSha256": "aa747bb9b755cdacc979967e505d2f815189cc22dc2d19b047d2277a8aeb4fc6",
+      "primaryRequirements": [
+        "SPD-I18N-004"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/missing-root-language/expected.json",
+      "expectedResultSha256": "d8caba572c2a898ba8c3ba1c8171396a1e19e6572150c0a348d5892c8fb42122",
+      "id": "invalid/missing-root-language",
+      "name": "missing-root-language",
+      "notes": [],
+      "package": "tests/invalid/missing-root-language/document.epub",
+      "packageSha256": "291502699b4a59c756b2b6a36ad4c5c0dc38d734eb0550dff4fbf0bf297f9612",
+      "primaryRequirements": [
+        "SPD-I18N-003"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/multiple-rootfiles/expected.json",
+      "expectedResultSha256": "01fce805cc896e7973601fb8131ebb90d84611e8168059fc2851fdd8859ffce5",
+      "id": "invalid/multiple-rootfiles",
+      "name": "multiple-rootfiles",
+      "notes": [],
+      "package": "tests/invalid/multiple-rootfiles/document.epub",
+      "packageSha256": "d6a9be2d67af8a378178c3a4ed4c849c08ab0bad197c20a3721391c404ad3672",
+      "primaryRequirements": [
+        "SPD-BASE-006"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/mutation-asset/expected.json",
+      "expectedResultSha256": "2badb85d3085d0bebd487fcddc12fd855a1ef37c24adb16e17720b10e467bffb",
+      "id": "invalid/mutation-asset",
+      "name": "mutation-asset",
+      "notes": [],
+      "package": "tests/invalid/mutation-asset/document.epub",
+      "packageSha256": "0f4383f670617e41ec93ce214b7282ef6a541c58de79b1aa94b019b47daa8955",
+      "primaryRequirements": [
+        "SPD-INT-003"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/mutation-css/expected.json",
+      "expectedResultSha256": "c791659aa2f6142071eaba5461f08b74089bbc757bb440476cdeeaad0608e470",
+      "id": "invalid/mutation-css",
+      "name": "mutation-css",
+      "notes": [],
+      "package": "tests/invalid/mutation-css/document.epub",
+      "packageSha256": "fbe020b4ea4eba00842cf899bb1469787b7a78c374f796567889377959470c90",
+      "primaryRequirements": [
+        "SPD-INT-003"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/mutation-fixed/expected.json",
+      "expectedResultSha256": "545e321e8ed905a261cc9fcdf35adee2133eaaa1940e79102d7185ef1ad6b9bb",
+      "id": "invalid/mutation-fixed",
+      "name": "mutation-fixed",
+      "notes": [],
+      "package": "tests/invalid/mutation-fixed/document.epub",
+      "packageSha256": "c263a520a223bd2bdc8bf40ad93367a267d5747b72e311cb92dd5b1f4a29af1d",
+      "primaryRequirements": [
+        "SPD-INT-003"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/mutation-mapping/expected.json",
+      "expectedResultSha256": "cd37ec9b7abb11e379b419a12074985cbfc6bdc40338400e0b47f504a784bd1f",
+      "id": "invalid/mutation-mapping",
+      "name": "mutation-mapping",
+      "notes": [],
+      "package": "tests/invalid/mutation-mapping/document.epub",
+      "packageSha256": "615d3ac2c3531f65047456367877f28e5bacfd2b1ee65e667ec3c702d5dd7000",
+      "primaryRequirements": [
+        "SPD-INT-003"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/mutation-semantic/expected.json",
+      "expectedResultSha256": "03fba40ee4fae1a5e476283ad85bb2104f528198ddfe698b7efaecc7771492b7",
+      "id": "invalid/mutation-semantic",
+      "name": "mutation-semantic",
+      "notes": [],
+      "package": "tests/invalid/mutation-semantic/document.epub",
+      "packageSha256": "a77e1f70411328b50932144eb770e8d962979c2d451ade02c8bccf9e58453147",
+      "primaryRequirements": [
+        "SPD-INT-003"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/not-visible-reason/expected.json",
+      "expectedResultSha256": "124ec02bbf8885271aa16755b5de1cfeab7db782bdb5a5b9658539d0952c908f",
+      "id": "invalid/not-visible-reason",
+      "name": "not-visible-reason",
+      "notes": [],
+      "package": "tests/invalid/not-visible-reason/document.epub",
+      "packageSha256": "8cac488d004c4bc99e74b0fa0ea8f93dbdc44c5435062f794a107db5bf741b2a",
+      "primaryRequirements": [
+        "SPD-MAP-005"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/partial-mapping-reason/expected.json",
+      "expectedResultSha256": "9c16f6a37162742e4f6a24c4c238f409444198775548f0a2cf5a9a2bccfc23ec",
+      "id": "invalid/partial-mapping-reason",
+      "name": "partial-mapping-reason",
+      "notes": [],
+      "package": "tests/invalid/partial-mapping-reason/document.epub",
+      "packageSha256": "62be8b26711e7542065ec2940965b1668168b1ab4f8147dffc3497a318702aa3",
+      "primaryRequirements": [
+        "SPD-MAP-005"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/path-traversal/expected.json",
+      "expectedResultSha256": "64b105cdcaa1930d3a86c85b72dfdfb2ed7e3b90188ca172c6e6c48182b459b1",
+      "id": "invalid/path-traversal",
+      "name": "path-traversal",
+      "notes": [],
+      "package": "tests/invalid/path-traversal/document.epub",
+      "packageSha256": "81cb41c70df476f6094c4a789e69784e790163c6afc02e5dbff0630f03ce9750",
+      "primaryRequirements": [
+        "SPD-BASE-002"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/sealed-after-annotation-modification/expected.json",
+      "expectedResultSha256": "2f9becf6abca52e6c877881bd0ce86bd6411dafe6a1fdc6d5c0ad2f6ecd7a486",
+      "id": "invalid/sealed-after-annotation-modification",
+      "name": "sealed-after-annotation-modification",
+      "notes": [],
+      "package": "tests/invalid/sealed-after-annotation-modification/document.epub",
+      "packageSha256": "49c5b2bee4a49a15544c6d7a077bee420fad709e06ab7e22921977e7c9d0b66e",
+      "primaryRequirements": [
+        "SPD-ANN-004"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/sealed-after-semantic-modification/expected.json",
+      "expectedResultSha256": "d95746aeb6ed061211c14ce98714d72879d5a18993cc931f011b6d2db256fe74",
+      "id": "invalid/sealed-after-semantic-modification",
+      "name": "sealed-after-semantic-modification",
+      "notes": [],
+      "package": "tests/invalid/sealed-after-semantic-modification/document.epub",
+      "packageSha256": "ceaef7fe4a81eb72012b347583c6b774850c59e54af2b021cc9a265f4197c81a",
+      "primaryRequirements": [
+        "SPD-STATE-003"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/stale-fixed-rendition/expected.json",
+      "expectedResultSha256": "9358a8300762c56c0e4635fe1dc0d5a4aff2eb85740893cb95acd57933656338",
+      "id": "invalid/stale-fixed-rendition",
+      "name": "stale-fixed-rendition",
+      "notes": [],
+      "package": "tests/invalid/stale-fixed-rendition/document.epub",
+      "packageSha256": "f4f78e5c3bd011051884dbffb4dd637cbfa2dc0ae880c567e99ebfbcad36e422",
+      "primaryRequirements": [
+        "SPD-STATE-001"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/unlisted-non-normative-resource/expected.json",
+      "expectedResultSha256": "5b632a2d649ef47edc6b0bfbc83d1a0b8195d42537f38e06a3427da27dce3cd1",
+      "id": "invalid/unlisted-non-normative-resource",
+      "name": "unlisted-non-normative-resource",
+      "notes": [],
+      "package": "tests/invalid/unlisted-non-normative-resource/document.epub",
+      "packageSha256": "ae6b28b7cf9f783b9425290cdbb3207edc2da81844252cede8f5509a7d542f78",
+      "primaryRequirements": [
+        "SPD-RES-006"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/unlisted-normative-resource/expected.json",
+      "expectedResultSha256": "dc9d03497e207be2abc6d68154e6526e12b922ce8840f3c0def2682b067ab3bd",
+      "id": "invalid/unlisted-normative-resource",
+      "name": "unlisted-normative-resource",
+      "notes": [],
+      "package": "tests/invalid/unlisted-normative-resource/document.epub",
+      "packageSha256": "d94313f1ea3c8b1dee3f16138c1e2445c5071dd4be9d2f6a07ccd4c9f922d3de",
+      "primaryRequirements": [
+        "SPD-RES-003"
+      ]
+    },
+    {
+      "category": "invalid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/invalid/visual-order-arabic-source/expected.json",
+      "expectedResultSha256": "20be341f9fd6176da4ef2d8d623e28236334c740b544ff305d1377debc545947",
+      "id": "invalid/visual-order-arabic-source",
+      "name": "visual-order-arabic-source",
+      "notes": [],
+      "package": "tests/invalid/visual-order-arabic-source/document.epub",
+      "packageSha256": "9557ea187caba3f83189d514fd80f3cc0f97cafdff95096ea9a0f1ad6a64ff74",
+      "primaryRequirements": [
+        "SPD-I18N-001"
+      ]
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [
+        "Accessible"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/accessible/expected.json",
+      "expectedResultSha256": "b2093e543461d1031214e6fc7baba2644f8c8260cbde704f9388094d275747d7",
+      "id": "valid/accessible",
+      "name": "accessible",
+      "notes": [
+        "Accessible is expected NOT_TESTED in automated validation because complete Accessible 0.1 conformance includes human WCAG evaluation."
+      ],
+      "package": "tests/valid/accessible/document.epub",
+      "packageSha256": "1281ab9f705b5123ba1396b0dd47bccf88f53cd4287d652c3a5a859ebe7bf1bf",
+      "primaryRequirements": [
+        "SPD-ACC-001",
+        "SPD-ACC-004"
+      ]
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/annotations/expected.json",
+      "expectedResultSha256": "9dde6f58afdc8a17284ed407f1123b93a42da482cf98ce747fdbb39485e07392",
+      "id": "valid/annotations",
+      "name": "annotations",
+      "notes": [],
+      "package": "tests/valid/annotations/document.epub",
+      "packageSha256": "ef1b6932776bfdcee9b1265ce7fd5aa87e53269d0d14ffc28e84cda4d376f085",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/arabic/expected.json",
+      "expectedResultSha256": "593fc3eac4053477ab0ca206ec12d6455ef1271cacd8b63e5ee73ed6be1b6685",
+      "id": "valid/arabic",
+      "name": "arabic",
+      "notes": [],
+      "package": "tests/valid/arabic/document.epub",
+      "packageSha256": "8c875a494630ed913dd54cc852e8e469cd8659a94a8c840fecd97599fd8edb5d",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/figure-svg/expected.json",
+      "expectedResultSha256": "e0c69eed1c4e1f2b295734cb6957a4edd652b3615d76caef4b96760ba4fafdad",
+      "id": "valid/figure-svg",
+      "name": "figure-svg",
+      "notes": [],
+      "package": "tests/valid/figure-svg/document.epub",
+      "packageSha256": "38815c9016de2dfc21e720ebdd2e17a90c297bb5c26e0f29f1062fd180603418",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [
+        "Fixed-Experimental"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/fixed-without-mapping/expected.json",
+      "expectedResultSha256": "9c45d8f9ff648f61534a9f1ec3f0f6f29c1de05978bc28d4698a160e16e2562b",
+      "id": "valid/fixed-without-mapping",
+      "name": "fixed-without-mapping",
+      "notes": [],
+      "package": "tests/valid/fixed-without-mapping/document.epub",
+      "packageSha256": "edcf0f2035f467815e5142017a177847a1bf79380108e73df99ce49af3ce1642",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/lineage-scoped-annotation/expected.json",
+      "expectedResultSha256": "942cf36a44cbdb8b2b4debf8fa40681c48280cece453f2ca45476b47ad25b20b",
+      "id": "valid/lineage-scoped-annotation",
+      "name": "lineage-scoped-annotation",
+      "notes": [],
+      "package": "tests/valid/lineage-scoped-annotation/document.epub",
+      "packageSha256": "ef1b6932776bfdcee9b1265ce7fd5aa87e53269d0d14ffc28e84cda4d376f085",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/mapped/expected.json",
+      "expectedResultSha256": "dbb82e99c8f62632329232bc02ae5b214a2c389a6bae75376b9fcefc78088a67",
+      "id": "valid/mapped",
+      "name": "mapped",
+      "notes": [],
+      "package": "tests/valid/mapped/document.epub",
+      "packageSha256": "50bc0d5f2d123a815ca99f5f429421af5a99dafed5578a842e87f1fdc1ccd4f9",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/mapping-with-current-fixed/expected.json",
+      "expectedResultSha256": "4b171bd8afa160b7fcb6fd229be31bb599ca1f39d9f7c3f5b440797bed156f5d",
+      "id": "valid/mapping-with-current-fixed",
+      "name": "mapping-with-current-fixed",
+      "notes": [],
+      "package": "tests/valid/mapping-with-current-fixed/document.epub",
+      "packageSha256": "50bc0d5f2d123a815ca99f5f429421af5a99dafed5578a842e87f1fdc1ccd4f9",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/mathml/expected.json",
+      "expectedResultSha256": "913097b3f1df25147750e70ce8f9250ba337568c37d32cf90026f7be0522af2c",
+      "id": "valid/mathml",
+      "name": "mathml",
+      "notes": [],
+      "package": "tests/valid/mathml/document.epub",
+      "packageSha256": "bc2ed04578e2d21968a713297cfb5402c06ef3683700ee36c73c173849563d0f",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/minimal-base/expected.json",
+      "expectedResultSha256": "439ecbd045321045ca55851791e9c81e70a5ad6f8e86ae6b4b5bbe74f56b2a1a",
+      "id": "valid/minimal-base",
+      "name": "minimal-base",
+      "notes": [],
+      "package": "tests/valid/minimal-base/document.epub",
+      "packageSha256": "12076c7583e3a921bb1f317560bd9ca34be984ad254505804131015dcfc05562",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/mixed-bidi/expected.json",
+      "expectedResultSha256": "718c38e532380325aebbb90f7692512f880b2d526c5dee624ffa342e45cc9dd9",
+      "id": "valid/mixed-bidi",
+      "name": "mixed-bidi",
+      "notes": [],
+      "package": "tests/valid/mixed-bidi/document.epub",
+      "packageSha256": "ee163280ad3037020894d60e3fb5e0a794a18ee2ab908b43e2b77283474931b3",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/multi-spine/expected.json",
+      "expectedResultSha256": "bbb4ee02f220b5c942b5250493b36308b3274421813aea6be35992e80c953766",
+      "id": "valid/multi-spine",
+      "name": "multi-spine",
+      "notes": [],
+      "package": "tests/valid/multi-spine/document.epub",
+      "packageSha256": "855c60d10d048f266fed92bb170312230740593f1d764486add64defe71d5cb7",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/revision-scoped-annotation/expected.json",
+      "expectedResultSha256": "ff2d4aa731a742e442e85103b3b6580ce5672335373c82e88b5d34f70ed74cfb",
+      "id": "valid/revision-scoped-annotation",
+      "name": "revision-scoped-annotation",
+      "notes": [],
+      "package": "tests/valid/revision-scoped-annotation/document.epub",
+      "packageSha256": "25b41803cdf772306b4ff8d35267b0e43c9169281071318594edc8158a4cfadb",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/same-semantic-different-revision-id/expected.json",
+      "expectedResultSha256": "e02f088cec64a55c17122c867ad0ac79b4f8258c0b169ba96e538cd1ce2c60c0",
+      "id": "valid/same-semantic-different-revision-id",
+      "name": "same-semantic-different-revision-id",
+      "notes": [],
+      "package": "tests/valid/same-semantic-different-revision-id/document.epub",
+      "packageSha256": "9fdedf9df86e6c88636b0beeed7f1a0448a3c4a246fe93169b9b2018c908bbe3",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [
+        "Fixed-Experimental",
+        "Mapping"
+      ],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/sealed/expected.json",
+      "expectedResultSha256": "7692214fe871c420f6e52660b737e02c15041c43fb261fc529bbff54c7b3329f",
+      "id": "valid/sealed",
+      "name": "sealed",
+      "notes": [],
+      "package": "tests/valid/sealed/document.epub",
+      "packageSha256": "0ec8c4f7ba5d2af1d8c4b285780aa5abbc7877df97e633a671536f4ef7b8e343",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/semantic-change-new-revision/expected.json",
+      "expectedResultSha256": "562c889a2b60ffd3c6741c75499426d7214eba8ee581fa2f43ebd49b54752a74",
+      "id": "valid/semantic-change-new-revision",
+      "name": "semantic-change-new-revision",
+      "notes": [],
+      "package": "tests/valid/semantic-change-new-revision/document.epub",
+      "packageSha256": "4d561a60b0eca44d21667cd5d39c6c71ecf843c70863b6f16b6e03fcce0e06ba",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/semantic-only-sealed/expected.json",
+      "expectedResultSha256": "ad996c1f5b300a4569e57d66d47b5ae77350867c16a6819575181bfc0d7fc219",
+      "id": "valid/semantic-only-sealed",
+      "name": "semantic-only-sealed",
+      "notes": [],
+      "package": "tests/valid/semantic-only-sealed/document.epub",
+      "packageSha256": "92bc16324ac887629873d9a3a3207d994802c01344a44ed9069c460c53c1c2cb",
+      "primaryRequirements": []
+    },
+    {
+      "category": "valid",
+      "claimedCapabilities": [],
+      "expectedResult": "tests/corpus-0.1.2/historical/valid/table/expected.json",
+      "expectedResultSha256": "b1514c731dbd97bc2c73ea370af8dda438e31ffb5cad8233e624df8e6ab92784",
+      "id": "valid/table",
+      "name": "table",
+      "notes": [],
+      "package": "tests/valid/table/document.epub",
+      "packageSha256": "d641340e7e77de9701c89a1076e2daa31bead1dd89050b44902390d0fcb1bb82",
+      "primaryRequirements": []
+    },
+    {
+      "auditCase": "S01",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/optional-remote-image/expected.json",
+      "expectedResultSha256": "6882e2eaadd6a7c4f788a3cf98fcd1443c0e275e0f926592666be9f04d342678",
+      "id": "security/optional-remote-image",
+      "name": "optional-remote-image",
+      "notes": [
+        "Decorative alt-empty image; no network is performed."
+      ],
+      "package": "tests/corpus-0.1.2/optional-remote-image/document.epub",
+      "packageSha256": "572f5b24d953c3399f8451b85c7d5b67361deec8f135be024318f59c9534000d",
+      "primaryRequirements": [
+        "SPD-SEC-003",
+        "SPD-SEC-006",
+        "SPD-SEC-008"
+      ]
+    },
+    {
+      "auditCase": "S02",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/escaped-remote-import/expected.json",
+      "expectedResultSha256": "e9c0f5e3f24e087b8819a33bd9e96607d924147f94dd713bdf11fa3283818a2b",
+      "id": "security/escaped-remote-import",
+      "name": "escaped-remote-import",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/escaped-remote-import/document.epub",
+      "packageSha256": "331a553da1103657139a30c17aac09ec6507145290b7b263b713943f1e7ccc68",
+      "primaryRequirements": [
+        "SPD-SEC-003",
+        "SPD-SEC-005",
+        "SPD-SEC-008"
+      ]
+    },
+    {
+      "auditCase": "S03",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/inline-remote-style/expected.json",
+      "expectedResultSha256": "c556d3fc66e62cb6c893e53bb71335c400136313957ae864f3fc3201969d69a5",
+      "id": "security/inline-remote-style",
+      "name": "inline-remote-style",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/inline-remote-style/document.epub",
+      "packageSha256": "383e97a0456b6722d65eb417aa63104f006f8e06afbde58fcbf129ac3bcda2e5",
+      "primaryRequirements": [
+        "SPD-SEC-003",
+        "SPD-SEC-006",
+        "SPD-SEC-008"
+      ]
+    },
+    {
+      "auditCase": "S04",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/custom-property-resource/expected.json",
+      "expectedResultSha256": "96c1c74c6e4e89268f872b5ef0513abec2394fa81a8cdfe37d10e0e1c2e6a93c",
+      "id": "security/custom-property-resource",
+      "name": "custom-property-resource",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/custom-property-resource/document.epub",
+      "packageSha256": "201b9b391086da59a1ecb3012519955c2ba46dd4c76851a53dc8ae9fbcc51695",
+      "primaryRequirements": [
+        "SPD-SEC-003",
+        "SPD-SEC-006",
+        "SPD-SEC-008"
+      ]
+    },
+    {
+      "auditCase": "S05",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/nested-svg-remote/expected.json",
+      "expectedResultSha256": "c37669ff1a73d74d31911d4522e72280535029d9b1a8bba66cb5ab5ca62bde1d",
+      "id": "security/nested-svg-remote",
+      "name": "nested-svg-remote",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/nested-svg-remote/document.epub",
+      "packageSha256": "7ef3fb7969ed616e4736b44574f44e2eea8ab4481b573ac26d2e2940bb0bfa3e",
+      "primaryRequirements": [
+        "SPD-SEC-003",
+        "SPD-SEC-006",
+        "SPD-SEC-008",
+        "SPD-SEC-007"
+      ]
+    },
+    {
+      "auditCase": "S06",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/inline-foreignobject/expected.json",
+      "expectedResultSha256": "1a2ace2ebf9c055d8ebe45836d3e1cd9b3d03ec9a17981d3e941fd22a21ac16b",
+      "id": "security/inline-foreignobject",
+      "name": "inline-foreignobject",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/inline-foreignobject/document.epub",
+      "packageSha256": "d75eef0b9d6d28a21ac95e95847e936c84b1bc834baa8c8ff632a7c813937f21",
+      "primaryRequirements": [
+        "SPD-SEC-007",
+        "SPD-PASS-002"
+      ]
+    },
+    {
+      "auditCase": "S07",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/prefixed-svg-script/expected.json",
+      "expectedResultSha256": "b83b131b7f09766a30bbed45eb0b3e483349e32dae47c613c27ede0d60483662",
+      "id": "security/prefixed-svg-script",
+      "name": "prefixed-svg-script",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/prefixed-svg-script/document.epub",
+      "packageSha256": "feff7b8fb5328544bf3c0d2a72e6e3fea21111c3c97561b52b94829d2024b2fa",
+      "primaryRequirements": [
+        "SPD-SEC-001",
+        "SPD-SEC-007"
+      ]
+    },
+    {
+      "auditCase": "S08",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/encoded-executable-link/expected.json",
+      "expectedResultSha256": "620fde4e17acaba8da19f627802adbd3248f3c4ec38c82324b9c7598d02ddba0",
+      "id": "security/encoded-executable-link",
+      "name": "encoded-executable-link",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/encoded-executable-link/document.epub",
+      "packageSha256": "bd1dca3f77d58ac9a75ff6be31f99c160a2556e2ba6a759901982c9c9e792b18",
+      "primaryRequirements": [
+        "SPD-SEC-001",
+        "SPD-SEC-008"
+      ]
+    },
+    {
+      "auditCase": "S09",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/iframe-srcdoc/expected.json",
+      "expectedResultSha256": "dd0e34426b3738b361eec247f3b71501ea85dc6bab6eb191c747ddbaf182f007",
+      "id": "security/iframe-srcdoc",
+      "name": "iframe-srcdoc",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/iframe-srcdoc/document.epub",
+      "packageSha256": "f77b5f6dea4f84f75aea488e628ef9281085040686a24d33c3af941ed95879c7",
+      "primaryRequirements": [
+        "SPD-SEC-002",
+        "SPD-PASS-002"
+      ]
+    },
+    {
+      "auditCase": "S10",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/object-embed/expected.json",
+      "expectedResultSha256": "a49d1ca7efb6794e51932a89bf0f739bd0f97450ed82efbb93d933f21618b792",
+      "id": "security/object-embed",
+      "name": "object-embed",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/object-embed/document.epub",
+      "packageSha256": "e0bce2812198ae11d48ab0c18002790319217557f83cf51c3edbee7fa6262609",
+      "primaryRequirements": [
+        "SPD-SEC-002",
+        "SPD-PASS-002"
+      ]
+    },
+    {
+      "auditCase": "S11",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/active-form/expected.json",
+      "expectedResultSha256": "a7e68dd5b83ce64126f366016f1b8f2ef37c96c13c9bc3d11ffa2de2ff45fad0",
+      "id": "security/active-form",
+      "name": "active-form",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/active-form/document.epub",
+      "packageSha256": "049ce7fb73ed1ed81ac5b6d69373e9bf4b5886fd5543438bec48ae45439c157c",
+      "primaryRequirements": [
+        "SPD-PASS-002"
+      ]
+    },
+    {
+      "auditCase": "S12",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/meta-refresh/expected.json",
+      "expectedResultSha256": "c60f226e66040b3fa247d566ab99877398d7cce531d4651049f6347cfeec2132",
+      "id": "security/meta-refresh",
+      "name": "meta-refresh",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/meta-refresh/document.epub",
+      "packageSha256": "180be018cf3ee19f757d62a61a8e0943df54535e1257f59e3f4631d881b4faca",
+      "primaryRequirements": [
+        "SPD-PASS-002",
+        "SPD-SEC-003"
+      ]
+    },
+    {
+      "auditCase": "S13",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/base-overrides/expected.json",
+      "expectedResultSha256": "120ca0d6011e80e292546845353e27cb057fc27a64c856814e54c8a57b92aacb",
+      "id": "security/base-overrides",
+      "name": "base-overrides",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/base-overrides/document.epub",
+      "packageSha256": "b06eef590224f792fab3551b882af0b94f50f256d92ce24a830a0874e2e97f84",
+      "primaryRequirements": [
+        "SPD-PASS-002"
+      ]
+    },
+    {
+      "auditCase": "S14",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/network-hints/expected.json",
+      "expectedResultSha256": "170a240786d04a629b47ab2d5cf1d9ff0cfde67ed025bbec90419fc2b7e3d220",
+      "id": "security/network-hints",
+      "name": "network-hints",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/network-hints/document.epub",
+      "packageSha256": "84638686696c8de0a09e8958ebfdffb2e3f5fd3401b7ae9b0ec7897e503a19d1",
+      "primaryRequirements": [
+        "SPD-SEC-003",
+        "SPD-SEC-008"
+      ]
+    },
+    {
+      "auditCase": "S15",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/local-css-font-image/expected.json",
+      "expectedResultSha256": "761d05ac0aeea180a2654c100797e31467effdf7bbcddd2be0a92364122a7b5a",
+      "id": "security/local-css-font-image",
+      "name": "local-css-font-image",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/local-css-font-image/document.epub",
+      "packageSha256": "8a34dbbaf6bea3d66c4af300680bf293fa036db421cd4612c9af88bd67e6ed65",
+      "primaryRequirements": []
+    },
+    {
+      "auditCase": "S16",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/local-import-cycle/expected.json",
+      "expectedResultSha256": "5398d9471774ed1f6a3267ce546b1f2996a0fea70f73785223b8891ef297d6e7",
+      "id": "security/local-import-cycle",
+      "name": "local-import-cycle",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/local-import-cycle/document.epub",
+      "packageSha256": "b057d8b7f0080742967caa3c16cc87fb82a6e43840bc7a777327341f52d4f472",
+      "primaryRequirements": [
+        "SPD-SEC-008"
+      ]
+    },
+    {
+      "auditCase": "S17",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/static-svg-local/expected.json",
+      "expectedResultSha256": "fee4339c8b7921a9ccda2a6215c48adcc8f9c5faf5a13b073936e0b310ba8187",
+      "id": "security/static-svg-local",
+      "name": "static-svg-local",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/static-svg-local/document.epub",
+      "packageSha256": "5ccd7580c1eef7a3edd673b2d895ec6daf7eae7138ad02036d25103154a8d197",
+      "primaryRequirements": []
+    },
+    {
+      "auditCase": "S18",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/inert-controls/expected.json",
+      "expectedResultSha256": "3722922334d94dd3ca042fc2a419184b981aef02b309f60f570cc04b0ca71fa4",
+      "id": "security/inert-controls",
+      "name": "inert-controls",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/inert-controls/document.epub",
+      "packageSha256": "1bc4bc2bdcc39328f7676e9e247749d6dca658bddf74d729f416e49b3300cbd2",
+      "primaryRequirements": []
+    },
+    {
+      "auditCase": "S19",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/local-media/expected.json",
+      "expectedResultSha256": "5fd910f62f95b367639066b408f8e8184aca6a2aed2a8426108e53e6bff36235",
+      "id": "security/local-media",
+      "name": "local-media",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/local-media/document.epub",
+      "packageSha256": "1240a2351797f540b0b96b7860c9c389574a885fe368eb8322ae49d086ccc668",
+      "primaryRequirements": []
+    },
+    {
+      "auditCase": "S20",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/media-autoplay/expected.json",
+      "expectedResultSha256": "8152be3c8ab6e0c525119d2a5425d0aa897d9ca603eab0f9808309364c6bb9cf",
+      "id": "security/media-autoplay",
+      "name": "media-autoplay",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/media-autoplay/document.epub",
+      "packageSha256": "13a607ba36a7663b3c5a1ba025c8347edc14250b235687b05a3712ae91853890",
+      "primaryRequirements": [
+        "SPD-PASS-003"
+      ]
+    },
+    {
+      "auditCase": "S21",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/static-animation-declaration/expected.json",
+      "expectedResultSha256": "e6654befe98fa8cd33e66d28debfeafca3791a2aa2e75da60883766ee46728a9",
+      "id": "security/static-animation-declaration",
+      "name": "static-animation-declaration",
+      "notes": [
+        "File declarations retained. Human static completeness and processor suppression remain NOT_TESTED."
+      ],
+      "package": "tests/corpus-0.1.2/static-animation-declaration/document.epub",
+      "packageSha256": "e36651592c575f0f010cc6e617545a0a6903f9bfee01b7ee5f546a99ff17cde4",
+      "primaryRequirements": []
+    },
+    {
+      "auditCase": "S22",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/mathml-local-glyph/expected.json",
+      "expectedResultSha256": "c8f43aa44d289aa3d0d531ff4450160373bceb1e274a855b33ce39eb31f8cd15",
+      "id": "security/mathml-local-glyph",
+      "name": "mathml-local-glyph",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/mathml-local-glyph/document.epub",
+      "packageSha256": "425248e6e3b138efa473b66a6ba249c1bd8368e0cf89d66b329b908a74534f7c",
+      "primaryRequirements": []
+    },
+    {
+      "auditCase": "S23",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/mathml-remote-glyph/expected.json",
+      "expectedResultSha256": "086fdfa022b5ee80894dc579b0b8d01651df02c6c75fad5d52c2cee349c9896f",
+      "id": "security/mathml-remote-glyph",
+      "name": "mathml-remote-glyph",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/mathml-remote-glyph/document.epub",
+      "packageSha256": "f4043d71cb33d824be18b96e10e8f5ac65c519c2d6adf582fd30323f07ee0d06",
+      "primaryRequirements": [
+        "SPD-SEC-003",
+        "SPD-SEC-006",
+        "SPD-SEC-008"
+      ]
+    },
+    {
+      "auditCase": "S24",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/inert-hostile-metadata/expected.json",
+      "expectedResultSha256": "d6eb2256f5dc2306184bbbc13dff2ea4095c1186d3e71d8aea7d0fec956ff37a",
+      "id": "security/inert-hostile-metadata",
+      "name": "inert-hostile-metadata",
+      "notes": [
+        "Metadata text is data, not a resource request."
+      ],
+      "package": "tests/corpus-0.1.2/inert-hostile-metadata/document.epub",
+      "packageSha256": "ce22973c899280287a67756d998261a15d68c91700e0409ed82bd3c90f4f600e",
+      "primaryRequirements": []
+    },
+    {
+      "auditCase": "S25",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/zip-special-modes/expected.json",
+      "expectedResultSha256": "8d5dddd1a5ad711c66ca0db4d22b64b593fbe74a835e05223e7ad5fc217a5ef1",
+      "id": "security/zip-special-modes",
+      "name": "zip-special-modes",
+      "notes": [
+        "Existing regular CSS/image resources are marked symlink/device; content bytes retained."
+      ],
+      "package": "tests/corpus-0.1.2/zip-special-modes/document.epub",
+      "packageSha256": "b808e521ebd69a3ffc75a618ad4af73f6bf86a1f2818cf8494780d532d4010eb",
+      "primaryRequirements": [
+        "SPD-BASE-002"
+      ]
+    },
+    {
+      "auditCase": "S26",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/decoded-path-collision/expected.json",
+      "expectedResultSha256": "fe623ca80baec94e9662463864626da9b2ca148cd7d544b9e58ac109dd097848",
+      "id": "security/decoded-path-collision",
+      "name": "decoded-path-collision",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/decoded-path-collision/document.epub",
+      "packageSha256": "1c4d7b9c8390d980856f6063aa8443b3635c92c0b939dd65398bbcc658dfaa15",
+      "primaryRequirements": [
+        "SPD-BASE-002",
+        "SPD-RES-002"
+      ]
+    },
+    {
+      "auditCase": "S27",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/zip-header-mismatch/expected.json",
+      "expectedResultSha256": "ce94fb050e05611053e0a36242fd37771ea90363c50d44f279a173232a971ba3",
+      "id": "security/zip-header-mismatch",
+      "name": "zip-header-mismatch",
+      "notes": [
+        "Local header filename differs from central directory; MALFORMED_INPUT, no fabricated native violation."
+      ],
+      "package": "tests/corpus-0.1.2/zip-header-mismatch/document.epub",
+      "packageSha256": "2d62dbee6839c0674f854e06ece067340c5a8f2014239d29299b0ff41cf79547",
+      "primaryRequirements": []
+    },
+    {
+      "auditCase": "S28",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/bounded-expansion/expected.json",
+      "expectedResultSha256": "e78e0c135c25e3ed559359346e028bb0dc358629797c2d262ac9e6359e70801a",
+      "id": "security/bounded-expansion",
+      "name": "bounded-expansion",
+      "notes": [
+        "Small on-disk highly compressible data exceeds implementation ratio budget; no universal format maximum."
+      ],
+      "package": "tests/corpus-0.1.2/bounded-expansion/document.epub",
+      "packageSha256": "c227faeee17b70110ba4540c82d7108a8f10585d2509ced134215649be5f82b9",
+      "primaryRequirements": []
+    },
+    {
+      "auditCase": "S29",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/unmapped-epub-title/expected.json",
+      "expectedResultSha256": "f226e80f6f1f9f77637ca2b28c1204b537e7085b597631e2907ff04fb36cbba0",
+      "id": "security/unmapped-epub-title",
+      "name": "unmapped-epub-title",
+      "notes": [
+        "Only required OPF title removed; inventory and state rebound. BASE-002 from inherited EPUB conformance."
+      ],
+      "package": "tests/corpus-0.1.2/unmapped-epub-title/document.epub",
+      "packageSha256": "37ae56dc493db6bd85ef893ba99c5cdff2c8e215035c3c340e154ee13e8f0a27",
+      "primaryRequirements": []
+    },
+    {
+      "auditCase": "S30",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/script-data-block/expected.json",
+      "expectedResultSha256": "e90d582a9470a888acb6999b64609419f6dd94c1ed4a943e0ed54255636c92fe",
+      "id": "security/script-data-block",
+      "name": "script-data-block",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/script-data-block/document.epub",
+      "packageSha256": "38c6652f2d5f025aac3eff99c5e8cd6bfa73c5fb4b8eb1a20abeff871ae69ba9",
+      "primaryRequirements": [
+        "SPD-SEC-001"
+      ]
+    },
+    {
+      "auditCase": "S31",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/standalone-svg-script/expected.json",
+      "expectedResultSha256": "9478e3f1b961dfe9cfffbeb69fa27c7c90b75f9ac94ea350809cc101759d206b",
+      "id": "security/standalone-svg-script",
+      "name": "standalone-svg-script",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/standalone-svg-script/document.epub",
+      "packageSha256": "d61dfa4847e0dfef11dba1bf653d51d80ceadc47a3cd7ae25b205404fdb6a21e",
+      "primaryRequirements": [
+        "SPD-SEC-001",
+        "SPD-SEC-007"
+      ]
+    },
+    {
+      "auditCase": "S32",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/svg-event-handler/expected.json",
+      "expectedResultSha256": "a6af731c92829195994b6f25c461bbdfe7eb11f12e13582ce3d6f35abe98806a",
+      "id": "security/svg-event-handler",
+      "name": "svg-event-handler",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/svg-event-handler/document.epub",
+      "packageSha256": "afde78d49e22ff891552aa41b2cea57b8e6d91410c29b9702524d1bf004fef73",
+      "primaryRequirements": [
+        "SPD-SEC-001",
+        "SPD-SEC-007"
+      ]
+    },
+    {
+      "auditCase": "S33",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/plain-iframe/expected.json",
+      "expectedResultSha256": "084925ea36c71c6640c6d5ad5cd3fc477be5b315c6ea06d2a29e8969feeedf1b",
+      "id": "security/plain-iframe",
+      "name": "plain-iframe",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/plain-iframe/document.epub",
+      "packageSha256": "41bdd0c8655db5261a1f6cca3059c6d9726156136dcbebdf7ea1cd4f21e378fe",
+      "primaryRequirements": [
+        "SPD-SEC-002",
+        "SPD-PASS-002"
+      ]
+    },
+    {
+      "auditCase": "S34",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/authoritative-canvas/expected.json",
+      "expectedResultSha256": "beed8df56a03e7043658d73b3f3f76eca634703cd78048b259353dfb2edbf016",
+      "id": "security/authoritative-canvas",
+      "name": "authoritative-canvas",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/authoritative-canvas/document.epub",
+      "packageSha256": "80358f0c6d2acc13076a79b643386b69898eeb53c9435125e063dcc8d46f9f4a",
+      "primaryRequirements": [
+        "SPD-PASS-002"
+      ]
+    },
+    {
+      "auditCase": "S35",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/ordinary-hyperlink/expected.json",
+      "expectedResultSha256": "d54f290d4173a7bff823b1ff6bce76c796529d7b312cb7195e2d3833e6df26fe",
+      "id": "security/ordinary-hyperlink",
+      "name": "ordinary-hyperlink",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/ordinary-hyperlink/document.epub",
+      "packageSha256": "39e99df2a0ed1f691cbbdd22aa1b54ea542790f9f7a5552dffa43e0daaf3b0c6",
+      "primaryRequirements": []
+    },
+    {
+      "auditCase": "S36",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/nested-rule-remote/expected.json",
+      "expectedResultSha256": "c7b6de101b96edf69e8351d44b289f1e062a383b6d0fc016abbb0dcf9b5c5b72",
+      "id": "security/nested-rule-remote",
+      "name": "nested-rule-remote",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/nested-rule-remote/document.epub",
+      "packageSha256": "3616d6dbb47d122495cad55b3fa8730d85869526682331165800c9c1237b0f12",
+      "primaryRequirements": [
+        "SPD-SEC-003",
+        "SPD-SEC-006",
+        "SPD-SEC-008"
+      ]
+    },
+    {
+      "auditCase": "S37",
+      "category": "security",
+      "expectedResult": "tests/corpus-0.1.2/annotation-xml-active/expected.json",
+      "expectedResultSha256": "95880d1152871185083b8fc319eba7c25eebcc9a049886dec9a511247fe2eb5c",
+      "id": "security/annotation-xml-active",
+      "name": "annotation-xml-active",
+      "notes": [],
+      "package": "tests/corpus-0.1.2/annotation-xml-active/document.epub",
+      "packageSha256": "547898c56abc28f595ea1f6469d71d01a780216a31976b34fa0f7f7e5e81b790",
+      "primaryRequirements": [
+        "SPD-SEC-001"
+      ]
+    }
+  ],
+  "schemaVersion": "0.1-draft"
+}

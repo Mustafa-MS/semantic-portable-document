@@ -1,0 +1,1155 @@
+{
+  "registryVersion": "0.1-draft",
+  "summary": {
+    "total": 113,
+    "represented": 113,
+    "automated": 74,
+    "automatedImplemented": 74
+  },
+  "requirements": [
+    {
+      "requirementId": "SPD-ARCH-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "secure_package_and_ocf",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-ARCH-002",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Fixed-Experimental"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-ARCH-003",
+      "testability": "INFORMATIVE_ONLY",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-BASE-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "secure_package_and_ocf",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-BASE-002",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "secure_package_and_ocf",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-BASE-003",
+      "testability": "INFORMATIVE_ONLY",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-BASE-004",
+      "testability": "MANUAL",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-BASE-005",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "secure_package_and_ocf",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-BASE-006",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "secure_package_and_ocf",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-SEC-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "active_content_and_local_resources",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-SEC-002",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "active_content_and_local_resources",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-SEC-003",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "active_content_and_local_resources",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-SEC-004",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "active_content_and_local_resources",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-SEC-005",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "active_content_and_local_resources",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-SEC-006",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "active_content_and_local_resources",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-SEC-007",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "active_content_and_local_resources",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-SEC-008",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "active_content_and_local_resources",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-SEM-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "secure_package_and_ocf",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-SEM-002",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "secure_package_and_ocf",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-SEM-003",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "secure_package_and_ocf",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-SEM-004",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base",
+        "Accessible"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-SEM-005",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base",
+        "Accessible"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-SEM-006",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base",
+        "Accessible"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-SEM-007",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-SEM-008",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-SEM-009",
+      "testability": "MANUAL",
+      "capabilities": [
+        "Base",
+        "Accessible"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-SEM-010",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base",
+        "Accessible"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-SEM-011",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "identity_and_authoritative_xhtml",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-SEM-012",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base",
+        "Accessible"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-SEM-013",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base",
+        "Accessible"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-SEM-014",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-ID-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "identity_and_authoritative_xhtml",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-ID-002",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "identity_and_authoritative_xhtml",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-ID-003",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "identity_and_authoritative_xhtml",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-ID-004",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "identity_and_authoritative_xhtml",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-ID-005",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "identity_and_authoritative_xhtml",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-ID-006",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "identity_and_authoritative_xhtml",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-ID-007",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-ID-008",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "identity_and_authoritative_xhtml",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-ID-009",
+      "testability": "MANUAL",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-ID-010",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "identity_and_authoritative_xhtml",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-ID-011",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-ID-012",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-ID-013",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "identity_and_authoritative_xhtml",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-I18N-001",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-I18N-002",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-I18N-003",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base",
+        "Accessible"
+      ],
+      "implementation": "identity_and_authoritative_xhtml",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-I18N-004",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base",
+        "Accessible"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-I18N-005",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "identity_and_authoritative_xhtml",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-I18N-006",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Mapping"
+      ],
+      "implementation": "mapping_schema_and_procedural_checks",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-ANN-001",
+      "testability": "INFORMATIVE_ONLY",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-ANN-002",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "annotations",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-ANN-003",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "annotations",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-ANN-004",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "annotations",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-STATE-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Fixed-Experimental"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-STATE-002",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-STATE-003",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-STATE-004",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Fixed-Experimental"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-STATE-005",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Fixed-Experimental"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-STATE-006",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-STATE-007",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Mapping"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-RES-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-RES-002",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-RES-003",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-RES-004",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-RES-005",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-RES-006",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-INT-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-INT-002",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-INT-003",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-INT-004",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-INT-005",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-INT-006",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-FIX-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Fixed-Experimental"
+      ],
+      "implementation": "inventory_integrity_and_state",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-FIX-002",
+      "testability": "MANUAL",
+      "capabilities": [
+        "Fixed-Experimental"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-FIX-003",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base",
+        "Fixed-Experimental"
+      ],
+      "implementation": "secure_package_and_ocf",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-MAP-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Mapping"
+      ],
+      "implementation": "mapping_schema_and_procedural_checks",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-MAP-002",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Mapping"
+      ],
+      "implementation": "mapping_schema_and_procedural_checks",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-MAP-003",
+      "testability": "MANUAL",
+      "capabilities": [
+        "Mapping"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-MAP-004",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Mapping"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-MAP-005",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Mapping"
+      ],
+      "implementation": "mapping_schema_and_procedural_checks",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-MAP-006",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Mapping"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-MAP-007",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Mapping"
+      ],
+      "implementation": "mapping_schema_and_procedural_checks",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-MAP-008",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Mapping"
+      ],
+      "implementation": "mapping_schema_and_procedural_checks",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-MAP-009",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Mapping"
+      ],
+      "implementation": "mapping_schema_and_procedural_checks",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-MAP-010",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Mapping",
+        "Fixed-Experimental"
+      ],
+      "implementation": "mapping_schema_and_procedural_checks",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-MAP-011",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Mapping"
+      ],
+      "implementation": "mapping_schema_and_procedural_checks",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-MAP-012",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Mapping"
+      ],
+      "implementation": "mapping_schema_and_procedural_checks",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-ACC-001",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base",
+        "Accessible"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-ACC-002",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Accessible",
+        "Fixed-Experimental"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-ACC-003",
+      "testability": "MANUAL",
+      "capabilities": [
+        "Accessible",
+        "Fixed-Experimental"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-ACC-004",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Accessible"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-PROV-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "capability_extension_and_import_semantics",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-IMP-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "capability_extension_and_import_semantics",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-IMP-002",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "capability_extension_and_import_semantics",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-IMP-003",
+      "testability": "INFORMATIVE_ONLY",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-API-001",
+      "testability": "PARTIALLY_AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-CAP-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "capability_extension_and_import_semantics",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-CAP-002",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "capability_extension_and_import_semantics",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-CAP-003",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "capability_extension_and_import_semantics",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-DISC-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "secure_package_and_ocf",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-DISC-002",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "secure_package_and_ocf",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-DISC-003",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "secure_package_and_ocf",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-DISC-004",
+      "testability": "INFORMATIVE_ONLY",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-EXT-001",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "capability_extension_and_import_semantics",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-EXT-002",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "capability_extension_and_import_semantics",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-EXT-003",
+      "testability": "AUTOMATED",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "capability_extension_and_import_semantics",
+      "represented": true,
+      "automatedExecutableCoverage": true
+    },
+    {
+      "requirementId": "SPD-TEST-001",
+      "testability": "INFORMATIVE_ONLY",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-TEST-002",
+      "testability": "INFORMATIVE_ONLY",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-GOV-001",
+      "testability": "INFORMATIVE_ONLY",
+      "capabilities": [
+        "Archive-Experimental"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-GOV-002",
+      "testability": "INFORMATIVE_ONLY",
+      "capabilities": [
+        "Fixed-Experimental"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-GOV-003",
+      "testability": "INFORMATIVE_ONLY",
+      "capabilities": [
+        "Fixed-Experimental"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    },
+    {
+      "requirementId": "SPD-GOV-004",
+      "testability": "INFORMATIVE_ONLY",
+      "capabilities": [
+        "Base"
+      ],
+      "implementation": "human_or_partial_evaluation_registry",
+      "represented": true,
+      "automatedExecutableCoverage": false
+    }
+  ]
+}

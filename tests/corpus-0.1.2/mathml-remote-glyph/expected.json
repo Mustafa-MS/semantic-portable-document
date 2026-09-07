@@ -1,0 +1,45 @@
+{
+  "authoritativeClaimsStatus": "KNOWN",
+  "base": "FAIL",
+  "capabilities": {
+    "Accessible": "NOT_CLAIMED",
+    "Archive-Experimental": "NOT_CLAIMED",
+    "Fixed-Experimental": "NOT_CLAIMED",
+    "Mapping": "NOT_CLAIMED"
+  },
+  "corpusVersion": "0.1.2",
+  "epubcheckExpected": "PASS",
+  "experimentalReporting": {
+    "fixedExperimentalCapabilityDeclared": false,
+    "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+    "physicalFixedRenditionPresent": false
+  },
+  "fixture": "security/mathml-remote-glyph",
+  "nativeBase": "FAIL",
+  "nativeViolationRequirementIds": [
+    "SPD-SEC-003",
+    "SPD-SEC-006",
+    "SPD-SEC-008"
+  ],
+  "notTestedRequirementIds": [
+    "SPD-ID-013",
+    "SPD-PASS-001",
+    "SPD-PASS-002",
+    "SPD-PASS-003",
+    "SPD-RS-001",
+    "SPD-RS-002"
+  ],
+  "notes": [],
+  "operationalStatus": "COMPLETE",
+  "violations": [
+    {
+      "requirement": "SPD-SEC-003"
+    },
+    {
+      "requirement": "SPD-SEC-006"
+    },
+    {
+      "requirement": "SPD-SEC-008"
+    }
+  ]
+}

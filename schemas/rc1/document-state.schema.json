@@ -1,0 +1,216 @@
+{
+  "$defs": {
+    "digest": {
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "documentId": {
+      "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "type": "string"
+    },
+    "fixedId": {
+      "maxLength": 130,
+      "pattern": "^f_[a-z0-9._-]{1,128}$",
+      "type": "string"
+    },
+    "nodeId": {
+      "maxLength": 130,
+      "pattern": "^n_[a-z0-9._-]{1,128}$",
+      "type": "string"
+    },
+    "pageId": {
+      "maxLength": 130,
+      "pattern": "^p_[a-z0-9._-]{1,128}$",
+      "type": "string"
+    },
+    "revisionId": {
+      "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "type": "string"
+    }
+  },
+  "$id": "urn:uuid:7a79bc52-a9b9-5953-a2d8-9b0082badbaf",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "capabilities": {
+            "contains": {
+              "properties": {
+                "id": {
+                  "const": "Accessible"
+                }
+              },
+              "required": [
+                "id"
+              ]
+            }
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "accessibilityTarget"
+        ]
+      }
+    }
+  ],
+  "properties": {
+    "accessibilityTarget": {
+      "additionalProperties": false,
+      "properties": {
+        "epubAccessibility": {
+          "const": "1.1"
+        },
+        "wcag": {
+          "const": "2.2-AA"
+        }
+      },
+      "required": [
+        "epubAccessibility",
+        "wcag"
+      ],
+      "type": "object"
+    },
+    "capabilities": {
+      "contains": {
+        "properties": {
+          "id": {
+            "const": "Base"
+          }
+        },
+        "required": [
+          "id"
+        ]
+      },
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "enum": [
+              "Base",
+              "Mapping",
+              "Fixed-Experimental",
+              "Accessible",
+              "Archive-Experimental"
+            ]
+          },
+          "version": {
+            "const": "0.1"
+          }
+        },
+        "required": [
+          "id",
+          "version"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "documentId": {
+      "$ref": "#/$defs/documentId"
+    },
+    "extensions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "capabilities": {
+            "items": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array",
+            "uniqueItems": true
+          },
+          "id": {
+            "format": "uri",
+            "type": "string"
+          },
+          "required": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "required",
+          "capabilities"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "renditionInputDigest": {
+      "$ref": "#/$defs/digest"
+    },
+    "revision": {
+      "additionalProperties": false,
+      "properties": {
+        "created": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "generator": {
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "maxLength": 200,
+              "minLength": 1,
+              "type": "string"
+            },
+            "version": {
+              "maxLength": 100,
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "version"
+          ],
+          "type": "object"
+        },
+        "message": {
+          "maxLength": 2000,
+          "type": "string"
+        },
+        "parents": {
+          "items": {
+            "$ref": "#/$defs/revisionId"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "revisionId": {
+          "$ref": "#/$defs/revisionId"
+        }
+      },
+      "required": [
+        "revisionId",
+        "parents",
+        "created",
+        "generator"
+      ],
+      "type": "object"
+    },
+    "schemaVersion": {
+      "const": "0.1"
+    },
+    "semanticStateDigest": {
+      "$ref": "#/$defs/digest"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "documentId",
+    "revision",
+    "semanticStateDigest",
+    "renditionInputDigest",
+    "capabilities"
+  ],
+  "title": "SPD 0.1 document and revision metadata",
+  "type": "object"
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "0.1-experimental",
+  "tasks": [
+    {
+      "id": "A01-T10-FROC",
+      "instruction": "In Table 4, change FROC from 0.901 to 0.906. Update the paragraph discussing this exact result. Do not modify unrelated content.",
+      "targets": ["T10.froc", "T10.resultp"],
+      "expectedOperations": ["updateTableCell", "replaceText"],
+      "atomic": true,
+      "externalAgentRun": "NOT VERIFIED"
+    }
+  ]
+}
+

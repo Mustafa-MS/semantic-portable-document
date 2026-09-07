@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/spd/0.1/conformance-result.schema.json",
+  "title": "SPD 0.1 fixture expected result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["fixture", "base", "capabilities", "violations"],
+  "properties": {
+    "fixture": {"type": "string", "minLength": 1},
+    "base": {"enum": ["PASS", "FAIL", "NOT_TESTED"]},
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": {"enum": ["PASS", "FAIL", "NOT_CLAIMED", "PRESENT_EXPERIMENTAL", "NOT_NORMATIVELY_CERTIFIED", "NOT_TESTED"]}
+    },
+    "violations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["requirement"],
+        "properties": {
+          "requirement": {"type": "string", "pattern": "^SPD-[A-Z0-9]+-[0-9]{3}$"},
+          "resource": {"type": "string"},
+          "node": {"type": "string"},
+          "detail": {"type": "string"}
+        }
+      }
+    },
+    "notes": {"type": "array", "items": {"type": "string"}}
+  }
+}

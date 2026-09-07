@@ -1,0 +1,29 @@
+{
+  "authoritativeClaimsStatus": "KNOWN",
+  "base": "FAIL",
+  "capabilities": {
+    "Accessible": "NOT_CLAIMED",
+    "Archive-Experimental": "NOT_CLAIMED",
+    "Fixed-Experimental": "NOT_CLAIMED",
+    "Mapping": "NOT_CLAIMED"
+  },
+  "corpusVersion": "0.1.1",
+  "experimentalReporting": {
+    "fixedExperimentalCapabilityDeclared": false,
+    "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+    "physicalFixedRenditionPresent": false
+  },
+  "fixture": "invalid/visual-order-arabic-source",
+  "notTestedRequirementIds": [
+    "SPD-ID-013"
+  ],
+  "notes": [],
+  "operationalStatus": "COMPLETE",
+  "violations": [
+    {
+      "node": "n_paragraph01",
+      "requirement": "SPD-I18N-001",
+      "resource": "EPUB/content.xhtml"
+    }
+  ]
+}

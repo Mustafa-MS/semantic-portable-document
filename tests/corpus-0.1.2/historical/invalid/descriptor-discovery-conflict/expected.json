@@ -1,0 +1,46 @@
+{
+  "authoritativeClaimsStatus": "UNKNOWN",
+  "base": "FAIL",
+  "capabilities": {
+    "Accessible": "UNKNOWN",
+    "Archive-Experimental": "UNKNOWN",
+    "Fixed-Experimental": "UNKNOWN",
+    "Mapping": "UNKNOWN"
+  },
+  "corpusVersion": "0.1.2",
+  "experimentalReporting": {
+    "fixedExperimentalCapabilityDeclared": null,
+    "fixedExperimentalEvaluationStatus": "UNKNOWN",
+    "physicalFixedRenditionPresent": null
+  },
+  "fixture": "invalid/descriptor-discovery-conflict",
+  "nativeBase": "FAIL",
+  "nativeViolationRequirementIds": [
+    "SPD-DISC-002"
+  ],
+  "notTestedRequirementIds": [
+    "SPD-CAP-002",
+    "SPD-CAP-003",
+    "SPD-ID-002",
+    "SPD-ID-013",
+    "SPD-INT-004",
+    "SPD-INT-005",
+    "SPD-INT-006",
+    "SPD-PASS-001",
+    "SPD-PASS-002",
+    "SPD-PASS-003",
+    "SPD-RS-001",
+    "SPD-RS-002",
+    "SPD-STATE-002",
+    "SPD-STATE-003",
+    "SPD-STATE-006",
+    "SPD-STATE-007"
+  ],
+  "notes": [],
+  "operationalStatus": "COMPLETE",
+  "violations": [
+    {
+      "requirement": "SPD-DISC-002"
+    }
+  ]
+}

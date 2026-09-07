@@ -1,0 +1,24 @@
+
+@page { size: A4; margin: 18mm 17mm 20mm; }
+@page { @bottom-center { content: counter(page); font-size: 9pt; color: #555; } }
+html { font-family: "Noto Sans Arabic", "Segoe UI", Arial, sans-serif; color: #17242b; line-height: 1.48; }
+body { margin: 0; font-size: 11pt; }
+h1 { color: #174d62; font-size: 24pt; border-bottom: 2px solid #7cb8c9; padding-bottom: 5mm; }
+h2 { color: #215f72; break-after: avoid; }
+h3 { color: #37788a; break-after: avoid; }
+p { widows: 3; orphans: 3; }
+a { color: #075d9c; }
+table { border-collapse: collapse; width: 100%; margin: 7mm 0; }
+thead { display: table-header-group; }
+th, td { border: 0.5pt solid #617984; padding: 2.5mm; vertical-align: top; }
+th { background: #dfeef2; }
+figure { margin: 7mm auto; break-inside: avoid; text-align: center; }
+figure img, figure svg { max-width: 80%; max-height: 75mm; }
+figcaption, caption { font-weight: 600; margin-top: 2mm; }
+.page-break { break-before: page; }
+.columns { column-count: 2; column-gap: 12mm; }
+.span-columns { column-span: all; }
+.equation { display: flex; justify-content: center; gap: 10mm; align-items: center; }
+aside[role="doc-footnote"] { border-top: 0.5pt solid #81939a; margin-top: 5mm; padding-top: 2mm; font-size: 9pt; }
+header, footer { color: #60717a; font-size: 8pt; letter-spacing: .08em; }
+[dir="rtl"] { text-align: start; }

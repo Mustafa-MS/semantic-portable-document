@@ -1,0 +1,597 @@
+{
+  "SPD-ARCH-001": {
+    "status": "implemented-automatic",
+    "stage": "architecture",
+    "module": "src/validator.rs"
+  },
+  "SPD-ARCH-002": {
+    "status": "implemented-partial",
+    "stage": "architecture",
+    "module": "src/validator.rs"
+  },
+  "SPD-ARCH-003": {
+    "status": "informative",
+    "stage": "architecture",
+    "module": "src/validator.rs"
+  },
+  "SPD-BASE-001": {
+    "status": "implemented-automatic",
+    "stage": "package",
+    "module": "src/validator.rs"
+  },
+  "SPD-BASE-002": {
+    "status": "implemented-automatic",
+    "stage": "package",
+    "module": "src/validator.rs"
+  },
+  "SPD-BASE-003": {
+    "status": "informative",
+    "stage": "package",
+    "module": "src/validator.rs"
+  },
+  "SPD-BASE-004": {
+    "status": "manual",
+    "stage": "package",
+    "module": "src/validator.rs"
+  },
+  "SPD-BASE-005": {
+    "status": "implemented-automatic",
+    "stage": "package",
+    "module": "src/validator.rs"
+  },
+  "SPD-BASE-006": {
+    "status": "implemented-automatic",
+    "stage": "package",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEC-001": {
+    "status": "implemented-automatic",
+    "stage": "security",
+    "module": "src/passive.rs"
+  },
+  "SPD-SEC-002": {
+    "status": "implemented-automatic",
+    "stage": "security",
+    "module": "src/passive.rs"
+  },
+  "SPD-SEC-003": {
+    "status": "implemented-automatic",
+    "stage": "security",
+    "module": "src/passive.rs"
+  },
+  "SPD-SEC-004": {
+    "status": "implemented-automatic",
+    "stage": "security",
+    "module": "src/passive.rs"
+  },
+  "SPD-SEC-005": {
+    "status": "implemented-automatic",
+    "stage": "security",
+    "module": "src/passive.rs"
+  },
+  "SPD-SEC-006": {
+    "status": "implemented-automatic",
+    "stage": "security",
+    "module": "src/passive.rs"
+  },
+  "SPD-SEC-007": {
+    "status": "implemented-automatic",
+    "stage": "security",
+    "module": "src/passive.rs"
+  },
+  "SPD-SEC-008": {
+    "status": "implemented-automatic",
+    "stage": "security",
+    "module": "src/passive.rs"
+  },
+  "SPD-SEM-001": {
+    "status": "implemented-automatic",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEM-002": {
+    "status": "implemented-automatic",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEM-003": {
+    "status": "implemented-automatic",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEM-004": {
+    "status": "implemented-partial",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEM-005": {
+    "status": "implemented-partial",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEM-006": {
+    "status": "implemented-partial",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEM-007": {
+    "status": "implemented-partial",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEM-008": {
+    "status": "implemented-partial",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEM-009": {
+    "status": "manual",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEM-010": {
+    "status": "implemented-partial",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEM-011": {
+    "status": "implemented-automatic",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEM-012": {
+    "status": "implemented-partial",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEM-013": {
+    "status": "implemented-partial",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-SEM-014": {
+    "status": "implemented-partial",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-ID-001": {
+    "status": "implemented-automatic",
+    "stage": "identity",
+    "module": "src/validator.rs"
+  },
+  "SPD-ID-002": {
+    "status": "implemented-automatic",
+    "stage": "identity",
+    "module": "src/validator.rs"
+  },
+  "SPD-ID-003": {
+    "status": "implemented-automatic",
+    "stage": "identity",
+    "module": "src/validator.rs"
+  },
+  "SPD-ID-004": {
+    "status": "implemented-automatic",
+    "stage": "identity",
+    "module": "src/validator.rs"
+  },
+  "SPD-ID-005": {
+    "status": "implemented-automatic",
+    "stage": "identity",
+    "module": "src/validator.rs"
+  },
+  "SPD-ID-006": {
+    "status": "implemented-automatic",
+    "stage": "identity",
+    "module": "src/validator.rs"
+  },
+  "SPD-ID-007": {
+    "status": "implemented-partial",
+    "stage": "identity",
+    "module": "src/validator.rs"
+  },
+  "SPD-ID-008": {
+    "status": "implemented-automatic",
+    "stage": "identity",
+    "module": "src/validator.rs"
+  },
+  "SPD-ID-009": {
+    "status": "manual",
+    "stage": "identity",
+    "module": "src/validator.rs"
+  },
+  "SPD-ID-010": {
+    "status": "implemented-automatic",
+    "stage": "identity",
+    "module": "src/validator.rs"
+  },
+  "SPD-ID-011": {
+    "status": "implemented-partial",
+    "stage": "identity",
+    "module": "src/validator.rs"
+  },
+  "SPD-ID-012": {
+    "status": "implemented-partial",
+    "stage": "identity",
+    "module": "src/validator.rs"
+  },
+  "SPD-ID-013": {
+    "status": "implemented-automatic",
+    "stage": "identity",
+    "module": "src/validator.rs"
+  },
+  "SPD-I18N-001": {
+    "status": "implemented-partial",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-I18N-002": {
+    "status": "implemented-partial",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-I18N-003": {
+    "status": "implemented-automatic",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-I18N-004": {
+    "status": "implemented-partial",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-I18N-005": {
+    "status": "implemented-automatic",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-I18N-006": {
+    "status": "implemented-automatic",
+    "stage": "semantic",
+    "module": "src/validator.rs"
+  },
+  "SPD-ANN-001": {
+    "status": "informative",
+    "stage": "annotations",
+    "module": "src/validator.rs"
+  },
+  "SPD-ANN-002": {
+    "status": "implemented-automatic",
+    "stage": "annotations",
+    "module": "src/validator.rs"
+  },
+  "SPD-ANN-003": {
+    "status": "implemented-automatic",
+    "stage": "annotations",
+    "module": "src/validator.rs"
+  },
+  "SPD-ANN-004": {
+    "status": "implemented-automatic",
+    "stage": "annotations",
+    "module": "src/validator.rs"
+  },
+  "SPD-STATE-001": {
+    "status": "implemented-automatic",
+    "stage": "state",
+    "module": "src/validator.rs"
+  },
+  "SPD-STATE-002": {
+    "status": "implemented-automatic",
+    "stage": "state",
+    "module": "src/validator.rs"
+  },
+  "SPD-STATE-003": {
+    "status": "implemented-automatic",
+    "stage": "state",
+    "module": "src/validator.rs"
+  },
+  "SPD-STATE-004": {
+    "status": "implemented-automatic",
+    "stage": "state",
+    "module": "src/validator.rs"
+  },
+  "SPD-STATE-005": {
+    "status": "implemented-automatic",
+    "stage": "state",
+    "module": "src/validator.rs"
+  },
+  "SPD-STATE-006": {
+    "status": "implemented-automatic",
+    "stage": "state",
+    "module": "src/validator.rs"
+  },
+  "SPD-STATE-007": {
+    "status": "implemented-automatic",
+    "stage": "state",
+    "module": "src/validator.rs"
+  },
+  "SPD-RES-001": {
+    "status": "implemented-automatic",
+    "stage": "inventory",
+    "module": "src/validator.rs"
+  },
+  "SPD-RES-002": {
+    "status": "implemented-automatic",
+    "stage": "inventory",
+    "module": "src/validator.rs"
+  },
+  "SPD-RES-003": {
+    "status": "implemented-automatic",
+    "stage": "inventory",
+    "module": "src/validator.rs"
+  },
+  "SPD-RES-004": {
+    "status": "implemented-automatic",
+    "stage": "inventory",
+    "module": "src/validator.rs"
+  },
+  "SPD-RES-005": {
+    "status": "implemented-automatic",
+    "stage": "inventory",
+    "module": "src/validator.rs"
+  },
+  "SPD-RES-006": {
+    "status": "implemented-automatic",
+    "stage": "inventory",
+    "module": "src/validator.rs"
+  },
+  "SPD-INT-001": {
+    "status": "implemented-automatic",
+    "stage": "integrity",
+    "module": "src/validator.rs"
+  },
+  "SPD-INT-002": {
+    "status": "implemented-automatic",
+    "stage": "integrity",
+    "module": "src/validator.rs"
+  },
+  "SPD-INT-003": {
+    "status": "implemented-automatic",
+    "stage": "integrity",
+    "module": "src/validator.rs"
+  },
+  "SPD-INT-004": {
+    "status": "implemented-automatic",
+    "stage": "integrity",
+    "module": "src/validator.rs"
+  },
+  "SPD-INT-005": {
+    "status": "implemented-automatic",
+    "stage": "integrity",
+    "module": "src/validator.rs"
+  },
+  "SPD-INT-006": {
+    "status": "implemented-automatic",
+    "stage": "integrity",
+    "module": "src/validator.rs"
+  },
+  "SPD-FIX-001": {
+    "status": "implemented-automatic",
+    "stage": "state",
+    "module": "src/validator.rs"
+  },
+  "SPD-FIX-002": {
+    "status": "manual",
+    "stage": "state",
+    "module": "src/validator.rs"
+  },
+  "SPD-FIX-003": {
+    "status": "implemented-automatic",
+    "stage": "state",
+    "module": "src/validator.rs"
+  },
+  "SPD-MAP-001": {
+    "status": "implemented-automatic",
+    "stage": "mapping",
+    "module": "src/validator.rs"
+  },
+  "SPD-MAP-002": {
+    "status": "implemented-automatic",
+    "stage": "mapping",
+    "module": "src/validator.rs"
+  },
+  "SPD-MAP-003": {
+    "status": "manual",
+    "stage": "mapping",
+    "module": "src/validator.rs"
+  },
+  "SPD-MAP-004": {
+    "status": "implemented-partial",
+    "stage": "mapping",
+    "module": "src/validator.rs"
+  },
+  "SPD-MAP-005": {
+    "status": "implemented-automatic",
+    "stage": "mapping",
+    "module": "src/validator.rs"
+  },
+  "SPD-MAP-006": {
+    "status": "implemented-partial",
+    "stage": "mapping",
+    "module": "src/validator.rs"
+  },
+  "SPD-MAP-007": {
+    "status": "implemented-automatic",
+    "stage": "mapping",
+    "module": "src/validator.rs"
+  },
+  "SPD-MAP-008": {
+    "status": "implemented-automatic",
+    "stage": "mapping",
+    "module": "src/validator.rs"
+  },
+  "SPD-MAP-009": {
+    "status": "implemented-automatic",
+    "stage": "mapping",
+    "module": "src/validator.rs"
+  },
+  "SPD-MAP-010": {
+    "status": "implemented-automatic",
+    "stage": "mapping",
+    "module": "src/validator.rs"
+  },
+  "SPD-MAP-011": {
+    "status": "implemented-automatic",
+    "stage": "mapping",
+    "module": "src/validator.rs"
+  },
+  "SPD-MAP-012": {
+    "status": "implemented-automatic",
+    "stage": "mapping",
+    "module": "src/validator.rs"
+  },
+  "SPD-ACC-001": {
+    "status": "implemented-partial",
+    "stage": "accessibility",
+    "module": "src/validator.rs"
+  },
+  "SPD-ACC-002": {
+    "status": "implemented-partial",
+    "stage": "accessibility",
+    "module": "src/validator.rs"
+  },
+  "SPD-ACC-003": {
+    "status": "manual",
+    "stage": "accessibility",
+    "module": "src/validator.rs"
+  },
+  "SPD-ACC-004": {
+    "status": "implemented-partial",
+    "stage": "accessibility",
+    "module": "src/validator.rs"
+  },
+  "SPD-PROV-001": {
+    "status": "implemented-automatic",
+    "stage": "provenance",
+    "module": "src/validator.rs"
+  },
+  "SPD-IMP-001": {
+    "status": "implemented-automatic",
+    "stage": "import",
+    "module": "src/validator.rs"
+  },
+  "SPD-IMP-002": {
+    "status": "implemented-automatic",
+    "stage": "import",
+    "module": "src/validator.rs"
+  },
+  "SPD-IMP-003": {
+    "status": "informative",
+    "stage": "import",
+    "module": "src/validator.rs"
+  },
+  "SPD-API-001": {
+    "status": "implemented-partial",
+    "stage": "api",
+    "module": "src/validator.rs"
+  },
+  "SPD-CAP-001": {
+    "status": "implemented-automatic",
+    "stage": "capabilities",
+    "module": "src/validator.rs"
+  },
+  "SPD-CAP-002": {
+    "status": "implemented-automatic",
+    "stage": "capabilities",
+    "module": "src/validator.rs"
+  },
+  "SPD-CAP-003": {
+    "status": "implemented-automatic",
+    "stage": "capabilities",
+    "module": "src/validator.rs"
+  },
+  "SPD-DISC-001": {
+    "status": "implemented-automatic",
+    "stage": "discovery",
+    "module": "src/validator.rs"
+  },
+  "SPD-DISC-002": {
+    "status": "implemented-automatic",
+    "stage": "discovery",
+    "module": "src/validator.rs"
+  },
+  "SPD-DISC-003": {
+    "status": "implemented-automatic",
+    "stage": "discovery",
+    "module": "src/validator.rs"
+  },
+  "SPD-DISC-004": {
+    "status": "informative",
+    "stage": "discovery",
+    "module": "src/validator.rs"
+  },
+  "SPD-EXT-001": {
+    "status": "implemented-automatic",
+    "stage": "extensions",
+    "module": "src/validator.rs"
+  },
+  "SPD-EXT-002": {
+    "status": "implemented-automatic",
+    "stage": "extensions",
+    "module": "src/validator.rs"
+  },
+  "SPD-EXT-003": {
+    "status": "implemented-automatic",
+    "stage": "extensions",
+    "module": "src/validator.rs"
+  },
+  "SPD-TEST-001": {
+    "status": "informative",
+    "stage": "test-corpus",
+    "module": "src/validator.rs"
+  },
+  "SPD-TEST-002": {
+    "status": "informative",
+    "stage": "test-corpus",
+    "module": "src/validator.rs"
+  },
+  "SPD-GOV-001": {
+    "status": "informative",
+    "stage": "governance",
+    "module": "src/validator.rs"
+  },
+  "SPD-GOV-002": {
+    "status": "informative",
+    "stage": "governance",
+    "module": "src/validator.rs"
+  },
+  "SPD-GOV-003": {
+    "status": "informative",
+    "stage": "governance",
+    "module": "src/validator.rs"
+  },
+  "SPD-GOV-004": {
+    "status": "informative",
+    "stage": "governance",
+    "module": "src/validator.rs"
+  },
+  "SPD-PASS-001": {
+    "status": "partially-automated",
+    "stage": "passive-security",
+    "module": "src/passive.rs",
+    "evidence": "tests/reader-security/scenarios.json; tests/corpus-0.1.2/manifest.json"
+  },
+  "SPD-PASS-002": {
+    "status": "partially-automated",
+    "stage": "passive-security",
+    "module": "src/passive.rs",
+    "evidence": "tests/reader-security/scenarios.json; tests/corpus-0.1.2/manifest.json"
+  },
+  "SPD-PASS-003": {
+    "status": "partially-automated",
+    "stage": "passive-security",
+    "module": "src/passive.rs",
+    "evidence": "tests/reader-security/scenarios.json; tests/corpus-0.1.2/manifest.json"
+  },
+  "SPD-RS-001": {
+    "status": "manual-processor",
+    "stage": "passive-security",
+    "module": "src/passive.rs",
+    "evidence": "tests/reader-security/scenarios.json; tests/corpus-0.1.2/manifest.json"
+  },
+  "SPD-RS-002": {
+    "status": "manual-processor",
+    "stage": "passive-security",
+    "module": "src/passive.rs",
+    "evidence": "tests/reader-security/scenarios.json; tests/corpus-0.1.2/manifest.json"
+  }
+}

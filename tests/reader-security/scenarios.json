@@ -1,0 +1,92 @@
+{
+  "version": "0.1.2",
+  "scope": "PROCESSOR_CONFORMANCE_NOT_PACKAGE_FIXTURES",
+  "status": "NOT_TESTED",
+  "reason": "Reference reader not built in this task",
+  "scenarios": [
+    {
+      "id": "R1",
+      "title": "No automatic publication-originated network",
+      "requirements": [
+        "SPD-SEC-003",
+        "SPD-RS-001"
+      ],
+      "procedureAndExpectedObservation": "Observe DNS/HTTP/WebSocket and speculative traffic from before import through preview and reading; exercise CSS imports/fonts/SVG/media/ping/prefetch and annotation contexts. Zero external requests.",
+      "status": "NOT_TESTED",
+      "automation": "MANUAL_PROCESSOR_PLAN"
+    },
+    {
+      "id": "R2",
+      "title": "No filesystem, device or Web storage authority",
+      "requirements": [
+        "SPD-RS-001"
+      ],
+      "procedureAndExpectedObservation": "Probe file/UNC/drive paths, camera, microphone, location, cookies, localStorage/IndexedDB and service workers. No document authority or permission prompt; host preferences remain separate.",
+      "status": "NOT_TESTED",
+      "automation": "MANUAL_PROCESSOR_PLAN"
+    },
+    {
+      "id": "R3",
+      "title": "Explicit external hyperlink mediation",
+      "requirements": [
+        "SPD-RS-001"
+      ],
+      "procedureAndExpectedObservation": "Before activation, zero contact. After intentional activation, trusted host shows interpreted HTTP/HTTPS destination and opens isolated context without opener, credentials or package-data access.",
+      "status": "NOT_TESTED",
+      "automation": "MANUAL_PROCESSOR_PLAN"
+    },
+    {
+      "id": "R4",
+      "title": "Truthful SEALED and fixed verification",
+      "requirements": [
+        "SPD-BASE-004",
+        "SPD-RS-002"
+      ],
+      "procedureAndExpectedObservation": "Evaluate declared SEALED/current fixed, stale fixed, semantic-only SEALED, failed and unsupported verification. Semantic display is not verified SEALED; stale/unverified fixed is not verified current; no hash-only authentication.",
+      "status": "NOT_TESTED",
+      "automation": "MANUAL_PROCESSOR_PLAN"
+    },
+    {
+      "id": "R5",
+      "title": "Bounded hostile declarative processing",
+      "requirements": [
+        "SPD-RS-001"
+      ],
+      "procedureAndExpectedObservation": "Exercise ZIP/XML/DOM/CSS/SVG/MathML work budgets and cancel operations. RESOURCE_LIMIT and effective worker cancellation; no invented universal format maximum.",
+      "status": "NOT_TESTED",
+      "automation": "MANUAL_PROCESSOR_PLAN"
+    },
+    {
+      "id": "R6",
+      "title": "Complete static presentation and local media",
+      "requirements": [
+        "SPD-PASS-002",
+        "SPD-PASS-003"
+      ],
+      "procedureAndExpectedObservation": "Animations/transitions/autoplay suppressed; controls inert and labeled; meaningful static state and accessible equivalents manually assessed; local playback only after user action.",
+      "status": "NOT_TESTED",
+      "automation": "MANUAL_PROCESSOR_PLAN"
+    },
+    {
+      "id": "R7",
+      "title": "Font/image/media decoder containment",
+      "requirements": [
+        "SPD-RS-001"
+      ],
+      "procedureAndExpectedObservation": "Use malformed decoder inputs and nested SVG. Observe isolated failure and bounded work with no privilege escalation or fabricated successful content.",
+      "status": "NOT_TESTED",
+      "automation": "MANUAL_PROCESSOR_PLAN"
+    },
+    {
+      "id": "R8",
+      "title": "Untrusted annotations and stable source identity",
+      "requirements": [
+        "SPD-PASS-001",
+        "SPD-RS-002"
+      ],
+      "procedureAndExpectedObservation": "Render hostile-looking annotations/metadata as data; no trusted UI injection or context fetch. Detect source mutation and ambiguous paths; no sanitized SEALED view represented as verified original.",
+      "status": "NOT_TESTED",
+      "automation": "MANUAL_PROCESSOR_PLAN"
+    }
+  ]
+}

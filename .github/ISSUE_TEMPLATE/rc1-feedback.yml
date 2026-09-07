@@ -1,0 +1,43 @@
+name: SPD 0.1 RC1 feedback
+description: Report an ambiguity, implementation result, interoperability concern, or editorial issue.
+title: "[RC1] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing SPD Format 0.1 RC1. Do not use this form for undisclosed vulnerabilities; follow SECURITY.md instead.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Review area
+      options:
+        - Specification ambiguity
+        - Independent implementation
+        - Accessibility
+        - EPUB interoperability
+        - Mapping or identity model
+        - Editorial
+    validations:
+      required: true
+  - type: input
+    id: artifact
+    attributes:
+      label: Affected artifact or section
+      placeholder: spec/FORMAT_0.1_RC1.md §… or a repository path
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation
+      description: Describe the ambiguity, behavior, or result and why it matters.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or reproduction
+      description: Include implementation versions, fixture names, and minimal reproduction details when applicable.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested resolution
+      description: Optional proposed wording, expected behavior, or test case.

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 1 failure record",
+  "type": "object",
+  "required": ["test_id", "document_id", "renderer", "revision", "expected_behavior", "actual_behavior", "error", "artifact_paths", "classification"],
+  "properties": {
+    "classification": {"enum": ["PACKAGING", "HTML", "CSS", "FONT", "RENDERING", "PDF_TAGGING", "TEXT_EXTRACTION", "MAPPING", "RTL", "ACCESSIBILITY", "INTEGRITY", "TRANSACTION", "EPUB_COMPATIBILITY", "UNKNOWN"]}
+  }
+}
+

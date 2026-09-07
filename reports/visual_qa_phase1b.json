@@ -1,0 +1,50 @@
+{
+  "method": "Poppler pdftoppm at 90 DPI; all final rendered pages inspected in two contact sheets; final T05 inspected individually; T08/T09 inspected with every block and logical-range quad overlaid at original PNG resolution",
+  "renderedPages": {
+    "pagedjs": 21,
+    "weasyprint": 21
+  },
+  "mappingOverlays": {
+    "T08": {
+      "page": "pg_1",
+      "blockFragments": 14,
+      "textRangeFragments": 35,
+      "correspondence": "PASS - outlines coincide with Arabic title, paragraph, table text, caption, and note; figure container block coincides with rendered figure"
+    },
+    "T09": {
+      "page": "pg_1",
+      "blockFragments": 5,
+      "textRangeFragments": 37,
+      "correspondence": "PASS - outlines coincide with Arabic/Latin title, mixed bidi paragraphs, URL, digits, citation, and equation"
+    }
+  },
+  "screenshots": {
+    "pagedjsContactSheet": "reports/screenshots/visual-qa/pagedjs-contact.png",
+    "weasyprintContactSheet": "reports/screenshots/visual-qa/weasyprint-contact.png",
+    "T08MappingOverlay": "reports/screenshots/visual-qa/T08-mapping-overlay.png",
+    "T09MappingOverlay": "reports/screenshots/visual-qa/T09-mapping-overlay.png"
+  },
+  "observations": {
+    "pagedjs": {
+      "overall": "PASS",
+      "tables": "T03 paginated across three pages without visible clipping",
+      "mathml": "T05 inline superscript and display fraction rendered structurally",
+      "svgAndRaster": "T04 rendered both figures and captions",
+      "columns": "T07 rendered two columns and continuation page",
+      "arabic": "T08 shaped and aligned RTL; table, digits, figure, caption, and note remained legible",
+      "mixedBidi": "T09 Arabic, Latin, URL, numbers, citation, and equation remained visually legible",
+      "revision": "T10 R1/R2 changed only the target value/text in the visible result"
+    },
+    "weasyprint": {
+      "overall": "PASS_WITH_LIMITATION",
+      "tables": "T03 paginated across three pages without visible clipping",
+      "mathml": "T05 flattened superscript/fraction presentation into baseline text (E=mc2 and FROC=9061000)",
+      "svgAndRaster": "T04 rendered both figures and captions",
+      "columns": "T07 rendered two columns and continuation page",
+      "arabic": "T08 shaped and aligned RTL; table, digits, figure, caption, and note remained legible",
+      "mixedBidi": "T09 Arabic, Latin, URL, numbers, citation, and equation remained visually legible",
+      "revision": "T10 R1/R2 changed only the target value/text in the visible result"
+    }
+  },
+  "temporaryRenderDirectory": "tmp/phase1b-visual-latest"
+}

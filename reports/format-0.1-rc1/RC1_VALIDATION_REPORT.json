@@ -1,0 +1,1868 @@
+{
+  "status": "FORMAT 0.1 RC1 READY FOR EXTERNAL REVIEW",
+  "fixtureCount": 107,
+  "requirementCount": 118,
+  "validatorAgreement": "107/107",
+  "validatorAOracleAgreement": "107/107",
+  "validatorBOracleAgreement": "107/107",
+  "baseCounts": {
+    "PASS": 48,
+    "FAIL": 58,
+    "NOT_TESTED": 1
+  },
+  "operationalCounts": {
+    "COMPLETE": 105,
+    "MALFORMED_INPUT": 1,
+    "RESOURCE_LIMIT": 1
+  },
+  "basePassEpubcheck": {
+    "a": "48/48",
+    "b": "48/48"
+  },
+  "newSpecificationBlockers": 0,
+  "normativeSemanticChanges": "NONE",
+  "manifestSha256": "3caf773edb46edd2cbf051735eb115292794bbefbda2dd74452db12b830dcf0a",
+  "epubcheckJarSha256": "f7f96617c929371821609b88c8484d6dc9f24fe916499863c46094c5fb778a65",
+  "environment": {
+    "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "epubcheck": "5.3.0"
+  },
+  "aBdifferences": [],
+  "oracleDifferences": {
+    "a": [],
+    "b": []
+  },
+  "placeholderPackages": [],
+  "mechanicalExpectedResultDifferences": [],
+  "external": {
+    "a": [
+      {
+        "fixture": "edge/cjk-vertical",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "db2531d6017a9c2148c25b6468c6e26c792a49ad4a44783923723d4221884aa3"
+      },
+      {
+        "fixture": "edge/combining-character-range",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "6031aee41f70394ac7116b785800c3fdebd0d3e51e2afa47033445bbd4b0fc80"
+      },
+      {
+        "fixture": "edge/css-change-stales-fixed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "3e2a239ab34de67fac384a536fd55fc9d996ba4ec96f9563c45f3bce62a28f55"
+      },
+      {
+        "fixture": "edge/deep-lists",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "995542b75c4f971fecb860221280b8b0f80742ef838fbfd8da2bb005d902a32e"
+      },
+      {
+        "fixture": "edge/emoji-range",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "3ec12eaa1682f327cd9a4776b01b994b5a230f5813c06eefc512a7ec64c8ec5f"
+      },
+      {
+        "fixture": "edge/empty-section",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "0233ca2facd22c01e48212ff6a7c42d057bd9782c90d08be48c669070a86ea20"
+      },
+      {
+        "fixture": "edge/font-change-stales-fixed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "371c4a573223eb02efc73999d7b18521c5c0ed2dec221d0ab54c60330ce5f889"
+      },
+      {
+        "fixture": "edge/node-not-visible",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "ab123fa9471f7b15b68fb29c40b221b9a83c7362f26d76d38b8146d637f1dd84"
+      },
+      {
+        "fixture": "edge/partial-mapping",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "1138afdcabcc3f000294aaee538fb41ce3522173e2212008ae24ce3c7ff37785"
+      },
+      {
+        "fixture": "edge/rtl-range",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "37249fe6de5018f0fdbd6ca6c8dd39b7822cb99a83b1f8c1b95194e124c118fb"
+      },
+      {
+        "fixture": "edge/table-spanning-pages",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "58480efdd041a41b224cea35d516d0c26c848a1a2dac73960ea29035b6794ed4"
+      },
+      {
+        "fixture": "edge/unsupported-mapping",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "24bd06548907bd851d67b2c0f8b152347047cc6a9206b17375204ef661ba3b9a"
+      },
+      {
+        "fixture": "edge/very-long-paragraph",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "7d9fc1519cfcae3682d0d011b5b215ff4f6f40a3520140658a2a51b587e21421"
+      },
+      {
+        "fixture": "invalid/bad-resource-hash",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "617c4aea96f1067c4027632bc75ab3409267358311663088225dce3a7d8b1714"
+      },
+      {
+        "fixture": "invalid/capability-status-not-user-controlled",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "3633fd16e957f0bd5e73f0f9b5bdd678ea56db9104672788327b9830b4709a38"
+      },
+      {
+        "fixture": "invalid/cross-spine-duplicate-node-id",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "9ba06bf78eb43692a37d76d706479d69aa6f13c311ed9a09b0cf07ed4250830d"
+      },
+      {
+        "fixture": "invalid/descriptor-discovery-conflict",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "a52108aa6d7707dcdebd179b92db10bc9c609c8f808d51f47786c0a318e02424"
+      },
+      {
+        "fixture": "invalid/descriptor-discovery-missing",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "7c3d6d40728b8ca38327186ca7ed9bfd8e22a06fcb34672c5487f1ff2a1aa469"
+      },
+      {
+        "fixture": "invalid/duplicate-node-id",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "RSC-005"
+        ],
+        "fixtureSha256": "1e2d70f9018382c792e6077ee774f313709750124bfcb1625140bdbae7189848"
+      },
+      {
+        "fixture": "invalid/duplicate-normalized-path",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-060",
+          "OPF-074"
+        ],
+        "fixtureSha256": "ea7b590fd9e392bbec720bb64d142d0afdf6f396553e4c770bcb2ca5e2525371"
+      },
+      {
+        "fixture": "invalid/event-handler",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-005"
+        ],
+        "fixtureSha256": "6b67d2c9bc8e9882704d4d0051c4996d5e18ee89fab651ee8ab229e15e76c6ad"
+      },
+      {
+        "fixture": "invalid/external-required-css",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "RSC-006"
+        ],
+        "fixtureSha256": "ea37f1eb33d0236ced8be0262b04b7c5663a6193edfa501685ca26f9e3edc790"
+      },
+      {
+        "fixture": "invalid/external-required-font",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-008"
+        ],
+        "fixtureSha256": "fb827ace65bc16acffa334eaaa8355228a06de3bc55de900e80336ad9cf17d9a"
+      },
+      {
+        "fixture": "invalid/external-required-image",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-006"
+        ],
+        "fixtureSha256": "be36627bb4683d4608e069fdd473154a86832883f3e9e2e7ba7beef700af1f26"
+      },
+      {
+        "fixture": "invalid/invalid-table-semantics",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "6ed5561001e8b95281d90c17ac6be3492c001c4989bbca762e7d2c0cf8af7724"
+      },
+      {
+        "fixture": "invalid/invalid-xhtml",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "RSC-005",
+          "RSC-016"
+        ],
+        "fixtureSha256": "768a4ef11b55eaece2ecc839fc39bc204e0a09752a0c36429fc982cee592f18a"
+      },
+      {
+        "fixture": "invalid/javascript",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014"
+        ],
+        "fixtureSha256": "b85c3dad1c6058af0eaa7da247e9e483b00cd21b109b07c698e069070e7433d6"
+      },
+      {
+        "fixture": "invalid/mapping-invalid-geometry",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "029b34daceefb66a8951037a8bd7fe6baa95b1d88e8c2fa188bffda4e1c9303d"
+      },
+      {
+        "fixture": "invalid/mapping-invalid-page",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "2283d4d878e2ff9f77089f9ed7aed680d32372b46dc07e48d2733b70afd4a4ab"
+      },
+      {
+        "fixture": "invalid/mapping-invalid-range",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "9afd2a20ea397ff2ae933831e957467a729d790a853019749c0498f069b30f69"
+      },
+      {
+        "fixture": "invalid/mapping-with-stale-fixed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "fc84f56dd93ad27d32e51695f3c902ba1e226c5ceff846a969c926262eae5080"
+      },
+      {
+        "fixture": "invalid/mapping-wrong-rendition",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "d29abf131c66c2e89f78861954acc8050fba4b351b6f34da2053749bf991169f"
+      },
+      {
+        "fixture": "invalid/mapping-wrong-revision",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "6c7225a5b3068d79f4d525b39b813e3aca1ff5dc6f32905469fc760d3592d986"
+      },
+      {
+        "fixture": "invalid/missing-document-id",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "d84d636cbeceed994a5379c33491fde44233b85c0c11099cd09137c96c40590d"
+      },
+      {
+        "fixture": "invalid/missing-revision-id",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "f831ab51fde23191caeb0d0879cca85301474b1fc149145c34b6931de81bd2a7"
+      },
+      {
+        "fixture": "invalid/missing-root-direction",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "42822d69c2b60b851cc44e321f58ac9da551d845db51e728408b78de917ec665"
+      },
+      {
+        "fixture": "invalid/missing-root-language",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "af179a17c26ba96c8d98d4f4f93782c63cbbedf1226e4bf1977e9ab3a01aedde"
+      },
+      {
+        "fixture": "invalid/multiple-rootfiles",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [
+          "RSC-017",
+          "RSC-019"
+        ],
+        "fixtureSha256": "a1ef02fd707a781caf90b30a031e9de7a080ccc83548b821941177e6a1a2e6dd"
+      },
+      {
+        "fixture": "invalid/mutation-asset",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "30202a235e27ec19d27bc6d6b1125167ad0aa2bcd0fd5f30b24eb60e77609f00"
+      },
+      {
+        "fixture": "invalid/mutation-css",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "eafae62efee5c33037d1d883cd91ffc3e2cb30d906707704aeda1acb87d8c7ce"
+      },
+      {
+        "fixture": "invalid/mutation-fixed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "fe57f230f1f80f21fe473c6b5e9882bf42ba03bc079288c2f4673593479cc399"
+      },
+      {
+        "fixture": "invalid/mutation-mapping",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "2757068a5bfd3cc207d244fabb64a667f851b0343a1b6db1b731f326b9ea5594"
+      },
+      {
+        "fixture": "invalid/mutation-semantic",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "75043acf79e659ed4a4784110f01af348e943286bdddf205e4504fc830d78503"
+      },
+      {
+        "fixture": "invalid/not-visible-reason",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "292b76212e38492da12b7bca631f014cdba2a2884f59c27d7aa2d698a0bc95e3"
+      },
+      {
+        "fixture": "invalid/partial-mapping-reason",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "aa12202382fcb26307578e8f595f2fa6cdcb3ad2b9c81dce5911828b12fc46bb"
+      },
+      {
+        "fixture": "invalid/path-traversal",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "344892d9106fb7007cce80b21d83891d236b9cc417d3aabd133eb057a11b559e"
+      },
+      {
+        "fixture": "invalid/sealed-after-annotation-modification",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "9430169bd03beb7640d01420d5027ac22241fefb78ffdf31f43fc617bd0683d0"
+      },
+      {
+        "fixture": "invalid/sealed-after-semantic-modification",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "c84bee3c7993d6007bae90073db2085b0ffc6c72908ee8ad195ecb34352a51a3"
+      },
+      {
+        "fixture": "invalid/stale-fixed-rendition",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "dbbde0e60502660e5575786fdb74faa258ecb9bc099e09b992d97fde213955a8"
+      },
+      {
+        "fixture": "invalid/unlisted-non-normative-resource",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "45d37969316c1e7b605917baaeee3a795cff3b900f1c0425244ebc8c1fdfb6b4"
+      },
+      {
+        "fixture": "invalid/unlisted-normative-resource",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "fc723b289601121df743c4cf2754e8987385ba1aa7b668749ce5710d4bfd8ea2"
+      },
+      {
+        "fixture": "invalid/visual-order-arabic-source",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "2cc4f8eecb4e307eed7d20dc2d03e334714179ca8d3c10cf3755ee0ac3d1a0fe"
+      },
+      {
+        "fixture": "valid/accessible",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "3813fb91830701426c064300627882cf76b53434f62285e65a3d03bf4345f946"
+      },
+      {
+        "fixture": "valid/annotations",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "48b7f726e8f4aaa37e6d24d3cdcebc2e4607a2833286d65dfef6a06f0eb965b0"
+      },
+      {
+        "fixture": "valid/arabic",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "acbddf6ffb8c665e7019a8401683d6d2fccd7f4fbe7d94079be532c866a604b4"
+      },
+      {
+        "fixture": "valid/figure-svg",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "61526b02f517b8b6726d65af431056219459390f125fb222501de721bd137d66"
+      },
+      {
+        "fixture": "valid/fixed-without-mapping",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "380f20636eac94ec1985f9f803663b7502b080bba3d7b83cc2661051c5bc5dd1"
+      },
+      {
+        "fixture": "valid/lineage-scoped-annotation",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "48b7f726e8f4aaa37e6d24d3cdcebc2e4607a2833286d65dfef6a06f0eb965b0"
+      },
+      {
+        "fixture": "valid/mapped",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "9c2df6d971e109ee815cf791b1f71e3ac0d505be8c184b18ad9e45e579f0af85"
+      },
+      {
+        "fixture": "valid/mapping-with-current-fixed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "9c2df6d971e109ee815cf791b1f71e3ac0d505be8c184b18ad9e45e579f0af85"
+      },
+      {
+        "fixture": "valid/mathml",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "66eb7b1e98571acfe54cac356432c1a9f2294ee2c4913bda7f3316a540ac3469"
+      },
+      {
+        "fixture": "valid/minimal-base",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "f65f91dda91736e859dc42d1694656a192bf1274f568e673241c92a727c4577c"
+      },
+      {
+        "fixture": "valid/mixed-bidi",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "258654df312b5eec47fb3f465828adc1da37ca40ed5f6f3c622d9a8d2bb4a849"
+      },
+      {
+        "fixture": "valid/multi-spine",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "bf492f9a0c2bfdc0a30f28ac0216e77853fe821bc0f1ce089b4e389459c19d19"
+      },
+      {
+        "fixture": "valid/revision-scoped-annotation",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "eeeb5b12e2c1c2980ab01c2b769ca3de6daca8146a4609e80ffb1eb609a92e2d"
+      },
+      {
+        "fixture": "valid/same-semantic-different-revision-id",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "8946c5f4d24337b7e6faf9a4a84ba04174af0148947f2ad06d687a519b8408ff"
+      },
+      {
+        "fixture": "valid/sealed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "006153f3b061990324a221e4b7a663a7fbb394532d491ce4abf9e0d58d949065"
+      },
+      {
+        "fixture": "valid/semantic-change-new-revision",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "cf9c339cbe8fdbba3df3db53a8f575c981ab73bbbbb450a15032369b4ed33aa9"
+      },
+      {
+        "fixture": "valid/semantic-only-sealed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "634ad5f88b97df78857b8cfbac205ca77fb6b8cbe028656cd074cf6e8a7f19e5"
+      },
+      {
+        "fixture": "valid/table",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "3017d32ac8f960a3baf204d5af1fb31b6b6906a441450230ab61fc27aefa0735"
+      },
+      {
+        "fixture": "security/optional-remote-image",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-006"
+        ],
+        "fixtureSha256": "af2e34ef3f93e0ad54feeeea157fbf6fd6be4b3bda994d26fee384b5eeead9cd"
+      },
+      {
+        "fixture": "security/escaped-remote-import",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "RSC-007",
+          "RSC-020"
+        ],
+        "fixtureSha256": "a1c217ac38fc0600c1f15cd1c66ac0ed504b41fd6f79c873b1922a1da7eaddff"
+      },
+      {
+        "fixture": "security/inline-remote-style",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-006"
+        ],
+        "fixtureSha256": "52e6bc98fb399007ef3e751746d89938dafd8c9bb036fd929eb08fcbc968aba5"
+      },
+      {
+        "fixture": "security/custom-property-resource",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-006"
+        ],
+        "fixtureSha256": "b8b43e7f0bc956bf59ea08b101984b8d5db3c6d5308c98ca6576f75c9f128349"
+      },
+      {
+        "fixture": "security/nested-svg-remote",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "028ebb56cad5dd9c4f133c3a3b1d1a3867d788a564c50c6895159e7e25d1823e"
+      },
+      {
+        "fixture": "security/inline-foreignobject",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "0bf1ae51ea70ee48344049259f78592565b6115bc6515d4b1a081c58c7a291a1"
+      },
+      {
+        "fixture": "security/prefixed-svg-script",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "87db3bcdb72ef79072fcef4f757118986897c0c2fb4af65b0e9cdb4afbd05089"
+      },
+      {
+        "fixture": "security/encoded-executable-link",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-015"
+        ],
+        "fixtureSha256": "311bbb63552b669cd15ec9a60294a5cbec844bd9342b739d560c87b5b8e68b84"
+      },
+      {
+        "fixture": "security/iframe-srcdoc",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-015"
+        ],
+        "fixtureSha256": "74735bc8859363476c81b6fdcb2c129789987852eb22d8deb3f67913cbcadd35"
+      },
+      {
+        "fixture": "security/object-embed",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-015",
+          "RSC-005"
+        ],
+        "fixtureSha256": "0f7ea4e4b8cd74f92ad6edd05fcb333c33186904aa3ca192c9bbd965b10c50aa"
+      },
+      {
+        "fixture": "security/active-form",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "f475efdc0b379eda21a0f345b853af8bce14fd24d7e174eb5964571c28601cb4"
+      },
+      {
+        "fixture": "security/meta-refresh",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "6552f45af5b875e188a4d64fff065f7e961e0feab1a143e6e5dd14c0a083aa98"
+      },
+      {
+        "fixture": "security/base-overrides",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "3b5f7eb3220dfc49be03c3df814d0d0b3c4615ee94b446fcece91af41f86bdd2"
+      },
+      {
+        "fixture": "security/network-hints",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "59b38605e9e99fbaf155b2850211a506da097f501716722d6b2612f413c6e68e"
+      },
+      {
+        "fixture": "security/local-css-font-image",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "7067dbc938db0a26a90a41290f20e1bb8a9deaae8feb9b20f48de53e51cf4618"
+      },
+      {
+        "fixture": "security/local-import-cycle",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "1ecb8e73ba07da133bcb696636fc7e35e74b38669d12b459244b42b30eced5ee"
+      },
+      {
+        "fixture": "security/static-svg-local",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "a50d0d5968e40f7f98288bf84c49345719180ea229489462d416ddcb8ed29d9c"
+      },
+      {
+        "fixture": "security/inert-controls",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "6bb0ba5485e2d3f14557ff06f125e06ebd7e19300d61c6789621932b4d57a99e"
+      },
+      {
+        "fixture": "security/local-media",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "bf67d8d336f9b7f5624e704af789ff0cfb6328142a33512e273ab16dc9a634c9"
+      },
+      {
+        "fixture": "security/media-autoplay",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "31eed7a8fcef1413f026e7a079dfb9852b442a964a7feb70047981b7169462aa"
+      },
+      {
+        "fixture": "security/static-animation-declaration",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "a716752e02f520a4f6e5f88b60a3c3f172af7272d461429a5ea5202848a73ebb"
+      },
+      {
+        "fixture": "security/mathml-local-glyph",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "da0a9ef138457f1273e3a161d39371d73149da56859492049391607333fb4325"
+      },
+      {
+        "fixture": "security/mathml-remote-glyph",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "a6839ab6370acb1c488ec151f9ae21f6beb2de8ff408717e0f00927b8d49bdf1"
+      },
+      {
+        "fixture": "security/inert-hostile-metadata",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "a4348526b0694a48f84a09fb23606f567cdab7e2ae294e1407de9e1eaaa0ccd4"
+      },
+      {
+        "fixture": "security/zip-special-modes",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "b4be71665e2cb0a8691b10c4ff2d931b6065bc2714d30dd99d24ab3c0d1c4354"
+      },
+      {
+        "fixture": "security/decoded-path-collision",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "10585d08b3ece1b21d69f209662986e78061658c97912c7cba0dea6bd5d37561"
+      },
+      {
+        "fixture": "security/zip-header-mismatch",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "PKG-006"
+        ],
+        "fixtureSha256": "afccbd3c5ea7727ff33b39ebc864db8683f18007d4e9bdac728b24bc504baf73"
+      },
+      {
+        "fixture": "security/bounded-expansion",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "124242a87dc1d049cb604405a74d89aa7012d724b031cfb34154ac2758cae089"
+      },
+      {
+        "fixture": "security/unmapped-epub-title",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "RSC-005"
+        ],
+        "fixtureSha256": "4e42cc877ef2720d8b95f53916aa045414f89b5d728973e4c6f358437ec0fde2"
+      },
+      {
+        "fixture": "security/script-data-block",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "6599ad20dc31bb7b5bfd2c69a9668a82e6e94be5aded83603ff533aea52a22b6"
+      },
+      {
+        "fixture": "security/standalone-svg-script",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014"
+        ],
+        "fixtureSha256": "91322bc32e9f43b071e993b7dd25b11fd25cd381f120b3461da0fc20698bba9d"
+      },
+      {
+        "fixture": "security/svg-event-handler",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014"
+        ],
+        "fixtureSha256": "f52d82ecb742aa3f66414bc48e7ed2a2cc79bc87d05d8c85fb30247fec7586a0"
+      },
+      {
+        "fixture": "security/plain-iframe",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-015"
+        ],
+        "fixtureSha256": "230b27b970a4c515800f3d19fa69da532261879cb2011de740b6a2afcd612f69"
+      },
+      {
+        "fixture": "security/authoritative-canvas",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "675bd1c2a8bc2fc15e33cc89d8328ea91fe6f5984cf83042c1f399c55c8fadc2"
+      },
+      {
+        "fixture": "security/ordinary-hyperlink",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "06c1f1fd5e3de9200b84162627923aae390417b53dd584be6964ad50b210ca3a"
+      },
+      {
+        "fixture": "security/nested-rule-remote",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-006"
+        ],
+        "fixtureSha256": "40196bebb52330a628fa7f4c95103c15d5171bc709ef6d0d1a5e1506b8e32793"
+      },
+      {
+        "fixture": "security/annotation-xml-active",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "24cecd962eaf303ee68f65552669175d945a300205e4ff3cf0f633f6b733a144"
+      }
+    ],
+    "b": [
+      {
+        "fixture": "edge/cjk-vertical",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "db2531d6017a9c2148c25b6468c6e26c792a49ad4a44783923723d4221884aa3"
+      },
+      {
+        "fixture": "edge/combining-character-range",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "6031aee41f70394ac7116b785800c3fdebd0d3e51e2afa47033445bbd4b0fc80"
+      },
+      {
+        "fixture": "edge/css-change-stales-fixed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "3e2a239ab34de67fac384a536fd55fc9d996ba4ec96f9563c45f3bce62a28f55"
+      },
+      {
+        "fixture": "edge/deep-lists",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "995542b75c4f971fecb860221280b8b0f80742ef838fbfd8da2bb005d902a32e"
+      },
+      {
+        "fixture": "edge/emoji-range",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "3ec12eaa1682f327cd9a4776b01b994b5a230f5813c06eefc512a7ec64c8ec5f"
+      },
+      {
+        "fixture": "edge/empty-section",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "0233ca2facd22c01e48212ff6a7c42d057bd9782c90d08be48c669070a86ea20"
+      },
+      {
+        "fixture": "edge/font-change-stales-fixed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "371c4a573223eb02efc73999d7b18521c5c0ed2dec221d0ab54c60330ce5f889"
+      },
+      {
+        "fixture": "edge/node-not-visible",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "ab123fa9471f7b15b68fb29c40b221b9a83c7362f26d76d38b8146d637f1dd84"
+      },
+      {
+        "fixture": "edge/partial-mapping",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "1138afdcabcc3f000294aaee538fb41ce3522173e2212008ae24ce3c7ff37785"
+      },
+      {
+        "fixture": "edge/rtl-range",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "37249fe6de5018f0fdbd6ca6c8dd39b7822cb99a83b1f8c1b95194e124c118fb"
+      },
+      {
+        "fixture": "edge/table-spanning-pages",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "58480efdd041a41b224cea35d516d0c26c848a1a2dac73960ea29035b6794ed4"
+      },
+      {
+        "fixture": "edge/unsupported-mapping",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "24bd06548907bd851d67b2c0f8b152347047cc6a9206b17375204ef661ba3b9a"
+      },
+      {
+        "fixture": "edge/very-long-paragraph",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "7d9fc1519cfcae3682d0d011b5b215ff4f6f40a3520140658a2a51b587e21421"
+      },
+      {
+        "fixture": "invalid/bad-resource-hash",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "617c4aea96f1067c4027632bc75ab3409267358311663088225dce3a7d8b1714"
+      },
+      {
+        "fixture": "invalid/capability-status-not-user-controlled",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "3633fd16e957f0bd5e73f0f9b5bdd678ea56db9104672788327b9830b4709a38"
+      },
+      {
+        "fixture": "invalid/cross-spine-duplicate-node-id",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "9ba06bf78eb43692a37d76d706479d69aa6f13c311ed9a09b0cf07ed4250830d"
+      },
+      {
+        "fixture": "invalid/descriptor-discovery-conflict",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "a52108aa6d7707dcdebd179b92db10bc9c609c8f808d51f47786c0a318e02424"
+      },
+      {
+        "fixture": "invalid/descriptor-discovery-missing",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "7c3d6d40728b8ca38327186ca7ed9bfd8e22a06fcb34672c5487f1ff2a1aa469"
+      },
+      {
+        "fixture": "invalid/duplicate-node-id",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "RSC-005"
+        ],
+        "fixtureSha256": "1e2d70f9018382c792e6077ee774f313709750124bfcb1625140bdbae7189848"
+      },
+      {
+        "fixture": "invalid/duplicate-normalized-path",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-060",
+          "OPF-074"
+        ],
+        "fixtureSha256": "ea7b590fd9e392bbec720bb64d142d0afdf6f396553e4c770bcb2ca5e2525371"
+      },
+      {
+        "fixture": "invalid/event-handler",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-005"
+        ],
+        "fixtureSha256": "6b67d2c9bc8e9882704d4d0051c4996d5e18ee89fab651ee8ab229e15e76c6ad"
+      },
+      {
+        "fixture": "invalid/external-required-css",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "RSC-006"
+        ],
+        "fixtureSha256": "ea37f1eb33d0236ced8be0262b04b7c5663a6193edfa501685ca26f9e3edc790"
+      },
+      {
+        "fixture": "invalid/external-required-font",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-008"
+        ],
+        "fixtureSha256": "fb827ace65bc16acffa334eaaa8355228a06de3bc55de900e80336ad9cf17d9a"
+      },
+      {
+        "fixture": "invalid/external-required-image",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-006"
+        ],
+        "fixtureSha256": "be36627bb4683d4608e069fdd473154a86832883f3e9e2e7ba7beef700af1f26"
+      },
+      {
+        "fixture": "invalid/invalid-table-semantics",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "6ed5561001e8b95281d90c17ac6be3492c001c4989bbca762e7d2c0cf8af7724"
+      },
+      {
+        "fixture": "invalid/invalid-xhtml",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "RSC-005",
+          "RSC-016"
+        ],
+        "fixtureSha256": "768a4ef11b55eaece2ecc839fc39bc204e0a09752a0c36429fc982cee592f18a"
+      },
+      {
+        "fixture": "invalid/javascript",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014"
+        ],
+        "fixtureSha256": "b85c3dad1c6058af0eaa7da247e9e483b00cd21b109b07c698e069070e7433d6"
+      },
+      {
+        "fixture": "invalid/mapping-invalid-geometry",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "029b34daceefb66a8951037a8bd7fe6baa95b1d88e8c2fa188bffda4e1c9303d"
+      },
+      {
+        "fixture": "invalid/mapping-invalid-page",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "2283d4d878e2ff9f77089f9ed7aed680d32372b46dc07e48d2733b70afd4a4ab"
+      },
+      {
+        "fixture": "invalid/mapping-invalid-range",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "9afd2a20ea397ff2ae933831e957467a729d790a853019749c0498f069b30f69"
+      },
+      {
+        "fixture": "invalid/mapping-with-stale-fixed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "fc84f56dd93ad27d32e51695f3c902ba1e226c5ceff846a969c926262eae5080"
+      },
+      {
+        "fixture": "invalid/mapping-wrong-rendition",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "d29abf131c66c2e89f78861954acc8050fba4b351b6f34da2053749bf991169f"
+      },
+      {
+        "fixture": "invalid/mapping-wrong-revision",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "6c7225a5b3068d79f4d525b39b813e3aca1ff5dc6f32905469fc760d3592d986"
+      },
+      {
+        "fixture": "invalid/missing-document-id",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "d84d636cbeceed994a5379c33491fde44233b85c0c11099cd09137c96c40590d"
+      },
+      {
+        "fixture": "invalid/missing-revision-id",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "f831ab51fde23191caeb0d0879cca85301474b1fc149145c34b6931de81bd2a7"
+      },
+      {
+        "fixture": "invalid/missing-root-direction",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "42822d69c2b60b851cc44e321f58ac9da551d845db51e728408b78de917ec665"
+      },
+      {
+        "fixture": "invalid/missing-root-language",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "af179a17c26ba96c8d98d4f4f93782c63cbbedf1226e4bf1977e9ab3a01aedde"
+      },
+      {
+        "fixture": "invalid/multiple-rootfiles",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [
+          "RSC-017",
+          "RSC-019"
+        ],
+        "fixtureSha256": "a1ef02fd707a781caf90b30a031e9de7a080ccc83548b821941177e6a1a2e6dd"
+      },
+      {
+        "fixture": "invalid/mutation-asset",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "30202a235e27ec19d27bc6d6b1125167ad0aa2bcd0fd5f30b24eb60e77609f00"
+      },
+      {
+        "fixture": "invalid/mutation-css",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "eafae62efee5c33037d1d883cd91ffc3e2cb30d906707704aeda1acb87d8c7ce"
+      },
+      {
+        "fixture": "invalid/mutation-fixed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "fe57f230f1f80f21fe473c6b5e9882bf42ba03bc079288c2f4673593479cc399"
+      },
+      {
+        "fixture": "invalid/mutation-mapping",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "2757068a5bfd3cc207d244fabb64a667f851b0343a1b6db1b731f326b9ea5594"
+      },
+      {
+        "fixture": "invalid/mutation-semantic",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "75043acf79e659ed4a4784110f01af348e943286bdddf205e4504fc830d78503"
+      },
+      {
+        "fixture": "invalid/not-visible-reason",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "292b76212e38492da12b7bca631f014cdba2a2884f59c27d7aa2d698a0bc95e3"
+      },
+      {
+        "fixture": "invalid/partial-mapping-reason",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "aa12202382fcb26307578e8f595f2fa6cdcb3ad2b9c81dce5911828b12fc46bb"
+      },
+      {
+        "fixture": "invalid/path-traversal",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "344892d9106fb7007cce80b21d83891d236b9cc417d3aabd133eb057a11b559e"
+      },
+      {
+        "fixture": "invalid/sealed-after-annotation-modification",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "9430169bd03beb7640d01420d5027ac22241fefb78ffdf31f43fc617bd0683d0"
+      },
+      {
+        "fixture": "invalid/sealed-after-semantic-modification",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "c84bee3c7993d6007bae90073db2085b0ffc6c72908ee8ad195ecb34352a51a3"
+      },
+      {
+        "fixture": "invalid/stale-fixed-rendition",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "dbbde0e60502660e5575786fdb74faa258ecb9bc099e09b992d97fde213955a8"
+      },
+      {
+        "fixture": "invalid/unlisted-non-normative-resource",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "45d37969316c1e7b605917baaeee3a795cff3b900f1c0425244ebc8c1fdfb6b4"
+      },
+      {
+        "fixture": "invalid/unlisted-normative-resource",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "fc723b289601121df743c4cf2754e8987385ba1aa7b668749ce5710d4bfd8ea2"
+      },
+      {
+        "fixture": "invalid/visual-order-arabic-source",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "2cc4f8eecb4e307eed7d20dc2d03e334714179ca8d3c10cf3755ee0ac3d1a0fe"
+      },
+      {
+        "fixture": "valid/accessible",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "3813fb91830701426c064300627882cf76b53434f62285e65a3d03bf4345f946"
+      },
+      {
+        "fixture": "valid/annotations",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "48b7f726e8f4aaa37e6d24d3cdcebc2e4607a2833286d65dfef6a06f0eb965b0"
+      },
+      {
+        "fixture": "valid/arabic",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "acbddf6ffb8c665e7019a8401683d6d2fccd7f4fbe7d94079be532c866a604b4"
+      },
+      {
+        "fixture": "valid/figure-svg",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "61526b02f517b8b6726d65af431056219459390f125fb222501de721bd137d66"
+      },
+      {
+        "fixture": "valid/fixed-without-mapping",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "380f20636eac94ec1985f9f803663b7502b080bba3d7b83cc2661051c5bc5dd1"
+      },
+      {
+        "fixture": "valid/lineage-scoped-annotation",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "48b7f726e8f4aaa37e6d24d3cdcebc2e4607a2833286d65dfef6a06f0eb965b0"
+      },
+      {
+        "fixture": "valid/mapped",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "9c2df6d971e109ee815cf791b1f71e3ac0d505be8c184b18ad9e45e579f0af85"
+      },
+      {
+        "fixture": "valid/mapping-with-current-fixed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "9c2df6d971e109ee815cf791b1f71e3ac0d505be8c184b18ad9e45e579f0af85"
+      },
+      {
+        "fixture": "valid/mathml",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "66eb7b1e98571acfe54cac356432c1a9f2294ee2c4913bda7f3316a540ac3469"
+      },
+      {
+        "fixture": "valid/minimal-base",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "f65f91dda91736e859dc42d1694656a192bf1274f568e673241c92a727c4577c"
+      },
+      {
+        "fixture": "valid/mixed-bidi",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "258654df312b5eec47fb3f465828adc1da37ca40ed5f6f3c622d9a8d2bb4a849"
+      },
+      {
+        "fixture": "valid/multi-spine",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "bf492f9a0c2bfdc0a30f28ac0216e77853fe821bc0f1ce089b4e389459c19d19"
+      },
+      {
+        "fixture": "valid/revision-scoped-annotation",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "eeeb5b12e2c1c2980ab01c2b769ca3de6daca8146a4609e80ffb1eb609a92e2d"
+      },
+      {
+        "fixture": "valid/same-semantic-different-revision-id",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "8946c5f4d24337b7e6faf9a4a84ba04174af0148947f2ad06d687a519b8408ff"
+      },
+      {
+        "fixture": "valid/sealed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "006153f3b061990324a221e4b7a663a7fbb394532d491ce4abf9e0d58d949065"
+      },
+      {
+        "fixture": "valid/semantic-change-new-revision",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "cf9c339cbe8fdbba3df3db53a8f575c981ab73bbbbb450a15032369b4ed33aa9"
+      },
+      {
+        "fixture": "valid/semantic-only-sealed",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "634ad5f88b97df78857b8cfbac205ca77fb6b8cbe028656cd074cf6e8a7f19e5"
+      },
+      {
+        "fixture": "valid/table",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "3017d32ac8f960a3baf204d5af1fb31b6b6906a441450230ab61fc27aefa0735"
+      },
+      {
+        "fixture": "security/optional-remote-image",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-006"
+        ],
+        "fixtureSha256": "af2e34ef3f93e0ad54feeeea157fbf6fd6be4b3bda994d26fee384b5eeead9cd"
+      },
+      {
+        "fixture": "security/escaped-remote-import",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "RSC-007",
+          "RSC-020"
+        ],
+        "fixtureSha256": "a1c217ac38fc0600c1f15cd1c66ac0ed504b41fd6f79c873b1922a1da7eaddff"
+      },
+      {
+        "fixture": "security/inline-remote-style",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-006"
+        ],
+        "fixtureSha256": "52e6bc98fb399007ef3e751746d89938dafd8c9bb036fd929eb08fcbc968aba5"
+      },
+      {
+        "fixture": "security/custom-property-resource",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-006"
+        ],
+        "fixtureSha256": "b8b43e7f0bc956bf59ea08b101984b8d5db3c6d5308c98ca6576f75c9f128349"
+      },
+      {
+        "fixture": "security/nested-svg-remote",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "028ebb56cad5dd9c4f133c3a3b1d1a3867d788a564c50c6895159e7e25d1823e"
+      },
+      {
+        "fixture": "security/inline-foreignobject",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "0bf1ae51ea70ee48344049259f78592565b6115bc6515d4b1a081c58c7a291a1"
+      },
+      {
+        "fixture": "security/prefixed-svg-script",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "87db3bcdb72ef79072fcef4f757118986897c0c2fb4af65b0e9cdb4afbd05089"
+      },
+      {
+        "fixture": "security/encoded-executable-link",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-015"
+        ],
+        "fixtureSha256": "311bbb63552b669cd15ec9a60294a5cbec844bd9342b739d560c87b5b8e68b84"
+      },
+      {
+        "fixture": "security/iframe-srcdoc",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-015"
+        ],
+        "fixtureSha256": "74735bc8859363476c81b6fdcb2c129789987852eb22d8deb3f67913cbcadd35"
+      },
+      {
+        "fixture": "security/object-embed",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-015",
+          "RSC-005"
+        ],
+        "fixtureSha256": "0f7ea4e4b8cd74f92ad6edd05fcb333c33186904aa3ca192c9bbd965b10c50aa"
+      },
+      {
+        "fixture": "security/active-form",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "f475efdc0b379eda21a0f345b853af8bce14fd24d7e174eb5964571c28601cb4"
+      },
+      {
+        "fixture": "security/meta-refresh",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "6552f45af5b875e188a4d64fff065f7e961e0feab1a143e6e5dd14c0a083aa98"
+      },
+      {
+        "fixture": "security/base-overrides",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "3b5f7eb3220dfc49be03c3df814d0d0b3c4615ee94b446fcece91af41f86bdd2"
+      },
+      {
+        "fixture": "security/network-hints",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "59b38605e9e99fbaf155b2850211a506da097f501716722d6b2612f413c6e68e"
+      },
+      {
+        "fixture": "security/local-css-font-image",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "7067dbc938db0a26a90a41290f20e1bb8a9deaae8feb9b20f48de53e51cf4618"
+      },
+      {
+        "fixture": "security/local-import-cycle",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "1ecb8e73ba07da133bcb696636fc7e35e74b38669d12b459244b42b30eced5ee"
+      },
+      {
+        "fixture": "security/static-svg-local",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "a50d0d5968e40f7f98288bf84c49345719180ea229489462d416ddcb8ed29d9c"
+      },
+      {
+        "fixture": "security/inert-controls",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "6bb0ba5485e2d3f14557ff06f125e06ebd7e19300d61c6789621932b4d57a99e"
+      },
+      {
+        "fixture": "security/local-media",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "bf67d8d336f9b7f5624e704af789ff0cfb6328142a33512e273ab16dc9a634c9"
+      },
+      {
+        "fixture": "security/media-autoplay",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "31eed7a8fcef1413f026e7a079dfb9852b442a964a7feb70047981b7169462aa"
+      },
+      {
+        "fixture": "security/static-animation-declaration",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "a716752e02f520a4f6e5f88b60a3c3f172af7272d461429a5ea5202848a73ebb"
+      },
+      {
+        "fixture": "security/mathml-local-glyph",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "da0a9ef138457f1273e3a161d39371d73149da56859492049391607333fb4325"
+      },
+      {
+        "fixture": "security/mathml-remote-glyph",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "a6839ab6370acb1c488ec151f9ae21f6beb2de8ff408717e0f00927b8d49bdf1"
+      },
+      {
+        "fixture": "security/inert-hostile-metadata",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "a4348526b0694a48f84a09fb23606f567cdab7e2ae294e1407de9e1eaaa0ccd4"
+      },
+      {
+        "fixture": "security/zip-special-modes",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "b4be71665e2cb0a8691b10c4ff2d931b6065bc2714d30dd99d24ab3c0d1c4354"
+      },
+      {
+        "fixture": "security/decoded-path-collision",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "10585d08b3ece1b21d69f209662986e78061658c97912c7cba0dea6bd5d37561"
+      },
+      {
+        "fixture": "security/zip-header-mismatch",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "PKG-006"
+        ],
+        "fixtureSha256": "afccbd3c5ea7727ff33b39ebc864db8683f18007d4e9bdac728b24bc504baf73"
+      },
+      {
+        "fixture": "security/bounded-expansion",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "124242a87dc1d049cb604405a74d89aa7012d724b031cfb34154ac2758cae089"
+      },
+      {
+        "fixture": "security/unmapped-epub-title",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "RSC-005"
+        ],
+        "fixtureSha256": "4e42cc877ef2720d8b95f53916aa045414f89b5d728973e4c6f358437ec0fde2"
+      },
+      {
+        "fixture": "security/script-data-block",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "6599ad20dc31bb7b5bfd2c69a9668a82e6e94be5aded83603ff533aea52a22b6"
+      },
+      {
+        "fixture": "security/standalone-svg-script",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014"
+        ],
+        "fixtureSha256": "91322bc32e9f43b071e993b7dd25b11fd25cd381f120b3461da0fc20698bba9d"
+      },
+      {
+        "fixture": "security/svg-event-handler",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014"
+        ],
+        "fixtureSha256": "f52d82ecb742aa3f66414bc48e7ed2a2cc79bc87d05d8c85fb30247fec7586a0"
+      },
+      {
+        "fixture": "security/plain-iframe",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-015"
+        ],
+        "fixtureSha256": "230b27b970a4c515800f3d19fa69da532261879cb2011de740b6a2afcd612f69"
+      },
+      {
+        "fixture": "security/authoritative-canvas",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "675bd1c2a8bc2fc15e33cc89d8328ea91fe6f5984cf83042c1f399c55c8fadc2"
+      },
+      {
+        "fixture": "security/ordinary-hyperlink",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "06c1f1fd5e3de9200b84162627923aae390417b53dd584be6964ad50b210ca3a"
+      },
+      {
+        "fixture": "security/nested-rule-remote",
+        "executed": true,
+        "outcome": "FAIL",
+        "exitCode": 1,
+        "diagnosticCodes": [
+          "OPF-014",
+          "RSC-006"
+        ],
+        "fixtureSha256": "40196bebb52330a628fa7f4c95103c15d5171bc709ef6d0d1a5e1506b8e32793"
+      },
+      {
+        "fixture": "security/annotation-xml-active",
+        "executed": true,
+        "outcome": "PASS",
+        "exitCode": 0,
+        "diagnosticCodes": [],
+        "fixtureSha256": "24cecd962eaf303ee68f65552669175d945a300205e4ff3cf0f633f6b733a144"
+      }
+    ]
+  }
+}

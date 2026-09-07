@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/spd/0.1/annotation-extension.schema.json",
+  "title": "SPD 0.1 StableNodeSelector extension",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["type", "documentId", "nodeId", "scope"],
+  "properties": {
+    "type": {"const": "StableNodeSelector"},
+    "documentId": {"$ref": "#/$defs/documentId"},
+    "nodeId": {"$ref": "#/$defs/nodeId"},
+    "scope": {"enum": ["lineage", "revision"]},
+    "revisionId": {"$ref": "#/$defs/revisionId"},
+    "refinement": {
+      "oneOf": [
+        {
+          "type": "object", "additionalProperties": false, "required": ["type", "exact"],
+          "properties": {"type": {"const": "TextQuoteSelector"}, "exact": {"type": "string"}, "prefix": {"type": "string"}, "suffix": {"type": "string"}}
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["type", "unit", "start", "end"],
+          "properties": {"type": {"const": "TextPositionSelector"}, "unit": {"const": "unicode-scalar-value"}, "start": {"type": "integer", "minimum": 0}, "end": {"type": "integer", "minimum": 0}}
+        }
+      ]
+    }
+  },
+  "allOf": [
+    {"if": {"properties": {"scope": {"const": "revision"}}}, "then": {"required": ["revisionId"]}},
+    {"if": {"properties": {"scope": {"const": "lineage"}}}, "then": {"not": {"required": ["revisionId"]}}}
+  ],
+  "$defs": {
+    "documentId": {"type": "string", "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"},
+    "revisionId": {"type": "string", "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"},
+    "nodeId": {"type": "string", "pattern": "^n_[a-z0-9._-]{1,128}$", "maxLength": 130}
+  }
+}

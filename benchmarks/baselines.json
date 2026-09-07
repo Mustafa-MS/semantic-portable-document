@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "0.1-experimental",
+  "baselines": [
+    {"id": "B1", "name": "ordinary untagged PDF", "phase1Status": "fixture not produced"},
+    {"id": "B2", "name": "conventional tagged PDF", "phase1Status": "Chromium observation only"},
+    {"id": "B3", "name": "high-quality WTPDF/PDF-UA PDF", "phase1Status": "not available"},
+    {"id": "B4", "name": "semantic XHTML without stable IDs", "phase1Status": "benchmark adapter not run"},
+    {"id": "B5", "name": "semantic XHTML with stable IDs", "phase1Status": "corpus produced"},
+    {"id": "B6", "name": "full transactional prototype", "phase1Status": "minimal deterministic fixture run"}
+  ],
+  "warning": "No comparative AI-agent effectiveness result is claimed."
+}

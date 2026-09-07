@@ -1,0 +1,47 @@
+name: Validator A
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  rust:
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: validator-a
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with: { components: rustfmt, clippy }
+      - run: cargo fmt --check
+      - run: cargo clippy --all-targets -- -D warnings
+      - run: cargo test --all-targets
+      - name: Verify generated indexes and coverage
+        working-directory: .
+        shell: pwsh
+        run: |
+          python scripts/generate_validator_artifacts.py
+          git diff --exit-code -- tests/corpus-manifest.json validator-a/requirements-coverage.json validator-a/reports/requirement-test-coverage.json
+      - name: Verify 74 automatic registrations
+        working-directory: .
+        shell: pwsh
+        run: python -c "import json; d=json.load(open('validator-a/requirements-coverage.json')); assert sum(v['status']=='implemented-automatic' for v in d.values()) == 74"
+      - name: EPUBCheck 5.3.0 integration smoke test
+        working-directory: .
+        shell: pwsh
+        run: |
+          $archive = Join-Path $env:RUNNER_TEMP 'epubcheck-5.3.0.zip'
+          $toolDir = Join-Path $env:RUNNER_TEMP 'epubcheck'
+          Invoke-WebRequest 'https://github.com/w3c/epubcheck/releases/download/v5.3.0/epubcheck-5.3.0.zip' -OutFile $archive
+          $actual = (Get-FileHash -Algorithm SHA256 $archive).Hash.ToLowerInvariant()
+          if ($actual -ne '6c07e68584b2e2ce2f89fe06e1246dfead3eb36b46b340e7d93524f29dcff6c5') { throw "EPUBCheck archive hash mismatch: $actual" }
+          Expand-Archive -LiteralPath $archive -DestinationPath $toolDir
+          $jar = Join-Path $toolDir 'epubcheck-5.3.0/epubcheck.jar'
+          cargo build --release --manifest-path validator-a/Cargo.toml
+          & validator-a/target/release/spd-validator.exe validate tests/corpus-0.1-rc1/valid/minimal-base/document.epub --format text --epubcheck $jar
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Repository tests
+        working-directory: .
+        shell: pwsh
+        run: |
+          python -m pip install -e ".\validator-b[test]"
+          python -m unittest discover -s tests -p 'test_*.py'

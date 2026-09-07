@@ -1,0 +1,1616 @@
+{
+  "a": [
+    {
+      "fixture": "edge/cjk-vertical",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/combining-character-range",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/css-change-stales-fixed",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/deep-lists",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/emoji-range",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/empty-section",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/font-change-stales-fixed",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/node-not-visible",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/partial-mapping",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/rtl-range",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/table-spanning-pages",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/unsupported-mapping",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/very-long-paragraph",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/bad-resource-hash",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/capability-status-not-user-controlled",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/cross-spine-duplicate-node-id",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/descriptor-discovery-conflict",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/descriptor-discovery-missing",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/duplicate-node-id",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "RSC-005"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/duplicate-normalized-path",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-060",
+        "OPF-074"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/event-handler",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-005"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/external-required-css",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "RSC-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/external-required-font",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-008"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/external-required-image",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/invalid-table-semantics",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/invalid-xhtml",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "RSC-005",
+        "RSC-016"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/javascript",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/mapping-invalid-geometry",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mapping-invalid-page",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mapping-invalid-range",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mapping-with-stale-fixed",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mapping-wrong-rendition",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mapping-wrong-revision",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/missing-document-id",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/missing-revision-id",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/missing-root-direction",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/missing-root-language",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/multiple-rootfiles",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [
+        "RSC-017",
+        "RSC-019"
+      ],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mutation-asset",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mutation-css",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mutation-fixed",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mutation-mapping",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mutation-semantic",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/not-visible-reason",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/partial-mapping-reason",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/path-traversal",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/sealed-after-annotation-modification",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/sealed-after-semantic-modification",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/stale-fixed-rendition",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/unlisted-non-normative-resource",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/unlisted-normative-resource",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/visual-order-arabic-source",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/accessible",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/annotations",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/arabic",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/figure-svg",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/fixed-without-mapping",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/lineage-scoped-annotation",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/mapped",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/mapping-with-current-fixed",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/mathml",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/minimal-base",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/mixed-bidi",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/multi-spine",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/revision-scoped-annotation",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/same-semantic-different-revision-id",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/sealed",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/semantic-change-new-revision",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/semantic-only-sealed",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/table",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/optional-remote-image",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/escaped-remote-import",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "RSC-007",
+        "RSC-020"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/inline-remote-style",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/custom-property-resource",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/nested-svg-remote",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/inline-foreignobject",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/prefixed-svg-script",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/encoded-executable-link",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-015"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/iframe-srcdoc",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-015"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/object-embed",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-015",
+        "RSC-005"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/active-form",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/meta-refresh",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/base-overrides",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/network-hints",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/local-css-font-image",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/local-import-cycle",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/static-svg-local",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/inert-controls",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/local-media",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/media-autoplay",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/static-animation-declaration",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/mathml-local-glyph",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/mathml-remote-glyph",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/inert-hostile-metadata",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/zip-special-modes",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/decoded-path-collision",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/zip-header-mismatch",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "PKG-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/bounded-expansion",
+      "base": "NOT_TESTED",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/unmapped-epub-title",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "RSC-005"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/script-data-block",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/standalone-svg-script",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/svg-event-handler",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/plain-iframe",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-015"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/authoritative-canvas",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/ordinary-hyperlink",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/nested-rule-remote",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/annotation-xml-active",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    }
+  ],
+  "b": [
+    {
+      "fixture": "edge/cjk-vertical",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/combining-character-range",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/css-change-stales-fixed",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/deep-lists",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/emoji-range",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/empty-section",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/font-change-stales-fixed",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/node-not-visible",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/partial-mapping",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/rtl-range",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/table-spanning-pages",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/unsupported-mapping",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "edge/very-long-paragraph",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/bad-resource-hash",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/capability-status-not-user-controlled",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/cross-spine-duplicate-node-id",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/descriptor-discovery-conflict",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/descriptor-discovery-missing",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/duplicate-node-id",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "RSC-005"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/duplicate-normalized-path",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-060",
+        "OPF-074"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/event-handler",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-005"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/external-required-css",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "RSC-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/external-required-font",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-008"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/external-required-image",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/invalid-table-semantics",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/invalid-xhtml",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "RSC-005",
+        "RSC-016"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/javascript",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "invalid/mapping-invalid-geometry",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mapping-invalid-page",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mapping-invalid-range",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mapping-with-stale-fixed",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mapping-wrong-rendition",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mapping-wrong-revision",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/missing-document-id",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/missing-revision-id",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/missing-root-direction",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/missing-root-language",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/multiple-rootfiles",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [
+        "RSC-017",
+        "RSC-019"
+      ],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mutation-asset",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mutation-css",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mutation-fixed",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mutation-mapping",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/mutation-semantic",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/not-visible-reason",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/partial-mapping-reason",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/path-traversal",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/sealed-after-annotation-modification",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/sealed-after-semantic-modification",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/stale-fixed-rendition",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/unlisted-non-normative-resource",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/unlisted-normative-resource",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "invalid/visual-order-arabic-source",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/accessible",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/annotations",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/arabic",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/figure-svg",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/fixed-without-mapping",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/lineage-scoped-annotation",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/mapped",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/mapping-with-current-fixed",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/mathml",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/minimal-base",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/mixed-bidi",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/multi-spine",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/revision-scoped-annotation",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/same-semantic-different-revision-id",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/sealed",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/semantic-change-new-revision",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/semantic-only-sealed",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "valid/table",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/optional-remote-image",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/escaped-remote-import",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "RSC-007",
+        "RSC-020"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/inline-remote-style",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/custom-property-resource",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/nested-svg-remote",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/inline-foreignobject",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/prefixed-svg-script",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/encoded-executable-link",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-015"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/iframe-srcdoc",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-015"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/object-embed",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-015",
+        "RSC-005"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/active-form",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/meta-refresh",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/base-overrides",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/network-hints",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/local-css-font-image",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/local-import-cycle",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/static-svg-local",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/inert-controls",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/local-media",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/media-autoplay",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/static-animation-declaration",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/mathml-local-glyph",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/mathml-remote-glyph",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/inert-hostile-metadata",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/zip-special-modes",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/decoded-path-collision",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/zip-header-mismatch",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "PKG-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/bounded-expansion",
+      "base": "NOT_TESTED",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/unmapped-epub-title",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "RSC-005"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/script-data-block",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/standalone-svg-script",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/svg-event-handler",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/plain-iframe",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-015"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/authoritative-canvas",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/ordinary-hyperlink",
+      "base": "PASS",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    },
+    {
+      "fixture": "security/nested-rule-remote",
+      "base": "FAIL",
+      "epubcheck": "FAIL",
+      "diagnosticCodes": [
+        "OPF-014",
+        "RSC-006"
+      ],
+      "exitCode": 1
+    },
+    {
+      "fixture": "security/annotation-xml-active",
+      "base": "FAIL",
+      "epubcheck": "PASS",
+      "diagnosticCodes": [],
+      "exitCode": 0
+    }
+  ]
+}

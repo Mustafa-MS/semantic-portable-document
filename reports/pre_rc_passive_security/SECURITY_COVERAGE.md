@@ -1,0 +1,27 @@
+# Security coverage
+
+Every row separates executable package evidence from reader/manual obligations. No claim of exhaustive exploit resistance is made. Full native fixture expectations are enforced by A tests/corpus.rs and B tests/test_convergence.py.
+
+| Policy | Normative rule (SPD prefix) | Profile | Fixture/test evidence | Reader scenario | A implementation | B implementation |
+|---|---|---|---|---|---|---|
+| Scripts, inert script blocks, events, executable URLs and executable resource types | SEC-001; PASS-001 | XHTML/SVG; passive resource contract | S07/S08/S30/S31/S32/S37; historical javascript/event-handler | R1/R8 | src/passive.rs + module tests | passive.py + test_passive.py |
+| iframe/srcdoc, object/embed/plugins, service-worker/application contexts | SEC-002; PASS-002 | XHTML passive restrictions | S09/S10/S33 | R1/R2 | src/passive.rs + module tests | passive.py + test_passive.py |
+| Forms, inert labeled input/button, authoritative canvas, base overrides | PASS-002 | XHTML passive restrictions | S11/S13/S18/S34 | R6 | src/passive.rs + module tests | passive.py + test_passive.py |
+| Automatic navigation, ping/prefetch/preconnect and remote preload | SEC-003; PASS-002; RS-001 | XHTML/passive resource contract | S12/S14; parser preload role checks | R1/R3 | src/passive.rs + module tests | passive.py + test_passive.py |
+| Optional/decorative/required remote images, stylesheets and fonts | SEC-003–006/008 | CSS/XHTML/passive resource contract | S01/S02/S03/S04/S36; historical external-required-* | R1 | src/passive.rs + module tests | passive.py + test_passive.py |
+| Local CSS imports, packaged fonts/images, static complex CSS | SEC-004–006/008 | CSS specific rules | S15/S16/S21; token/parser tests | R5/R6 | src/passive.rs + module tests | passive.py + test_passive.py |
+| CSS escapes, comments, nested rules/functions, custom properties and inline style | SEC-003–008 | CSS resource/token rules | S02/S03/S04/S36; Rust/Python property and unresolved-consumer tests | R1/R5 | src/passive.rs + module tests | passive.py + test_passive.py |
+| SVG inline/standalone/nested references, foreignObject, scripts/events | SEC-001/007/008; PASS-002 | SVG uniform embedding | S05/S06/S07/S17/S31/S32 | R1/R7 | src/passive.rs + module tests | passive.py + test_passive.py |
+| Static SVG paths/shapes/text/gradients/clips/masks/transforms/symbols/local fragments | SEC-007/008 | SVG static profile | S17; historical figure-svg; fragment unit test | R5/R7 | src/passive.rs + module tests | passive.py + test_passive.py |
+| MathML static semantics, mglyph/href, annotation-xml and maction static meaning | SEM-009; SEC-001/003/006/008; PASS-003 | MathML passive profile | S22/S23/S37; historical mathml; manual maction completeness | R1/R6 | src/passive.rs + module tests | passive.py + test_passive.py |
+| Local audio/video/poster/tracks, no autoplay, equivalent semantics | SEC-008; PASS-003 | XHTML media policy | S19/S20; common src/poster/track resolver; semantic alternatives manual | R6 | src/passive.rs + module tests | passive.py + test_passive.py |
+| External HTTP/HTTPS hyperlinks; no file/UNC/data/blob/executable authority | SEC-001/008; RS-001 | Passive resource contract | S08/S35; common scheme/containment resolver | R2/R3 | src/passive.rs + module tests | passive.py + test_passive.py |
+| Transitive package closure and terminating imports/references | SEC-008 | Passive resource graph contract | S05/S15/S16/S17/S22/S23/S37 | R1/R5 | src/passive.rs + module tests | passive.py + test_passive.py |
+| Optional time-dependent declarations, static meaning and generated content | PASS-003 | CSS/SVG/XHTML profiles | S21; human completeness remains NOT_TESTED | R6 | src/passive.rs + module tests | passive.py + test_passive.py |
+| Hostile metadata/annotation text and namespace IRIs as inert identifiers | PASS-001; RS-001 | Passive resource contract | S24; no identifier fetching | R8 | src/passive.rs + module tests | passive.py + test_passive.py |
+| ZIP malicious paths/modes/headers/overlap and expansion limits | BASE-002; RES-002; operational limits | OCF profile | S25/S26/S27/S28; historical path/collision and property tests | R5/R8 | src/package.rs | package.py |
+| Inherited whole-publication EPUB failure and warning/tool-error distinction | BASE-002 | Draft §5; attribution 0.1.2 | S29; all 107 whole packages; adapter timeout/crash tests | not reader evidence | src/epubcheck.rs + policy.rs | epubcheck.py + policy.py + adapter tests |
+| No network/filesystem/device/cookie/storage authority; host-owned state separate | RS-001 | READING_SYSTEM_SECURITY.md | Package evidence cannot prove runtime behavior | R1/R2/R3 | processor plan; no automatic reader PASS | processor plan; no automatic reader PASS |
+| Unverified generic/SEALED/fixed view, authentication distinction, no source sanitization | BASE-004; RS-002 | Draft §§6–7; reader security | Read-only validators; historical SEALED/stale/fixed fixtures; UI NOT_TESTED | R4/R8 | processor plan; no automatic reader PASS | processor plan; no automatic reader PASS |
+
+PASS-001 and PASS-002 combine deterministic syntax with processor/semantic-label judgments; PASS-003 additionally requires human static completeness. RS-001/002 are processor conformance. All five remain explicitly NOT_TESTED for their unevaluated portions. No new universal implementation ceiling was introduced. Fonts/images/media and declarative renderers still require hardened decoders; package checks do not prove them safe.

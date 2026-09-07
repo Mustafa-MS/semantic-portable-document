@@ -1,0 +1,11 @@
+{
+  "font": {
+    "path": "tests/corpus-0.1.2/source-assets/font.ttf",
+    "origin": "Exact Arial bytes embedded from the local Windows installation when S15 was authored; retained as a fixture source asset",
+    "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a"
+  },
+  "png": {
+    "path": "corpus/sources/assets/sample.png",
+    "sha256": "30889126bd5246eeadd5968e128efcf42002ae7277e1319f675849a6656ee928"
+  }
+}

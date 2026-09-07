@@ -1,0 +1,28 @@
+{
+  "authoritativeClaimsStatus": "KNOWN",
+  "base": "PASS",
+  "capabilities": {
+    "Accessible": "NOT_CLAIMED",
+    "Archive-Experimental": "NOT_CLAIMED",
+    "Fixed-Experimental": "NOT_CLAIMED",
+    "Mapping": "FAIL"
+  },
+  "corpusVersion": "0.1.1",
+  "experimentalReporting": {
+    "fixedExperimentalCapabilityDeclared": false,
+    "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+    "physicalFixedRenditionPresent": true
+  },
+  "fixture": "invalid/mapping-invalid-page",
+  "notTestedRequirementIds": [
+    "SPD-ID-013"
+  ],
+  "notes": [],
+  "operationalStatus": "COMPLETE",
+  "violations": [
+    {
+      "requirement": "SPD-MAP-011",
+      "resource": "META-INF/spd/mapping.json"
+    }
+  ]
+}

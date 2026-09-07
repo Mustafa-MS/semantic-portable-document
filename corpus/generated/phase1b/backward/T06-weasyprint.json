@@ -1,0 +1,74 @@
+{
+  "coverage": {
+    "expected": 6,
+    "mapped": 1,
+    "ratio": 0.1667
+  },
+  "document": "d_ecf9282ea90e4c7fbfc78237ffa6075b",
+  "fixedRendition": "f_c1168d42f960448f81d1336139e8553a",
+  "fixedRenditionHash": "sha256:6c7bfe7a72e52086007efc5ea476b118133779edcd45a637a0bf441702ba1e4c",
+  "mappings": [
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.18897675,
+            76.82512199999996,
+            321.21297675000005,
+            76.82512199999996,
+            321.21297675000005,
+            100.82512199999996,
+            48.18897675,
+            100.82512199999996
+          ],
+          "textRange": [
+            0,
+            22
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_4d816c18e42d43c697c854d693d2db2d"
+    }
+  ],
+  "pages": [
+    {
+      "height": 841.889764,
+      "id": "pg_1",
+      "unit": "pt",
+      "width": 595.275591
+    },
+    {
+      "height": 841.889764,
+      "id": "pg_2",
+      "unit": "pt",
+      "width": 595.275591
+    }
+  ],
+  "renderer": "weasyprint-pdfplumber",
+  "revision": "r_64b3c85e6a6540669a5111470b49a143",
+  "schemaVersion": "0.1-experimental",
+  "unmatched": [
+    {
+      "node": "n_b7dc9e8308d14c9889558903c712de0e",
+      "reason": "ancestor text exceeds exact-match experiment limit"
+    },
+    {
+      "node": "n_d302165933a44afa804cbd88ecee6312",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_ef3d242fdb0a49d8b6e19ce1eda26996",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_428c75bf49eb46ccb38796040fe8ea6e",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_03b7c41bd1634044bf95f40b26791d37",
+      "reason": "logical token sequence not found in extracted PDF words"
+    }
+  ]
+}

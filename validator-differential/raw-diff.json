@@ -1,0 +1,4458 @@
+{
+  "stage": "Stage 2 analysis only",
+  "contractFields": [
+    "base",
+    "normativeCapabilities",
+    "violationRequirementIds",
+    "notTestedRequirementIds",
+    "operationalStatus"
+  ],
+  "freezeVerification": {
+    "A": {
+      "path": "validator-a/reports/golden/validator-a-0.1.0-draft.1.json",
+      "sha256": "68d6ab4b23a70f19937a8539eb6deb63cf9f4e4a3b06dd388ed15e4a295617a4",
+      "method": "Expected artifact path/version and frozen metadata match; no prior independent oracle checksum supplied."
+    },
+    "B": {
+      "path": "validator-b/reports/blind-results-with-epubcheck.json",
+      "sha256": "af68e0e02182cf6a212c437ba19f6faa8a2d08409b65c3d77aa848e895cc2ed4",
+      "method": "Exact user-supplied digest verified"
+    },
+    "normativePins": {
+      "validator-b/reports/blind-results-with-epubcheck.json": "af68e0e02182cf6a212c437ba19f6faa8a2d08409b65c3d77aa848e895cc2ed4",
+      "spec/FORMAT_0.1_DRAFT.md": "fe649e74f8ea57b993f3fece4373efdb105ac2013812e74152270fe4666db849",
+      "spec/requirements.yaml": "a6a6ec7f6a0d1585ed5cc11a9dec3489540117257c3562a758b533b6624d137a"
+    },
+    "epubcheckVersionA": "5.3.0",
+    "epubcheckVersionB": "5.3.0",
+    "unicodeA": "unicode-normalization 0.1.25 / Unicode 16 data",
+    "unicodeB": "15.1.0",
+    "environmentCaveat": "Known Unicode data difference and independent schema-set digest conventions retained; same official EPUBCheck release, but A recorded only 31 valid/edge tool runs versus B 69."
+  },
+  "metrics": {
+    "fixtureIdentityAgreement": 69,
+    "fixtureCount": 69,
+    "baseAgreement": 68,
+    "normativeCapabilitiesAgreement": 69,
+    "violationRequirementIdsAgreement": 44,
+    "notTestedRequirementIdsAgreement": 69,
+    "operationalStatusAgreement": 69,
+    "completeDifferentialSurfaceAgreement": 44,
+    "normativeInvalidityAgreement": 68,
+    "threeValuedSemanticAgreement": 68,
+    "experimentalAgreementExcludedFromNormative": 45,
+    "violationSetDisagreements": 25,
+    "strictASubsetOfBForEveryViolationDisagreement": true
+  },
+  "fixtures": [
+    {
+      "fixture": "edge/cjk-vertical",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "edge/combining-character-range",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "edge/css-change-stales-fixed",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "edge/deep-lists",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "edge/emoji-range",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "edge/empty-section",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "edge/font-change-stales-fixed",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "edge/node-not-visible",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "edge/partial-mapping",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "edge/rtl-range",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "edge/table-spanning-pages",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "edge/unsupported-mapping",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "edge/very-long-paragraph",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "invalid/bad-resource-hash",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-INT-004",
+        "SPD-INT-005",
+        "SPD-RES-004",
+        "SPD-STATE-002"
+      ],
+      "COMMON": [
+        "SPD-INT-003"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-INT-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-INT-003",
+          "SPD-INT-004",
+          "SPD-INT-005",
+          "SPD-RES-004",
+          "SPD-STATE-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "VALIDATOR_B_BUG",
+        "secondaryClassifications": [
+          "NORMALIZATION_CONTRACT_BUG"
+        ],
+        "family": "STATE_INTEGRITY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "Byte/hash and both declared-inventory projection mismatches are directly measurable. STATE-002 is a sealed-state rule but lifecycle is EDITABLE (Draft §§27–29,70,72).",
+        "recommendedTarget": "Validator B; Differential contract",
+        "additionalFindingAssessment": {
+          "SPD-RES-004": "ESTABLISHED: content.xhtml is 516 bytes; declared hash is all zero, actual is 51fa731ac4db46fa989874e0d223dcbf3020ebb5b6d786ddc17fa831b6840935.",
+          "SPD-INT-004": "ESTABLISHED: declared-inventory projection d774ef728e31b285e4f10985af261ed70550723d3401f6ad65f722587dd13aa3 differs from descriptor 36f4e697ebaa31e51e1b1789afe3b611aa5ee284785c4117c9929bdcef5ba0d6.",
+          "SPD-INT-005": "ESTABLISHED: declared-inventory projection f2d76f12b5ef7cda3db25403375d4a7419dedcf1b176e7d41968b2b5940594ec differs from descriptor 6c4b44d7572730c76f1ca20a7b0b079df75beed8a4e9f7875040d779cb72f5d7.",
+          "SPD-STATE-002": "WRONG REQUIREMENT/APPLICABILITY: exact inventory binding does mismatch, but this is EDITABLE, not SEALED. General integrity failure is established; a sealed-state failure is not."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/capability-status-not-user-controlled",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-CAP-002"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-CAP-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-CAP-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "invalid/descriptor-discovery-conflict",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-ARCH-001",
+        "SPD-BASE-005",
+        "SPD-CAP-002",
+        "SPD-CAP-003",
+        "SPD-ID-002"
+      ],
+      "COMMON": [
+        "SPD-DISC-002"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-DISC-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-ARCH-001",
+          "SPD-BASE-005",
+          "SPD-CAP-002",
+          "SPD-CAP-003",
+          "SPD-DISC-002",
+          "SPD-ID-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "VALIDATOR_B_BUG",
+        "secondaryClassifications": [
+          "NORMALIZATION_CONTRACT_BUG"
+        ],
+        "family": "DESCRIPTOR_DISCOVERY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "Document-state and lifecycle links both target state.json. That candidate fails document-state schema, but its fields cannot establish authoritative capability equality or architecture (§69).",
+        "recommendedTarget": "Validator B; Differential contract",
+        "additionalFindingAssessment": {
+          "SPD-ARCH-001": "NOT ESTABLISHED: no Base claim in the wrong-type candidate does not establish absence of the authoritative semantic rendition.",
+          "SPD-BASE-005": "ESTABLISHED AT CANDIDATE/STRUCTURAL LEVEL: the explicitly linked document-state candidate fails required descriptor shape. It does not show a missing OPF spine.",
+          "SPD-CAP-002": "CANDIDATE FAILURE ONLY: state.json lacks required capabilities. Reporting a candidate-schema failure is defensible; authoritative claims remain unavailable.",
+          "SPD-CAP-003": "BLOCKED: invalid/conflicting descriptor authority does not supply a valid known-empty capability set to compare with OPF.",
+          "SPD-ID-002": "CANDIDATE FAILURE ONLY: state.json has flat revisionId, not required document-state /revision/revisionId. This is not proof the semantic state has no Revision ID."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/descriptor-discovery-missing",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-ARCH-001",
+        "SPD-CAP-002",
+        "SPD-CAP-003"
+      ],
+      "COMMON": [
+        "SPD-DISC-001"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-DISC-001"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-ARCH-001",
+          "SPD-CAP-002",
+          "SPD-CAP-003",
+          "SPD-DISC-001"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "VALIDATOR_B_BUG",
+        "secondaryClassifications": [
+          "NORMALIZATION_CONTRACT_BUG"
+        ],
+        "family": "DESCRIPTOR_DISCOVERY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "No descriptor links exist. OPF and spine are independently discoverable; descriptor claims are unknown, not an empty set. No filename fallback is permitted (§69).",
+        "recommendedTarget": "Validator B; Differential contract",
+        "additionalFindingAssessment": {
+          "SPD-ARCH-001": "NOT ESTABLISHED: missing Base declaration is not evidence of zero/multiple authoritative semantic representations; OPF has one spine.",
+          "SPD-CAP-002": "BLOCKED: authoritative capability array unavailable; do not treat unavailable as known empty.",
+          "SPD-CAP-003": "BLOCKED: OPF claim Base is known, authoritative descriptor claim set is not. Equality cannot be tested."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/duplicate-node-id",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-BASE-002"
+      ],
+      "COMMON": [
+        "SPD-ID-006"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-ID-006"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-BASE-002",
+          "SPD-ID-006"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "XHTML_AND_EXTERNAL_EVALUATION",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "content.xhtml:6,7 repeats n_paragraph01; EPUBCheck RSC-005. Native invalidity is clear (Draft §§5,7,14). External failure is measurable independently; ID multiplicity and external scope need normalization.",
+        "recommendedTarget": "Differential contract; A oracle-generation workflow",
+        "additionalFindingAssessment": {
+          "SPD-BASE-002": "INDEPENDENT EXTERNAL FAILURE: content.xhtml:6,7 repeats n_paragraph01; EPUBCheck RSC-005. Not a fabricated DOM cascade. Both adapters use this aggregate ID, but A frozen external evaluation scope omits this invalid fixture. The contract must specify scope and inherited-rule attribution."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/duplicate-normalized-path",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-RES-002"
+      ],
+      "COMMON": [
+        "SPD-BASE-002"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-BASE-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-BASE-002",
+          "SPD-RES-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "RESOURCE_INVENTORY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "EPUB/cafe\\u0301.txt and EPUB/caf\\u00e9.txt: One inventory path is decomposed, not NFC, and the ZIP has a normalized collision. Package rejection does not prevent inspecting the inventory string (§§5,28,70).",
+        "recommendedTarget": "Differential contract; Validator A reporting",
+        "additionalFindingAssessment": {
+          "SPD-RES-002": "ESTABLISHED: One inventory path is decomposed, not NFC, and the ZIP has a normalized collision."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/event-handler",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-BASE-002",
+        "SPD-ID-006"
+      ],
+      "COMMON": [
+        "SPD-SEC-001"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-SEC-001"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-BASE-002",
+          "SPD-ID-006",
+          "SPD-SEC-001"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "VALIDATOR_A_BUG",
+        "secondaryClassifications": [
+          "NORMALIZATION_CONTRACT_BUG"
+        ],
+        "family": "XHTML_AND_EXTERNAL_EVALUATION",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "content.xhtml:4 has two h1 elements with n_heading01, one with onclick; EPUBCheck OPF-014 and RSC-005. Native invalidity is clear (Draft §§5,7,14). External failure is measurable independently; ID multiplicity and external scope need normalization.",
+        "recommendedTarget": "Validator A; Differential contract",
+        "additionalFindingAssessment": {
+          "SPD-BASE-002": "INDEPENDENT EXTERNAL FAILURE: content.xhtml:4 has two h1 elements with n_heading01, one with onclick; EPUBCheck OPF-014 and RSC-005. Not a fabricated DOM cascade. Both adapters use this aggregate ID, but A frozen external evaluation scope omits this invalid fixture. The contract must specify scope and inherited-rule attribution.",
+          "SPD-ID-006": "ESTABLISHED: duplicate n_heading01 occurs twice in a well-formed authoritative XHTML DOM at line 4. The onclick attribute does not exempt either ID."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/external-required-css",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-BASE-002"
+      ],
+      "COMMON": [
+        "SPD-SEC-005"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-SEC-005"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-BASE-002",
+          "SPD-SEC-005"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "XHTML_AND_EXTERNAL_EVALUATION",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "content.xhtml:3 links https://example.org/x.css; EPUBCheck RSC-006. Native invalidity is clear (Draft §§5,7,14). External failure is measurable independently; ID multiplicity and external scope need normalization.",
+        "recommendedTarget": "Differential contract; A oracle-generation workflow",
+        "additionalFindingAssessment": {
+          "SPD-BASE-002": "INDEPENDENT EXTERNAL FAILURE: content.xhtml:3 links https://example.org/x.css; EPUBCheck RSC-006. Not a fabricated DOM cascade. Both adapters use this aggregate ID, but A frozen external evaluation scope omits this invalid fixture. The contract must specify scope and inherited-rule attribution."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/external-required-font",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-BASE-002"
+      ],
+      "COMMON": [
+        "SPD-SEC-004"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-SEC-004"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-BASE-002",
+          "SPD-SEC-004"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "XHTML_AND_EXTERNAL_EVALUATION",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "style.css:2 has remote x.woff2 without manifest declaration; EPUBCheck OPF-014 and RSC-008. Native invalidity is clear (Draft §§5,7,14). External failure is measurable independently; ID multiplicity and external scope need normalization.",
+        "recommendedTarget": "Differential contract; A oracle-generation workflow",
+        "additionalFindingAssessment": {
+          "SPD-BASE-002": "INDEPENDENT EXTERNAL FAILURE: style.css:2 has remote x.woff2 without manifest declaration; EPUBCheck OPF-014 and RSC-008. Not a fabricated DOM cascade. Both adapters use this aggregate ID, but A frozen external evaluation scope omits this invalid fixture. The contract must specify scope and inherited-rule attribution."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/external-required-image",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-BASE-002"
+      ],
+      "COMMON": [
+        "SPD-SEC-006"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-SEC-006"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-BASE-002",
+          "SPD-SEC-006"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "XHTML_AND_EXTERNAL_EVALUATION",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "content.xhtml:7 has remote x.png; OPF omits remote-resources; EPUBCheck OPF-014 and RSC-006. Native invalidity is clear (Draft §§5,7,14). External failure is measurable independently; ID multiplicity and external scope need normalization.",
+        "recommendedTarget": "Differential contract; A oracle-generation workflow",
+        "additionalFindingAssessment": {
+          "SPD-BASE-002": "INDEPENDENT EXTERNAL FAILURE: content.xhtml:7 has remote x.png; OPF omits remote-resources; EPUBCheck OPF-014 and RSC-006. Not a fabricated DOM cascade. Both adapters use this aggregate ID, but A frozen external evaluation scope omits this invalid fixture. The contract must specify scope and inherited-rule attribution."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/invalid-table-semantics",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-SEM-013"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-SEM-013"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-SEM-013"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "invalid/invalid-xhtml",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-BASE-002"
+      ],
+      "COMMON": [
+        "SPD-SEM-002"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-SEM-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-BASE-002",
+          "SPD-SEM-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "XHTML_AND_EXTERNAL_EVALUATION",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "content.xhtml:1 has an unclosed p and missing head; EPUBCheck RSC-005 and RSC-016. Native invalidity is clear (Draft §§5,7,14). External failure is measurable independently; ID multiplicity and external scope need normalization.",
+        "recommendedTarget": "Differential contract; A oracle-generation workflow",
+        "additionalFindingAssessment": {
+          "SPD-BASE-002": "INDEPENDENT EXTERNAL FAILURE: content.xhtml:1 has an unclosed p and missing head; EPUBCheck RSC-005 and RSC-016. Not a fabricated DOM cascade. Both adapters use this aggregate ID, but A frozen external evaluation scope omits this invalid fixture. The contract must specify scope and inherited-rule attribution."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/javascript",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-BASE-002"
+      ],
+      "COMMON": [
+        "SPD-SEC-001"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-SEC-001"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-BASE-002",
+          "SPD-SEC-001"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "XHTML_AND_EXTERNAL_EVALUATION",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "content.xhtml:7 contains script; OPF c1 omits scripted; EPUBCheck OPF-014. Native invalidity is clear (Draft §§5,7,14). External failure is measurable independently; ID multiplicity and external scope need normalization.",
+        "recommendedTarget": "Differential contract; A oracle-generation workflow",
+        "additionalFindingAssessment": {
+          "SPD-BASE-002": "INDEPENDENT EXTERNAL FAILURE: content.xhtml:7 contains script; OPF c1 omits scripted; EPUBCheck OPF-014. Not a fabricated DOM cascade. Both adapters use this aggregate ID, but A frozen external evaluation scope omits this invalid fixture. The contract must specify scope and inherited-rule attribution."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/mapping-invalid-geometry",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-MAP-012"
+      ],
+      "COMMON": [
+        "SPD-MAP-011"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-011"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-011",
+          "SPD-MAP-012"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "MAPPING_GEOMETRY",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "Page p_1 is 816×1056; quad [-1,0,900,0,900,1200,-1,1200] is finite, structurally valid and TL-TR-BR-BL ordered, but out of bounds. §§36 and 56 both prohibit it.",
+        "recommendedTarget": "Differential contract; Validator A reporting",
+        "additionalFindingAssessment": {
+          "SPD-MAP-012": "ESTABLISHED under its linked §36 geometry rule, which explicitly requires visible bounds. Registry shorthand emphasizes coordinates/dimensions; MAP-011 explicitly names page bounds. This is overlapping rule attribution, not a parser cascade or undefined geometry."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/mapping-invalid-page",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-MAP-011"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-011"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-011"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "invalid/mapping-invalid-range",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-MAP-008"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-008"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-008"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "invalid/mapping-with-stale-fixed",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-STATE-001"
+      ],
+      "COMMON": [
+        "SPD-STATE-007"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-STATE-007"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-STATE-001",
+          "SPD-STATE-007"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      },
+      "analysis": {
+        "primaryClassification": "VALIDATOR_B_BUG",
+        "secondaryClassifications": [],
+        "family": "STATE_INTEGRITY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "EDITABLE explicitly says stale and fixed input digest differs from current. Mapping must fail STATE-007; a Mapping claim alone does not establish reader mispresentation under STATE-001 (§§26,56,71).",
+        "recommendedTarget": "Validator B",
+        "additionalFindingAssessment": {
+          "SPD-STATE-001": "NOT ESTABLISHED: declared stale is not declared current, and this fixture supplies no reader behavior evidence."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/mapping-wrong-rendition",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-MAP-002"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "invalid/mapping-wrong-revision",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-MAP-002"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "invalid/missing-document-id",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-ID-001"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-ID-001"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-ID-001"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "invalid/missing-revision-id",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-ID-002"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-ID-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-ID-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "invalid/missing-root-direction",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-I18N-004"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-I18N-004"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-I18N-004"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "invalid/missing-root-language",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-I18N-003"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-I18N-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-I18N-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "invalid/multiple-rootfiles",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-BASE-006"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-BASE-006"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-BASE-006"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "invalid/mutation-asset",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-RES-004",
+        "SPD-STATE-003"
+      ],
+      "COMMON": [
+        "SPD-INT-003"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-INT-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-INT-003",
+          "SPD-RES-004",
+          "SPD-STATE-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "STATE_INTEGRITY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "EPUB/figure.svg: exact-byte failure invalidates SEALED; distinguish actual resource effects from generic seal invalidity (§§27–29,71).",
+        "recommendedTarget": "Differential contract; Validator A reporting",
+        "additionalFindingAssessment": {
+          "SPD-RES-004": "ESTABLISHED: exact bytes and length for EPUB/figure.svg disagree with its inventory entry.",
+          "SPD-STATE-003": "ESTABLISHED as integrity coverage of a semantic-affecting resource: SEALED and affects includes semantic; the committed exact bytes changed. This does not prove visible text changed."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/mutation-css",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-RES-004",
+        "SPD-STATE-003"
+      ],
+      "COMMON": [
+        "SPD-INT-003"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-INT-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-INT-003",
+          "SPD-RES-004",
+          "SPD-STATE-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      },
+      "analysis": {
+        "primaryClassification": "VALIDATOR_B_BUG",
+        "secondaryClassifications": [
+          "NORMALIZATION_CONTRACT_BUG"
+        ],
+        "family": "STATE_INTEGRITY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "EPUB/style.css: exact-byte failure invalidates SEALED; distinguish actual resource effects from generic seal invalidity (§§27–29,71).",
+        "recommendedTarget": "Validator B; Differential contract",
+        "additionalFindingAssessment": {
+          "SPD-RES-004": "ESTABLISHED: exact bytes and length for EPUB/style.css disagree with its inventory entry.",
+          "SPD-STATE-003": "WRONG REQUIREMENT ATTRIBUTION: the seal is invalid under §27, but the changed resource has no semantic effect. STATE-003 specifically names normative semantic content; use the general integrity/binding requirement."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/mutation-fixed",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-RES-004",
+        "SPD-STATE-001",
+        "SPD-STATE-003",
+        "SPD-STATE-005",
+        "SPD-STATE-006",
+        "SPD-STATE-007"
+      ],
+      "COMMON": [
+        "SPD-INT-003"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-INT-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-INT-003",
+          "SPD-RES-004",
+          "SPD-STATE-001",
+          "SPD-STATE-003",
+          "SPD-STATE-005",
+          "SPD-STATE-006",
+          "SPD-STATE-007"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      },
+      "analysis": {
+        "primaryClassification": "VALIDATOR_B_BUG",
+        "secondaryClassifications": [
+          "NORMALIZATION_CONTRACT_BUG"
+        ],
+        "family": "STATE_INTEGRITY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "EPUB/fixed.pdf: exact-byte failure invalidates SEALED; distinguish actual resource effects from generic seal invalidity (§§27–29,71).",
+        "recommendedTarget": "Validator B; Differential contract",
+        "additionalFindingAssessment": {
+          "SPD-RES-004": "ESTABLISHED: exact bytes and length for EPUB/fixed.pdf disagree with its inventory entry.",
+          "SPD-STATE-003": "WRONG REQUIREMENT ATTRIBUTION: the seal is invalid under §27, but the changed resource has no semantic effect. STATE-003 specifically names normative semantic content; use the general integrity/binding requirement.",
+          "SPD-STATE-001": "PROCESSOR CLAIM NOT ESTABLISHED: false current token is established and covered by STATE-005, but no reader execution proves the processor exposed it as current.",
+          "SPD-STATE-005": "ESTABLISHED: status=current but fixed resource hash c9bd22e9… differs from actual df6cb8ce…; currentness is disproved directly.",
+          "SPD-STATE-006": "ESTABLISHED: SEALED has fixed output whose exact digest does not verify, so it cannot be current.",
+          "SPD-STATE-007": "ESTABLISHED: Mapping is explicitly claimed and required current fixed output is disproved by its own hash mismatch."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/mutation-mapping",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-RES-004",
+        "SPD-STATE-002",
+        "SPD-STATE-003"
+      ],
+      "COMMON": [
+        "SPD-INT-003"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-INT-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-INT-003",
+          "SPD-RES-004",
+          "SPD-STATE-002",
+          "SPD-STATE-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      },
+      "analysis": {
+        "primaryClassification": "VALIDATOR_B_BUG",
+        "secondaryClassifications": [
+          "NORMALIZATION_CONTRACT_BUG"
+        ],
+        "family": "STATE_INTEGRITY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "META-INF/spd/mapping.json: exact-byte failure invalidates SEALED; distinguish actual resource effects from generic seal invalidity (§§27–29,71).",
+        "recommendedTarget": "Validator B; Differential contract",
+        "additionalFindingAssessment": {
+          "SPD-RES-004": "ESTABLISHED: exact bytes and length for META-INF/spd/mapping.json disagree with its inventory entry.",
+          "SPD-STATE-003": "WRONG REQUIREMENT ATTRIBUTION: the seal is invalid under §27, but the changed resource has no semantic effect. STATE-003 specifically names normative semantic content; use the general integrity/binding requirement.",
+          "SPD-STATE-002": "ESTABLISHED: SEALED mapping binding hash 54a9175f… differs from exact mapping hash 3104fb6a…; a trailing byte still matters under exact-byte hashing."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/mutation-semantic",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-RES-004",
+        "SPD-STATE-003"
+      ],
+      "COMMON": [
+        "SPD-INT-003"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-INT-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-INT-003",
+          "SPD-RES-004",
+          "SPD-STATE-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "STATE_INTEGRITY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "EPUB/content.xhtml: exact-byte failure invalidates SEALED; distinguish actual resource effects from generic seal invalidity (§§27–29,71).",
+        "recommendedTarget": "Differential contract; Validator A reporting",
+        "additionalFindingAssessment": {
+          "SPD-RES-004": "ESTABLISHED: exact bytes and length for EPUB/content.xhtml disagree with its inventory entry.",
+          "SPD-STATE-003": "ESTABLISHED as integrity coverage of a semantic-affecting resource: SEALED and affects includes semantic; the committed exact bytes changed. This does not prove visible text changed."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/not-visible-reason",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-MAP-005"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-005"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-005"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "invalid/partial-mapping-reason",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-MAP-005"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-005"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-MAP-005"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "invalid/path-traversal",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-RES-002"
+      ],
+      "COMMON": [
+        "SPD-BASE-002"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-BASE-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-BASE-002",
+          "SPD-RES-002"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "RESOURCE_INVENTORY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "../escape.txt: The inventory explicitly contains a prohibited parent component; the path schema independently rejects it. Package rejection does not prevent inspecting the inventory string (§§5,28,70).",
+        "recommendedTarget": "Differential contract; Validator A reporting",
+        "additionalFindingAssessment": {
+          "SPD-RES-002": "ESTABLISHED: The inventory explicitly contains a prohibited parent component; the path schema independently rejects it."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/sealed-after-annotation-modification",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-INT-003",
+        "SPD-RES-004",
+        "SPD-STATE-003"
+      ],
+      "COMMON": [
+        "SPD-ANN-004"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-ANN-004"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-ANN-004",
+          "SPD-INT-003",
+          "SPD-RES-004",
+          "SPD-STATE-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "VALIDATOR_B_BUG",
+        "secondaryClassifications": [
+          "NORMALIZATION_CONTRACT_BUG"
+        ],
+        "family": "STATE_INTEGRITY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "annotations.json changed from 465 to 466 bytes in SEALED. Seal invalidity and ANN-004 are clear, but annotation bytes have affects=[] and are not semantic content (§§27,73).",
+        "recommendedTarget": "Validator B; Differential contract",
+        "additionalFindingAssessment": {
+          "SPD-INT-003": "ESTABLISHED: packaged annotation modification breaks covered integrity.",
+          "SPD-RES-004": "ESTABLISHED: exact annotation bytes/hash differ, even if the extra byte is whitespace.",
+          "SPD-STATE-003": "WRONG REQUIREMENT ATTRIBUTION: non-semantic annotation mutation invalidates the seal, not the semantic-content-specific predicate."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/sealed-after-semantic-modification",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-INT-003",
+        "SPD-RES-004"
+      ],
+      "COMMON": [
+        "SPD-STATE-003"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-STATE-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-INT-003",
+          "SPD-RES-004",
+          "SPD-STATE-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "STATE_INTEGRITY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "SEALED authoritative content.xhtml differs in exact bytes; resource hash and seal invalidity are separately established (§§27–29).",
+        "recommendedTarget": "Differential contract; Validator A reporting",
+        "additionalFindingAssessment": {
+          "SPD-INT-003": "ESTABLISHED: covered authoritative bytes changed without rebinding.",
+          "SPD-RES-004": "ESTABLISHED: content.xhtml declared 516 bytes, actual 525, and SHA-256 differs."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/stale-fixed-rendition",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-STATE-007"
+      ],
+      "COMMON": [
+        "SPD-STATE-001"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-STATE-001"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "FAIL"
+        },
+        "violationRequirementIds": [
+          "SPD-STATE-001",
+          "SPD-STATE-007"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      },
+      "analysis": {
+        "primaryClassification": "VALIDATOR_A_BUG",
+        "secondaryClassifications": [
+          "VALIDATOR_B_BUG",
+          "CORPUS_ORACLE_BUG"
+        ],
+        "family": "STATE_INTEGRITY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "EDITABLE explicitly says stale although its numerical bindings match. Mapping requires current, not merely equal hashes. B adds the correct STATE-007; both sides share unsupported processor-level STATE-001 attribution (§§26,56).",
+        "recommendedTarget": "Validator A; Validator B; Corpus",
+        "additionalFindingAssessment": {
+          "SPD-STATE-007": "ESTABLISHED: Mapping is claimed but fixed is explicitly stale. A incorrectly routes this Mapping failure to the processor rule STATE-001."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/unlisted-non-normative-resource",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-RES-003"
+      ],
+      "COMMON": [
+        "SPD-RES-006"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-RES-006"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-RES-003",
+          "SPD-RES-006"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "RESOURCE_INVENTORY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "EPUB/cache.bin exists outside inventory and is neither self-reference exception. Both RES-003 and RES-006 apply; the former explicitly includes caches (§28).",
+        "recommendedTarget": "Differential contract; Validator A reporting",
+        "additionalFindingAssessment": {
+          "SPD-RES-003": "ESTABLISHED: all package entries, including non-normative caches, must be inventoried; role/manifest membership does not partition these two requirements."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/unlisted-normative-resource",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-RES-006"
+      ],
+      "COMMON": [
+        "SPD-RES-003"
+      ],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-RES-003"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-RES-003",
+          "SPD-RES-006"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "NORMALIZATION_CONTRACT_BUG",
+        "secondaryClassifications": [],
+        "family": "RESOURCE_INVENTORY_CASCADE",
+        "severity": "RC_DIAGNOSTIC_CONVERGENCE",
+        "correctInterpretation": "EPUB/extra.css exists outside inventory and is neither self-reference exception. Both RES-003 and RES-006 apply; the former explicitly includes caches (§28).",
+        "recommendedTarget": "Differential contract; Validator A reporting",
+        "additionalFindingAssessment": {
+          "SPD-RES-006": "ESTABLISHED: all package entries, including non-normative caches, must be inventoried; role/manifest membership does not partition these two requirements."
+        }
+      }
+    },
+    {
+      "fixture": "invalid/visual-order-arabic-source",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [
+        "SPD-I18N-001"
+      ],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-I18N-001"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-I18N-001"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "INVALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/accessible",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_TESTED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ACC-001",
+          "SPD-ACC-004",
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_TESTED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ACC-001",
+          "SPD-ACC-004",
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "UNDETERMINED",
+        "B": "UNDETERMINED"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/annotations",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/arabic",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/figure-svg",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/fixed-without-mapping",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/lineage-scoped-annotation",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/mapped",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "valid/mapping-with-current-fixed",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "valid/mathml",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/minimal-base",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/mixed-bidi",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/multi-spine",
+      "equalFields": {
+        "base": false,
+        "normativeCapabilities": true,
+        "violationRequirementIds": false,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": false,
+      "A_ONLY": [],
+      "B_ONLY": [
+        "SPD-ID-006"
+      ],
+      "COMMON": [],
+      "strictASubsetOfB": true,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "FAIL",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [
+          "SPD-ID-006"
+        ],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "INVALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      },
+      "analysis": {
+        "primaryClassification": "CORPUS_ORACLE_BUG",
+        "secondaryClassifications": [
+          "VALIDATOR_A_BUG"
+        ],
+        "family": "NODE_ID_SCOPE",
+        "severity": "RC_BLOCKER",
+        "correctInterpretation": "Invalid: n_article01 is repeated across two authoritative spine resources in one revision (Draft §§8,14; SPD-ID-006).",
+        "recommendedTarget": "Corpus; Validator A",
+        "additionalFindingAssessment": {
+          "SPD-ID-006": "ESTABLISHED: chapter1.xhtml:4 and chapter2.xhtml:4 both identify html/body/article as n_article01; unrelated non-spine IDs are excluded."
+        }
+      }
+    },
+    {
+      "fixture": "valid/revision-scoped-annotation",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/same-semantic-different-revision-id",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/sealed",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "PASS"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": false
+      }
+    },
+    {
+      "fixture": "valid/semantic-change-new-revision",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/semantic-only-sealed",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    },
+    {
+      "fixture": "valid/table",
+      "equalFields": {
+        "base": true,
+        "normativeCapabilities": true,
+        "violationRequirementIds": true,
+        "notTestedRequirementIds": true,
+        "operationalStatus": true
+      },
+      "completeSurfaceAgreement": true,
+      "A_ONLY": [],
+      "B_ONLY": [],
+      "COMMON": [],
+      "strictASubsetOfB": false,
+      "A": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "B": {
+        "base": "PASS",
+        "normativeCapabilities": {
+          "Accessible": "NOT_CLAIMED",
+          "Mapping": "NOT_CLAIMED"
+        },
+        "violationRequirementIds": [],
+        "notTestedRequirementIds": [
+          "SPD-ID-013"
+        ],
+        "operationalStatus": "COMPLETE"
+      },
+      "semanticClassification": {
+        "A": "VALID",
+        "B": "VALID"
+      },
+      "experimental": {
+        "A": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "B": {
+          "Archive-Experimental": "NOT_CLAIMED",
+          "Fixed-Experimental": "NOT_CLAIMED"
+        },
+        "equal": true
+      }
+    }
+  ],
+  "classificationCounts": {
+    "CORPUS_ORACLE_BUG": 1,
+    "NORMALIZATION_CONTRACT_BUG": 14,
+    "VALIDATOR_A_BUG": 2,
+    "VALIDATOR_B_BUG": 8
+  },
+  "severityCounts": {
+    "RC_BLOCKER": 1,
+    "RC_DIAGNOSTIC_CONVERGENCE": 24
+  }
+}

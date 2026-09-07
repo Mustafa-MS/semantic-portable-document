@@ -1,0 +1,60 @@
+# Local dependency and tool environments
+.phase1b/
+.phase1c/
+.venv/
+venv/
+validator-b/.venv/
+validator-b/tools/
+validator-convergence/installed-b/
+
+# Python caches and packaging output
+**/__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.hypothesis/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+validator-convergence/dist/
+
+# Rust build and fuzz output
+validator-a/target/
+validator-a/fuzz/target/
+
+# Temporary workspace output
+tmp/
+*.tmp
+*.bak
+*.log
+
+# Host-specific raw validation records. Public, path-neutral summaries remain tracked.
+reports/format-0.1-rc1/validator-a-results.json
+reports/format-0.1-rc1/validator-b-results.json
+reports/pre_rc_passive_security/candidate-a.json
+reports/pre_rc_passive_security/candidate-b.json
+reports/pre_rc_passive_security/checks.json
+reports/pre_rc_passive_security/direct-epubcheck-review.json
+reports/pre_rc_passive_security/final-a-0.1.0-draft.3.json
+reports/pre_rc_passive_security/final-b-0.1.2.json
+reports/pre_rc_passive_security/native-b.json
+reports/pre_rc_passive_security/operational-attempt-a.json
+reports/pre_rc_passive_security/operational-attempt-b.json
+reports/pre_rc_passive_security/pre-clarification-inputs.zip
+validator-b/reports/epubcheck-completion-environment.json
+validator-b/reports/epubcheck-fixture-execution.json
+validator-convergence/candidate-a.json
+validator-convergence/candidate-b.json
+validator-convergence/checks.json
+validator-convergence/detailed-a.json
+validator-convergence/detailed-b.json
+validator-convergence/environment.json
+validator-convergence/final-0.1.1-a.json
+validator-convergence/final-0.1.1-b.json
+validator-convergence/final-0.1.1-detailed-a.json
+validator-convergence/final-0.1.1-detailed-b.json
+validator-convergence/freezes/validator-a-0.1.0-draft.2-corpus-0.1.1.json
+validator-convergence/freezes/validator-b-0.1.1-corpus-0.1.1.json
+validator-convergence/integrity-checks.json
+validator-convergence/historical-inputs.zip

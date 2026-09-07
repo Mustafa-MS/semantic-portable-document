@@ -1,0 +1,1749 @@
+{
+  "contractVersion": "0.1.1",
+  "corpusVersion": "0.1.1",
+  "fixtureCount": 70,
+  "results": [
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "edge/cjk-vertical",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "edge/combining-character-range",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "PASS"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": true,
+        "fixedExperimentalEvaluationStatus": "NOT_TESTED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "edge/css-change-stales-fixed",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "edge/deep-lists",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "edge/emoji-range",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "PASS"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "edge/empty-section",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": true,
+        "fixedExperimentalEvaluationStatus": "NOT_TESTED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "edge/font-change-stales-fixed",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "edge/node-not-visible",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "PASS"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "edge/partial-mapping",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "PASS"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "edge/rtl-range",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "PASS"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "edge/table-spanning-pages",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "edge/unsupported-mapping",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "PASS"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "edge/very-long-paragraph",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/bad-resource-hash",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-INT-003",
+        "SPD-INT-004",
+        "SPD-INT-005",
+        "SPD-RES-004"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/capability-status-not-user-controlled",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-CAP-002"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/cross-spine-duplicate-node-id",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-ID-006"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "UNKNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "UNKNOWN",
+        "Fixed-Experimental": "UNKNOWN"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": null,
+        "fixedExperimentalEvaluationStatus": "UNKNOWN",
+        "physicalFixedRenditionPresent": null
+      },
+      "fixture": "invalid/descriptor-discovery-conflict",
+      "normativeCapabilities": {
+        "Accessible": "UNKNOWN",
+        "Mapping": "UNKNOWN"
+      },
+      "notTestedRequirementIds": [
+        "SPD-CAP-002",
+        "SPD-CAP-003",
+        "SPD-ID-002",
+        "SPD-ID-013",
+        "SPD-INT-004",
+        "SPD-INT-005",
+        "SPD-INT-006",
+        "SPD-STATE-002",
+        "SPD-STATE-003",
+        "SPD-STATE-006",
+        "SPD-STATE-007"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-DISC-002"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "UNKNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "UNKNOWN",
+        "Fixed-Experimental": "UNKNOWN"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": null,
+        "fixedExperimentalEvaluationStatus": "UNKNOWN",
+        "physicalFixedRenditionPresent": null
+      },
+      "fixture": "invalid/descriptor-discovery-missing",
+      "normativeCapabilities": {
+        "Accessible": "UNKNOWN",
+        "Mapping": "UNKNOWN"
+      },
+      "notTestedRequirementIds": [
+        "SPD-CAP-002",
+        "SPD-CAP-003",
+        "SPD-ID-002",
+        "SPD-ID-013",
+        "SPD-INT-003",
+        "SPD-INT-004",
+        "SPD-INT-005",
+        "SPD-INT-006",
+        "SPD-RES-001",
+        "SPD-RES-002",
+        "SPD-RES-003",
+        "SPD-RES-004",
+        "SPD-RES-005",
+        "SPD-RES-006",
+        "SPD-STATE-002",
+        "SPD-STATE-003",
+        "SPD-STATE-006",
+        "SPD-STATE-007"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-DISC-001"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/duplicate-node-id",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-ID-006"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/duplicate-normalized-path",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-BASE-002",
+        "SPD-RES-002"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/event-handler",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-ID-006",
+        "SPD-SEC-001"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/external-required-css",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-SEC-005"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/external-required-font",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-SEC-004"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/external-required-image",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-SEC-006"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/invalid-table-semantics",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-SEM-013"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/invalid-xhtml",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-006",
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-SEM-002"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/javascript",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-SEC-001"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/mapping-invalid-geometry",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-MAP-011",
+        "SPD-MAP-012"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/mapping-invalid-page",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-MAP-011"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/mapping-invalid-range",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-MAP-008"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/mapping-with-stale-fixed",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-STATE-007"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/mapping-wrong-rendition",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-MAP-002"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/mapping-wrong-revision",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-MAP-002"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/missing-document-id",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-ID-001"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/missing-revision-id",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-ID-002"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/missing-root-direction",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-I18N-004"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/missing-root-language",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-I18N-003"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/multiple-rootfiles",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-BASE-006"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/mutation-asset",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-INT-003",
+        "SPD-RES-004",
+        "SPD-STATE-003"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/mutation-css",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-INT-003",
+        "SPD-RES-004"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/mutation-fixed",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-INT-003",
+        "SPD-RES-004",
+        "SPD-STATE-005",
+        "SPD-STATE-006",
+        "SPD-STATE-007"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/mutation-mapping",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-INT-003",
+        "SPD-RES-004",
+        "SPD-STATE-002"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/mutation-semantic",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-INT-003",
+        "SPD-RES-004",
+        "SPD-STATE-003"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/not-visible-reason",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-MAP-005"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/partial-mapping-reason",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-MAP-005"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/path-traversal",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-BASE-002",
+        "SPD-RES-002"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/sealed-after-annotation-modification",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-ANN-004",
+        "SPD-INT-003",
+        "SPD-RES-004"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/sealed-after-semantic-modification",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-INT-003",
+        "SPD-RES-004",
+        "SPD-STATE-003"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "invalid/stale-fixed-rendition",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "FAIL"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-STATE-007"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/unlisted-non-normative-resource",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-RES-003",
+        "SPD-RES-006"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/unlisted-normative-resource",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-RES-003",
+        "SPD-RES-006"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "FAIL",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "invalid/visual-order-arabic-source",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": [
+        "SPD-I18N-001"
+      ]
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/accessible",
+      "normativeCapabilities": {
+        "Accessible": "NOT_TESTED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ACC-001",
+        "SPD-ACC-004",
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/annotations",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/arabic",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/figure-svg",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "PRESENT_EXPERIMENTAL"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": true,
+        "fixedExperimentalEvaluationStatus": "NOT_TESTED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "valid/fixed-without-mapping",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/lineage-scoped-annotation",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "valid/mapped",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "PASS"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "valid/mapping-with-current-fixed",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "PASS"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/mathml",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/minimal-base",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/mixed-bidi",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/multi-spine",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/revision-scoped-annotation",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/same-semantic-different-revision-id",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": true
+      },
+      "fixture": "valid/sealed",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "PASS"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/semantic-change-new-revision",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/semantic-only-sealed",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    },
+    {
+      "authoritativeClaimsStatus": "KNOWN",
+      "base": "PASS",
+      "experimentalCapabilities": {
+        "Archive-Experimental": "NOT_CLAIMED",
+        "Fixed-Experimental": "NOT_CLAIMED"
+      },
+      "experimentalReporting": {
+        "fixedExperimentalCapabilityDeclared": false,
+        "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+        "physicalFixedRenditionPresent": false
+      },
+      "fixture": "valid/table",
+      "normativeCapabilities": {
+        "Accessible": "NOT_CLAIMED",
+        "Mapping": "NOT_CLAIMED"
+      },
+      "notTestedRequirementIds": [
+        "SPD-ID-013"
+      ],
+      "operationalStatus": "COMPLETE",
+      "violationRequirementIds": []
+    }
+  ]
+}

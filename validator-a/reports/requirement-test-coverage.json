@@ -1,0 +1,976 @@
+{
+  "SPD-ARCH-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "architecture"
+  },
+  "SPD-ARCH-002": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "architecture"
+  },
+  "SPD-ARCH-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "architecture"
+  },
+  "SPD-BASE-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "package"
+  },
+  "SPD-BASE-002": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/duplicate-normalized-path",
+      "invalid/path-traversal"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "package"
+  },
+  "SPD-BASE-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "package"
+  },
+  "SPD-BASE-004": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "package"
+  },
+  "SPD-BASE-005": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "package"
+  },
+  "SPD-BASE-006": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/multiple-rootfiles"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "package"
+  },
+  "SPD-SEC-001": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/event-handler",
+      "invalid/javascript"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "security"
+  },
+  "SPD-SEC-002": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "security"
+  },
+  "SPD-SEC-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "security"
+  },
+  "SPD-SEC-004": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/external-required-font"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "security"
+  },
+  "SPD-SEC-005": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/external-required-css"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "security"
+  },
+  "SPD-SEC-006": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/external-required-image"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "security"
+  },
+  "SPD-SEC-007": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "security"
+  },
+  "SPD-SEC-008": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "security"
+  },
+  "SPD-SEM-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-SEM-002": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/invalid-xhtml"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-SEM-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-SEM-004": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-SEM-005": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-SEM-006": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-SEM-007": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-SEM-008": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-SEM-009": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-SEM-010": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-SEM-011": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-SEM-012": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-SEM-013": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/invalid-table-semantics"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-SEM-014": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-ID-001": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/missing-document-id"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "identity"
+  },
+  "SPD-ID-002": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/missing-revision-id"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "identity"
+  },
+  "SPD-ID-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "identity"
+  },
+  "SPD-ID-004": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "identity"
+  },
+  "SPD-ID-005": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "identity"
+  },
+  "SPD-ID-006": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/duplicate-node-id"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "identity"
+  },
+  "SPD-ID-007": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "identity"
+  },
+  "SPD-ID-008": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "identity"
+  },
+  "SPD-ID-009": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "identity"
+  },
+  "SPD-ID-010": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "identity"
+  },
+  "SPD-ID-011": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "identity"
+  },
+  "SPD-ID-012": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "identity"
+  },
+  "SPD-ID-013": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "identity"
+  },
+  "SPD-I18N-001": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/visual-order-arabic-source"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-I18N-002": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-I18N-003": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/missing-root-language"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-I18N-004": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/missing-root-direction"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-I18N-005": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-I18N-006": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "semantic"
+  },
+  "SPD-ANN-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "annotations"
+  },
+  "SPD-ANN-002": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "annotations"
+  },
+  "SPD-ANN-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "annotations"
+  },
+  "SPD-ANN-004": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/sealed-after-annotation-modification"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "annotations"
+  },
+  "SPD-STATE-001": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/stale-fixed-rendition"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "state"
+  },
+  "SPD-STATE-002": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "state"
+  },
+  "SPD-STATE-003": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/sealed-after-semantic-modification"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "state"
+  },
+  "SPD-STATE-004": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "state"
+  },
+  "SPD-STATE-005": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "state"
+  },
+  "SPD-STATE-006": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "state"
+  },
+  "SPD-STATE-007": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/mapping-with-stale-fixed"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "state"
+  },
+  "SPD-RES-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "inventory"
+  },
+  "SPD-RES-002": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "inventory"
+  },
+  "SPD-RES-003": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/unlisted-normative-resource"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "inventory"
+  },
+  "SPD-RES-004": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "inventory"
+  },
+  "SPD-RES-005": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "inventory"
+  },
+  "SPD-RES-006": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/unlisted-non-normative-resource"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "inventory"
+  },
+  "SPD-INT-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "integrity"
+  },
+  "SPD-INT-002": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "integrity"
+  },
+  "SPD-INT-003": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/bad-resource-hash",
+      "invalid/mutation-asset",
+      "invalid/mutation-css",
+      "invalid/mutation-fixed",
+      "invalid/mutation-mapping",
+      "invalid/mutation-semantic"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "integrity"
+  },
+  "SPD-INT-004": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "integrity"
+  },
+  "SPD-INT-005": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "integrity"
+  },
+  "SPD-INT-006": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "integrity"
+  },
+  "SPD-FIX-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "state"
+  },
+  "SPD-FIX-002": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "state"
+  },
+  "SPD-FIX-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "state"
+  },
+  "SPD-MAP-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "mapping"
+  },
+  "SPD-MAP-002": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/mapping-wrong-rendition",
+      "invalid/mapping-wrong-revision"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "mapping"
+  },
+  "SPD-MAP-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "mapping"
+  },
+  "SPD-MAP-004": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "mapping"
+  },
+  "SPD-MAP-005": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/not-visible-reason",
+      "invalid/partial-mapping-reason"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "mapping"
+  },
+  "SPD-MAP-006": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "mapping"
+  },
+  "SPD-MAP-007": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "mapping"
+  },
+  "SPD-MAP-008": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/mapping-invalid-range"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "mapping"
+  },
+  "SPD-MAP-009": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "mapping"
+  },
+  "SPD-MAP-010": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "mapping"
+  },
+  "SPD-MAP-011": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/mapping-invalid-geometry",
+      "invalid/mapping-invalid-page"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "mapping"
+  },
+  "SPD-MAP-012": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "mapping"
+  },
+  "SPD-ACC-001": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "valid/accessible"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "accessibility"
+  },
+  "SPD-ACC-002": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "accessibility"
+  },
+  "SPD-ACC-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "accessibility"
+  },
+  "SPD-ACC-004": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "valid/accessible"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "accessibility"
+  },
+  "SPD-PROV-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "provenance"
+  },
+  "SPD-IMP-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "import"
+  },
+  "SPD-IMP-002": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "import"
+  },
+  "SPD-IMP-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "import"
+  },
+  "SPD-API-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "api"
+  },
+  "SPD-CAP-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "capabilities"
+  },
+  "SPD-CAP-002": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/capability-status-not-user-controlled"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "capabilities"
+  },
+  "SPD-CAP-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "capabilities"
+  },
+  "SPD-DISC-001": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/descriptor-discovery-missing"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "discovery"
+  },
+  "SPD-DISC-002": {
+    "tests": [
+      "tests/corpus.rs"
+    ],
+    "fixtures": [
+      "invalid/descriptor-discovery-conflict"
+    ],
+    "implementationModule": "src/validator.rs",
+    "stage": "discovery"
+  },
+  "SPD-DISC-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "discovery"
+  },
+  "SPD-DISC-004": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "discovery"
+  },
+  "SPD-EXT-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "extensions"
+  },
+  "SPD-EXT-002": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "extensions"
+  },
+  "SPD-EXT-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "extensions"
+  },
+  "SPD-TEST-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "test-corpus"
+  },
+  "SPD-TEST-002": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "test-corpus"
+  },
+  "SPD-GOV-001": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "governance"
+  },
+  "SPD-GOV-002": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "governance"
+  },
+  "SPD-GOV-003": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "governance"
+  },
+  "SPD-GOV-004": {
+    "tests": [
+      "grouped stage/unit facts"
+    ],
+    "fixtures": [],
+    "implementationModule": "src/validator.rs",
+    "stage": "governance"
+  }
+}

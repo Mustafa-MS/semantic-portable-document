@@ -1,0 +1,57 @@
+{
+  "reader": "calibre E-book viewer",
+  "version": "9.14",
+  "engine": "Qt WebEngine",
+  "method": "manual GUI trial with accessibility-tree and screenshot inspection",
+  "installation": "user-provided portable installation",
+  "results": [
+    {
+      "testId": "T04",
+      "opened": true,
+      "checks": {
+        "rasterFigureRendered": true,
+        "svgFigureRendered": true,
+        "captionsRendered": true
+      }
+    },
+    {
+      "testId": "T05",
+      "opened": true,
+      "checks": {
+        "inlineMathMLRendered": true,
+        "displayMathMLRendered": true,
+        "equationNumberRendered": true
+      }
+    },
+    {
+      "testId": "T08",
+      "opened": true,
+      "checks": {
+        "rtlLayoutRendered": true,
+        "arabicTextAccessible": true,
+        "arabicIndicDigitsRendered": true,
+        "tableRendered": true,
+        "imageAltExposed": true
+      }
+    },
+    {
+      "testId": "T09",
+      "opened": true,
+      "checks": {
+        "rtlLayoutRendered": true,
+        "mixedArabicEnglishRendered": true,
+        "latinUrlRendered": true,
+        "mathMLRendered": true
+      }
+    },
+    {
+      "testId": "T12",
+      "opened": true,
+      "checks": {
+        "semanticContentRendered": true,
+        "experimentalManifestPdfSurfaced": false,
+        "experimentalJsonResourcesSurfaced": false
+      }
+    }
+  ]
+}

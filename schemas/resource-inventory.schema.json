@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/spd/0.1/resource-inventory.schema.json",
+  "title": "SPD 0.1 normative resource inventory",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "documentId", "revisionId", "resources"],
+  "properties": {
+    "schemaVersion": {"const": "0.1"},
+    "documentId": {"$ref": "#/$defs/documentId"},
+    "revisionId": {"$ref": "#/$defs/revisionId"},
+    "resources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "mediaType", "byteLength", "sha256", "role", "affects"],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 65535,
+            "pattern": "^(?!/)(?!.*\\\\)(?!.*(?:^|/)\\.{1,2}(?:/|$))(?!.*//)[^\\u0000-\\u001f]+$"
+          },
+          "mediaType": {"type": "string", "pattern": "^[A-Za-z0-9!#$&^_.+-]+/[A-Za-z0-9!#$&^_.+-]+(?:;.*)?$"},
+          "byteLength": {"type": "integer", "minimum": 0},
+          "sha256": {"$ref": "#/$defs/digest"},
+          "role": {"enum": ["authoritative", "generated", "inferred", "cached", "non-normative", "control"]},
+          "affects": {
+            "type": "array",
+            "uniqueItems": true,
+            "maxItems": 2,
+            "items": {"enum": ["semantic", "rendering"]}
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "documentId": {"type": "string", "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"},
+    "revisionId": {"type": "string", "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"},
+    "digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}
+  }
+}

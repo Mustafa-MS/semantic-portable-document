@@ -1,0 +1,10 @@
+{
+  "fixtureCount": 107,
+  "aOracleDifferences": {},
+  "bOracleDifferences": {},
+  "abDifferences": [],
+  "sourceStable": {
+    "a": true,
+    "b": true
+  }
+}

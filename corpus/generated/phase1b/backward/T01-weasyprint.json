@@ -1,0 +1,158 @@
+{
+  "coverage": {
+    "expected": 8,
+    "mapped": 5,
+    "ratio": 0.625
+  },
+  "document": "d_cc3abc4e45b14b50b715b7c773d56f75",
+  "fixedRendition": "f_6f37296daea540e0b85db9e77cfbc5db",
+  "fixedRenditionHash": "sha256:4588a7e5e9ef0e4b82246aedc612f5e244c9fe85ee06f0256fa50047fe9c374d",
+  "mappings": [
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.18897675,
+            76.82512199999996,
+            369.4289767500001,
+            76.82512199999996,
+            369.4289767500001,
+            100.82512199999996,
+            48.18897675,
+            100.82512199999996
+          ],
+          "textRange": [
+            0,
+            26
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_067651274e5340808b838f0894339404"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.18897675,
+            168.41844526199998,
+            374.74482372,
+            168.41844526199998,
+            374.74482372,
+            179.41795726199996,
+            48.18897675,
+            179.41795726199996
+          ],
+          "textRange": [
+            0,
+            68
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_cc0ddad318994bac8e34575c720e7a32"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            78.18897675,
+            196.75496401199996,
+            164.52414643800003,
+            196.75496401199996,
+            164.52414643800003,
+            225.09099451199995,
+            78.18897675,
+            225.09099451199995
+          ],
+          "textRange": [
+            0,
+            38
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_6b54347c50c7472ca2b2a1a61d26cc1b"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            78.18897675,
+            196.75496401199996,
+            164.52414643800003,
+            196.75496401199996,
+            164.52414643800003,
+            207.75447601199994,
+            78.18897675,
+            207.75447601199994
+          ],
+          "textRange": [
+            0,
+            19
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_9d95cd556788455d9da54395fc2c8a2c"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            78.18897675,
+            214.09148251199997,
+            162.91821768600002,
+            214.09148251199997,
+            162.91821768600002,
+            225.09099451199995,
+            78.18897675,
+            225.09099451199995
+          ],
+          "textRange": [
+            0,
+            18
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_261af82136c44ebaa3ce2b3687b9a0c1"
+    }
+  ],
+  "pages": [
+    {
+      "height": 841.889764,
+      "id": "pg_1",
+      "unit": "pt",
+      "width": 595.275591
+    },
+    {
+      "height": 841.889764,
+      "id": "pg_2",
+      "unit": "pt",
+      "width": 595.275591
+    }
+  ],
+  "renderer": "weasyprint-pdfplumber",
+  "revision": "r_e656de958450452c9021099f305defc3",
+  "schemaVersion": "0.1-experimental",
+  "unmatched": [
+    {
+      "node": "n_9bc34460c854472f8a2ea54015d48432",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_663d748e9c084e62a078ebda72dfce0b",
+      "reason": "logical token sequence not found in extracted PDF words"
+    }
+  ]
+}

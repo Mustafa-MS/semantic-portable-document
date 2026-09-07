@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/spd/0.1/state.schema.json",
+  "title": "SPD 0.1 lifecycle state descriptor",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "lifecycle", "documentId", "revisionId", "semanticStateDigest", "renditionInputDigest", "inventory", "fixedRendition", "descriptorDigest"],
+  "properties": {
+    "schemaVersion": {"const": "0.1"},
+    "lifecycle": {"enum": ["EDITABLE", "SEALED"]},
+    "documentId": {"$ref": "#/$defs/documentId"},
+    "revisionId": {"$ref": "#/$defs/revisionId"},
+    "semanticStateDigest": {"$ref": "#/$defs/digest"},
+    "renditionInputDigest": {"$ref": "#/$defs/digest"},
+    "inventory": {"$ref": "#/$defs/binding"},
+    "fixedRendition": {
+      "oneOf": [
+        {"type": "object", "additionalProperties": false, "required": ["status"], "properties": {"status": {"const": "absent"}}},
+        {
+          "type": "object", "additionalProperties": false, "required": ["status", "id", "revisionId", "renditionInputDigest", "path", "sha256"],
+          "properties": {
+            "status": {"enum": ["current", "stale"]},
+            "id": {"$ref": "#/$defs/fixedId"},
+            "revisionId": {"$ref": "#/$defs/revisionId"},
+            "renditionInputDigest": {"$ref": "#/$defs/digest"},
+            "path": {"type": "string", "minLength": 1},
+            "sha256": {"$ref": "#/$defs/digest"}
+          }
+        }
+      ]
+    },
+    "mapping": {"$ref": "#/$defs/binding"},
+    "sealedAt": {"type": "string", "format": "date-time"},
+    "descriptorDigest": {"$ref": "#/$defs/digest"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"lifecycle": {"const": "SEALED"}}},
+      "then": {
+        "required": ["sealedAt"],
+        "properties": {
+          "fixedRendition": {
+            "not": {"properties": {"status": {"const": "stale"}}, "required": ["status"]}
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "documentId": {"type": "string", "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"},
+    "revisionId": {"type": "string", "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"},
+    "fixedId": {"type": "string", "pattern": "^f_[a-z0-9._-]{1,128}$", "maxLength": 130},
+    "digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "binding": {
+      "type": "object", "additionalProperties": false, "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"$ref": "#/$defs/digest"}
+      }
+    }
+  }
+}

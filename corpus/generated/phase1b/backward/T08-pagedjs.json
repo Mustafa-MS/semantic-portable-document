@@ -1,0 +1,100 @@
+{
+  "coverage": {
+    "expected": 14,
+    "mapped": 1,
+    "ratio": 0.0714
+  },
+  "document": "d_05a84440d47448ec9d76526b3e47ed7e",
+  "fixedRendition": "f_3a31255cc2fe4f12bb0e8593a2acdf01",
+  "fixedRenditionHash": "sha256:90a3c6145cf12be30419fe6fa61ed7b8beb16cdd809de6179918d98b6172cf7a",
+  "mappings": [
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            238.94529204394576,
+            235.51447757644985,
+            263.7343500131218,
+            235.51447757644985,
+            263.7343500131218,
+            246.50947696832486,
+            238.94529204394576,
+            246.50947696832486
+          ],
+          "textRange": [
+            0,
+            5
+          ]
+        }
+      ],
+      "kind": "table-cell",
+      "node": "n_c53f23cc070540cabcb10b89526c2d21"
+    }
+  ],
+  "pages": [
+    {
+      "height": 841.91998,
+      "id": "pg_1",
+      "unit": "pt",
+      "width": 594.95996
+    }
+  ],
+  "renderer": "pagedjs-pdfplumber",
+  "revision": "r_263e2261deed47c0b18e776a17aabba7",
+  "schemaVersion": "0.1-experimental",
+  "unmatched": [
+    {
+      "node": "n_dd161526d77d456894ffb6aca4862130",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_35ea1633e7cf4b299c211e7e0edb933d",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_7cda818269174fe4a513ed5f0c82e409",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_8395398da7d7464cb8e5d6c1f9857189",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_b5157ae9ebad477785fe6ab1bd9b58de",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_13c941ea366d4b4da4b849632aa8248b",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_ef6c92f224a446be975d27d5594e22bb",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_783c9978a330408f9214573d88854797",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_0dcfa0bf5ed4447fb9ad8bfd41e80323",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_573aab94da2f415894abfbc39fde77aa",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_9903883a533d4517affb0d63fc5c1f2e",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_981be20bfcf84d529789f7d868edb5a8",
+      "reason": "logical token sequence not found in extracted PDF words"
+    }
+  ]
+}

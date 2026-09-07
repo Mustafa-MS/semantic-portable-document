@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:uuid:40d0f937-3ec9-5b43-9a53-28544b0596ff",
+  "title": "Validator A production report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["validator", "base", "capabilities", "operationalStatus", "findings", "manualRequirements", "notTestedRequirements", "externalTools", "reproducibility"],
+  "properties": {
+    "validator": {"type": "string"},
+    "base": {"enum": ["PASS", "FAIL", "NOT_TESTED", "NOT_APPLICABLE"]},
+    "capabilities": {"type": "object", "additionalProperties": {"type": "string"}},
+    "authoritativeClaimsStatus": {"enum": ["KNOWN", "UNKNOWN"]},
+    "experimentalReporting": {"type": "object"},
+    "operationalStatus": {"enum": ["COMPLETE", "TOOL_UNAVAILABLE", "TOOL_ERROR", "RESOURCE_LIMIT", "MALFORMED_INPUT", "INTERNAL_ERROR", "SPEC_BLOCKER"]},
+    "documentId": {"type": ["string", "null"]}, "revisionId": {"type": ["string", "null"]},
+    "findings": {"type": "array", "items": {"type": "object", "required": ["requirementId", "outcome", "severity", "capability", "stage", "message", "source"]}},
+    "manualRequirements": {"type": "array", "items": {"type": "string"}},
+    "notTestedRequirements": {"type": "array", "items": {"type": "string"}},
+    "externalTools": {"type": "array"}, "reproducibility": {"type": "object"}
+  }
+}

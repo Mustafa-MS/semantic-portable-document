@@ -1,0 +1,25 @@
+{
+  "authoritativeClaimsStatus": "KNOWN",
+  "base": "PASS",
+  "capabilities": {
+    "Accessible": "NOT_TESTED",
+    "Archive-Experimental": "NOT_CLAIMED",
+    "Fixed-Experimental": "NOT_CLAIMED",
+    "Mapping": "NOT_CLAIMED"
+  },
+  "corpusVersion": "0.1.1",
+  "experimentalReporting": {
+    "fixedExperimentalCapabilityDeclared": false,
+    "fixedExperimentalEvaluationStatus": "NOT_CLAIMED",
+    "physicalFixedRenditionPresent": false
+  },
+  "fixture": "valid/accessible",
+  "notTestedRequirementIds": [
+    "SPD-ACC-001",
+    "SPD-ACC-004",
+    "SPD-ID-013"
+  ],
+  "notes": [],
+  "operationalStatus": "COMPLETE",
+  "violations": []
+}

@@ -1,0 +1,696 @@
+{
+  "schemaVersion": "0.1C-experimental",
+  "mode": "marked-content",
+  "source": "<USERPROFILE>\\OneDrive\\Documents\\ChatGPT\\next gen pdf\\corpus\\sources\\T09.xhtml",
+  "forwardMap": "<USERPROFILE>\\OneDrive\\Documents\\ChatGPT\\next gen pdf\\corpus\\generated\\phase1b\\forward\\T09.json",
+  "inputPdf": "<USERPROFILE>\\OneDrive\\Documents\\ChatGPT\\next gen pdf\\corpus\\generated\\phase1b\\pagedjs\\T09.pdf",
+  "outputPdf": "<USERPROFILE>\\OneDrive\\Documents\\ChatGPT\\next gen pdf\\corpus\\generated\\phase1c\\compiled\\T09.pdf",
+  "inputSha256": "sha256:5e20b193af412a95a9a1f06ea9600362630a06c9fc929450b8b293fe3debe4d6",
+  "outputSha256": "sha256:d7f733da5433b4f4c8a7edc14ca50faf914e8d873b013be80ee7e838ad8fd109",
+  "phase1bMappingFidelity": {
+    "logicalRangeMapping": {
+      "expectedCharacters": 181,
+      "mappedCharacters": 181,
+      "ratio": 1.0
+    },
+    "visibleNodeMapping": {
+      "expected": 5,
+      "mapped": 5,
+      "ratio": 1.0
+    }
+  },
+  "assignment": {
+    "matches": [
+      {
+        "node": "n_3dab9b328ffb453192093d421fdf9f24",
+        "role": "Sect",
+        "status": "NO_RENDERER_STRUCTURE_MATCH"
+      },
+      {
+        "node": "n_fc49c6d6af774fd88127f57fe6a562ad",
+        "role": "H1",
+        "rendererRole": "H1",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 0,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 9,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 8,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 7,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 6,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 5,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 4,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 1,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 2,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 3,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_677656c53c154db0a48f4f9c12ab383c",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 24,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 23,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 22,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 21,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 16,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 17,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 18,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 19,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 20,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 15,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 14,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 13,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 12,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 11,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 10,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_73b73a1f54754a9c9cf912218d0b33bd",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 45,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 44,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 43,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 42,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 39,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 40,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 41,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 38,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 37,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 36,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 35,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 34,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 33,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 32,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 31,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 30,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 29,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 28,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 27,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 26,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 25,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_fe4ee163350f411daf53fb31a0a73a12",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 60,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 57,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 58,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 59,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 56,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 55,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 54,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 53,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 52,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 51,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 47,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 50,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 48,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 46,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 49,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": null,
+        "role": "Formula",
+        "status": "NO_RENDERER_STRUCTURE_MATCH"
+      }
+    ]
+  },
+  "structureTrace": [
+    {
+      "node": "n_fc49c6d6af774fd88127f57fe6a562ad",
+      "role": "H1",
+      "pdfObject": 102,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 0
+        },
+        {
+          "page": 1,
+          "mcid": 9
+        },
+        {
+          "page": 1,
+          "mcid": 8
+        },
+        {
+          "page": 1,
+          "mcid": 7
+        },
+        {
+          "page": 1,
+          "mcid": 6
+        },
+        {
+          "page": 1,
+          "mcid": 5
+        },
+        {
+          "page": 1,
+          "mcid": 4
+        },
+        {
+          "page": 1,
+          "mcid": 1
+        },
+        {
+          "page": 1,
+          "mcid": 2
+        },
+        {
+          "page": 1,
+          "mcid": 3
+        }
+      ]
+    },
+    {
+      "node": "n_677656c53c154db0a48f4f9c12ab383c",
+      "role": "P",
+      "pdfObject": 113,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 24
+        },
+        {
+          "page": 1,
+          "mcid": 23
+        },
+        {
+          "page": 1,
+          "mcid": 22
+        },
+        {
+          "page": 1,
+          "mcid": 21
+        },
+        {
+          "page": 1,
+          "mcid": 16
+        },
+        {
+          "page": 1,
+          "mcid": 17
+        },
+        {
+          "page": 1,
+          "mcid": 18
+        },
+        {
+          "page": 1,
+          "mcid": 19
+        },
+        {
+          "page": 1,
+          "mcid": 20
+        },
+        {
+          "page": 1,
+          "mcid": 15
+        },
+        {
+          "page": 1,
+          "mcid": 14
+        },
+        {
+          "page": 1,
+          "mcid": 13
+        },
+        {
+          "page": 1,
+          "mcid": 12
+        },
+        {
+          "page": 1,
+          "mcid": 11
+        },
+        {
+          "page": 1,
+          "mcid": 10
+        }
+      ]
+    },
+    {
+      "node": "n_73b73a1f54754a9c9cf912218d0b33bd",
+      "role": "P",
+      "pdfObject": 129,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 45
+        },
+        {
+          "page": 1,
+          "mcid": 44
+        },
+        {
+          "page": 1,
+          "mcid": 43
+        },
+        {
+          "page": 1,
+          "mcid": 42
+        },
+        {
+          "page": 1,
+          "mcid": 39
+        },
+        {
+          "page": 1,
+          "mcid": 40
+        },
+        {
+          "page": 1,
+          "mcid": 41
+        },
+        {
+          "page": 1,
+          "mcid": 38
+        },
+        {
+          "page": 1,
+          "mcid": 37
+        },
+        {
+          "page": 1,
+          "mcid": 36
+        },
+        {
+          "page": 1,
+          "mcid": 35
+        },
+        {
+          "page": 1,
+          "mcid": 34
+        },
+        {
+          "page": 1,
+          "mcid": 33
+        },
+        {
+          "page": 1,
+          "mcid": 32
+        },
+        {
+          "page": 1,
+          "mcid": 31
+        },
+        {
+          "page": 1,
+          "mcid": 30
+        },
+        {
+          "page": 1,
+          "mcid": 29
+        },
+        {
+          "page": 1,
+          "mcid": 28
+        },
+        {
+          "page": 1,
+          "mcid": 27
+        },
+        {
+          "page": 1,
+          "mcid": 26
+        },
+        {
+          "page": 1,
+          "mcid": 25
+        }
+      ]
+    },
+    {
+      "node": null,
+      "role": "Formula",
+      "pdfObject": 152,
+      "mcids": []
+    },
+    {
+      "node": "n_fe4ee163350f411daf53fb31a0a73a12",
+      "role": "P",
+      "pdfObject": 151,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 60
+        },
+        {
+          "page": 1,
+          "mcid": 57
+        },
+        {
+          "page": 1,
+          "mcid": 58
+        },
+        {
+          "page": 1,
+          "mcid": 59
+        },
+        {
+          "page": 1,
+          "mcid": 56
+        },
+        {
+          "page": 1,
+          "mcid": 55
+        },
+        {
+          "page": 1,
+          "mcid": 54
+        },
+        {
+          "page": 1,
+          "mcid": 53
+        },
+        {
+          "page": 1,
+          "mcid": 52
+        },
+        {
+          "page": 1,
+          "mcid": 51
+        },
+        {
+          "page": 1,
+          "mcid": 47
+        },
+        {
+          "page": 1,
+          "mcid": 50
+        },
+        {
+          "page": 1,
+          "mcid": 48
+        },
+        {
+          "page": 1,
+          "mcid": 46
+        },
+        {
+          "page": 1,
+          "mcid": 49
+        }
+      ]
+    },
+    {
+      "node": "n_3dab9b328ffb453192093d421fdf9f24",
+      "role": "Sect",
+      "pdfObject": 101,
+      "mcids": []
+    },
+    {
+      "node": null,
+      "role": "Document",
+      "pdfObject": 100,
+      "mcids": []
+    }
+  ],
+  "rewriteCounts": [
+    {
+      "page": 1,
+      "actualText": 4,
+      "emptied": 56,
+      "artifacts": 0,
+      "assigned": 61
+    }
+  ],
+  "repairedOutlineDestinations": 1,
+  "repairedLinkDestinations": 0,
+  "compilerBoundary": {
+    "changes": [
+      "structure tree",
+      "parent tree",
+      "marked-content properties",
+      "artifacts",
+      "metadata",
+      "PDF header"
+    ],
+    "unchanged": [
+      "text showing operators",
+      "glyph codes",
+      "fonts",
+      "images",
+      "paths",
+      "layout",
+      "line breaking",
+      "shaping"
+    ]
+  }
+}

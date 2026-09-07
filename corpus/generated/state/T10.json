@@ -1,0 +1,49 @@
+{
+  "descriptorHash": "sha256:4fe6497663dc0ca82243f142c18829a5f03977314e9965c6f26815acb20bf0d7",
+  "document": "d_b213c48262f542568c65df4d17ed3363",
+  "excluded": [
+    "cache/",
+    "debug/"
+  ],
+  "lifecycle": "SEALED",
+  "rendererProvenance": {
+    "render_time_ms": 2343.12,
+    "renderer": "chromium"
+  },
+  "resources": {
+    "fixed": {
+      "hash": "sha256:f881bad7b714ee775214f3a70dad521384fe22a3aa15fc6bfcdb8055b6b8568d",
+      "normative": true,
+      "path": "T10.pdf"
+    },
+    "mapping": {
+      "hash": "sha256:e1ad7271c24339a029eec4b2741da781fc384c08ecbb8a16976b47cc320136ed",
+      "normative": true,
+      "path": "T10.json"
+    },
+    "required": [
+      {
+        "hash": "sha256:0b4104b8aca965811e701bb89c242c64c97c8fb160b9e6cf3dce211da1e2e274",
+        "normative": true,
+        "path": "style.css"
+      },
+      {
+        "hash": "sha256:30889126bd5246eeadd5968e128efcf42002ae7277e1319f675849a6656ee928",
+        "normative": true,
+        "path": "sample.png"
+      },
+      {
+        "hash": "sha256:6adb763f73f1b8c33a8da56f72b3bfd49444b699fe41571c521de3399beab472",
+        "normative": true,
+        "path": "decorative.png"
+      }
+    ],
+    "semantic": {
+      "hash": "sha256:670b9fa1e528ea44b1fd5499e06403acffc56fd0b367fe20a9d1d2c75149bda2",
+      "normative": true,
+      "path": "T10.xhtml"
+    }
+  },
+  "revision": "r_27290679b2464cf9bd99476923797d5a",
+  "schemaVersion": "0.1-experimental"
+}

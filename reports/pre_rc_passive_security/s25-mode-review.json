@@ -1,0 +1,9 @@
+{
+  "reason": "Final byte inspection found S25 initially covered symlink mode only. SVG entry now also exercises device mode; no payload or normative outcome changed. Both validators must re-evaluate these final bytes.",
+  "beforeSha256": "e39063aa3bbc2146551b6b6882188dcc398f06ad5e4eaa4f56332907f0c7d015",
+  "afterSha256": "b808e521ebd69a3ffc75a618ad4af73f6bf86a1f2818cf8494780d532d4010eb",
+  "modes": {
+    "EPUB/style.css": "0o120000",
+    "EPUB/figure.svg": "0o20000"
+  }
+}

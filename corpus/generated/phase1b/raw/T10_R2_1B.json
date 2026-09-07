@@ -1,0 +1,1387 @@
+{
+  "catalog": {
+    "nodes": {
+      "n_59352efefabe484481c9e027e4718876": {
+        "tag": "article",
+        "visibleInSourceLayout": true,
+        "sourceText": "\n\n\n\n",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_e1e27d7e576d46219081f50d0cd56bad": {
+        "tag": "h1",
+        "visibleInSourceLayout": true,
+        "sourceText": "A compact academic paper",
+        "expectedNonWhitespaceCharacters": 21,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_871b808bf4f540e8b28c3fc7397c8457": {
+        "tag": "section",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_4d653aed047d4e0a964d933d0a501b60": {
+        "tag": "h2",
+        "visibleInSourceLayout": true,
+        "sourceText": "Abstract",
+        "expectedNonWhitespaceCharacters": 8,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_314cfbeb93dc46a3906cfcb3197a0f8b": {
+        "tag": "p",
+        "visibleInSourceLayout": true,
+        "sourceText": "We evaluate a semantic-first document architecture using fixed-rendition mapping.",
+        "expectedNonWhitespaceCharacters": 73,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_30db2c84068d4a55836ec6f0a9b5bd40": {
+        "tag": "section",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_93a0e44bfa0a447686070c33ecc50e2f": {
+        "tag": "h2",
+        "visibleInSourceLayout": true,
+        "sourceText": "Methods",
+        "expectedNonWhitespaceCharacters": 7,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_a551b6341c354a0ca9810cacb1bb82ca": {
+        "tag": "p",
+        "visibleInSourceLayout": true,
+        "sourceText": "Stable node identities were preserved during a targeted result update [1].",
+        "expectedNonWhitespaceCharacters": 64,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_4dbab7fd89d9499ba950b71a70f6f40a": {
+        "tag": "section",
+        "visibleInSourceLayout": true,
+        "sourceText": "\n\n\n",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_bad2af0c0ebe4af2ae02f0db4ee4be38": {
+        "tag": "h2",
+        "visibleInSourceLayout": true,
+        "sourceText": "Results",
+        "expectedNonWhitespaceCharacters": 7,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_62b117c8760e4f649a3a75104353d5cc": {
+        "tag": "p",
+        "visibleInSourceLayout": true,
+        "sourceText": "Table 4 reports the exact experimental result: FROC improved from baseline to 0.906.",
+        "expectedNonWhitespaceCharacters": 72,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_399762edc9454ad99febef796332e253": {
+        "tag": "table",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_ea04b45dcdd9405d9dd4a439c9fa89b8": {
+        "tag": "caption",
+        "visibleInSourceLayout": true,
+        "sourceText": "Table 4. Primary result.",
+        "expectedNonWhitespaceCharacters": 21,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_3e8c5ca57d7d4a88afca65cf229d8de8": {
+        "tag": "tr",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_52a40cdfc38a4e5ab22d57bd46fbc1fa": {
+        "tag": "th",
+        "visibleInSourceLayout": true,
+        "sourceText": "Measure",
+        "expectedNonWhitespaceCharacters": 7,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_b11e2250e55f4a62acbc3f9680abc63b": {
+        "tag": "th",
+        "visibleInSourceLayout": true,
+        "sourceText": "Value",
+        "expectedNonWhitespaceCharacters": 5,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_9e6c9d7203d74368babebcd11f01d2f5": {
+        "tag": "tr",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_399984b70c6b4b7c99a57b382c8fcff6": {
+        "tag": "td",
+        "visibleInSourceLayout": true,
+        "sourceText": "FROC",
+        "expectedNonWhitespaceCharacters": 4,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_3376d51dbd504c8cbd6a3de6d2af255c": {
+        "tag": "td",
+        "visibleInSourceLayout": true,
+        "sourceText": "0.906",
+        "expectedNonWhitespaceCharacters": 5,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_559de0617f284db3ab11591c9fc8b1f6": {
+        "tag": "figure",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_94ad42069c4b4dd1ac0f5059ce81a3d2": {
+        "tag": "figcaption",
+        "visibleInSourceLayout": true,
+        "sourceText": "Figure 1. Primary result visualization.",
+        "expectedNonWhitespaceCharacters": 35,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_a4a3a86eb73b46e9901db7176d72b5e1": {
+        "tag": "section",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_01b49b464d47494783e29fe4b9cd7c66": {
+        "tag": "h2",
+        "visibleInSourceLayout": true,
+        "sourceText": "References",
+        "expectedNonWhitespaceCharacters": 10,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_68ef20b32ad04df39b6d165e910f74bb": {
+        "tag": "ol",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_c2d012ffd6d44b448f15a9a1b6a8d6a8": {
+        "tag": "li",
+        "visibleInSourceLayout": true,
+        "sourceText": "[1] Example Research Group. Semantic document experiments. 2025.",
+        "expectedNonWhitespaceCharacters": 57,
+        "nonVisualNonWhitespaceCharacters": 0
+      }
+    },
+    "documentId": "d_b213c48262f542568c65df4d17ed3363",
+    "revisionId": "r_9079e0d5d262499091d1769953a51ded",
+    "title": "Academic Paper",
+    "lang": "en",
+    "dir": "ltr"
+  },
+  "pages": [
+    {
+      "id": "pg_1",
+      "widthCssPx": 793.688,
+      "heightCssPx": 1122.516
+    }
+  ],
+  "blockFragments": [
+    {
+      "node": "n_59352efefabe484481c9e027e4718876",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        89.469,
+        729.438,
+        981.703
+      ]
+    },
+    {
+      "node": "n_e1e27d7e576d46219081f50d0cd56bad",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        89.469,
+        729.438,
+        157.719
+      ]
+    },
+    {
+      "node": "n_871b808bf4f540e8b28c3fc7397c8457",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        179.156,
+        729.438,
+        251.656
+      ]
+    },
+    {
+      "node": "n_4d653aed047d4e0a964d933d0a501b60",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        179.156,
+        729.438,
+        211.703
+      ]
+    },
+    {
+      "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        229.953,
+        729.438,
+        251.656
+      ]
+    },
+    {
+      "node": "n_30db2c84068d4a55836ec6f0a9b5bd40",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        269.906,
+        729.438,
+        342.406
+      ]
+    },
+    {
+      "node": "n_93a0e44bfa0a447686070c33ecc50e2f",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        269.906,
+        729.438,
+        302.453
+      ]
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        320.703,
+        729.438,
+        342.406
+      ]
+    },
+    {
+      "node": "n_4dbab7fd89d9499ba950b71a70f6f40a",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        360.656,
+        729.438,
+        882.75
+      ]
+    },
+    {
+      "node": "n_bad2af0c0ebe4af2ae02f0db4ee4be38",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        360.656,
+        729.438,
+        393.203
+      ]
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        411.453,
+        729.438,
+        433.156
+      ]
+    },
+    {
+      "node": "n_399762edc9454ad99febef796332e253",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        459.609,
+        729.438,
+        573.016
+      ]
+    },
+    {
+      "node": "n_ea04b45dcdd9405d9dd4a439c9fa89b8",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        467.156,
+        729.438,
+        488.859
+      ]
+    },
+    {
+      "node": "n_3e8c5ca57d7d4a88afca65cf229d8de8",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.75,
+        489.359,
+        728.938,
+        530.938
+      ]
+    },
+    {
+      "node": "n_52a40cdfc38a4e5ab22d57bd46fbc1fa",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.75,
+        489.359,
+        448.922,
+        530.938
+      ]
+    },
+    {
+      "node": "n_b11e2250e55f4a62acbc3f9680abc63b",
+      "page": "pg_1",
+      "rectCssPx": [
+        448.922,
+        489.359,
+        728.938,
+        530.938
+      ]
+    },
+    {
+      "node": "n_9e6c9d7203d74368babebcd11f01d2f5",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.75,
+        530.938,
+        728.938,
+        572.516
+      ]
+    },
+    {
+      "node": "n_399984b70c6b4b7c99a57b382c8fcff6",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.75,
+        530.938,
+        448.922,
+        572.516
+      ]
+    },
+    {
+      "node": "n_3376d51dbd504c8cbd6a3de6d2af255c",
+      "page": "pg_1",
+      "rectCssPx": [
+        448.922,
+        530.938,
+        728.938,
+        572.516
+      ]
+    },
+    {
+      "node": "n_559de0617f284db3ab11591c9fc8b1f6",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        599.469,
+        729.438,
+        882.75
+      ]
+    },
+    {
+      "node": "n_94ad42069c4b4dd1ac0f5059ce81a3d2",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        861.047,
+        729.438,
+        882.75
+      ]
+    },
+    {
+      "node": "n_a4a3a86eb73b46e9901db7176d72b5e1",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        909.203,
+        729.438,
+        981.703
+      ]
+    },
+    {
+      "node": "n_01b49b464d47494783e29fe4b9cd7c66",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        909.203,
+        729.438,
+        941.75
+      ]
+    },
+    {
+      "node": "n_68ef20b32ad04df39b6d165e910f74bb",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        960,
+        729.438,
+        981.703
+      ]
+    },
+    {
+      "node": "n_c2d012ffd6d44b448f15a9a1b6a8d6a8",
+      "page": "pg_1",
+      "rectCssPx": [
+        104.25,
+        960,
+        729.438,
+        981.703
+      ]
+    }
+  ],
+  "textFragments": [
+    {
+      "node": "n_e1e27d7e576d46219081f50d0cd56bad",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        1
+      ],
+      "rectCssPx": [
+        64.25,
+        91.469,
+        86.75,
+        134.469
+      ],
+      "renderedText": "A"
+    },
+    {
+      "node": "n_e1e27d7e576d46219081f50d0cd56bad",
+      "page": "pg_1",
+      "logicalRange": [
+        2,
+        9
+      ],
+      "rectCssPx": [
+        95.578,
+        91.469,
+        224.375,
+        134.469
+      ],
+      "renderedText": "compact"
+    },
+    {
+      "node": "n_e1e27d7e576d46219081f50d0cd56bad",
+      "page": "pg_1",
+      "logicalRange": [
+        10,
+        18
+      ],
+      "rectCssPx": [
+        233.203,
+        91.469,
+        373.891,
+        134.469
+      ],
+      "renderedText": "academic"
+    },
+    {
+      "node": "n_e1e27d7e576d46219081f50d0cd56bad",
+      "page": "pg_1",
+      "logicalRange": [
+        19,
+        24
+      ],
+      "rectCssPx": [
+        382.719,
+        91.469,
+        469.359,
+        134.469
+      ],
+      "renderedText": "paper"
+    },
+    {
+      "node": "n_4d653aed047d4e0a964d933d0a501b60",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        8
+      ],
+      "rectCssPx": [
+        64.25,
+        180.156,
+        151.328,
+        210.156
+      ],
+      "renderedText": "Abstract"
+    },
+    {
+      "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        2
+      ],
+      "rectCssPx": [
+        64.25,
+        229.953,
+        85.047,
+        249.953
+      ],
+      "renderedText": "We"
+    },
+    {
+      "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+      "page": "pg_1",
+      "logicalRange": [
+        3,
+        11
+      ],
+      "rectCssPx": [
+        89.078,
+        229.953,
+        143.172,
+        249.953
+      ],
+      "renderedText": "evaluate"
+    },
+    {
+      "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+      "page": "pg_1",
+      "logicalRange": [
+        12,
+        13
+      ],
+      "rectCssPx": [
+        147.203,
+        229.953,
+        154.672,
+        249.953
+      ],
+      "renderedText": "a"
+    },
+    {
+      "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+      "page": "pg_1",
+      "logicalRange": [
+        14,
+        28
+      ],
+      "rectCssPx": [
+        158.703,
+        229.953,
+        246.563,
+        249.953
+      ],
+      "renderedText": "semantic-first"
+    },
+    {
+      "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+      "page": "pg_1",
+      "logicalRange": [
+        29,
+        37
+      ],
+      "rectCssPx": [
+        250.594,
+        229.953,
+        316.453,
+        249.953
+      ],
+      "renderedText": "document"
+    },
+    {
+      "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+      "page": "pg_1",
+      "logicalRange": [
+        38,
+        50
+      ],
+      "rectCssPx": [
+        320.484,
+        229.953,
+        397.094,
+        249.953
+      ],
+      "renderedText": "architecture"
+    },
+    {
+      "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+      "page": "pg_1",
+      "logicalRange": [
+        51,
+        56
+      ],
+      "rectCssPx": [
+        401.125,
+        229.953,
+        436.125,
+        249.953
+      ],
+      "renderedText": "using"
+    },
+    {
+      "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+      "page": "pg_1",
+      "logicalRange": [
+        57,
+        72
+      ],
+      "rectCssPx": [
+        440.156,
+        229.953,
+        535.844,
+        249.953
+      ],
+      "renderedText": "fixed-rendition"
+    },
+    {
+      "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+      "page": "pg_1",
+      "logicalRange": [
+        73,
+        81
+      ],
+      "rectCssPx": [
+        539.875,
+        229.953,
+        600.859,
+        249.953
+      ],
+      "renderedText": "mapping."
+    },
+    {
+      "node": "n_93a0e44bfa0a447686070c33ecc50e2f",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        7
+      ],
+      "rectCssPx": [
+        64.25,
+        270.906,
+        155.766,
+        300.906
+      ],
+      "renderedText": "Methods"
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        6
+      ],
+      "rectCssPx": [
+        64.25,
+        320.703,
+        103.828,
+        340.703
+      ],
+      "renderedText": "Stable"
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "page": "pg_1",
+      "logicalRange": [
+        7,
+        11
+      ],
+      "rectCssPx": [
+        107.859,
+        320.703,
+        141.047,
+        340.703
+      ],
+      "renderedText": "node"
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "page": "pg_1",
+      "logicalRange": [
+        12,
+        22
+      ],
+      "rectCssPx": [
+        145.078,
+        320.703,
+        204.156,
+        340.703
+      ],
+      "renderedText": "identities"
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "page": "pg_1",
+      "logicalRange": [
+        23,
+        27
+      ],
+      "rectCssPx": [
+        208.188,
+        320.703,
+        239.219,
+        340.703
+      ],
+      "renderedText": "were"
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "page": "pg_1",
+      "logicalRange": [
+        28,
+        37
+      ],
+      "rectCssPx": [
+        243.25,
+        320.703,
+        306.938,
+        340.703
+      ],
+      "renderedText": "preserved"
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "page": "pg_1",
+      "logicalRange": [
+        38,
+        44
+      ],
+      "rectCssPx": [
+        310.969,
+        320.703,
+        353.484,
+        340.703
+      ],
+      "renderedText": "during"
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "page": "pg_1",
+      "logicalRange": [
+        45,
+        46
+      ],
+      "rectCssPx": [
+        357.516,
+        320.703,
+        364.984,
+        340.703
+      ],
+      "renderedText": "a"
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "page": "pg_1",
+      "logicalRange": [
+        47,
+        55
+      ],
+      "rectCssPx": [
+        369.016,
+        320.703,
+        424.109,
+        340.703
+      ],
+      "renderedText": "targeted"
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "page": "pg_1",
+      "logicalRange": [
+        56,
+        62
+      ],
+      "rectCssPx": [
+        428.141,
+        320.703,
+        463.953,
+        340.703
+      ],
+      "renderedText": "result"
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "page": "pg_1",
+      "logicalRange": [
+        63,
+        69
+      ],
+      "rectCssPx": [
+        467.984,
+        320.703,
+        513.641,
+        340.703
+      ],
+      "renderedText": "update"
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "page": "pg_1",
+      "logicalRange": [
+        70,
+        74
+      ],
+      "rectCssPx": [
+        517.672,
+        320.703,
+        537.609,
+        340.703
+      ],
+      "renderedText": "[1]."
+    },
+    {
+      "node": "n_bad2af0c0ebe4af2ae02f0db4ee4be38",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        7
+      ],
+      "rectCssPx": [
+        64.25,
+        361.656,
+        137.453,
+        391.656
+      ],
+      "renderedText": "Results"
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        5
+      ],
+      "rectCssPx": [
+        64.25,
+        411.453,
+        97.594,
+        431.453
+      ],
+      "renderedText": "Table"
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "logicalRange": [
+        6,
+        7
+      ],
+      "rectCssPx": [
+        101.625,
+        411.453,
+        109.531,
+        431.453
+      ],
+      "renderedText": "4"
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "logicalRange": [
+        8,
+        15
+      ],
+      "rectCssPx": [
+        113.563,
+        411.453,
+        159.828,
+        431.453
+      ],
+      "renderedText": "reports"
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "logicalRange": [
+        16,
+        19
+      ],
+      "rectCssPx": [
+        163.859,
+        411.453,
+        184.797,
+        431.453
+      ],
+      "renderedText": "the"
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "logicalRange": [
+        20,
+        25
+      ],
+      "rectCssPx": [
+        188.828,
+        411.453,
+        222.422,
+        431.453
+      ],
+      "renderedText": "exact"
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "logicalRange": [
+        26,
+        38
+      ],
+      "rectCssPx": [
+        226.453,
+        411.453,
+        310.359,
+        431.453
+      ],
+      "renderedText": "experimental"
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "logicalRange": [
+        39,
+        46
+      ],
+      "rectCssPx": [
+        314.391,
+        411.453,
+        353.375,
+        431.453
+      ],
+      "renderedText": "result:"
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "logicalRange": [
+        47,
+        51
+      ],
+      "rectCssPx": [
+        357.406,
+        411.453,
+        393.328,
+        431.453
+      ],
+      "renderedText": "FROC"
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "logicalRange": [
+        52,
+        60
+      ],
+      "rectCssPx": [
+        397.359,
+        411.453,
+        459.172,
+        431.453
+      ],
+      "renderedText": "improved"
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "logicalRange": [
+        61,
+        65
+      ],
+      "rectCssPx": [
+        463.203,
+        411.453,
+        494.109,
+        431.453
+      ],
+      "renderedText": "from"
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "logicalRange": [
+        66,
+        74
+      ],
+      "rectCssPx": [
+        498.141,
+        411.453,
+        551.172,
+        431.453
+      ],
+      "renderedText": "baseline"
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "logicalRange": [
+        75,
+        77
+      ],
+      "rectCssPx": [
+        555.203,
+        411.453,
+        568.766,
+        431.453
+      ],
+      "renderedText": "to"
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "page": "pg_1",
+      "logicalRange": [
+        78,
+        84
+      ],
+      "rectCssPx": [
+        572.797,
+        411.453,
+        610.766,
+        431.453
+      ],
+      "renderedText": "0.906."
+    },
+    {
+      "node": "n_ea04b45dcdd9405d9dd4a439c9fa89b8",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        5
+      ],
+      "rectCssPx": [
+        321.125,
+        467.156,
+        355.906,
+        487.156
+      ],
+      "renderedText": "Table"
+    },
+    {
+      "node": "n_ea04b45dcdd9405d9dd4a439c9fa89b8",
+      "page": "pg_1",
+      "logicalRange": [
+        6,
+        8
+      ],
+      "rectCssPx": [
+        359.938,
+        467.156,
+        371.922,
+        487.156
+      ],
+      "renderedText": "4."
+    },
+    {
+      "node": "n_ea04b45dcdd9405d9dd4a439c9fa89b8",
+      "page": "pg_1",
+      "logicalRange": [
+        9,
+        16
+      ],
+      "rectCssPx": [
+        375.953,
+        467.156,
+        427.891,
+        487.156
+      ],
+      "renderedText": "Primary"
+    },
+    {
+      "node": "n_ea04b45dcdd9405d9dd4a439c9fa89b8",
+      "page": "pg_1",
+      "logicalRange": [
+        17,
+        24
+      ],
+      "rectCssPx": [
+        431.922,
+        467.156,
+        472.547,
+        487.156
+      ],
+      "renderedText": "result."
+    },
+    {
+      "node": "n_52a40cdfc38a4e5ab22d57bd46fbc1fa",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        7
+      ],
+      "rectCssPx": [
+        227.391,
+        499.297,
+        286.281,
+        519.297
+      ],
+      "renderedText": "Measure"
+    },
+    {
+      "node": "n_b11e2250e55f4a62acbc3f9680abc63b",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        5
+      ],
+      "rectCssPx": [
+        570.156,
+        499.297,
+        607.688,
+        519.297
+      ],
+      "renderedText": "Value"
+    },
+    {
+      "node": "n_399984b70c6b4b7c99a57b382c8fcff6",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        4
+      ],
+      "rectCssPx": [
+        74.688,
+        540.875,
+        110.609,
+        560.875
+      ],
+      "renderedText": "FROC"
+    },
+    {
+      "node": "n_3376d51dbd504c8cbd6a3de6d2af255c",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        5
+      ],
+      "rectCssPx": [
+        458.859,
+        540.875,
+        493.656,
+        560.875
+      ],
+      "renderedText": "0.906"
+    },
+    {
+      "node": "n_94ad42069c4b4dd1ac0f5059ce81a3d2",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        6
+      ],
+      "rectCssPx": [
+        275.766,
+        861.047,
+        317.438,
+        881.047
+      ],
+      "renderedText": "Figure"
+    },
+    {
+      "node": "n_94ad42069c4b4dd1ac0f5059ce81a3d2",
+      "page": "pg_1",
+      "logicalRange": [
+        7,
+        9
+      ],
+      "rectCssPx": [
+        321.469,
+        861.047,
+        330.906,
+        881.047
+      ],
+      "renderedText": "1."
+    },
+    {
+      "node": "n_94ad42069c4b4dd1ac0f5059ce81a3d2",
+      "page": "pg_1",
+      "logicalRange": [
+        10,
+        17
+      ],
+      "rectCssPx": [
+        334.938,
+        861.047,
+        386.875,
+        881.047
+      ],
+      "renderedText": "Primary"
+    },
+    {
+      "node": "n_94ad42069c4b4dd1ac0f5059ce81a3d2",
+      "page": "pg_1",
+      "logicalRange": [
+        18,
+        24
+      ],
+      "rectCssPx": [
+        390.906,
+        861.047,
+        428,
+        881.047
+      ],
+      "renderedText": "result"
+    },
+    {
+      "node": "n_94ad42069c4b4dd1ac0f5059ce81a3d2",
+      "page": "pg_1",
+      "logicalRange": [
+        25,
+        39
+      ],
+      "rectCssPx": [
+        432.031,
+        861.047,
+        517.922,
+        881.047
+      ],
+      "renderedText": "visualization."
+    },
+    {
+      "node": "n_01b49b464d47494783e29fe4b9cd7c66",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        10
+      ],
+      "rectCssPx": [
+        64.25,
+        910.203,
+        176.328,
+        940.203
+      ],
+      "renderedText": "References"
+    },
+    {
+      "node": "n_c2d012ffd6d44b448f15a9a1b6a8d6a8",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        3
+      ],
+      "rectCssPx": [
+        104.25,
+        960,
+        121.016,
+        980
+      ],
+      "renderedText": "[1]"
+    },
+    {
+      "node": "n_c2d012ffd6d44b448f15a9a1b6a8d6a8",
+      "page": "pg_1",
+      "logicalRange": [
+        4,
+        11
+      ],
+      "rectCssPx": [
+        125.047,
+        960,
+        179.125,
+        980
+      ],
+      "renderedText": "Example"
+    },
+    {
+      "node": "n_c2d012ffd6d44b448f15a9a1b6a8d6a8",
+      "page": "pg_1",
+      "logicalRange": [
+        12,
+        20
+      ],
+      "rectCssPx": [
+        183.156,
+        960,
+        240.688,
+        980
+      ],
+      "renderedText": "Research"
+    },
+    {
+      "node": "n_c2d012ffd6d44b448f15a9a1b6a8d6a8",
+      "page": "pg_1",
+      "logicalRange": [
+        21,
+        27
+      ],
+      "rectCssPx": [
+        244.719,
+        960,
+        288.563,
+        980
+      ],
+      "renderedText": "Group."
+    },
+    {
+      "node": "n_c2d012ffd6d44b448f15a9a1b6a8d6a8",
+      "page": "pg_1",
+      "logicalRange": [
+        28,
+        36
+      ],
+      "rectCssPx": [
+        292.594,
+        960,
+        351.734,
+        980
+      ],
+      "renderedText": "Semantic"
+    },
+    {
+      "node": "n_c2d012ffd6d44b448f15a9a1b6a8d6a8",
+      "page": "pg_1",
+      "logicalRange": [
+        37,
+        45
+      ],
+      "rectCssPx": [
+        355.766,
+        960,
+        421.625,
+        980
+      ],
+      "renderedText": "document"
+    },
+    {
+      "node": "n_c2d012ffd6d44b448f15a9a1b6a8d6a8",
+      "page": "pg_1",
+      "logicalRange": [
+        46,
+        58
+      ],
+      "rectCssPx": [
+        425.656,
+        960,
+        507.953,
+        980
+      ],
+      "renderedText": "experiments."
+    },
+    {
+      "node": "n_c2d012ffd6d44b448f15a9a1b6a8d6a8",
+      "page": "pg_1",
+      "logicalRange": [
+        59,
+        64
+      ],
+      "rectCssPx": [
+        511.984,
+        960,
+        546.781,
+        980
+      ],
+      "renderedText": "2025."
+    }
+  ],
+  "discardedOffPageFragments": [],
+  "adapter": {
+    "method": "forward:pagedjs-dom",
+    "version": "0.4.3",
+    "paginationTimeMs": 216,
+    "preview": {
+      "total": 1,
+      "performance": 111.19999999552965
+    }
+  }
+}

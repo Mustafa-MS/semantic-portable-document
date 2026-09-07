@@ -1,0 +1,224 @@
+[
+  {
+    "fixture": "optional-remote-image",
+    "packageSha256": "572f5b24d953c3399f8451b85c7d5b67361deec8f135be024318f59c9534000d",
+    "rebuiltSha256": "572f5b24d953c3399f8451b85c7d5b67361deec8f135be024318f59c9534000d",
+    "identical": true
+  },
+  {
+    "fixture": "escaped-remote-import",
+    "packageSha256": "331a553da1103657139a30c17aac09ec6507145290b7b263b713943f1e7ccc68",
+    "rebuiltSha256": "331a553da1103657139a30c17aac09ec6507145290b7b263b713943f1e7ccc68",
+    "identical": true
+  },
+  {
+    "fixture": "inline-remote-style",
+    "packageSha256": "383e97a0456b6722d65eb417aa63104f006f8e06afbde58fcbf129ac3bcda2e5",
+    "rebuiltSha256": "383e97a0456b6722d65eb417aa63104f006f8e06afbde58fcbf129ac3bcda2e5",
+    "identical": true
+  },
+  {
+    "fixture": "custom-property-resource",
+    "packageSha256": "201b9b391086da59a1ecb3012519955c2ba46dd4c76851a53dc8ae9fbcc51695",
+    "rebuiltSha256": "201b9b391086da59a1ecb3012519955c2ba46dd4c76851a53dc8ae9fbcc51695",
+    "identical": true
+  },
+  {
+    "fixture": "nested-svg-remote",
+    "packageSha256": "7ef3fb7969ed616e4736b44574f44e2eea8ab4481b573ac26d2e2940bb0bfa3e",
+    "rebuiltSha256": "7ef3fb7969ed616e4736b44574f44e2eea8ab4481b573ac26d2e2940bb0bfa3e",
+    "identical": true
+  },
+  {
+    "fixture": "inline-foreignobject",
+    "packageSha256": "d75eef0b9d6d28a21ac95e95847e936c84b1bc834baa8c8ff632a7c813937f21",
+    "rebuiltSha256": "d75eef0b9d6d28a21ac95e95847e936c84b1bc834baa8c8ff632a7c813937f21",
+    "identical": true
+  },
+  {
+    "fixture": "prefixed-svg-script",
+    "packageSha256": "feff7b8fb5328544bf3c0d2a72e6e3fea21111c3c97561b52b94829d2024b2fa",
+    "rebuiltSha256": "feff7b8fb5328544bf3c0d2a72e6e3fea21111c3c97561b52b94829d2024b2fa",
+    "identical": true
+  },
+  {
+    "fixture": "encoded-executable-link",
+    "packageSha256": "bd1dca3f77d58ac9a75ff6be31f99c160a2556e2ba6a759901982c9c9e792b18",
+    "rebuiltSha256": "bd1dca3f77d58ac9a75ff6be31f99c160a2556e2ba6a759901982c9c9e792b18",
+    "identical": true
+  },
+  {
+    "fixture": "iframe-srcdoc",
+    "packageSha256": "f77b5f6dea4f84f75aea488e628ef9281085040686a24d33c3af941ed95879c7",
+    "rebuiltSha256": "f77b5f6dea4f84f75aea488e628ef9281085040686a24d33c3af941ed95879c7",
+    "identical": true
+  },
+  {
+    "fixture": "object-embed",
+    "packageSha256": "e0bce2812198ae11d48ab0c18002790319217557f83cf51c3edbee7fa6262609",
+    "rebuiltSha256": "e0bce2812198ae11d48ab0c18002790319217557f83cf51c3edbee7fa6262609",
+    "identical": true
+  },
+  {
+    "fixture": "active-form",
+    "packageSha256": "049ce7fb73ed1ed81ac5b6d69373e9bf4b5886fd5543438bec48ae45439c157c",
+    "rebuiltSha256": "049ce7fb73ed1ed81ac5b6d69373e9bf4b5886fd5543438bec48ae45439c157c",
+    "identical": true
+  },
+  {
+    "fixture": "meta-refresh",
+    "packageSha256": "180be018cf3ee19f757d62a61a8e0943df54535e1257f59e3f4631d881b4faca",
+    "rebuiltSha256": "180be018cf3ee19f757d62a61a8e0943df54535e1257f59e3f4631d881b4faca",
+    "identical": true
+  },
+  {
+    "fixture": "base-overrides",
+    "packageSha256": "b06eef590224f792fab3551b882af0b94f50f256d92ce24a830a0874e2e97f84",
+    "rebuiltSha256": "b06eef590224f792fab3551b882af0b94f50f256d92ce24a830a0874e2e97f84",
+    "identical": true
+  },
+  {
+    "fixture": "network-hints",
+    "packageSha256": "84638686696c8de0a09e8958ebfdffb2e3f5fd3401b7ae9b0ec7897e503a19d1",
+    "rebuiltSha256": "84638686696c8de0a09e8958ebfdffb2e3f5fd3401b7ae9b0ec7897e503a19d1",
+    "identical": true
+  },
+  {
+    "fixture": "local-css-font-image",
+    "packageSha256": "8a34dbbaf6bea3d66c4af300680bf293fa036db421cd4612c9af88bd67e6ed65",
+    "rebuiltSha256": "8a34dbbaf6bea3d66c4af300680bf293fa036db421cd4612c9af88bd67e6ed65",
+    "identical": true
+  },
+  {
+    "fixture": "local-import-cycle",
+    "packageSha256": "b057d8b7f0080742967caa3c16cc87fb82a6e43840bc7a777327341f52d4f472",
+    "rebuiltSha256": "b057d8b7f0080742967caa3c16cc87fb82a6e43840bc7a777327341f52d4f472",
+    "identical": true
+  },
+  {
+    "fixture": "static-svg-local",
+    "packageSha256": "5ccd7580c1eef7a3edd673b2d895ec6daf7eae7138ad02036d25103154a8d197",
+    "rebuiltSha256": "5ccd7580c1eef7a3edd673b2d895ec6daf7eae7138ad02036d25103154a8d197",
+    "identical": true
+  },
+  {
+    "fixture": "inert-controls",
+    "packageSha256": "1bc4bc2bdcc39328f7676e9e247749d6dca658bddf74d729f416e49b3300cbd2",
+    "rebuiltSha256": "1bc4bc2bdcc39328f7676e9e247749d6dca658bddf74d729f416e49b3300cbd2",
+    "identical": true
+  },
+  {
+    "fixture": "local-media",
+    "packageSha256": "1240a2351797f540b0b96b7860c9c389574a885fe368eb8322ae49d086ccc668",
+    "rebuiltSha256": "1240a2351797f540b0b96b7860c9c389574a885fe368eb8322ae49d086ccc668",
+    "identical": true
+  },
+  {
+    "fixture": "media-autoplay",
+    "packageSha256": "13a607ba36a7663b3c5a1ba025c8347edc14250b235687b05a3712ae91853890",
+    "rebuiltSha256": "13a607ba36a7663b3c5a1ba025c8347edc14250b235687b05a3712ae91853890",
+    "identical": true
+  },
+  {
+    "fixture": "static-animation-declaration",
+    "packageSha256": "e36651592c575f0f010cc6e617545a0a6903f9bfee01b7ee5f546a99ff17cde4",
+    "rebuiltSha256": "e36651592c575f0f010cc6e617545a0a6903f9bfee01b7ee5f546a99ff17cde4",
+    "identical": true
+  },
+  {
+    "fixture": "mathml-local-glyph",
+    "packageSha256": "425248e6e3b138efa473b66a6ba249c1bd8368e0cf89d66b329b908a74534f7c",
+    "rebuiltSha256": "425248e6e3b138efa473b66a6ba249c1bd8368e0cf89d66b329b908a74534f7c",
+    "identical": true
+  },
+  {
+    "fixture": "mathml-remote-glyph",
+    "packageSha256": "f4043d71cb33d824be18b96e10e8f5ac65c519c2d6adf582fd30323f07ee0d06",
+    "rebuiltSha256": "f4043d71cb33d824be18b96e10e8f5ac65c519c2d6adf582fd30323f07ee0d06",
+    "identical": true
+  },
+  {
+    "fixture": "inert-hostile-metadata",
+    "packageSha256": "ce22973c899280287a67756d998261a15d68c91700e0409ed82bd3c90f4f600e",
+    "rebuiltSha256": "ce22973c899280287a67756d998261a15d68c91700e0409ed82bd3c90f4f600e",
+    "identical": true
+  },
+  {
+    "fixture": "zip-special-modes",
+    "packageSha256": "b808e521ebd69a3ffc75a618ad4af73f6bf86a1f2818cf8494780d532d4010eb",
+    "rebuiltSha256": "b808e521ebd69a3ffc75a618ad4af73f6bf86a1f2818cf8494780d532d4010eb",
+    "identical": true
+  },
+  {
+    "fixture": "decoded-path-collision",
+    "packageSha256": "1c4d7b9c8390d980856f6063aa8443b3635c92c0b939dd65398bbcc658dfaa15",
+    "rebuiltSha256": "1c4d7b9c8390d980856f6063aa8443b3635c92c0b939dd65398bbcc658dfaa15",
+    "identical": true
+  },
+  {
+    "fixture": "zip-header-mismatch",
+    "packageSha256": "2d62dbee6839c0674f854e06ece067340c5a8f2014239d29299b0ff41cf79547",
+    "rebuiltSha256": "2d62dbee6839c0674f854e06ece067340c5a8f2014239d29299b0ff41cf79547",
+    "identical": true
+  },
+  {
+    "fixture": "bounded-expansion",
+    "packageSha256": "c227faeee17b70110ba4540c82d7108a8f10585d2509ced134215649be5f82b9",
+    "rebuiltSha256": "c227faeee17b70110ba4540c82d7108a8f10585d2509ced134215649be5f82b9",
+    "identical": true
+  },
+  {
+    "fixture": "unmapped-epub-title",
+    "packageSha256": "37ae56dc493db6bd85ef893ba99c5cdff2c8e215035c3c340e154ee13e8f0a27",
+    "rebuiltSha256": "37ae56dc493db6bd85ef893ba99c5cdff2c8e215035c3c340e154ee13e8f0a27",
+    "identical": true
+  },
+  {
+    "fixture": "script-data-block",
+    "packageSha256": "38c6652f2d5f025aac3eff99c5e8cd6bfa73c5fb4b8eb1a20abeff871ae69ba9",
+    "rebuiltSha256": "38c6652f2d5f025aac3eff99c5e8cd6bfa73c5fb4b8eb1a20abeff871ae69ba9",
+    "identical": true
+  },
+  {
+    "fixture": "standalone-svg-script",
+    "packageSha256": "d61dfa4847e0dfef11dba1bf653d51d80ceadc47a3cd7ae25b205404fdb6a21e",
+    "rebuiltSha256": "d61dfa4847e0dfef11dba1bf653d51d80ceadc47a3cd7ae25b205404fdb6a21e",
+    "identical": true
+  },
+  {
+    "fixture": "svg-event-handler",
+    "packageSha256": "afde78d49e22ff891552aa41b2cea57b8e6d91410c29b9702524d1bf004fef73",
+    "rebuiltSha256": "afde78d49e22ff891552aa41b2cea57b8e6d91410c29b9702524d1bf004fef73",
+    "identical": true
+  },
+  {
+    "fixture": "plain-iframe",
+    "packageSha256": "41bdd0c8655db5261a1f6cca3059c6d9726156136dcbebdf7ea1cd4f21e378fe",
+    "rebuiltSha256": "41bdd0c8655db5261a1f6cca3059c6d9726156136dcbebdf7ea1cd4f21e378fe",
+    "identical": true
+  },
+  {
+    "fixture": "authoritative-canvas",
+    "packageSha256": "80358f0c6d2acc13076a79b643386b69898eeb53c9435125e063dcc8d46f9f4a",
+    "rebuiltSha256": "80358f0c6d2acc13076a79b643386b69898eeb53c9435125e063dcc8d46f9f4a",
+    "identical": true
+  },
+  {
+    "fixture": "ordinary-hyperlink",
+    "packageSha256": "39e99df2a0ed1f691cbbdd22aa1b54ea542790f9f7a5552dffa43e0daaf3b0c6",
+    "rebuiltSha256": "39e99df2a0ed1f691cbbdd22aa1b54ea542790f9f7a5552dffa43e0daaf3b0c6",
+    "identical": true
+  },
+  {
+    "fixture": "nested-rule-remote",
+    "packageSha256": "3616d6dbb47d122495cad55b3fa8730d85869526682331165800c9c1237b0f12",
+    "rebuiltSha256": "3616d6dbb47d122495cad55b3fa8730d85869526682331165800c9c1237b0f12",
+    "identical": true
+  },
+  {
+    "fixture": "annotation-xml-active",
+    "packageSha256": "547898c56abc28f595ea1f6469d71d01a780216a31976b34fa0f7f7e5e81b790",
+    "rebuiltSha256": "547898c56abc28f595ea1f6469d71d01a780216a31976b34fa0f7f7e5e81b790",
+    "identical": true
+  }
+]

@@ -1,0 +1,167 @@
+{
+  "expectedArabicPhrases": [
+    "نص عربي وإنجليزي Mixed RTL/LTR",
+    "هذه النتيجة FROC = 0.906 مقارنة بالطريقة السابقة.",
+    "شغّل النموذج Model-X (v2.1) على https://example.org/run?id=42، ثم قارن ١٢٣ مع 123.",
+    "المعادلة x = 0.906 مذكورة في المرجع [Smith 2025]."
+  ],
+  "extractors": {
+    "mupdf": {
+      "mixedBidiProbes": {
+        "123": true,
+        "FROC = 0.906": false,
+        "Model-X": true,
+        "[Smith 2025]": true,
+        "https://example.org/run?id=42": true,
+        "x = 0.906": true,
+        "١٢٣": true
+      },
+      "outputs": {
+        "NFC": "1\nنص عربي وإنجليزي Mixed RTL/LTR\nه\n.ةقباسلا ةقيرطلاب ةنراقم 609.0 = CORF ةجيتنلا هذ\nشغّ ل النموذج Model-X (v2.1) على https://example.org/run?id=42، ثم قارن ١٢٣ مع 123.\nالمعادلة x = 0.906 مذكورة في المرجع [Smith 2025].\n \n \n",
+        "NFKC": "1\nنص عربي وإنجليزي Mixed RTL/LTR\nه\n.ةقباسلا ةقيرطلاب ةنراقم 609.0 = CORF ةجيتنلا هذ\nشغّ ل النموذج Model-X (v2.1) على https://example.org/run?id=42، ثم قارن ١٢٣ مع 123.\nالمعادلة x = 0.906 مذكورة في المرجع [Smith 2025].\n \n \n",
+        "raw": "1\nنص عربي وإنجليزي Mixed RTL/LTR\nه\n.ةقباسلا ةقيرطلاب ةنراقم 609.0 = CORF ةجيتنلا هذ\nشغّ ل النموذج Model-X (v2.1) على https://example.org/run?id=42، ثم قارن ١٢٣ مع 123.\nالمعادلة x = 0.906 مذكورة في المرجع [Smith 2025].\n \n \n"
+      },
+      "phraseRecovery": {
+        "NFC": {
+          "expected": 4,
+          "matched": 2,
+          "matchedPhrases": [
+            "نص عربي وإنجليزي Mixed RTL/LTR",
+            "المعادلة x = 0.906 مذكورة في المرجع [Smith 2025]."
+          ],
+          "ratio": 0.5
+        },
+        "NFKC": {
+          "expected": 4,
+          "matched": 2,
+          "matchedPhrases": [
+            "نص عربي وإنجليزي Mixed RTL/LTR",
+            "المعادلة x = 0.906 مذكورة في المرجع [Smith 2025]."
+          ],
+          "ratio": 0.5
+        },
+        "raw": {
+          "expected": 4,
+          "matched": 2,
+          "matchedPhrases": [
+            "نص عربي وإنجليزي Mixed RTL/LTR",
+            "المعادلة x = 0.906 مذكورة في المرجع [Smith 2025]."
+          ],
+          "ratio": 0.5
+        }
+      }
+    },
+    "pdfjs": {
+      "mixedBidiProbes": {
+        "123": true,
+        "FROC = 0.906": false,
+        "Model-X": true,
+        "[Smith 2025]": false,
+        "https://example.org/run?id=42": true,
+        "x = 0.906": false,
+        "١٢٣": true
+      },
+      "outputs": {
+        "NFC": "1 \nMixed   RTL/LTR   وإﻧﺠﻠﻴﺰي   ﻋﺮﺑﻲ   ﻧﺺ \nاﻟﺴﺎﺑﻘﺔ.   ﺑﺎﻟﻄﺮﻳﻘﺔ   ﻣﻘﺎرﻧﺔ   FROC   =   0.906   اﻟﻨﺘﻴﺠﺔ   ﻫﺬه \n.123   ﻣﻊ   ١٢٣   ﻗﺎرن   ﺛﻢ   ،https://example.org/run?id=42   ﻋﻠﻰ   Model-X   (v2.1)   اﻟﻨﻤﻮذج   ﺷﻐّﻞ \n.[ Smith   2025 ]   اﻟﻤﺮﺟﻊ   ﻓﻲ   ﻣﺬﻛﻮرة   𝑥   =   0.906   اﻟﻤﻌﺎدﻟﺔ",
+        "NFKC": "1 \nMixed   RTL/LTR   وإنجليزي   عربي   نص \nالسابقة.   بالطريقة   مقارنة   FROC   =   0.906   النتيجة   هذه \n.123   مع   ١٢٣   قارن   ثم   ،https://example.org/run?id=42   على   Model-X   (v2.1)   النموذج   شغّل \n.[ Smith   2025 ]   المرجع   في   مذكورة   x   =   0.906   المعادلة",
+        "raw": "1 \nMixed   RTL/LTR   وإﻧﺠﻠﻴﺰي   ﻋﺮﺑﻲ   ﻧﺺ \nاﻟﺴﺎﺑﻘﺔ.   ﺑﺎﻟﻄﺮﻳﻘﺔ   ﻣﻘﺎرﻧﺔ   FROC   =   0.906   اﻟﻨﺘﻴﺠﺔ   ﻫﺬه \n.123   ﻣﻊ   ١٢٣   ﻗﺎرن   ﺛﻢ   ،https://example.org/run?id=42   ﻋﻠﻰ   Model-X   (v2.1)   اﻟﻨﻤﻮذج   ﺷﻐّﻞ \n.[ Smith   2025 ]   اﻟﻤﺮﺟﻊ   ﻓﻲ   ﻣﺬﻛﻮرة   𝑥   =   0.906   اﻟﻤﻌﺎدﻟﺔ"
+      },
+      "phraseRecovery": {
+        "NFC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "NFKC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "raw": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        }
+      }
+    },
+    "pdfplumber": {
+      "mixedBidiProbes": {
+        "123": true,
+        "FROC = 0.906": true,
+        "Model-X": true,
+        "[Smith 2025]": true,
+        "https://example.org/run?id=42": true,
+        "x = 0.906": true,
+        "١٢٣": true
+      },
+      "outputs": {
+        "NFC": "1\nMixed RTL/LTR يﺰﻴﻠﺠﻧإو ﻲﺑﺮﻋ ﺺﻧ\n.ﺔﻘﺑﺎﺴﻟا ﺔﻘﻳﺮﻄﻟﺎﺑ ﺔﻧرﺎﻘﻣ FROC = 0.906 ﺔﺠﻴﺘﻨﻟا هﺬﻫ\n.123 ﻊﻣ ١٢٣ نرﺎﻗ ﻢﺛ ،https://example.org/run?id=42 ﻰﻠﻋ Model-X (v2.1) جذﻮﻤﻨﻟا ﻞّ ﻐﺷ\n.[Smith 2025] ﻊﺟﺮﻤﻟا ﻲﻓ ةرﻮﻛﺬﻣ 𝑥 = 0.906 ﺔﻟدﺎﻌﻤﻟا",
+        "NFKC": "1\nMixed RTL/LTR يزيلجنإو يبرع صن\n.ةقباسلا ةقيرطلاب ةنراقم FROC = 0.906 ةجيتنلا هذه\n.123 عم ١٢٣ نراق مث ،https://example.org/run?id=42 ىلع Model-X (v2.1) جذومنلا لّ غش\n.[Smith 2025] عجرملا يف ةروكذم x = 0.906 ةلداعملا",
+        "raw": "1\nMixed RTL/LTR يﺰﻴﻠﺠﻧإو ﻲﺑﺮﻋ ﺺﻧ\n.ﺔﻘﺑﺎﺴﻟا ﺔﻘﻳﺮﻄﻟﺎﺑ ﺔﻧرﺎﻘﻣ FROC = 0.906 ﺔﺠﻴﺘﻨﻟا هﺬﻫ\n.123 ﻊﻣ ١٢٣ نرﺎﻗ ﻢﺛ ،https://example.org/run?id=42 ﻰﻠﻋ Model-X (v2.1) جذﻮﻤﻨﻟا ﻞّ ﻐﺷ\n.[Smith 2025] ﻊﺟﺮﻤﻟا ﻲﻓ ةرﻮﻛﺬﻣ 𝑥 = 0.906 ﺔﻟدﺎﻌﻤﻟا"
+      },
+      "phraseRecovery": {
+        "NFC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "NFKC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "raw": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        }
+      }
+    },
+    "poppler_pdftotext": {
+      "reason": "pdftotext executable absent; bundled Poppler contains only pdfinfo and pdftoppm",
+      "status": "NOT AVAILABLE"
+    },
+    "pypdf": {
+      "mixedBidiProbes": {
+        "123": true,
+        "FROC = 0.906": true,
+        "Model-X": true,
+        "[Smith 2025]": true,
+        "https://example.org/run?id=42": true,
+        "x = 0.906": false,
+        "١٢٣": false
+      },
+      "outputs": {
+        "NFC": "1\nMixed RTL/LTR وإﻧﺠﻠﻴﺰي ﻋﺮﺑﻲ ﻧﺺ\nاﻟﺴﺎﺑﻘﺔ. ﺑﺎﻟﻄﺮﻳﻘﺔ ﻣﻘﺎرﻧﺔ FROC = 0.906 اﻟﻨﺘﻴﺠﺔ ﻫﺬه\n.123 ﻣﻊ ٣٢١ ﻗﺎرن ﺛﻢ ،https://example.org/run?id=42 ﻋﻠﻰ Model-X (v2.1) اﻟﻨﻤﻮذج ﺷﻐّﻞ\n[Smith 2025] اﻟﻤﺮﺟﻊ ﻓﻲ ﻣﺬﻛﻮرة 𝑥=0.906 اﻟﻤﻌﺎدﻟﺔ",
+        "NFKC": "1\nMixed RTL/LTR وإنجليزي عربي نص\nالسابقة. بالطريقة مقارنة FROC = 0.906 النتيجة هذه\n.123 مع ٣٢١ قارن ثم ،https://example.org/run?id=42 على Model-X (v2.1) النموذج شغّل\n[Smith 2025] المرجع في مذكورة x=0.906 المعادلة",
+        "raw": "1\nMixed RTL/LTR وإﻧﺠﻠﻴﺰي ﻋﺮﺑﻲ ﻧﺺ\nاﻟﺴﺎﺑﻘﺔ. ﺑﺎﻟﻄﺮﻳﻘﺔ ﻣﻘﺎرﻧﺔ FROC = 0.906 اﻟﻨﺘﻴﺠﺔ ﻫﺬه\n.123 ﻣﻊ ٣٢١ ﻗﺎرن ﺛﻢ ،https://example.org/run?id=42 ﻋﻠﻰ Model-X (v2.1) اﻟﻨﻤﻮذج ﺷﻐّﻞ\n[Smith 2025] اﻟﻤﺮﺟﻊ ﻓﻲ ﻣﺬﻛﻮرة 𝑥=0.906 اﻟﻤﻌﺎدﻟﺔ"
+      },
+      "phraseRecovery": {
+        "NFC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "NFKC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "raw": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        }
+      }
+    }
+  }
+}

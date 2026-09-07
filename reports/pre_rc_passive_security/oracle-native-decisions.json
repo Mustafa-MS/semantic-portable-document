@@ -1,0 +1,376 @@
+[
+  {
+    "auditCase": "S01",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/optional-remote-image",
+    "nativePredicates": [
+      "SPD-SEC-003",
+      "SPD-SEC-006",
+      "SPD-SEC-008"
+    ],
+    "reason": "Decorative alt-empty image; no network is performed.",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S02",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/escaped-remote-import",
+    "nativePredicates": [
+      "SPD-SEC-003",
+      "SPD-SEC-005",
+      "SPD-SEC-008"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S03",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/inline-remote-style",
+    "nativePredicates": [
+      "SPD-SEC-003",
+      "SPD-SEC-006",
+      "SPD-SEC-008"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S04",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/custom-property-resource",
+    "nativePredicates": [
+      "SPD-SEC-003",
+      "SPD-SEC-006",
+      "SPD-SEC-008"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S05",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/nested-svg-remote",
+    "nativePredicates": [
+      "SPD-SEC-003",
+      "SPD-SEC-006",
+      "SPD-SEC-007",
+      "SPD-SEC-008"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S06",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/inline-foreignobject",
+    "nativePredicates": [
+      "SPD-PASS-002",
+      "SPD-SEC-007"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S07",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/prefixed-svg-script",
+    "nativePredicates": [
+      "SPD-SEC-001",
+      "SPD-SEC-007"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S08",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/encoded-executable-link",
+    "nativePredicates": [
+      "SPD-SEC-001",
+      "SPD-SEC-008"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S09",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/iframe-srcdoc",
+    "nativePredicates": [
+      "SPD-PASS-002",
+      "SPD-SEC-002"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S10",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/object-embed",
+    "nativePredicates": [
+      "SPD-PASS-002",
+      "SPD-SEC-002"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S11",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/active-form",
+    "nativePredicates": [
+      "SPD-PASS-002"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S12",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/meta-refresh",
+    "nativePredicates": [
+      "SPD-PASS-002",
+      "SPD-SEC-003"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S13",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/base-overrides",
+    "nativePredicates": [
+      "SPD-PASS-002"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S14",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/network-hints",
+    "nativePredicates": [
+      "SPD-SEC-003",
+      "SPD-SEC-008"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S15",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/local-css-font-image",
+    "nativePredicates": [],
+    "reason": "",
+    "source": "figure-svg"
+  },
+  {
+    "auditCase": "S16",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/local-import-cycle",
+    "nativePredicates": [
+      "SPD-SEC-008"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S17",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/static-svg-local",
+    "nativePredicates": [],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S18",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/inert-controls",
+    "nativePredicates": [],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S19",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/local-media",
+    "nativePredicates": [],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S20",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/media-autoplay",
+    "nativePredicates": [
+      "SPD-PASS-003"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S21",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/static-animation-declaration",
+    "nativePredicates": [],
+    "reason": "File declarations retained. Human static completeness and processor suppression remain NOT_TESTED.",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S22",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/mathml-local-glyph",
+    "nativePredicates": [],
+    "reason": "",
+    "source": "figure-svg"
+  },
+  {
+    "auditCase": "S23",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/mathml-remote-glyph",
+    "nativePredicates": [
+      "SPD-SEC-003",
+      "SPD-SEC-006",
+      "SPD-SEC-008"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S24",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/inert-hostile-metadata",
+    "nativePredicates": [],
+    "reason": "Metadata text is data, not a resource request.",
+    "source": "annotations"
+  },
+  {
+    "auditCase": "S25",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/zip-special-modes",
+    "nativePredicates": [
+      "SPD-BASE-002"
+    ],
+    "reason": "Existing regular CSS/image resources are marked symlink/device; content bytes retained.",
+    "source": "figure-svg"
+  },
+  {
+    "auditCase": "S26",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/decoded-path-collision",
+    "nativePredicates": [
+      "SPD-BASE-002",
+      "SPD-RES-002"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S27",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/zip-header-mismatch",
+    "nativePredicates": [],
+    "reason": "Local header filename differs from central directory; MALFORMED_INPUT, no fabricated native violation.",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S28",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/bounded-expansion",
+    "nativePredicates": [],
+    "reason": "Small on-disk highly compressible data exceeds implementation ratio budget; no universal format maximum.",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S29",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/unmapped-epub-title",
+    "nativePredicates": [],
+    "reason": "Only required OPF title removed; inventory and state rebound. BASE-002 from inherited EPUB conformance.",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S30",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/script-data-block",
+    "nativePredicates": [
+      "SPD-SEC-001"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S31",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/standalone-svg-script",
+    "nativePredicates": [
+      "SPD-SEC-001",
+      "SPD-SEC-007"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S32",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/svg-event-handler",
+    "nativePredicates": [
+      "SPD-SEC-001",
+      "SPD-SEC-007"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S33",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/plain-iframe",
+    "nativePredicates": [
+      "SPD-PASS-002",
+      "SPD-SEC-002"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S34",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/authoritative-canvas",
+    "nativePredicates": [
+      "SPD-PASS-002"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S35",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/ordinary-hyperlink",
+    "nativePredicates": [],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S36",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/nested-rule-remote",
+    "nativePredicates": [
+      "SPD-SEC-003",
+      "SPD-SEC-006",
+      "SPD-SEC-008"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  },
+  {
+    "auditCase": "S37",
+    "externalReview": "pending direct EPUBCheck diagnostic review; never derived from A/B",
+    "fixture": "security/annotation-xml-active",
+    "nativePredicates": [
+      "SPD-SEC-001"
+    ],
+    "reason": "",
+    "source": "minimal-base"
+  }
+]

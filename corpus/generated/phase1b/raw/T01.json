@@ -1,0 +1,753 @@
+{
+  "catalog": {
+    "nodes": {
+      "n_9bc34460c854472f8a2ea54015d48432": {
+        "tag": "section",
+        "visibleInSourceLayout": true,
+        "sourceText": "\n\n\n\n",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_067651274e5340808b838f0894339404": {
+        "tag": "h1",
+        "visibleInSourceLayout": true,
+        "sourceText": "Baseline semantic document",
+        "expectedNonWhitespaceCharacters": 24,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_ee6f0ec620724b54a9aa2407748b3129": {
+        "tag": "p",
+        "visibleInSourceLayout": true,
+        "sourceText": "This baseline checks headings, paragraphs, emphasis, links, lists, and explicit page breaks.",
+        "expectedNonWhitespaceCharacters": 81,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_cc0ddad318994bac8e34575c720e7a32": {
+        "tag": "p",
+        "visibleInSourceLayout": true,
+        "sourceText": "A semantic source remains authoritative; visit the example reference.",
+        "expectedNonWhitespaceCharacters": 61,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_6b54347c50c7472ca2b2a1a61d26cc1b": {
+        "tag": "ul",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_9d95cd556788455d9da54395fc2c8a2c": {
+        "tag": "li",
+        "visibleInSourceLayout": true,
+        "sourceText": "Persistent identity",
+        "expectedNonWhitespaceCharacters": 18,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_261af82136c44ebaa3ce2b3687b9a0c1": {
+        "tag": "li",
+        "visibleInSourceLayout": true,
+        "sourceText": "Logical text order",
+        "expectedNonWhitespaceCharacters": 16,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_663d748e9c084e62a078ebda72dfce0b": {
+        "tag": "p",
+        "visibleInSourceLayout": true,
+        "sourceText": "This paragraph follows an intentional page break.",
+        "expectedNonWhitespaceCharacters": 43,
+        "nonVisualNonWhitespaceCharacters": 0
+      }
+    },
+    "documentId": "d_cc3abc4e45b14b50b715b7c773d56f75",
+    "revisionId": "r_e656de958450452c9021099f305defc3",
+    "title": "Basic Semantic Document",
+    "lang": "en",
+    "dir": "ltr"
+  },
+  "pages": [
+    {
+      "id": "pg_1",
+      "widthCssPx": 793.688,
+      "heightCssPx": 1122.516
+    },
+    {
+      "id": "pg_2",
+      "widthCssPx": 793.688,
+      "heightCssPx": 1122.516
+    }
+  ],
+  "blockFragments": [
+    {
+      "node": "n_9bc34460c854472f8a2ea54015d48432",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        89.469,
+        729.438,
+        295.281
+      ]
+    },
+    {
+      "node": "n_067651274e5340808b838f0894339404",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        89.469,
+        729.438,
+        157.719
+      ]
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        179.156,
+        729.438,
+        200.859
+      ]
+    },
+    {
+      "node": "n_cc0ddad318994bac8e34575c720e7a32",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        215.516,
+        729.438,
+        237.219
+      ]
+    },
+    {
+      "node": "n_6b54347c50c7472ca2b2a1a61d26cc1b",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        251.875,
+        729.438,
+        295.281
+      ]
+    },
+    {
+      "node": "n_9d95cd556788455d9da54395fc2c8a2c",
+      "page": "pg_1",
+      "rectCssPx": [
+        104.25,
+        251.875,
+        729.438,
+        273.578
+      ]
+    },
+    {
+      "node": "n_261af82136c44ebaa3ce2b3687b9a0c1",
+      "page": "pg_1",
+      "rectCssPx": [
+        104.25,
+        273.578,
+        729.438,
+        295.281
+      ]
+    },
+    {
+      "node": "n_9bc34460c854472f8a2ea54015d48432",
+      "page": "pg_2",
+      "rectCssPx": [
+        64.25,
+        82.688,
+        729.438,
+        104.391
+      ]
+    },
+    {
+      "node": "n_663d748e9c084e62a078ebda72dfce0b",
+      "page": "pg_2",
+      "rectCssPx": [
+        64.25,
+        82.688,
+        729.438,
+        104.391
+      ]
+    }
+  ],
+  "textFragments": [
+    {
+      "node": "n_067651274e5340808b838f0894339404",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        8
+      ],
+      "rectCssPx": [
+        64.25,
+        91.469,
+        188.234,
+        134.469
+      ],
+      "renderedText": "Baseline"
+    },
+    {
+      "node": "n_067651274e5340808b838f0894339404",
+      "page": "pg_1",
+      "logicalRange": [
+        9,
+        17
+      ],
+      "rectCssPx": [
+        197.063,
+        91.469,
+        331.25,
+        134.469
+      ],
+      "renderedText": "semantic"
+    },
+    {
+      "node": "n_067651274e5340808b838f0894339404",
+      "page": "pg_1",
+      "logicalRange": [
+        18,
+        26
+      ],
+      "rectCssPx": [
+        340.078,
+        91.469,
+        492.609,
+        134.469
+      ],
+      "renderedText": "document"
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        4
+      ],
+      "rectCssPx": [
+        64.25,
+        179.156,
+        90,
+        199.156
+      ],
+      "renderedText": "This"
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "page": "pg_1",
+      "logicalRange": [
+        5,
+        13
+      ],
+      "rectCssPx": [
+        94.031,
+        179.156,
+        147.063,
+        199.156
+      ],
+      "renderedText": "baseline"
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "page": "pg_1",
+      "logicalRange": [
+        14,
+        20
+      ],
+      "rectCssPx": [
+        151.094,
+        179.156,
+        194.109,
+        199.156
+      ],
+      "renderedText": "checks"
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "page": "pg_1",
+      "logicalRange": [
+        21,
+        30
+      ],
+      "rectCssPx": [
+        198.141,
+        179.156,
+        260.078,
+        199.156
+      ],
+      "renderedText": "headings,"
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "page": "pg_1",
+      "logicalRange": [
+        31,
+        42
+      ],
+      "rectCssPx": [
+        264.109,
+        179.156,
+        340.25,
+        199.156
+      ],
+      "renderedText": "paragraphs,"
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "page": "pg_1",
+      "logicalRange": [
+        43,
+        52
+      ],
+      "rectCssPx": [
+        344.281,
+        179.156,
+        408.125,
+        199.156
+      ],
+      "renderedText": "emphasis,"
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "page": "pg_1",
+      "logicalRange": [
+        53,
+        59
+      ],
+      "rectCssPx": [
+        412.156,
+        179.156,
+        444.25,
+        199.156
+      ],
+      "renderedText": "links,"
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "page": "pg_1",
+      "logicalRange": [
+        60,
+        66
+      ],
+      "rectCssPx": [
+        448.281,
+        179.156,
+        475.984,
+        199.156
+      ],
+      "renderedText": "lists,"
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "page": "pg_1",
+      "logicalRange": [
+        67,
+        70
+      ],
+      "rectCssPx": [
+        480.016,
+        179.156,
+        504.406,
+        199.156
+      ],
+      "renderedText": "and"
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "page": "pg_1",
+      "logicalRange": [
+        71,
+        79
+      ],
+      "rectCssPx": [
+        508.438,
+        179.156,
+        553.844,
+        199.156
+      ],
+      "renderedText": "explicit"
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "page": "pg_1",
+      "logicalRange": [
+        80,
+        84
+      ],
+      "rectCssPx": [
+        557.875,
+        179.156,
+        590.266,
+        199.156
+      ],
+      "renderedText": "page"
+    },
+    {
+      "node": "n_ee6f0ec620724b54a9aa2407748b3129",
+      "page": "pg_1",
+      "logicalRange": [
+        85,
+        92
+      ],
+      "rectCssPx": [
+        594.297,
+        179.156,
+        639.828,
+        199.156
+      ],
+      "renderedText": "breaks."
+    },
+    {
+      "node": "n_cc0ddad318994bac8e34575c720e7a32",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        1
+      ],
+      "rectCssPx": [
+        64.25,
+        215.516,
+        73.719,
+        235.516
+      ],
+      "renderedText": "A"
+    },
+    {
+      "node": "n_cc0ddad318994bac8e34575c720e7a32",
+      "page": "pg_1",
+      "logicalRange": [
+        2,
+        10
+      ],
+      "rectCssPx": [
+        77.75,
+        215.516,
+        134.234,
+        235.516
+      ],
+      "renderedText": "semantic"
+    },
+    {
+      "node": "n_cc0ddad318994bac8e34575c720e7a32",
+      "page": "pg_1",
+      "logicalRange": [
+        11,
+        17
+      ],
+      "rectCssPx": [
+        138.266,
+        215.516,
+        178.359,
+        235.516
+      ],
+      "renderedText": "source"
+    },
+    {
+      "node": "n_cc0ddad318994bac8e34575c720e7a32",
+      "page": "pg_1",
+      "logicalRange": [
+        18,
+        25
+      ],
+      "rectCssPx": [
+        182.391,
+        215.516,
+        233.313,
+        235.516
+      ],
+      "renderedText": "remains"
+    },
+    {
+      "node": "n_cc0ddad318994bac8e34575c720e7a32",
+      "page": "pg_1",
+      "logicalRange": [
+        26,
+        40
+      ],
+      "rectCssPx": [
+        237.344,
+        215.516,
+        322.422,
+        235.516
+      ],
+      "renderedText": "authoritative;"
+    },
+    {
+      "node": "n_cc0ddad318994bac8e34575c720e7a32",
+      "page": "pg_1",
+      "logicalRange": [
+        41,
+        46
+      ],
+      "rectCssPx": [
+        326.453,
+        215.516,
+        351.766,
+        235.516
+      ],
+      "renderedText": "visit"
+    },
+    {
+      "node": "n_cc0ddad318994bac8e34575c720e7a32",
+      "page": "pg_1",
+      "logicalRange": [
+        47,
+        50
+      ],
+      "rectCssPx": [
+        355.797,
+        215.516,
+        376.734,
+        235.516
+      ],
+      "renderedText": "the"
+    },
+    {
+      "node": "n_cc0ddad318994bac8e34575c720e7a32",
+      "page": "pg_1",
+      "logicalRange": [
+        51,
+        58
+      ],
+      "rectCssPx": [
+        380.766,
+        215.516,
+        435.094,
+        235.516
+      ],
+      "renderedText": "example"
+    },
+    {
+      "node": "n_cc0ddad318994bac8e34575c720e7a32",
+      "page": "pg_1",
+      "logicalRange": [
+        59,
+        68
+      ],
+      "rectCssPx": [
+        439.125,
+        215.516,
+        499.641,
+        235.516
+      ],
+      "renderedText": "reference"
+    },
+    {
+      "node": "n_cc0ddad318994bac8e34575c720e7a32",
+      "page": "pg_1",
+      "logicalRange": [
+        68,
+        69
+      ],
+      "rectCssPx": [
+        499.641,
+        215.516,
+        502.828,
+        235.516
+      ],
+      "renderedText": "."
+    },
+    {
+      "node": "n_9d95cd556788455d9da54395fc2c8a2c",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        10
+      ],
+      "rectCssPx": [
+        104.25,
+        251.875,
+        166.578,
+        271.875
+      ],
+      "renderedText": "Persistent"
+    },
+    {
+      "node": "n_9d95cd556788455d9da54395fc2c8a2c",
+      "page": "pg_1",
+      "logicalRange": [
+        11,
+        19
+      ],
+      "rectCssPx": [
+        170.609,
+        251.875,
+        219.344,
+        271.875
+      ],
+      "renderedText": "identity"
+    },
+    {
+      "node": "n_261af82136c44ebaa3ce2b3687b9a0c1",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        7
+      ],
+      "rectCssPx": [
+        104.25,
+        273.578,
+        149.719,
+        293.578
+      ],
+      "renderedText": "Logical"
+    },
+    {
+      "node": "n_261af82136c44ebaa3ce2b3687b9a0c1",
+      "page": "pg_1",
+      "logicalRange": [
+        8,
+        12
+      ],
+      "rectCssPx": [
+        153.75,
+        273.578,
+        178.094,
+        293.578
+      ],
+      "renderedText": "text"
+    },
+    {
+      "node": "n_261af82136c44ebaa3ce2b3687b9a0c1",
+      "page": "pg_1",
+      "logicalRange": [
+        13,
+        18
+      ],
+      "rectCssPx": [
+        182.125,
+        273.578,
+        217.219,
+        293.578
+      ],
+      "renderedText": "order"
+    },
+    {
+      "node": "n_663d748e9c084e62a078ebda72dfce0b",
+      "page": "pg_2",
+      "logicalRange": [
+        0,
+        4
+      ],
+      "rectCssPx": [
+        64.25,
+        82.688,
+        71.938,
+        102.688
+      ],
+      "renderedText": "This"
+    },
+    {
+      "node": "n_663d748e9c084e62a078ebda72dfce0b",
+      "page": "pg_2",
+      "logicalRange": [
+        0,
+        4
+      ],
+      "rectCssPx": [
+        71.938,
+        82.688,
+        90.016,
+        102.688
+      ],
+      "renderedText": "This"
+    },
+    {
+      "node": "n_663d748e9c084e62a078ebda72dfce0b",
+      "page": "pg_2",
+      "logicalRange": [
+        5,
+        14
+      ],
+      "rectCssPx": [
+        94.047,
+        82.688,
+        160.797,
+        102.688
+      ],
+      "renderedText": "paragraph"
+    },
+    {
+      "node": "n_663d748e9c084e62a078ebda72dfce0b",
+      "page": "pg_2",
+      "logicalRange": [
+        15,
+        22
+      ],
+      "rectCssPx": [
+        164.828,
+        82.688,
+        210.516,
+        102.688
+      ],
+      "renderedText": "follows"
+    },
+    {
+      "node": "n_663d748e9c084e62a078ebda72dfce0b",
+      "page": "pg_2",
+      "logicalRange": [
+        23,
+        25
+      ],
+      "rectCssPx": [
+        214.547,
+        82.688,
+        230.313,
+        102.688
+      ],
+      "renderedText": "an"
+    },
+    {
+      "node": "n_663d748e9c084e62a078ebda72dfce0b",
+      "page": "pg_2",
+      "logicalRange": [
+        26,
+        37
+      ],
+      "rectCssPx": [
+        234.344,
+        82.688,
+        303.547,
+        102.688
+      ],
+      "renderedText": "intentional"
+    },
+    {
+      "node": "n_663d748e9c084e62a078ebda72dfce0b",
+      "page": "pg_2",
+      "logicalRange": [
+        38,
+        42
+      ],
+      "rectCssPx": [
+        307.578,
+        82.688,
+        339.969,
+        102.688
+      ],
+      "renderedText": "page"
+    },
+    {
+      "node": "n_663d748e9c084e62a078ebda72dfce0b",
+      "page": "pg_2",
+      "logicalRange": [
+        43,
+        49
+      ],
+      "rectCssPx": [
+        344,
+        82.688,
+        383.313,
+        102.688
+      ],
+      "renderedText": "break."
+    }
+  ],
+  "discardedOffPageFragments": [],
+  "adapter": {
+    "method": "forward:pagedjs-dom",
+    "version": "0.4.3",
+    "paginationTimeMs": 221,
+    "preview": {
+      "total": 2,
+      "performance": 103.29999999701977
+    }
+  }
+}

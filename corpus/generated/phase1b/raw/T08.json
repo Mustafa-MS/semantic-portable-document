@@ -1,0 +1,795 @@
+{
+  "catalog": {
+    "nodes": {
+      "n_dd161526d77d456894ffb6aca4862130": {
+        "tag": "section",
+        "visibleInSourceLayout": true,
+        "sourceText": "\n\n\n\n",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_35ea1633e7cf4b299c211e7e0edb933d": {
+        "tag": "h1",
+        "visibleInSourceLayout": true,
+        "sourceText": "وثيقة عربية تجريبية",
+        "expectedNonWhitespaceCharacters": 17,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_5bfd74423135489ebe59e5e89e51036f": {
+        "tag": "p",
+        "visibleInSourceLayout": true,
+        "sourceText": "هذه وثيقة عربية لاختبار ترتيب يونيكود المنطقي، واتصال الحروف، وعلامات الترقيم العربية؛ والنتيجة ٠٫٩٠٦.",
+        "expectedNonWhitespaceCharacters": 89,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_7cda818269174fe4a513ed5f0c82e409": {
+        "tag": "table",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_8395398da7d7464cb8e5d6c1f9857189": {
+        "tag": "caption",
+        "visibleInSourceLayout": true,
+        "sourceText": "جدول النتائج",
+        "expectedNonWhitespaceCharacters": 11,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_b5157ae9ebad477785fe6ab1bd9b58de": {
+        "tag": "tr",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_13c941ea366d4b4da4b849632aa8248b": {
+        "tag": "th",
+        "visibleInSourceLayout": true,
+        "sourceText": "المقياس",
+        "expectedNonWhitespaceCharacters": 7,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_ef6c92f224a446be975d27d5594e22bb": {
+        "tag": "th",
+        "visibleInSourceLayout": true,
+        "sourceText": "القيمة",
+        "expectedNonWhitespaceCharacters": 6,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_783c9978a330408f9214573d88854797": {
+        "tag": "tr",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_0dcfa0bf5ed4447fb9ad8bfd41e80323": {
+        "tag": "td",
+        "visibleInSourceLayout": true,
+        "sourceText": "الدقة",
+        "expectedNonWhitespaceCharacters": 5,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_c53f23cc070540cabcb10b89526c2d21": {
+        "tag": "td",
+        "visibleInSourceLayout": true,
+        "sourceText": "٩٠٫٦٪",
+        "expectedNonWhitespaceCharacters": 5,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_573aab94da2f415894abfbc39fde77aa": {
+        "tag": "figure",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_9903883a533d4517affb0d63fc5c1f2e": {
+        "tag": "figcaption",
+        "visibleInSourceLayout": true,
+        "sourceText": "الشكل ١. اتجاه تصاعدي.",
+        "expectedNonWhitespaceCharacters": 19,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_981be20bfcf84d529789f7d868edb5a8": {
+        "tag": "aside",
+        "visibleInSourceLayout": true,
+        "sourceText": "١. ملاحظة عربية قصيرة.",
+        "expectedNonWhitespaceCharacters": 19,
+        "nonVisualNonWhitespaceCharacters": 0
+      }
+    },
+    "documentId": "d_05a84440d47448ec9d76526b3e47ed7e",
+    "revisionId": "r_263e2261deed47c0b18e776a17aabba7",
+    "title": "Arabic Document",
+    "lang": "ar",
+    "dir": "rtl"
+  },
+  "pages": [
+    {
+      "id": "pg_1",
+      "widthCssPx": 793.688,
+      "heightCssPx": 1122.516
+    }
+  ],
+  "blockFragments": [
+    {
+      "node": "n_dd161526d77d456894ffb6aca4862130",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        89.469,
+        729.438,
+        703.203
+      ]
+    },
+    {
+      "node": "n_35ea1633e7cf4b299c211e7e0edb933d",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        89.469,
+        729.438,
+        157.719
+      ]
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        179.156,
+        729.438,
+        200.859
+      ]
+    },
+    {
+      "node": "n_7cda818269174fe4a513ed5f0c82e409",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        227.313,
+        729.438,
+        340.719
+      ]
+    },
+    {
+      "node": "n_8395398da7d7464cb8e5d6c1f9857189",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        234.859,
+        729.438,
+        256.563
+      ]
+    },
+    {
+      "node": "n_b5157ae9ebad477785fe6ab1bd9b58de",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.75,
+        257.063,
+        728.938,
+        298.641
+      ]
+    },
+    {
+      "node": "n_13c941ea366d4b4da4b849632aa8248b",
+      "page": "pg_1",
+      "rectCssPx": [
+        361.578,
+        257.063,
+        728.938,
+        298.641
+      ]
+    },
+    {
+      "node": "n_ef6c92f224a446be975d27d5594e22bb",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.75,
+        257.063,
+        361.578,
+        298.641
+      ]
+    },
+    {
+      "node": "n_783c9978a330408f9214573d88854797",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.75,
+        298.641,
+        728.938,
+        340.219
+      ]
+    },
+    {
+      "node": "n_0dcfa0bf5ed4447fb9ad8bfd41e80323",
+      "page": "pg_1",
+      "rectCssPx": [
+        361.578,
+        298.641,
+        728.938,
+        340.219
+      ]
+    },
+    {
+      "node": "n_c53f23cc070540cabcb10b89526c2d21",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.75,
+        298.641,
+        361.578,
+        340.219
+      ]
+    },
+    {
+      "node": "n_573aab94da2f415894abfbc39fde77aa",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        367.172,
+        729.438,
+        650.453
+      ]
+    },
+    {
+      "node": "n_9903883a533d4517affb0d63fc5c1f2e",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        628.75,
+        729.438,
+        650.453
+      ]
+    },
+    {
+      "node": "n_981be20bfcf84d529789f7d868edb5a8",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        676.906,
+        729.438,
+        703.203
+      ]
+    }
+  ],
+  "textFragments": [
+    {
+      "node": "n_35ea1633e7cf4b299c211e7e0edb933d",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        5
+      ],
+      "rectCssPx": [
+        659.969,
+        91.469,
+        729.438,
+        134.469
+      ],
+      "renderedText": "وثيقة"
+    },
+    {
+      "node": "n_35ea1633e7cf4b299c211e7e0edb933d",
+      "page": "pg_1",
+      "logicalRange": [
+        6,
+        11
+      ],
+      "rectCssPx": [
+        581.656,
+        91.469,
+        651.141,
+        134.469
+      ],
+      "renderedText": "عربية"
+    },
+    {
+      "node": "n_35ea1633e7cf4b299c211e7e0edb933d",
+      "page": "pg_1",
+      "logicalRange": [
+        12,
+        19
+      ],
+      "rectCssPx": [
+        479.313,
+        91.469,
+        572.828,
+        134.469
+      ],
+      "renderedText": "تجريبية"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        3
+      ],
+      "rectCssPx": [
+        704.953,
+        179.156,
+        729.438,
+        199.156
+      ],
+      "renderedText": "هذه"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        4,
+        9
+      ],
+      "rectCssPx": [
+        669.094,
+        179.156,
+        700.922,
+        199.156
+      ],
+      "renderedText": "وثيقة"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        10,
+        15
+      ],
+      "rectCssPx": [
+        633.219,
+        179.156,
+        665.063,
+        199.156
+      ],
+      "renderedText": "عربية"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        16,
+        23
+      ],
+      "rectCssPx": [
+        592.453,
+        179.156,
+        629.188,
+        199.156
+      ],
+      "renderedText": "لاختبار"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        24,
+        29
+      ],
+      "rectCssPx": [
+        555.359,
+        179.156,
+        588.422,
+        199.156
+      ],
+      "renderedText": "ترتيب"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        30,
+        37
+      ],
+      "rectCssPx": [
+        507.25,
+        179.156,
+        551.328,
+        199.156
+      ],
+      "renderedText": "يونيكود"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        38,
+        46
+      ],
+      "rectCssPx": [
+        445.688,
+        179.156,
+        503.219,
+        199.156
+      ],
+      "renderedText": "المنطقي،"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        47,
+        53
+      ],
+      "rectCssPx": [
+        397.578,
+        179.156,
+        441.656,
+        199.156
+      ],
+      "renderedText": "واتصال"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        54,
+        61
+      ],
+      "rectCssPx": [
+        345.797,
+        179.156,
+        393.547,
+        199.156
+      ],
+      "renderedText": "الحروف،"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        62,
+        69
+      ],
+      "rectCssPx": [
+        291.563,
+        179.156,
+        341.766,
+        199.156
+      ],
+      "renderedText": "وعلامات"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        70,
+        77
+      ],
+      "rectCssPx": [
+        248.359,
+        179.156,
+        287.531,
+        199.156
+      ],
+      "renderedText": "الترقيم"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        78,
+        86
+      ],
+      "rectCssPx": [
+        200.25,
+        179.156,
+        244.328,
+        199.156
+      ],
+      "renderedText": "العربية؛"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        87,
+        95
+      ],
+      "rectCssPx": [
+        149.703,
+        179.156,
+        196.219,
+        199.156
+      ],
+      "renderedText": "والنتيجة"
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        96,
+        102
+      ],
+      "rectCssPx": [
+        113.109,
+        179.156,
+        116.297,
+        199.156
+      ],
+      "renderedText": "٠٫٩٠٦."
+    },
+    {
+      "node": "n_5bfd74423135489ebe59e5e89e51036f",
+      "page": "pg_1",
+      "logicalRange": [
+        96,
+        102
+      ],
+      "rectCssPx": [
+        116.297,
+        179.156,
+        145.672,
+        199.156
+      ],
+      "renderedText": "٠٫٩٠٦."
+    },
+    {
+      "node": "n_8395398da7d7464cb8e5d6c1f9857189",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        4
+      ],
+      "rectCssPx": [
+        400.078,
+        234.859,
+        433.141,
+        254.859
+      ],
+      "renderedText": "جدول"
+    },
+    {
+      "node": "n_8395398da7d7464cb8e5d6c1f9857189",
+      "page": "pg_1",
+      "logicalRange": [
+        5,
+        12
+      ],
+      "rectCssPx": [
+        360.547,
+        234.859,
+        396.047,
+        254.859
+      ],
+      "renderedText": "النتائج"
+    },
+    {
+      "node": "n_13c941ea366d4b4da4b849632aa8248b",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        7
+      ],
+      "rectCssPx": [
+        520.156,
+        267,
+        570.344,
+        287
+      ],
+      "renderedText": "المقياس"
+    },
+    {
+      "node": "n_ef6c92f224a446be975d27d5594e22bb",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        6
+      ],
+      "rectCssPx": [
+        194.797,
+        267,
+        231.531,
+        287
+      ],
+      "renderedText": "القيمة"
+    },
+    {
+      "node": "n_0dcfa0bf5ed4447fb9ad8bfd41e80323",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        5
+      ],
+      "rectCssPx": [
+        688.391,
+        308.578,
+        719,
+        328.578
+      ],
+      "renderedText": "الدقة"
+    },
+    {
+      "node": "n_c53f23cc070540cabcb10b89526c2d21",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        5
+      ],
+      "rectCssPx": [
+        318.578,
+        308.578,
+        327.156,
+        328.578
+      ],
+      "renderedText": "٩٠٫٦٪"
+    },
+    {
+      "node": "n_c53f23cc070540cabcb10b89526c2d21",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        5
+      ],
+      "rectCssPx": [
+        327.156,
+        308.578,
+        351.641,
+        328.578
+      ],
+      "renderedText": "٩٠٫٦٪"
+    },
+    {
+      "node": "n_9903883a533d4517affb0d63fc5c1f2e",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        5
+      ],
+      "rectCssPx": [
+        428.469,
+        628.75,
+        466.422,
+        648.75
+      ],
+      "renderedText": "الشكل"
+    },
+    {
+      "node": "n_9903883a533d4517affb0d63fc5c1f2e",
+      "page": "pg_1",
+      "logicalRange": [
+        6,
+        8
+      ],
+      "rectCssPx": [
+        417.203,
+        628.75,
+        420.75,
+        648.75
+      ],
+      "renderedText": "١."
+    },
+    {
+      "node": "n_9903883a533d4517affb0d63fc5c1f2e",
+      "page": "pg_1",
+      "logicalRange": [
+        6,
+        8
+      ],
+      "rectCssPx": [
+        420.75,
+        628.75,
+        424.438,
+        648.75
+      ],
+      "renderedText": "١."
+    },
+    {
+      "node": "n_9903883a533d4517affb0d63fc5c1f2e",
+      "page": "pg_1",
+      "logicalRange": [
+        9,
+        14
+      ],
+      "rectCssPx": [
+        385.016,
+        628.75,
+        413.172,
+        648.75
+      ],
+      "renderedText": "اتجاه"
+    },
+    {
+      "node": "n_9903883a533d4517affb0d63fc5c1f2e",
+      "page": "pg_1",
+      "logicalRange": [
+        15,
+        22
+      ],
+      "rectCssPx": [
+        327.25,
+        628.75,
+        380.984,
+        648.75
+      ],
+      "renderedText": "تصاعدي."
+    },
+    {
+      "node": "n_981be20bfcf84d529789f7d868edb5a8",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        2
+      ],
+      "rectCssPx": [
+        723.813,
+        685.453,
+        726.422,
+        701.453
+      ],
+      "renderedText": "١."
+    },
+    {
+      "node": "n_981be20bfcf84d529789f7d868edb5a8",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        2
+      ],
+      "rectCssPx": [
+        726.422,
+        685.453,
+        729.438,
+        701.453
+      ],
+      "renderedText": "١."
+    },
+    {
+      "node": "n_981be20bfcf84d529789f7d868edb5a8",
+      "page": "pg_1",
+      "logicalRange": [
+        3,
+        9
+      ],
+      "rectCssPx": [
+        683.438,
+        685.453,
+        720.516,
+        701.453
+      ],
+      "renderedText": "ملاحظة"
+    },
+    {
+      "node": "n_981be20bfcf84d529789f7d868edb5a8",
+      "page": "pg_1",
+      "logicalRange": [
+        10,
+        15
+      ],
+      "rectCssPx": [
+        654.078,
+        685.453,
+        680.141,
+        701.453
+      ],
+      "renderedText": "عربية"
+    },
+    {
+      "node": "n_981be20bfcf84d529789f7d868edb5a8",
+      "page": "pg_1",
+      "logicalRange": [
+        16,
+        22
+      ],
+      "rectCssPx": [
+        616.109,
+        685.453,
+        650.781,
+        701.453
+      ],
+      "renderedText": "قصيرة."
+    }
+  ],
+  "discardedOffPageFragments": [],
+  "adapter": {
+    "method": "forward:pagedjs-dom",
+    "version": "0.4.3",
+    "paginationTimeMs": 215,
+    "preview": {
+      "total": 1,
+      "performance": 142.20000000298023
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/semantic-fixed/state-0.1.schema.json",
+  "title": "Experimental sealed state descriptor 0.1",
+  "type": "object",
+  "required": ["schemaVersion", "lifecycle", "document", "revision", "resources", "rendererProvenance", "descriptorHash"],
+  "properties": {
+    "schemaVersion": {"const": "0.1-experimental"},
+    "lifecycle": {"enum": ["EDITABLE", "SEALED"]},
+    "document": {"type": "string", "pattern": "^d_"},
+    "revision": {"type": "string", "pattern": "^r_"},
+    "resources": {"type": "object", "required": ["semantic", "fixed", "mapping", "required"]},
+    "descriptorHash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}
+  }
+}

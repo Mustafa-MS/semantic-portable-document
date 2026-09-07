@@ -1,0 +1,328 @@
+{
+  "$defs": {
+    "digest": {
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "documentId": {
+      "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "type": "string"
+    },
+    "fixedId": {
+      "maxLength": 130,
+      "pattern": "^f_[a-z0-9._-]{1,128}$",
+      "type": "string"
+    },
+    "fragment": {
+      "additionalProperties": false,
+      "properties": {
+        "pageId": {
+          "$ref": "#/$defs/pageId"
+        },
+        "quad": {
+          "$ref": "#/$defs/quad"
+        },
+        "textRange": {
+          "$ref": "#/$defs/range"
+        },
+        "transform": {
+          "$ref": "#/$defs/matrix"
+        }
+      },
+      "required": [
+        "pageId",
+        "quad"
+      ],
+      "type": "object"
+    },
+    "matrix": {
+      "items": {
+        "type": "number"
+      },
+      "maxItems": 6,
+      "minItems": 6,
+      "type": "array"
+    },
+    "nodeId": {
+      "maxLength": 130,
+      "pattern": "^n_[a-z0-9._-]{1,128}$",
+      "type": "string"
+    },
+    "pageId": {
+      "maxLength": 130,
+      "pattern": "^p_[a-z0-9._-]{1,128}$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "generator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "method": {
+          "enum": [
+            "forward-layout",
+            "backward-recovery",
+            "inferred",
+            "manual"
+          ]
+        },
+        "version": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "method",
+        "generator"
+      ],
+      "type": "object"
+    },
+    "quad": {
+      "items": {
+        "type": "number"
+      },
+      "maxItems": 8,
+      "minItems": 8,
+      "type": "array"
+    },
+    "range": {
+      "additionalProperties": false,
+      "properties": {
+        "end": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "start": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "unit": {
+          "const": "unicode-scalar-value"
+        }
+      },
+      "required": [
+        "unit",
+        "start",
+        "end"
+      ],
+      "type": "object"
+    },
+    "record": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "MAPPED"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "fragments": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "PARTIALLY_MAPPED"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "fragments": {
+                "minItems": 1
+              }
+            },
+            "required": [
+              "reason"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "NOT_VISIBLE",
+                  "UNMAPPABLE",
+                  "UNSUPPORTED"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "fragments": {
+                "maxItems": 0
+              }
+            },
+            "required": [
+              "reason"
+            ]
+          }
+        }
+      ],
+      "properties": {
+        "fragments": {
+          "items": {
+            "$ref": "#/$defs/fragment"
+          },
+          "type": "array"
+        },
+        "nodeId": {
+          "$ref": "#/$defs/nodeId"
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        },
+        "reason": {
+          "maxLength": 1000,
+          "minLength": 1,
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "MAPPED",
+            "PARTIALLY_MAPPED",
+            "NOT_VISIBLE",
+            "UNMAPPABLE",
+            "UNSUPPORTED"
+          ]
+        }
+      },
+      "required": [
+        "nodeId",
+        "status",
+        "provenance",
+        "fragments"
+      ],
+      "type": "object"
+    },
+    "revisionId": {
+      "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "type": "string"
+    }
+  },
+  "$id": "urn:uuid:d08ac0d1-ca22-5518-82d9-a9a2dd6347a0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "coordinateSystem": {
+      "additionalProperties": false,
+      "properties": {
+        "origin": {
+          "const": "top-left"
+        },
+        "quadOrder": {
+          "const": "top-left,top-right,bottom-right,bottom-left"
+        },
+        "unit": {
+          "const": "css-px"
+        },
+        "xDirection": {
+          "const": "right"
+        },
+        "yDirection": {
+          "const": "down"
+        }
+      },
+      "required": [
+        "unit",
+        "origin",
+        "xDirection",
+        "yDirection",
+        "quadOrder"
+      ],
+      "type": "object"
+    },
+    "documentId": {
+      "$ref": "#/$defs/documentId"
+    },
+    "fixedRendition": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/fixedId"
+        },
+        "mediaType": {
+          "minLength": 3,
+          "type": "string"
+        },
+        "sha256": {
+          "$ref": "#/$defs/digest"
+        }
+      },
+      "required": [
+        "id",
+        "sha256",
+        "mediaType"
+      ],
+      "type": "object"
+    },
+    "pages": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "height": {
+            "exclusiveMinimum": 0,
+            "type": "number"
+          },
+          "id": {
+            "$ref": "#/$defs/pageId"
+          },
+          "toFixed": {
+            "$ref": "#/$defs/matrix"
+          },
+          "width": {
+            "exclusiveMinimum": 0,
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "width",
+          "height"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "provenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "records": {
+      "items": {
+        "$ref": "#/$defs/record"
+      },
+      "type": "array"
+    },
+    "revisionId": {
+      "$ref": "#/$defs/revisionId"
+    },
+    "schemaVersion": {
+      "const": "0.1"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "documentId",
+    "revisionId",
+    "fixedRendition",
+    "provenance",
+    "coordinateSystem",
+    "pages",
+    "records"
+  ],
+  "title": "SPD 0.1 semantic-to-fixed correspondence mapping",
+  "type": "object"
+}

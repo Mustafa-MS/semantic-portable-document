@@ -1,0 +1,2581 @@
+{
+  "adapter": {
+    "method": "forward:pagedjs-dom",
+    "paginationTimeMs": 98,
+    "preview": {
+      "performance": 39.5,
+      "total": 1
+    },
+    "version": "0.4.3"
+  },
+  "coordinateSystem": {
+    "calibration": "per-page CSS-pixel to PDF-point scale",
+    "origin": "page-top-left",
+    "unit": "pt"
+  },
+  "document": "d_b213c48262f542568c65df4d17ed3363",
+  "fixedRendition": "f_929b9c8c5bc944c8adf824870a1515c0",
+  "fixedRenditionHash": "sha256:fe471fdd9e96a7033e5a1e66e4d12d45213f82c91712e74cff31bf6bfa08e815",
+  "mappingFidelity": {
+    "logicalRangeMapping": {
+      "expectedCharacters": 396,
+      "mappedCharacters": 396,
+      "ratio": 1.0
+    },
+    "visibleNodeMapping": {
+      "expected": 25,
+      "mapped": 25,
+      "ratio": 1.0
+    }
+  },
+  "pages": [
+    {
+      "height": 841.91998,
+      "id": "pg_1",
+      "unit": "pt",
+      "width": 594.95996
+    }
+  ],
+  "processingTimeMs": 3879.31,
+  "records": [
+    {
+      "confidence": "EXACT_IDENTITY_PROPAGATION",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            67.104,
+            546.797,
+            67.104,
+            546.797,
+            736.306,
+            48.163,
+            736.306
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_59352efefabe484481c9e027e4718876",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 0,
+        "mappedCharacters": 0,
+        "ratio": null
+      },
+      "status": "MAPPED",
+      "tag": "article"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            67.104,
+            546.797,
+            67.104,
+            546.797,
+            118.294,
+            48.163,
+            118.294
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            1
+          ],
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            68.604,
+            65.029,
+            68.604,
+            65.029,
+            100.856,
+            48.163,
+            100.856
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            2,
+            9
+          ],
+          "page": "pg_1",
+          "quad": [
+            71.647,
+            68.604,
+            168.195,
+            68.604,
+            168.195,
+            100.856,
+            71.647,
+            100.856
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            10,
+            18
+          ],
+          "page": "pg_1",
+          "quad": [
+            174.812,
+            68.604,
+            280.274,
+            68.604,
+            280.274,
+            100.856,
+            174.812,
+            100.856
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            19,
+            24
+          ],
+          "page": "pg_1",
+          "quad": [
+            286.892,
+            68.604,
+            351.838,
+            68.604,
+            351.838,
+            100.856,
+            286.892,
+            100.856
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_e1e27d7e576d46219081f50d0cd56bad",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 21,
+        "mappedCharacters": 21,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "h1"
+    },
+    {
+      "confidence": "EXACT_IDENTITY_PROPAGATION",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            134.372,
+            546.797,
+            134.372,
+            546.797,
+            188.749,
+            48.163,
+            188.749
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_871b808bf4f540e8b28c3fc7397c8457",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 0,
+        "mappedCharacters": 0,
+        "ratio": null
+      },
+      "status": "MAPPED",
+      "tag": "section"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            134.372,
+            546.797,
+            134.372,
+            546.797,
+            158.783,
+            48.163,
+            158.783
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            8
+          ],
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            135.122,
+            113.438,
+            135.122,
+            113.438,
+            157.623,
+            48.163,
+            157.623
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_4d653aed047d4e0a964d933d0a501b60",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 8,
+        "mappedCharacters": 8,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "h2"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            172.472,
+            546.797,
+            172.472,
+            546.797,
+            188.749,
+            48.163,
+            188.749
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            2
+          ],
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            172.472,
+            63.752,
+            172.472,
+            63.752,
+            187.472,
+            48.163,
+            187.472
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            3,
+            11
+          ],
+          "page": "pg_1",
+          "quad": [
+            66.774,
+            172.472,
+            107.324,
+            172.472,
+            107.324,
+            187.472,
+            66.774,
+            187.472
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            12,
+            13
+          ],
+          "page": "pg_1",
+          "quad": [
+            110.345,
+            172.472,
+            115.944,
+            172.472,
+            115.944,
+            187.472,
+            110.345,
+            187.472
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            14,
+            28
+          ],
+          "page": "pg_1",
+          "quad": [
+            118.966,
+            172.472,
+            184.827,
+            172.472,
+            184.827,
+            187.472,
+            118.966,
+            187.472
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            29,
+            37
+          ],
+          "page": "pg_1",
+          "quad": [
+            187.849,
+            172.472,
+            237.218,
+            172.472,
+            237.218,
+            187.472,
+            187.849,
+            187.472
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            38,
+            50
+          ],
+          "page": "pg_1",
+          "quad": [
+            240.239,
+            172.472,
+            297.667,
+            172.472,
+            297.667,
+            187.472,
+            240.239,
+            187.472
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            51,
+            56
+          ],
+          "page": "pg_1",
+          "quad": [
+            300.689,
+            172.472,
+            326.926,
+            172.472,
+            326.926,
+            187.472,
+            300.689,
+            187.472
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            57,
+            72
+          ],
+          "page": "pg_1",
+          "quad": [
+            329.947,
+            172.472,
+            401.676,
+            172.472,
+            401.676,
+            187.472,
+            329.947,
+            187.472
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            73,
+            81
+          ],
+          "page": "pg_1",
+          "quad": [
+            404.698,
+            172.472,
+            450.413,
+            172.472,
+            450.413,
+            187.472,
+            404.698,
+            187.472
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 73,
+        "mappedCharacters": 73,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "p"
+    },
+    {
+      "confidence": "EXACT_IDENTITY_PROPAGATION",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            202.437,
+            546.797,
+            202.437,
+            546.797,
+            256.815,
+            48.163,
+            256.815
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_30db2c84068d4a55836ec6f0a9b5bd40",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 0,
+        "mappedCharacters": 0,
+        "ratio": null
+      },
+      "status": "MAPPED",
+      "tag": "section"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            202.437,
+            546.797,
+            202.437,
+            546.797,
+            226.849,
+            48.163,
+            226.849
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            7
+          ],
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            203.187,
+            116.764,
+            203.187,
+            116.764,
+            225.688,
+            48.163,
+            225.688
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_93a0e44bfa0a447686070c33ecc50e2f",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 7,
+        "mappedCharacters": 7,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "h2"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            240.537,
+            546.797,
+            240.537,
+            546.797,
+            256.815,
+            48.163,
+            256.815
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            6
+          ],
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            240.537,
+            77.831,
+            240.537,
+            77.831,
+            255.537,
+            48.163,
+            255.537
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            7,
+            11
+          ],
+          "page": "pg_1",
+          "quad": [
+            80.853,
+            240.537,
+            105.731,
+            240.537,
+            105.731,
+            255.537,
+            80.853,
+            255.537
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            12,
+            22
+          ],
+          "page": "pg_1",
+          "quad": [
+            108.753,
+            240.537,
+            153.038,
+            240.537,
+            153.038,
+            255.537,
+            108.753,
+            255.537
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            23,
+            27
+          ],
+          "page": "pg_1",
+          "quad": [
+            156.061,
+            240.537,
+            179.322,
+            240.537,
+            179.322,
+            255.537,
+            156.061,
+            255.537
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            28,
+            37
+          ],
+          "page": "pg_1",
+          "quad": [
+            182.344,
+            240.537,
+            230.085,
+            240.537,
+            230.085,
+            255.537,
+            182.344,
+            255.537
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            38,
+            44
+          ],
+          "page": "pg_1",
+          "quad": [
+            233.107,
+            240.537,
+            264.977,
+            240.537,
+            264.977,
+            255.537,
+            233.107,
+            255.537
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            45,
+            46
+          ],
+          "page": "pg_1",
+          "quad": [
+            267.999,
+            240.537,
+            273.597,
+            240.537,
+            273.597,
+            255.537,
+            267.999,
+            255.537
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            47,
+            55
+          ],
+          "page": "pg_1",
+          "quad": [
+            276.62,
+            240.537,
+            317.918,
+            240.537,
+            317.918,
+            255.537,
+            276.62,
+            255.537
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            56,
+            62
+          ],
+          "page": "pg_1",
+          "quad": [
+            320.941,
+            240.537,
+            347.786,
+            240.537,
+            347.786,
+            255.537,
+            320.941,
+            255.537
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            63,
+            69
+          ],
+          "page": "pg_1",
+          "quad": [
+            350.808,
+            240.537,
+            385.033,
+            240.537,
+            385.033,
+            255.537,
+            350.808,
+            255.537
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            70,
+            74
+          ],
+          "page": "pg_1",
+          "quad": [
+            388.054,
+            240.537,
+            402.999,
+            240.537,
+            402.999,
+            255.537,
+            388.054,
+            255.537
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 64,
+        "mappedCharacters": 64,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "p"
+    },
+    {
+      "confidence": "EXACT_IDENTITY_PROPAGATION",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            270.503,
+            546.797,
+            270.503,
+            546.797,
+            662.088,
+            48.163,
+            662.088
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_4dbab7fd89d9499ba950b71a70f6f40a",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 0,
+        "mappedCharacters": 0,
+        "ratio": null
+      },
+      "status": "MAPPED",
+      "tag": "section"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            270.503,
+            546.797,
+            270.503,
+            546.797,
+            294.914,
+            48.163,
+            294.914
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            7
+          ],
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            271.253,
+            103.037,
+            271.253,
+            103.037,
+            293.754,
+            48.163,
+            293.754
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_bad2af0c0ebe4af2ae02f0db4ee4be38",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 7,
+        "mappedCharacters": 7,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "h2"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            308.602,
+            546.797,
+            308.602,
+            546.797,
+            324.88,
+            48.163,
+            324.88
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            5
+          ],
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            308.602,
+            73.158,
+            308.602,
+            73.158,
+            323.602,
+            48.163,
+            323.602
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            6,
+            7
+          ],
+          "page": "pg_1",
+          "quad": [
+            76.18,
+            308.602,
+            82.106,
+            308.602,
+            82.106,
+            323.602,
+            76.18,
+            323.602
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            8,
+            15
+          ],
+          "page": "pg_1",
+          "quad": [
+            85.128,
+            308.602,
+            119.809,
+            308.602,
+            119.809,
+            323.602,
+            85.128,
+            323.602
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            16,
+            19
+          ],
+          "page": "pg_1",
+          "quad": [
+            122.831,
+            308.602,
+            138.526,
+            308.602,
+            138.526,
+            323.602,
+            122.831,
+            323.602
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            20,
+            25
+          ],
+          "page": "pg_1",
+          "quad": [
+            141.548,
+            308.602,
+            166.731,
+            308.602,
+            166.731,
+            323.602,
+            141.548,
+            323.602
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            26,
+            38
+          ],
+          "page": "pg_1",
+          "quad": [
+            169.752,
+            308.602,
+            232.65,
+            308.602,
+            232.65,
+            323.602,
+            169.752,
+            323.602
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            39,
+            46
+          ],
+          "page": "pg_1",
+          "quad": [
+            235.672,
+            308.602,
+            264.895,
+            308.602,
+            264.895,
+            323.602,
+            235.672,
+            323.602
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            47,
+            51
+          ],
+          "page": "pg_1",
+          "quad": [
+            267.917,
+            308.602,
+            294.844,
+            308.602,
+            294.844,
+            323.602,
+            267.917,
+            323.602
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            52,
+            60
+          ],
+          "page": "pg_1",
+          "quad": [
+            297.866,
+            308.602,
+            344.202,
+            308.602,
+            344.202,
+            323.602,
+            297.866,
+            323.602
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            61,
+            65
+          ],
+          "page": "pg_1",
+          "quad": [
+            347.224,
+            308.602,
+            370.391,
+            308.602,
+            370.391,
+            323.602,
+            347.224,
+            323.602
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            66,
+            74
+          ],
+          "page": "pg_1",
+          "quad": [
+            373.414,
+            308.602,
+            413.166,
+            308.602,
+            413.166,
+            323.602,
+            373.414,
+            323.602
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            75,
+            77
+          ],
+          "page": "pg_1",
+          "quad": [
+            416.188,
+            308.602,
+            426.355,
+            308.602,
+            426.355,
+            323.602,
+            416.188,
+            323.602
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            78,
+            84
+          ],
+          "page": "pg_1",
+          "quad": [
+            429.377,
+            308.602,
+            457.839,
+            308.602,
+            457.839,
+            323.602,
+            429.377,
+            323.602
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 72,
+        "mappedCharacters": 72,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "p"
+    },
+    {
+      "confidence": "EXACT_IDENTITY_PROPAGATION",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            344.72,
+            546.797,
+            344.72,
+            546.797,
+            429.779,
+            48.163,
+            429.779
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_399762edc9454ad99febef796332e253",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 0,
+        "mappedCharacters": 0,
+        "ratio": null
+      },
+      "status": "MAPPED",
+      "tag": "table"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            350.381,
+            546.797,
+            350.381,
+            546.797,
+            366.659,
+            48.163,
+            366.659
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            5
+          ],
+          "page": "pg_1",
+          "quad": [
+            240.72,
+            350.381,
+            266.792,
+            350.381,
+            266.792,
+            365.381,
+            240.72,
+            365.381
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            6,
+            8
+          ],
+          "page": "pg_1",
+          "quad": [
+            269.815,
+            350.381,
+            278.798,
+            350.381,
+            278.798,
+            365.381,
+            269.815,
+            365.381
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            9,
+            16
+          ],
+          "page": "pg_1",
+          "quad": [
+            281.82,
+            350.381,
+            320.753,
+            350.381,
+            320.753,
+            365.381,
+            281.82,
+            365.381
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            17,
+            24
+          ],
+          "page": "pg_1",
+          "quad": [
+            323.775,
+            350.381,
+            354.228,
+            350.381,
+            354.228,
+            365.381,
+            323.775,
+            365.381
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_ea04b45dcdd9405d9dd4a439c9fa89b8",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 21,
+        "mappedCharacters": 21,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "caption"
+    },
+    {
+      "confidence": "EXACT_IDENTITY_PROPAGATION",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.538,
+            367.034,
+            546.422,
+            367.034,
+            546.422,
+            398.219,
+            48.538,
+            398.219
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_3e8c5ca57d7d4a88afca65cf229d8de8",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 0,
+        "mappedCharacters": 0,
+        "ratio": null
+      },
+      "status": "MAPPED",
+      "tag": "tr"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.538,
+            367.034,
+            336.518,
+            367.034,
+            336.518,
+            398.219,
+            48.538,
+            398.219
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            7
+          ],
+          "page": "pg_1",
+          "quad": [
+            170.456,
+            374.487,
+            214.6,
+            374.487,
+            214.6,
+            389.488,
+            170.456,
+            389.488
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_52a40cdfc38a4e5ab22d57bd46fbc1fa",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 7,
+        "mappedCharacters": 7,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "th"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            336.518,
+            367.034,
+            546.422,
+            367.034,
+            546.422,
+            398.219,
+            336.518,
+            398.219
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            5
+          ],
+          "page": "pg_1",
+          "quad": [
+            427.397,
+            374.487,
+            455.532,
+            374.487,
+            455.532,
+            389.488,
+            427.397,
+            389.488
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_b11e2250e55f4a62acbc3f9680abc63b",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 5,
+        "mappedCharacters": 5,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "th"
+    },
+    {
+      "confidence": "EXACT_IDENTITY_PROPAGATION",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.538,
+            398.219,
+            546.422,
+            398.219,
+            546.422,
+            429.404,
+            48.538,
+            429.404
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_9e6c9d7203d74368babebcd11f01d2f5",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 0,
+        "mappedCharacters": 0,
+        "ratio": null
+      },
+      "status": "MAPPED",
+      "tag": "tr"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.538,
+            398.219,
+            336.518,
+            398.219,
+            336.518,
+            429.404,
+            48.538,
+            429.404
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            4
+          ],
+          "page": "pg_1",
+          "quad": [
+            55.987,
+            405.672,
+            82.914,
+            405.672,
+            82.914,
+            420.673,
+            55.987,
+            420.673
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_399984b70c6b4b7c99a57b382c8fcff6",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 4,
+        "mappedCharacters": 4,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "td"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            336.518,
+            398.219,
+            546.422,
+            398.219,
+            546.422,
+            429.404,
+            336.518,
+            429.404
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            5
+          ],
+          "page": "pg_1",
+          "quad": [
+            343.967,
+            405.672,
+            370.052,
+            405.672,
+            370.052,
+            420.673,
+            343.967,
+            420.673
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_3376d51dbd504c8cbd6a3de6d2af255c",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 5,
+        "mappedCharacters": 5,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "td"
+    },
+    {
+      "confidence": "EXACT_IDENTITY_PROPAGATION",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            449.619,
+            546.797,
+            449.619,
+            546.797,
+            662.088,
+            48.163,
+            662.088
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_559de0617f284db3ab11591c9fc8b1f6",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 0,
+        "mappedCharacters": 0,
+        "ratio": null
+      },
+      "status": "MAPPED",
+      "tag": "figure"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            645.811,
+            546.797,
+            645.811,
+            546.797,
+            662.088,
+            48.163,
+            662.088
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            6
+          ],
+          "page": "pg_1",
+          "quad": [
+            206.718,
+            645.811,
+            237.956,
+            645.811,
+            237.956,
+            660.811,
+            206.718,
+            660.811
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            7,
+            9
+          ],
+          "page": "pg_1",
+          "quad": [
+            240.978,
+            645.811,
+            248.052,
+            645.811,
+            248.052,
+            660.811,
+            240.978,
+            660.811
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            10,
+            17
+          ],
+          "page": "pg_1",
+          "quad": [
+            251.074,
+            645.811,
+            290.007,
+            645.811,
+            290.007,
+            660.811,
+            251.074,
+            660.811
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            18,
+            24
+          ],
+          "page": "pg_1",
+          "quad": [
+            293.029,
+            645.811,
+            320.835,
+            645.811,
+            320.835,
+            660.811,
+            293.029,
+            660.811
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            25,
+            39
+          ],
+          "page": "pg_1",
+          "quad": [
+            323.857,
+            645.811,
+            388.242,
+            645.811,
+            388.242,
+            660.811,
+            323.857,
+            660.811
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_94ad42069c4b4dd1ac0f5059ce81a3d2",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 35,
+        "mappedCharacters": 35,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "figcaption"
+    },
+    {
+      "confidence": "EXACT_IDENTITY_PROPAGATION",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            681.929,
+            546.797,
+            681.929,
+            546.797,
+            736.306,
+            48.163,
+            736.306
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_a4a3a86eb73b46e9901db7176d72b5e1",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 0,
+        "mappedCharacters": 0,
+        "ratio": null
+      },
+      "status": "MAPPED",
+      "tag": "section"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            681.929,
+            546.797,
+            681.929,
+            546.797,
+            706.34,
+            48.163,
+            706.34
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            10
+          ],
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            682.679,
+            132.178,
+            682.679,
+            132.178,
+            705.18,
+            48.163,
+            705.18
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_01b49b464d47494783e29fe4b9cd7c66",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 10,
+        "mappedCharacters": 10,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "h2"
+    },
+    {
+      "confidence": "EXACT_IDENTITY_PROPAGATION",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.163,
+            720.028,
+            546.797,
+            720.028,
+            546.797,
+            736.306,
+            48.163,
+            736.306
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_68ef20b32ad04df39b6d165e910f74bb",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 0,
+        "mappedCharacters": 0,
+        "ratio": null
+      },
+      "status": "MAPPED",
+      "tag": "ol"
+    },
+    {
+      "confidence": "EXACT_TEXT_RANGE_LAYOUT",
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            78.147,
+            720.028,
+            546.797,
+            720.028,
+            546.797,
+            736.306,
+            78.147,
+            736.306
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "block"
+        },
+        {
+          "logicalRange": [
+            0,
+            3
+          ],
+          "page": "pg_1",
+          "quad": [
+            78.147,
+            720.028,
+            90.715,
+            720.028,
+            90.715,
+            735.029,
+            78.147,
+            735.029
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            4,
+            11
+          ],
+          "page": "pg_1",
+          "quad": [
+            93.737,
+            720.028,
+            134.275,
+            720.028,
+            134.275,
+            735.029,
+            93.737,
+            735.029
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            12,
+            20
+          ],
+          "page": "pg_1",
+          "quad": [
+            137.296,
+            720.028,
+            180.423,
+            720.028,
+            180.423,
+            735.029,
+            137.296,
+            735.029
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            21,
+            27
+          ],
+          "page": "pg_1",
+          "quad": [
+            183.445,
+            720.028,
+            216.311,
+            720.028,
+            216.311,
+            735.029,
+            183.445,
+            735.029
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            28,
+            36
+          ],
+          "page": "pg_1",
+          "quad": [
+            219.333,
+            720.028,
+            263.665,
+            720.028,
+            263.665,
+            735.029,
+            219.333,
+            735.029
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            37,
+            45
+          ],
+          "page": "pg_1",
+          "quad": [
+            266.687,
+            720.028,
+            316.056,
+            720.028,
+            316.056,
+            735.029,
+            266.687,
+            735.029
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            46,
+            58
+          ],
+          "page": "pg_1",
+          "quad": [
+            319.078,
+            720.028,
+            380.769,
+            720.028,
+            380.769,
+            735.029,
+            319.078,
+            735.029
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        },
+        {
+          "logicalRange": [
+            59,
+            64
+          ],
+          "page": "pg_1",
+          "quad": [
+            383.791,
+            720.028,
+            409.875,
+            720.028,
+            409.875,
+            735.029,
+            383.791,
+            735.029
+          ],
+          "transform": [
+            0.74961441,
+            0,
+            0,
+            0.75002938,
+            0,
+            0
+          ],
+          "type": "text-range"
+        }
+      ],
+      "method": "forward:pagedjs-dom",
+      "node": "n_c2d012ffd6d44b448f15a9a1b6a8d6a8",
+      "nonVisualCharacters": 0,
+      "rangeCoverage": {
+        "expectedCharacters": 57,
+        "mappedCharacters": 57,
+        "ratio": 1.0
+      },
+      "status": "MAPPED",
+      "tag": "li"
+    }
+  ],
+  "revision": "r_27290679b2464cf9bd99476923797d5a",
+  "schemaVersion": "0.1B-experimental"
+}

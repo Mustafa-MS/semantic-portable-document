@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/semantic-fixed/mapping-0.1.schema.json",
+  "title": "Experimental semantic-to-fixed mapping 0.1",
+  "type": "object",
+  "required": ["schemaVersion", "document", "revision", "fixedRendition", "fixedRenditionHash", "pages", "mappings"],
+  "properties": {
+    "schemaVersion": {"const": "0.1-experimental"},
+    "document": {"type": "string", "pattern": "^d_"},
+    "revision": {"type": "string", "pattern": "^r_"},
+    "fixedRendition": {"type": "string", "pattern": "^f_"},
+    "fixedRenditionHash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "pages": {"type": "array", "items": {"type": "object", "required": ["id", "width", "height", "unit"]}},
+    "mappings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["node", "kind", "fragments"],
+        "properties": {
+          "node": {"type": "string", "pattern": "^n_"},
+          "kind": {"enum": ["block", "text", "table-cell", "figure"]},
+          "fragments": {"type": "array", "items": {"type": "object", "required": ["page", "quad"]}}
+        }
+      }
+    }
+  }
+}
+

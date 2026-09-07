@@ -1,0 +1,479 @@
+{
+  "catalog": {
+    "nodes": {
+      "n_8f23974349fc489aa4261ab98458ee70": {
+        "tag": "section",
+        "visibleInSourceLayout": true,
+        "sourceText": "\n\n\n",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_4582b08af87047de9e75cba1df0951a3": {
+        "tag": "h1",
+        "visibleInSourceLayout": true,
+        "sourceText": "Mathematics",
+        "expectedNonWhitespaceCharacters": 11,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_949f133a4666441e93e79e99077544de": {
+        "tag": "p",
+        "visibleInSourceLayout": true,
+        "sourceText": "Inline energy  appears in text.",
+        "expectedNonWhitespaceCharacters": 26,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_fe95e579d6954c8c9962ebc3d219dd54": {
+        "tag": "math",
+        "visibleInSourceLayout": true,
+        "sourceText": "E=mc2",
+        "expectedNonWhitespaceCharacters": 5,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_ce8ce1040a294f408f80cf718f6dd0a7": {
+        "tag": "div",
+        "visibleInSourceLayout": true,
+        "sourceText": "FROC=9061000(1)",
+        "expectedNonWhitespaceCharacters": 15,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_4e4eef195e5e4dd8bae3a40f2ab458a7": {
+        "tag": "p",
+        "visibleInSourceLayout": true,
+        "sourceText": "Equation 1 defines the reported FROC result.",
+        "expectedNonWhitespaceCharacters": 38,
+        "nonVisualNonWhitespaceCharacters": 0
+      }
+    },
+    "documentId": "d_8f68572f4f0e445483c7511a5d8f07b9",
+    "revisionId": "r_49983f18d883450bb0cb221c72ce11d8",
+    "title": "Mathematics",
+    "lang": "en",
+    "dir": "ltr"
+  },
+  "pages": [
+    {
+      "id": "pg_1",
+      "widthCssPx": 793.688,
+      "heightCssPx": 1122.516
+    }
+  ],
+  "blockFragments": [
+    {
+      "node": "n_8f23974349fc489aa4261ab98458ee70",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        89.469,
+        729.438,
+        292.25
+      ]
+    },
+    {
+      "node": "n_4582b08af87047de9e75cba1df0951a3",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        89.469,
+        729.438,
+        157.719
+      ]
+    },
+    {
+      "node": "n_949f133a4666441e93e79e99077544de",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        179.156,
+        729.438,
+        202.578
+      ]
+    },
+    {
+      "node": "n_fe95e579d6954c8c9962ebc3d219dd54",
+      "page": "pg_1",
+      "rectCssPx": [
+        152.031,
+        179.156,
+        206.031,
+        201.875
+      ]
+    },
+    {
+      "node": "n_ce8ce1040a294f408f80cf718f6dd0a7",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        217.234,
+        729.438,
+        255.891
+      ]
+    },
+    {
+      "node": "n_4e4eef195e5e4dd8bae3a40f2ab458a7",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        270.547,
+        729.438,
+        292.25
+      ]
+    }
+  ],
+  "textFragments": [
+    {
+      "node": "n_4582b08af87047de9e75cba1df0951a3",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        11
+      ],
+      "rectCssPx": [
+        64.25,
+        91.469,
+        258.641,
+        134.469
+      ],
+      "renderedText": "Mathematics"
+    },
+    {
+      "node": "n_949f133a4666441e93e79e99077544de",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        6
+      ],
+      "rectCssPx": [
+        64.25,
+        180.875,
+        99.516,
+        200.875
+      ],
+      "renderedText": "Inline"
+    },
+    {
+      "node": "n_949f133a4666441e93e79e99077544de",
+      "page": "pg_1",
+      "logicalRange": [
+        7,
+        13
+      ],
+      "rectCssPx": [
+        103.547,
+        180.875,
+        148,
+        200.875
+      ],
+      "renderedText": "energy"
+    },
+    {
+      "node": "n_fe95e579d6954c8c9962ebc3d219dd54",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        1
+      ],
+      "rectCssPx": [
+        152.031,
+        185.875,
+        161.188,
+        199.875
+      ],
+      "renderedText": "E"
+    },
+    {
+      "node": "n_fe95e579d6954c8c9962ebc3d219dd54",
+      "page": "pg_1",
+      "logicalRange": [
+        1,
+        2
+      ],
+      "rectCssPx": [
+        165.344,
+        185.875,
+        176.297,
+        199.875
+      ],
+      "renderedText": "="
+    },
+    {
+      "node": "n_fe95e579d6954c8c9962ebc3d219dd54",
+      "page": "pg_1",
+      "logicalRange": [
+        2,
+        3
+      ],
+      "rectCssPx": [
+        180.453,
+        185.875,
+        192.75,
+        199.875
+      ],
+      "renderedText": "m"
+    },
+    {
+      "node": "n_fe95e579d6954c8c9962ebc3d219dd54",
+      "page": "pg_1",
+      "logicalRange": [
+        3,
+        4
+      ],
+      "rectCssPx": [
+        192.75,
+        185.875,
+        199.5,
+        199.875
+      ],
+      "renderedText": "c"
+    },
+    {
+      "node": "n_fe95e579d6954c8c9962ebc3d219dd54",
+      "page": "pg_1",
+      "logicalRange": [
+        4,
+        5
+      ],
+      "rectCssPx": [
+        199.5,
+        180.156,
+        205.438,
+        190.156
+      ],
+      "renderedText": "2"
+    },
+    {
+      "node": "n_949f133a4666441e93e79e99077544de",
+      "page": "pg_1",
+      "logicalRange": [
+        15,
+        22
+      ],
+      "rectCssPx": [
+        210.063,
+        180.875,
+        261.203,
+        200.875
+      ],
+      "renderedText": "appears"
+    },
+    {
+      "node": "n_949f133a4666441e93e79e99077544de",
+      "page": "pg_1",
+      "logicalRange": [
+        23,
+        25
+      ],
+      "rectCssPx": [
+        265.234,
+        180.875,
+        277.094,
+        200.875
+      ],
+      "renderedText": "in"
+    },
+    {
+      "node": "n_949f133a4666441e93e79e99077544de",
+      "page": "pg_1",
+      "logicalRange": [
+        26,
+        31
+      ],
+      "rectCssPx": [
+        281.125,
+        180.875,
+        308.641,
+        200.875
+      ],
+      "renderedText": "text."
+    },
+    {
+      "node": "n_ce8ce1040a294f408f80cf718f6dd0a7",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        4
+      ],
+      "rectCssPx": [
+        325.438,
+        229.75,
+        359.953,
+        243.75
+      ],
+      "renderedText": "FROC"
+    },
+    {
+      "node": "n_ce8ce1040a294f408f80cf718f6dd0a7",
+      "page": "pg_1",
+      "logicalRange": [
+        4,
+        5
+      ],
+      "rectCssPx": [
+        364.109,
+        229.75,
+        375.063,
+        243.75
+      ],
+      "renderedText": "="
+    },
+    {
+      "node": "n_ce8ce1040a294f408f80cf718f6dd0a7",
+      "page": "pg_1",
+      "logicalRange": [
+        5,
+        8
+      ],
+      "rectCssPx": [
+        384.281,
+        218.234,
+        408.641,
+        232.234
+      ],
+      "renderedText": "906"
+    },
+    {
+      "node": "n_ce8ce1040a294f408f80cf718f6dd0a7",
+      "page": "pg_1",
+      "logicalRange": [
+        8,
+        12
+      ],
+      "rectCssPx": [
+        380.219,
+        239.891,
+        412.703,
+        253.891
+      ],
+      "renderedText": "1000"
+    },
+    {
+      "node": "n_ce8ce1040a294f408f80cf718f6dd0a7",
+      "page": "pg_1",
+      "logicalRange": [
+        12,
+        15
+      ],
+      "rectCssPx": [
+        451.484,
+        225.703,
+        468.25,
+        245.703
+      ],
+      "renderedText": "(1)"
+    },
+    {
+      "node": "n_4e4eef195e5e4dd8bae3a40f2ab458a7",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        8
+      ],
+      "rectCssPx": [
+        64.25,
+        270.547,
+        121.469,
+        290.547
+      ],
+      "renderedText": "Equation"
+    },
+    {
+      "node": "n_4e4eef195e5e4dd8bae3a40f2ab458a7",
+      "page": "pg_1",
+      "logicalRange": [
+        9,
+        10
+      ],
+      "rectCssPx": [
+        125.5,
+        270.547,
+        133.406,
+        290.547
+      ],
+      "renderedText": "1"
+    },
+    {
+      "node": "n_4e4eef195e5e4dd8bae3a40f2ab458a7",
+      "page": "pg_1",
+      "logicalRange": [
+        11,
+        18
+      ],
+      "rectCssPx": [
+        137.438,
+        270.547,
+        184.063,
+        290.547
+      ],
+      "renderedText": "defines"
+    },
+    {
+      "node": "n_4e4eef195e5e4dd8bae3a40f2ab458a7",
+      "page": "pg_1",
+      "logicalRange": [
+        19,
+        22
+      ],
+      "rectCssPx": [
+        188.094,
+        270.547,
+        209.031,
+        290.547
+      ],
+      "renderedText": "the"
+    },
+    {
+      "node": "n_4e4eef195e5e4dd8bae3a40f2ab458a7",
+      "page": "pg_1",
+      "logicalRange": [
+        23,
+        31
+      ],
+      "rectCssPx": [
+        213.063,
+        270.547,
+        269.406,
+        290.547
+      ],
+      "renderedText": "reported"
+    },
+    {
+      "node": "n_4e4eef195e5e4dd8bae3a40f2ab458a7",
+      "page": "pg_1",
+      "logicalRange": [
+        32,
+        36
+      ],
+      "rectCssPx": [
+        273.438,
+        270.547,
+        309.359,
+        290.547
+      ],
+      "renderedText": "FROC"
+    },
+    {
+      "node": "n_4e4eef195e5e4dd8bae3a40f2ab458a7",
+      "page": "pg_1",
+      "logicalRange": [
+        37,
+        44
+      ],
+      "rectCssPx": [
+        313.391,
+        270.547,
+        352.375,
+        290.547
+      ],
+      "renderedText": "result."
+    }
+  ],
+  "discardedOffPageFragments": [],
+  "adapter": {
+    "method": "forward:pagedjs-dom",
+    "version": "0.4.3",
+    "paginationTimeMs": 99,
+    "preview": {
+      "total": 1,
+      "performance": 21.399999998509884
+    }
+  }
+}

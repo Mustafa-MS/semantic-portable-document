@@ -1,0 +1,132 @@
+{
+  "$defs": {
+    "documentId": {
+      "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "type": "string"
+    },
+    "nodeId": {
+      "maxLength": 130,
+      "pattern": "^n_[a-z0-9._-]{1,128}$",
+      "type": "string"
+    },
+    "revisionId": {
+      "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "type": "string"
+    }
+  },
+  "$id": "urn:uuid:74c10ac8-8e41-5db2-ac5f-7fadba53dbc9",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "scope": {
+            "const": "revision"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "revisionId"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "scope": {
+            "const": "lineage"
+          }
+        }
+      },
+      "then": {
+        "not": {
+          "required": [
+            "revisionId"
+          ]
+        }
+      }
+    }
+  ],
+  "properties": {
+    "documentId": {
+      "$ref": "#/$defs/documentId"
+    },
+    "nodeId": {
+      "$ref": "#/$defs/nodeId"
+    },
+    "refinement": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "exact": {
+              "type": "string"
+            },
+            "prefix": {
+              "type": "string"
+            },
+            "suffix": {
+              "type": "string"
+            },
+            "type": {
+              "const": "TextQuoteSelector"
+            }
+          },
+          "required": [
+            "type",
+            "exact"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "end": {
+              "minimum": 0,
+              "type": "integer"
+            },
+            "start": {
+              "minimum": 0,
+              "type": "integer"
+            },
+            "type": {
+              "const": "TextPositionSelector"
+            },
+            "unit": {
+              "const": "unicode-scalar-value"
+            }
+          },
+          "required": [
+            "type",
+            "unit",
+            "start",
+            "end"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "revisionId": {
+      "$ref": "#/$defs/revisionId"
+    },
+    "scope": {
+      "enum": [
+        "lineage",
+        "revision"
+      ]
+    },
+    "type": {
+      "const": "urn:uuid:95d3b3f6-45bb-50fd-9aa5-8bba8186649f"
+    }
+  },
+  "required": [
+    "type",
+    "documentId",
+    "nodeId",
+    "scope"
+  ],
+  "title": "SPD 0.1 StableNodeSelector extension",
+  "type": "object"
+}

@@ -1,0 +1,511 @@
+{
+  "catalog": {
+    "nodes": {
+      "n_8b91b16563104a04a8a06a574f2f65f7": {
+        "tag": "section",
+        "visibleInSourceLayout": true,
+        "sourceText": "\n\n\n",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_6151a264963d43e6a928fa8238adb2c3": {
+        "tag": "h1",
+        "visibleInSourceLayout": true,
+        "sourceText": "Figures and captions",
+        "expectedNonWhitespaceCharacters": 18,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_d08237fc7c594b1680f33dc3bb60b1dc": {
+        "tag": "p",
+        "visibleInSourceLayout": true,
+        "sourceText": "Figure 1 shows a rising trend and must retain its cross-reference.",
+        "expectedNonWhitespaceCharacters": 56,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_8dc88613e968402f8371fdd920200c9b": {
+        "tag": "figure",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_73bc901de5d84a82a5d81223793b59a0": {
+        "tag": "figcaption",
+        "visibleInSourceLayout": true,
+        "sourceText": "Figure 1. Raster trend summary.",
+        "expectedNonWhitespaceCharacters": 27,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_8ec3487c504b4c7d8409ce71a75c7a92": {
+        "tag": "figure",
+        "visibleInSourceLayout": true,
+        "sourceText": "Rising three-point trend",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 22
+      },
+      "n_6a9e6a6f0ea2469f8ac40d81ca5e5c64": {
+        "tag": "figcaption",
+        "visibleInSourceLayout": true,
+        "sourceText": "Figure 2. SVG trend line.",
+        "expectedNonWhitespaceCharacters": 21,
+        "nonVisualNonWhitespaceCharacters": 0
+      }
+    },
+    "documentId": "d_3568ca26739b4657acf48ce76ac67665",
+    "revisionId": "r_8d50e01bae5d417794a1d12cdba0b306",
+    "title": "Figures and Captions",
+    "lang": "en",
+    "dir": "ltr"
+  },
+  "pages": [
+    {
+      "id": "pg_1",
+      "widthCssPx": 793.688,
+      "heightCssPx": 1122.516
+    }
+  ],
+  "blockFragments": [
+    {
+      "node": "n_8b91b16563104a04a8a06a574f2f65f7",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        89.469,
+        729.438,
+        784.844
+      ]
+    },
+    {
+      "node": "n_6151a264963d43e6a928fa8238adb2c3",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        89.469,
+        729.438,
+        157.719
+      ]
+    },
+    {
+      "node": "n_d08237fc7c594b1680f33dc3bb60b1dc",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        179.156,
+        729.438,
+        200.859
+      ]
+    },
+    {
+      "node": "n_8dc88613e968402f8371fdd920200c9b",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        227.313,
+        729.438,
+        510.594
+      ]
+    },
+    {
+      "node": "n_73bc901de5d84a82a5d81223793b59a0",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        488.891,
+        729.438,
+        510.594
+      ]
+    },
+    {
+      "node": "n_8ec3487c504b4c7d8409ce71a75c7a92",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        537.047,
+        729.438,
+        784.844
+      ]
+    },
+    {
+      "node": "n_6a9e6a6f0ea2469f8ac40d81ca5e5c64",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        763.141,
+        729.438,
+        784.844
+      ]
+    }
+  ],
+  "textFragments": [
+    {
+      "node": "n_6151a264963d43e6a928fa8238adb2c3",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        7
+      ],
+      "rectCssPx": [
+        64.25,
+        91.469,
+        173.156,
+        134.469
+      ],
+      "renderedText": "Figures"
+    },
+    {
+      "node": "n_6151a264963d43e6a928fa8238adb2c3",
+      "page": "pg_1",
+      "logicalRange": [
+        8,
+        11
+      ],
+      "rectCssPx": [
+        181.984,
+        91.469,
+        238.375,
+        134.469
+      ],
+      "renderedText": "and"
+    },
+    {
+      "node": "n_6151a264963d43e6a928fa8238adb2c3",
+      "page": "pg_1",
+      "logicalRange": [
+        12,
+        20
+      ],
+      "rectCssPx": [
+        247.203,
+        91.469,
+        374.172,
+        134.469
+      ],
+      "renderedText": "captions"
+    },
+    {
+      "node": "n_d08237fc7c594b1680f33dc3bb60b1dc",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        6
+      ],
+      "rectCssPx": [
+        64.25,
+        179.156,
+        104.656,
+        199.156
+      ],
+      "renderedText": "Figure"
+    },
+    {
+      "node": "n_d08237fc7c594b1680f33dc3bb60b1dc",
+      "page": "pg_1",
+      "logicalRange": [
+        7,
+        8
+      ],
+      "rectCssPx": [
+        108.688,
+        179.156,
+        116.594,
+        199.156
+      ],
+      "renderedText": "1"
+    },
+    {
+      "node": "n_d08237fc7c594b1680f33dc3bb60b1dc",
+      "page": "pg_1",
+      "logicalRange": [
+        9,
+        14
+      ],
+      "rectCssPx": [
+        120.625,
+        179.156,
+        160.547,
+        199.156
+      ],
+      "renderedText": "shows"
+    },
+    {
+      "node": "n_d08237fc7c594b1680f33dc3bb60b1dc",
+      "page": "pg_1",
+      "logicalRange": [
+        15,
+        16
+      ],
+      "rectCssPx": [
+        164.578,
+        179.156,
+        172.047,
+        199.156
+      ],
+      "renderedText": "a"
+    },
+    {
+      "node": "n_d08237fc7c594b1680f33dc3bb60b1dc",
+      "page": "pg_1",
+      "logicalRange": [
+        17,
+        23
+      ],
+      "rectCssPx": [
+        176.078,
+        179.156,
+        211.438,
+        199.156
+      ],
+      "renderedText": "rising"
+    },
+    {
+      "node": "n_d08237fc7c594b1680f33dc3bb60b1dc",
+      "page": "pg_1",
+      "logicalRange": [
+        24,
+        29
+      ],
+      "rectCssPx": [
+        215.469,
+        179.156,
+        250.141,
+        199.156
+      ],
+      "renderedText": "trend"
+    },
+    {
+      "node": "n_d08237fc7c594b1680f33dc3bb60b1dc",
+      "page": "pg_1",
+      "logicalRange": [
+        30,
+        33
+      ],
+      "rectCssPx": [
+        254.172,
+        179.156,
+        278.563,
+        199.156
+      ],
+      "renderedText": "and"
+    },
+    {
+      "node": "n_d08237fc7c594b1680f33dc3bb60b1dc",
+      "page": "pg_1",
+      "logicalRange": [
+        34,
+        38
+      ],
+      "rectCssPx": [
+        282.594,
+        179.156,
+        314.719,
+        199.156
+      ],
+      "renderedText": "must"
+    },
+    {
+      "node": "n_d08237fc7c594b1680f33dc3bb60b1dc",
+      "page": "pg_1",
+      "logicalRange": [
+        39,
+        45
+      ],
+      "rectCssPx": [
+        318.75,
+        179.156,
+        355.797,
+        199.156
+      ],
+      "renderedText": "retain"
+    },
+    {
+      "node": "n_d08237fc7c594b1680f33dc3bb60b1dc",
+      "page": "pg_1",
+      "logicalRange": [
+        46,
+        49
+      ],
+      "rectCssPx": [
+        359.828,
+        179.156,
+        374.578,
+        199.156
+      ],
+      "renderedText": "its"
+    },
+    {
+      "node": "n_d08237fc7c594b1680f33dc3bb60b1dc",
+      "page": "pg_1",
+      "logicalRange": [
+        50,
+        66
+      ],
+      "rectCssPx": [
+        378.609,
+        179.156,
+        481.078,
+        199.156
+      ],
+      "renderedText": "cross-reference."
+    },
+    {
+      "node": "n_73bc901de5d84a82a5d81223793b59a0",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        6
+      ],
+      "rectCssPx": [
+        292.25,
+        488.891,
+        333.922,
+        508.891
+      ],
+      "renderedText": "Figure"
+    },
+    {
+      "node": "n_73bc901de5d84a82a5d81223793b59a0",
+      "page": "pg_1",
+      "logicalRange": [
+        7,
+        9
+      ],
+      "rectCssPx": [
+        337.953,
+        488.891,
+        347.391,
+        508.891
+      ],
+      "renderedText": "1."
+    },
+    {
+      "node": "n_73bc901de5d84a82a5d81223793b59a0",
+      "page": "pg_1",
+      "logicalRange": [
+        10,
+        16
+      ],
+      "rectCssPx": [
+        351.422,
+        488.891,
+        392.953,
+        508.891
+      ],
+      "renderedText": "Raster"
+    },
+    {
+      "node": "n_73bc901de5d84a82a5d81223793b59a0",
+      "page": "pg_1",
+      "logicalRange": [
+        17,
+        22
+      ],
+      "rectCssPx": [
+        396.984,
+        488.891,
+        432.766,
+        508.891
+      ],
+      "renderedText": "trend"
+    },
+    {
+      "node": "n_73bc901de5d84a82a5d81223793b59a0",
+      "page": "pg_1",
+      "logicalRange": [
+        23,
+        31
+      ],
+      "rectCssPx": [
+        436.797,
+        488.891,
+        501.438,
+        508.891
+      ],
+      "renderedText": "summary."
+    },
+    {
+      "node": "n_6a9e6a6f0ea2469f8ac40d81ca5e5c64",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        6
+      ],
+      "rectCssPx": [
+        316.781,
+        763.141,
+        358.453,
+        783.141
+      ],
+      "renderedText": "Figure"
+    },
+    {
+      "node": "n_6a9e6a6f0ea2469f8ac40d81ca5e5c64",
+      "page": "pg_1",
+      "logicalRange": [
+        7,
+        9
+      ],
+      "rectCssPx": [
+        362.484,
+        763.141,
+        374.172,
+        783.141
+      ],
+      "renderedText": "2."
+    },
+    {
+      "node": "n_6a9e6a6f0ea2469f8ac40d81ca5e5c64",
+      "page": "pg_1",
+      "logicalRange": [
+        10,
+        13
+      ],
+      "rectCssPx": [
+        378.203,
+        763.141,
+        405.516,
+        783.141
+      ],
+      "renderedText": "SVG"
+    },
+    {
+      "node": "n_6a9e6a6f0ea2469f8ac40d81ca5e5c64",
+      "page": "pg_1",
+      "logicalRange": [
+        14,
+        19
+      ],
+      "rectCssPx": [
+        409.547,
+        763.141,
+        445.328,
+        783.141
+      ],
+      "renderedText": "trend"
+    },
+    {
+      "node": "n_6a9e6a6f0ea2469f8ac40d81ca5e5c64",
+      "page": "pg_1",
+      "logicalRange": [
+        20,
+        25
+      ],
+      "rectCssPx": [
+        449.359,
+        763.141,
+        476.906,
+        783.141
+      ],
+      "renderedText": "line."
+    }
+  ],
+  "discardedOffPageFragments": [],
+  "adapter": {
+    "method": "forward:pagedjs-dom",
+    "version": "0.4.3",
+    "paginationTimeMs": 213,
+    "preview": {
+      "total": 1,
+      "performance": 134.89999999850988
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "authoritativeClaimsStatus": "KNOWN",
+  "base": "PASS",
+  "capabilities": {
+    "Accessible": "NOT_CLAIMED",
+    "Archive-Experimental": "NOT_CLAIMED",
+    "Fixed-Experimental": "PRESENT_EXPERIMENTAL",
+    "Mapping": "NOT_CLAIMED"
+  },
+  "corpusVersion": "0.1.1",
+  "experimentalReporting": {
+    "fixedExperimentalCapabilityDeclared": true,
+    "fixedExperimentalEvaluationStatus": "NOT_TESTED",
+    "physicalFixedRenditionPresent": true
+  },
+  "fixture": "edge/css-change-stales-fixed",
+  "notTestedRequirementIds": [
+    "SPD-ID-013"
+  ],
+  "notes": [],
+  "operationalStatus": "COMPLETE",
+  "violations": []
+}

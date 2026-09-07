@@ -1,0 +1,600 @@
+[
+  {
+    "fixture": "valid/accessible",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/annotations",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/arabic",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/figure-svg",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/fixed-without-mapping",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/lineage-scoped-annotation",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/mapped",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/mapping-with-current-fixed",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/mathml",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/minimal-base",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/mixed-bidi",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/multi-spine",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/revision-scoped-annotation",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/same-semantic-different-revision-id",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/sealed",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/semantic-change-new-revision",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/semantic-only-sealed",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "valid/table",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "invalid/bad-resource-hash",
+    "oldIds": [
+      "SPD-INT-003"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-INT-003",
+      "SPD-INT-004",
+      "SPD-INT-005",
+      "SPD-RES-004"
+    ]
+  },
+  {
+    "fixture": "invalid/capability-status-not-user-controlled",
+    "oldIds": [
+      "SPD-CAP-002"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-CAP-002"
+    ]
+  },
+  {
+    "fixture": "invalid/descriptor-discovery-conflict",
+    "oldIds": [
+      "SPD-DISC-002"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-DISC-002"
+    ]
+  },
+  {
+    "fixture": "invalid/descriptor-discovery-missing",
+    "oldIds": [
+      "SPD-DISC-001"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-DISC-001"
+    ]
+  },
+  {
+    "fixture": "invalid/duplicate-node-id",
+    "oldIds": [
+      "SPD-ID-006"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-ID-006"
+    ]
+  },
+  {
+    "fixture": "invalid/duplicate-normalized-path",
+    "oldIds": [
+      "SPD-BASE-002"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-BASE-002",
+      "SPD-RES-002"
+    ]
+  },
+  {
+    "fixture": "invalid/event-handler",
+    "oldIds": [
+      "SPD-SEC-001"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-ID-006",
+      "SPD-SEC-001"
+    ]
+  },
+  {
+    "fixture": "invalid/external-required-css",
+    "oldIds": [
+      "SPD-SEC-005"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-SEC-005"
+    ]
+  },
+  {
+    "fixture": "invalid/external-required-font",
+    "oldIds": [
+      "SPD-SEC-004"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-SEC-004"
+    ]
+  },
+  {
+    "fixture": "invalid/external-required-image",
+    "oldIds": [
+      "SPD-SEC-006"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-SEC-006"
+    ]
+  },
+  {
+    "fixture": "invalid/invalid-table-semantics",
+    "oldIds": [
+      "SPD-SEM-013"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-SEM-013"
+    ]
+  },
+  {
+    "fixture": "invalid/invalid-xhtml",
+    "oldIds": [
+      "SPD-SEM-002"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-SEM-002"
+    ]
+  },
+  {
+    "fixture": "invalid/javascript",
+    "oldIds": [
+      "SPD-SEC-001"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-SEC-001"
+    ]
+  },
+  {
+    "fixture": "invalid/mapping-invalid-geometry",
+    "oldIds": [
+      "SPD-MAP-011"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-MAP-011",
+      "SPD-MAP-012"
+    ]
+  },
+  {
+    "fixture": "invalid/mapping-invalid-page",
+    "oldIds": [
+      "SPD-MAP-011"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-MAP-011"
+    ]
+  },
+  {
+    "fixture": "invalid/mapping-invalid-range",
+    "oldIds": [
+      "SPD-MAP-008"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-MAP-008"
+    ]
+  },
+  {
+    "fixture": "invalid/mapping-with-stale-fixed",
+    "oldIds": [
+      "SPD-STATE-007"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-STATE-007"
+    ]
+  },
+  {
+    "fixture": "invalid/mapping-wrong-rendition",
+    "oldIds": [
+      "SPD-MAP-002"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-MAP-002"
+    ]
+  },
+  {
+    "fixture": "invalid/mapping-wrong-revision",
+    "oldIds": [
+      "SPD-MAP-002"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-MAP-002"
+    ]
+  },
+  {
+    "fixture": "invalid/missing-document-id",
+    "oldIds": [
+      "SPD-ID-001"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-ID-001"
+    ]
+  },
+  {
+    "fixture": "invalid/missing-revision-id",
+    "oldIds": [
+      "SPD-ID-002"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-ID-002"
+    ]
+  },
+  {
+    "fixture": "invalid/missing-root-direction",
+    "oldIds": [
+      "SPD-I18N-004"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-I18N-004"
+    ]
+  },
+  {
+    "fixture": "invalid/missing-root-language",
+    "oldIds": [
+      "SPD-I18N-003"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-I18N-003"
+    ]
+  },
+  {
+    "fixture": "invalid/multiple-rootfiles",
+    "oldIds": [
+      "SPD-BASE-006"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-BASE-006"
+    ]
+  },
+  {
+    "fixture": "invalid/mutation-asset",
+    "oldIds": [
+      "SPD-INT-003"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-INT-003",
+      "SPD-RES-004",
+      "SPD-STATE-003"
+    ]
+  },
+  {
+    "fixture": "invalid/mutation-css",
+    "oldIds": [
+      "SPD-INT-003"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-INT-003",
+      "SPD-RES-004"
+    ]
+  },
+  {
+    "fixture": "invalid/mutation-fixed",
+    "oldIds": [
+      "SPD-INT-003"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-INT-003",
+      "SPD-RES-004",
+      "SPD-STATE-005",
+      "SPD-STATE-006",
+      "SPD-STATE-007"
+    ]
+  },
+  {
+    "fixture": "invalid/mutation-mapping",
+    "oldIds": [
+      "SPD-INT-003"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-INT-003",
+      "SPD-RES-004",
+      "SPD-STATE-002"
+    ]
+  },
+  {
+    "fixture": "invalid/mutation-semantic",
+    "oldIds": [
+      "SPD-INT-003"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-INT-003",
+      "SPD-RES-004",
+      "SPD-STATE-003"
+    ]
+  },
+  {
+    "fixture": "invalid/not-visible-reason",
+    "oldIds": [
+      "SPD-MAP-005"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-MAP-005"
+    ]
+  },
+  {
+    "fixture": "invalid/partial-mapping-reason",
+    "oldIds": [
+      "SPD-MAP-005"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-MAP-005"
+    ]
+  },
+  {
+    "fixture": "invalid/path-traversal",
+    "oldIds": [
+      "SPD-BASE-002"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-BASE-002",
+      "SPD-RES-002"
+    ]
+  },
+  {
+    "fixture": "invalid/sealed-after-annotation-modification",
+    "oldIds": [
+      "SPD-ANN-004"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-ANN-004",
+      "SPD-INT-003",
+      "SPD-RES-004"
+    ]
+  },
+  {
+    "fixture": "invalid/sealed-after-semantic-modification",
+    "oldIds": [
+      "SPD-STATE-003"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-INT-003",
+      "SPD-RES-004",
+      "SPD-STATE-003"
+    ]
+  },
+  {
+    "fixture": "invalid/stale-fixed-rendition",
+    "oldIds": [
+      "SPD-STATE-001"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-STATE-007"
+    ]
+  },
+  {
+    "fixture": "invalid/unlisted-non-normative-resource",
+    "oldIds": [
+      "SPD-RES-006"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-RES-003",
+      "SPD-RES-006"
+    ]
+  },
+  {
+    "fixture": "invalid/unlisted-normative-resource",
+    "oldIds": [
+      "SPD-RES-003"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-RES-003",
+      "SPD-RES-006"
+    ]
+  },
+  {
+    "fixture": "invalid/visual-order-arabic-source",
+    "oldIds": [
+      "SPD-I18N-001"
+    ],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-I18N-001"
+    ]
+  },
+  {
+    "fixture": "edge/cjk-vertical",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "edge/combining-character-range",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "edge/css-change-stales-fixed",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "edge/deep-lists",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "edge/emoji-range",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "edge/empty-section",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "edge/font-change-stales-fixed",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "edge/node-not-visible",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "edge/partial-mapping",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "edge/rtl-range",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "edge/table-spanning-pages",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "edge/unsupported-mapping",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "edge/very-long-paragraph",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": []
+  },
+  {
+    "fixture": "invalid/cross-spine-duplicate-node-id",
+    "oldIds": [],
+    "reason": "Reviewed Stage 2 predicates plus Contract 0.1.1; validator outputs not read.",
+    "reviewedIds": [
+      "SPD-ID-006"
+    ]
+  }
+]

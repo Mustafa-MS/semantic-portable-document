@@ -1,0 +1,1316 @@
+{
+  "schemaVersion": "0.1C-experimental",
+  "mode": "marked-content",
+  "source": "<USERPROFILE>\\OneDrive\\Documents\\ChatGPT\\next gen pdf\\corpus\\sources\\T10.xhtml",
+  "forwardMap": "<USERPROFILE>\\OneDrive\\Documents\\ChatGPT\\next gen pdf\\corpus\\generated\\phase1b\\forward\\T10.json",
+  "inputPdf": "<USERPROFILE>\\OneDrive\\Documents\\ChatGPT\\next gen pdf\\corpus\\generated\\phase1b\\pagedjs\\T10.pdf",
+  "outputPdf": "<USERPROFILE>\\OneDrive\\Documents\\ChatGPT\\next gen pdf\\corpus\\generated\\phase1c\\compiled\\T10.pdf",
+  "inputSha256": "sha256:fe471fdd9e96a7033e5a1e66e4d12d45213f82c91712e74cff31bf6bfa08e815",
+  "outputSha256": "sha256:fbf94020f9420caf70af4009b140fb91538b66c60b7d6faa62bc1455250a6d1e",
+  "phase1bMappingFidelity": {
+    "logicalRangeMapping": {
+      "expectedCharacters": 396,
+      "mappedCharacters": 396,
+      "ratio": 1.0
+    },
+    "visibleNodeMapping": {
+      "expected": 25,
+      "mapped": 25,
+      "ratio": 1.0
+    }
+  },
+  "assignment": {
+    "matches": [
+      {
+        "node": "n_59352efefabe484481c9e027e4718876",
+        "role": "Sect",
+        "status": "NO_RENDERER_STRUCTURE_MATCH"
+      },
+      {
+        "node": "n_e1e27d7e576d46219081f50d0cd56bad",
+        "role": "H1",
+        "rendererRole": "H1",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 0,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 4,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 5,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 6,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 7,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 8,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 9,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 10,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_871b808bf4f540e8b28c3fc7397c8457",
+        "role": "Sect",
+        "status": "NO_RENDERER_STRUCTURE_MATCH"
+      },
+      {
+        "node": "n_4d653aed047d4e0a964d933d0a501b60",
+        "role": "H2",
+        "rendererRole": "H2",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 11,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 12,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 13,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 14,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 15,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 16,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 17,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 18,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 19,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 20,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 21,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 22,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 23,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 24,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 25,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 26,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 27,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 28,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_30db2c84068d4a55836ec6f0a9b5bd40",
+        "role": "Sect",
+        "status": "NO_RENDERER_STRUCTURE_MATCH"
+      },
+      {
+        "node": "n_93a0e44bfa0a447686070c33ecc50e2f",
+        "role": "H2",
+        "rendererRole": "H2",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 29,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 30,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 31,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 32,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 33,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 34,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 35,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 36,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 37,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 38,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 39,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 40,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 41,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 42,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 43,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 44,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 45,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 46,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 47,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 48,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 49,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 50,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_4dbab7fd89d9499ba950b71a70f6f40a",
+        "role": "Sect",
+        "status": "NO_RENDERER_STRUCTURE_MATCH"
+      },
+      {
+        "node": "n_bad2af0c0ebe4af2ae02f0db4ee4be38",
+        "role": "H2",
+        "rendererRole": "H2",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 51,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_62b117c8760e4f649a3a75104353d5cc",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 52,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 53,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 54,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 55,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 56,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 57,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 58,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 59,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 60,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 61,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 62,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 63,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 64,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 65,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 66,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 67,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 68,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 69,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 70,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 71,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 72,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 73,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 74,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 75,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 76,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_399762edc9454ad99febef796332e253",
+        "role": "Table",
+        "rendererRole": "Table",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_ea04b45dcdd9405d9dd4a439c9fa89b8",
+        "role": "Caption",
+        "rendererRole": "Caption",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 77,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 78,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 79,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 80,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 81,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 82,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 83,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_3e8c5ca57d7d4a88afca65cf229d8de8",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_52a40cdfc38a4e5ab22d57bd46fbc1fa",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 1,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 84,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_b11e2250e55f4a62acbc3f9680abc63b",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 2,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 85,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_9e6c9d7203d74368babebcd11f01d2f5",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_399984b70c6b4b7c99a57b382c8fcff6",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 86,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_3376d51dbd504c8cbd6a3de6d2af255c",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 87,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_559de0617f284db3ab11591c9fc8b1f6",
+        "role": "Figure",
+        "rendererRole": "Figure",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_94ad42069c4b4dd1ac0f5059ce81a3d2",
+        "role": "Caption",
+        "rendererRole": "Caption",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 89,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 90,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 91,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 92,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 93,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 94,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 95,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 96,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 97,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_a4a3a86eb73b46e9901db7176d72b5e1",
+        "role": "Sect",
+        "status": "NO_RENDERER_STRUCTURE_MATCH"
+      },
+      {
+        "node": "n_01b49b464d47494783e29fe4b9cd7c66",
+        "role": "H2",
+        "rendererRole": "H2",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 98,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_68ef20b32ad04df39b6d165e910f74bb",
+        "role": "L",
+        "rendererRole": "L",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_c2d012ffd6d44b448f15a9a1b6a8d6a8",
+        "role": "LI",
+        "rendererRole": "LI",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": null,
+        "role": "Lbl",
+        "rendererRole": "Lbl",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 99,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": null,
+        "role": "LBody",
+        "status": "NO_RENDERER_STRUCTURE_MATCH"
+      }
+    ]
+  },
+  "structureTrace": [
+    {
+      "node": "n_e1e27d7e576d46219081f50d0cd56bad",
+      "role": "H1",
+      "pdfObject": 179,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 0
+        },
+        {
+          "page": 1,
+          "mcid": 4
+        },
+        {
+          "page": 1,
+          "mcid": 5
+        },
+        {
+          "page": 1,
+          "mcid": 6
+        },
+        {
+          "page": 1,
+          "mcid": 7
+        },
+        {
+          "page": 1,
+          "mcid": 8
+        },
+        {
+          "page": 1,
+          "mcid": 9
+        },
+        {
+          "page": 1,
+          "mcid": 10
+        }
+      ]
+    },
+    {
+      "node": "n_4d653aed047d4e0a964d933d0a501b60",
+      "role": "H2",
+      "pdfObject": 189,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 11
+        }
+      ]
+    },
+    {
+      "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+      "role": "P",
+      "pdfObject": 191,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 12
+        },
+        {
+          "page": 1,
+          "mcid": 13
+        },
+        {
+          "page": 1,
+          "mcid": 14
+        },
+        {
+          "page": 1,
+          "mcid": 15
+        },
+        {
+          "page": 1,
+          "mcid": 16
+        },
+        {
+          "page": 1,
+          "mcid": 17
+        },
+        {
+          "page": 1,
+          "mcid": 18
+        },
+        {
+          "page": 1,
+          "mcid": 19
+        },
+        {
+          "page": 1,
+          "mcid": 20
+        },
+        {
+          "page": 1,
+          "mcid": 21
+        },
+        {
+          "page": 1,
+          "mcid": 22
+        },
+        {
+          "page": 1,
+          "mcid": 23
+        },
+        {
+          "page": 1,
+          "mcid": 24
+        },
+        {
+          "page": 1,
+          "mcid": 25
+        },
+        {
+          "page": 1,
+          "mcid": 26
+        },
+        {
+          "page": 1,
+          "mcid": 27
+        },
+        {
+          "page": 1,
+          "mcid": 28
+        }
+      ]
+    },
+    {
+      "node": "n_871b808bf4f540e8b28c3fc7397c8457",
+      "role": "Sect",
+      "pdfObject": 188,
+      "mcids": []
+    },
+    {
+      "node": "n_93a0e44bfa0a447686070c33ecc50e2f",
+      "role": "H2",
+      "pdfObject": 210,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 29
+        }
+      ]
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "role": "P",
+      "pdfObject": 212,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 30
+        },
+        {
+          "page": 1,
+          "mcid": 31
+        },
+        {
+          "page": 1,
+          "mcid": 32
+        },
+        {
+          "page": 1,
+          "mcid": 33
+        },
+        {
+          "page": 1,
+          "mcid": 34
+        },
+        {
+          "page": 1,
+          "mcid": 35
+        },
+        {
+          "page": 1,
+          "mcid": 36
+        },
+        {
+          "page": 1,
+          "mcid": 37
+        },
+        {
+          "page": 1,
+          "mcid": 38
+        },
+        {
+          "page": 1,
+          "mcid": 39
+        },
+        {
+          "page": 1,
+          "mcid": 40
+        },
+        {
+          "page": 1,
+          "mcid": 41
+        },
+        {
+          "page": 1,
+          "mcid": 42
+        },
+        {
+          "page": 1,
+          "mcid": 43
+        },
+        {
+          "page": 1,
+          "mcid": 44
+        },
+        {
+          "page": 1,
+          "mcid": 45
+        },
+        {
+          "page": 1,
+          "mcid": 46
+        },
+        {
+          "page": 1,
+          "mcid": 47
+        },
+        {
+          "page": 1,
+          "mcid": 48
+        },
+        {
+          "page": 1,
+          "mcid": 49
+        },
+        {
+          "page": 1,
+          "mcid": 50
+        }
+      ]
+    },
+    {
+      "node": "n_30db2c84068d4a55836ec6f0a9b5bd40",
+      "role": "Sect",
+      "pdfObject": 209,
+      "mcids": []
+    },
+    {
+      "node": "n_bad2af0c0ebe4af2ae02f0db4ee4be38",
+      "role": "H2",
+      "pdfObject": 235,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 51
+        }
+      ]
+    },
+    {
+      "node": "n_62b117c8760e4f649a3a75104353d5cc",
+      "role": "P",
+      "pdfObject": 237,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 52
+        },
+        {
+          "page": 1,
+          "mcid": 53
+        },
+        {
+          "page": 1,
+          "mcid": 54
+        },
+        {
+          "page": 1,
+          "mcid": 55
+        },
+        {
+          "page": 1,
+          "mcid": 56
+        },
+        {
+          "page": 1,
+          "mcid": 57
+        },
+        {
+          "page": 1,
+          "mcid": 58
+        },
+        {
+          "page": 1,
+          "mcid": 59
+        },
+        {
+          "page": 1,
+          "mcid": 60
+        },
+        {
+          "page": 1,
+          "mcid": 61
+        },
+        {
+          "page": 1,
+          "mcid": 62
+        },
+        {
+          "page": 1,
+          "mcid": 63
+        },
+        {
+          "page": 1,
+          "mcid": 64
+        },
+        {
+          "page": 1,
+          "mcid": 65
+        },
+        {
+          "page": 1,
+          "mcid": 66
+        },
+        {
+          "page": 1,
+          "mcid": 67
+        },
+        {
+          "page": 1,
+          "mcid": 68
+        },
+        {
+          "page": 1,
+          "mcid": 69
+        },
+        {
+          "page": 1,
+          "mcid": 70
+        },
+        {
+          "page": 1,
+          "mcid": 71
+        },
+        {
+          "page": 1,
+          "mcid": 72
+        },
+        {
+          "page": 1,
+          "mcid": 73
+        },
+        {
+          "page": 1,
+          "mcid": 74
+        },
+        {
+          "page": 1,
+          "mcid": 75
+        },
+        {
+          "page": 1,
+          "mcid": 76
+        }
+      ]
+    },
+    {
+      "node": "n_ea04b45dcdd9405d9dd4a439c9fa89b8",
+      "role": "Caption",
+      "pdfObject": 264,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 77
+        },
+        {
+          "page": 1,
+          "mcid": 78
+        },
+        {
+          "page": 1,
+          "mcid": 79
+        },
+        {
+          "page": 1,
+          "mcid": 80
+        },
+        {
+          "page": 1,
+          "mcid": 81
+        },
+        {
+          "page": 1,
+          "mcid": 82
+        },
+        {
+          "page": 1,
+          "mcid": 83
+        }
+      ]
+    },
+    {
+      "node": "n_52a40cdfc38a4e5ab22d57bd46fbc1fa",
+      "role": "TH",
+      "pdfObject": 273,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 1
+        },
+        {
+          "page": 1,
+          "mcid": 84
+        }
+      ]
+    },
+    {
+      "node": "n_b11e2250e55f4a62acbc3f9680abc63b",
+      "role": "TH",
+      "pdfObject": 276,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 2
+        },
+        {
+          "page": 1,
+          "mcid": 85
+        }
+      ]
+    },
+    {
+      "node": "n_3e8c5ca57d7d4a88afca65cf229d8de8",
+      "role": "TR",
+      "pdfObject": 272,
+      "mcids": []
+    },
+    {
+      "node": "n_399984b70c6b4b7c99a57b382c8fcff6",
+      "role": "TD",
+      "pdfObject": 280,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 86
+        }
+      ]
+    },
+    {
+      "node": "n_3376d51dbd504c8cbd6a3de6d2af255c",
+      "role": "TD",
+      "pdfObject": 282,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 87
+        }
+      ]
+    },
+    {
+      "node": "n_9e6c9d7203d74368babebcd11f01d2f5",
+      "role": "TR",
+      "pdfObject": 279,
+      "mcids": []
+    },
+    {
+      "node": "n_399762edc9454ad99febef796332e253",
+      "role": "Table",
+      "pdfObject": 263,
+      "mcids": []
+    },
+    {
+      "node": "n_94ad42069c4b4dd1ac0f5059ce81a3d2",
+      "role": "Caption",
+      "pdfObject": 285,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 89
+        },
+        {
+          "page": 1,
+          "mcid": 90
+        },
+        {
+          "page": 1,
+          "mcid": 91
+        },
+        {
+          "page": 1,
+          "mcid": 92
+        },
+        {
+          "page": 1,
+          "mcid": 93
+        },
+        {
+          "page": 1,
+          "mcid": 94
+        },
+        {
+          "page": 1,
+          "mcid": 95
+        },
+        {
+          "page": 1,
+          "mcid": 96
+        },
+        {
+          "page": 1,
+          "mcid": 97
+        }
+      ]
+    },
+    {
+      "node": "n_559de0617f284db3ab11591c9fc8b1f6",
+      "role": "Figure",
+      "pdfObject": 284,
+      "mcids": []
+    },
+    {
+      "node": "n_4dbab7fd89d9499ba950b71a70f6f40a",
+      "role": "Sect",
+      "pdfObject": 234,
+      "mcids": []
+    },
+    {
+      "node": "n_01b49b464d47494783e29fe4b9cd7c66",
+      "role": "H2",
+      "pdfObject": 296,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 98
+        }
+      ]
+    },
+    {
+      "node": null,
+      "role": "Lbl",
+      "pdfObject": 300,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 99
+        }
+      ]
+    },
+    {
+      "node": null,
+      "role": "LBody",
+      "pdfObject": 302,
+      "mcids": []
+    },
+    {
+      "node": "n_c2d012ffd6d44b448f15a9a1b6a8d6a8",
+      "role": "LI",
+      "pdfObject": 299,
+      "mcids": []
+    },
+    {
+      "node": "n_68ef20b32ad04df39b6d165e910f74bb",
+      "role": "L",
+      "pdfObject": 298,
+      "mcids": []
+    },
+    {
+      "node": "n_a4a3a86eb73b46e9901db7176d72b5e1",
+      "role": "Sect",
+      "pdfObject": 295,
+      "mcids": []
+    },
+    {
+      "node": "n_59352efefabe484481c9e027e4718876",
+      "role": "Sect",
+      "pdfObject": 178,
+      "mcids": []
+    },
+    {
+      "node": null,
+      "role": "Document",
+      "pdfObject": 177,
+      "mcids": []
+    }
+  ],
+  "rewriteCounts": [
+    {
+      "page": 1,
+      "actualText": 14,
+      "emptied": 80,
+      "artifacts": 17,
+      "assigned": 98
+    }
+  ],
+  "repairedOutlineDestinations": 5,
+  "repairedLinkDestinations": 0,
+  "compilerBoundary": {
+    "changes": [
+      "structure tree",
+      "parent tree",
+      "marked-content properties",
+      "artifacts",
+      "metadata",
+      "PDF header"
+    ],
+    "unchanged": [
+      "text showing operators",
+      "glyph codes",
+      "fonts",
+      "images",
+      "paths",
+      "layout",
+      "line breaking",
+      "shaping"
+    ]
+  }
+}

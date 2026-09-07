@@ -1,0 +1,4416 @@
+{
+  "schemaVersion": "0.1C-experimental",
+  "mode": "marked-content",
+  "source": "<USERPROFILE>\\OneDrive\\Documents\\ChatGPT\\next gen pdf\\corpus\\sources\\T03.xhtml",
+  "forwardMap": "<USERPROFILE>\\OneDrive\\Documents\\ChatGPT\\next gen pdf\\corpus\\generated\\phase1b\\forward\\T03.json",
+  "inputPdf": "<USERPROFILE>\\OneDrive\\Documents\\ChatGPT\\next gen pdf\\corpus\\generated\\phase1b\\pagedjs\\T03.pdf",
+  "outputPdf": "<USERPROFILE>\\OneDrive\\Documents\\ChatGPT\\next gen pdf\\corpus\\generated\\phase1c\\compiled\\T03.pdf",
+  "inputSha256": "sha256:390acbb1200544e764ba0726daef276ea0607773b6dedf40b58d8c65774083a5",
+  "outputSha256": "sha256:e8232357469fe06503399405ac8e0ef67f5e4387535b13231f5b779730316604",
+  "phase1bMappingFidelity": {
+    "logicalRangeMapping": {
+      "expectedCharacters": 722,
+      "mappedCharacters": 722,
+      "ratio": 1.0
+    },
+    "visibleNodeMapping": {
+      "expected": 150,
+      "mapped": 150,
+      "ratio": 1.0
+    }
+  },
+  "assignment": {
+    "matches": [
+      {
+        "node": "n_9beb39f769a549ef818ebb3fc833f438",
+        "role": "Sect",
+        "status": "NO_RENDERER_STRUCTURE_MATCH"
+      },
+      {
+        "node": "n_d993b55cce8049468851fd2b986d9145",
+        "role": "H1",
+        "rendererRole": "H1",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 0,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 16,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 17,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 18,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 19,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 20,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_28bc3adfc53b497c9432b8c1c3f6567a",
+        "role": "Table",
+        "rendererRole": "Table",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_8703447534364cbcaa2d9f0b1e052345",
+        "role": "Caption",
+        "rendererRole": "Caption",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 21,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 22,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 23,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 24,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 25,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": null,
+        "role": "THead",
+        "status": "NO_RENDERER_STRUCTURE_MATCH"
+      },
+      {
+        "node": "n_bd0dc0cbd91545dfbc5941ee54e7e6fe",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_70d07e6835214b45adbfc2ab40f0fff9",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 1,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 26,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_d2f291f7159a459389a50e346d1201fc",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 2,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 27,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_4915ffb908ac41169a39aa3c3c86302f",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_0150c4ba61364f17a6c793c52829b075",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 3,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 28,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_ae861edc95ae4f5083c353a439406826",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 4,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 29,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": null,
+        "role": "TBody",
+        "status": "NO_RENDERER_STRUCTURE_MATCH"
+      },
+      {
+        "node": "n_fda0dbd03c324599aea4bf6ff7000936",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_2734a6a1123c4fa3957277fd25043e08",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 5,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 30,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_17ceea5978a84aecae97ecc92cf028c1",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_d50ab403bfa4446586fe5559199a9324",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 31,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 32,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 33,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 34,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 35,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_aeb4a98e831c41f9ae8105f275c62c86",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 36,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_f34c4aa8216447f28e62476513909498",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_7b183df753f0446e8f242fd29e1211e2",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 6,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 37,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_df792d1cbe924c5d8b9b7042fe593c48",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_e1facd42508e422b88f3a33c046c43b5",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 38,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 39,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 40,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 41,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 42,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_bd9be79d7a704282af7e7a089f35dfa0",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 43,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_5105c8ce96b940a3aea876a91a03806a",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_c89e743ba93b418d90b4d513619b6c1f",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 7,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 44,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_1a6bd92fb7a1494aad233785bc289e28",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_2d92f12af6e74b7398549aa39b701d5b",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 45,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 46,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 47,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 48,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 49,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_0e09ca3b3c094759953f2a534c002a3e",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 50,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_d6463f8ba2fd48898decd1aee70b89af",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_3f31baa570fe414490057aed20c3d4fd",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 8,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 51,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_1a4e75f2cbe9474ba7385ca82bc8adcc",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_451a05d6453c4c7b887750f741d79be7",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 52,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 53,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 54,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 55,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 56,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_e9ba40364df34b9cb049b3b07d416b48",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 57,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_7552ecf99910414683b8ac10163fa23e",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_dd7a043dfbd14fdea43fe5b1b4ff7ec4",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 9,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 58,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_56a2fda452d14d888de3c495f2ce7f5e",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_8115d584dcc6441a856bf49cd0d70ffa",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 59,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 60,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 61,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 62,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 63,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_223d0c59dc0340e7ac0769ae801a3235",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 64,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_8668c4836286469c9716d9f66452f12b",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_2ab4e64fd1af42e189c1aadb96f2a76c",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 10,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 65,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_87439491067c4b259038e2d1e322404d",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_165841c8e9814be8b5d0d1223b4ccf19",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 66,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 67,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 68,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 69,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 70,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_4fbd9717969c4db9b54b6c68ad262ba8",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 71,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_f589a0693fb34aa291cb6cd35425a7d7",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_8bd064a72a9e4620b17358440bed1fd1",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 11,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 72,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_6c6703000896458396dc72e66c3a97e8",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_cff5284efb61429282b42fe173a01b2f",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 73,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 74,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 75,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 76,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 77,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_c7a6ffe70d6646a2b0209e2f7bceaabc",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 78,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_1b56a53652e54722b63085f55bbae6e4",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_999ea155f1e043cfb56ca5ca0f7f78a6",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 12,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 79,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_b347725db3ad43c0a02167a9f10759a4",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_2d95ef2c60014c9185ec8fb94d94c026",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 80,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 81,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 82,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 83,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 84,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_dd9e10eb965244fdaff9d7422af37cd5",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 85,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_ed3990b4131741c6b6eae66ad2a39d2e",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_aa51a739b63b46eeb173c831b6152d2d",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 13,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 86,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_0e5a8bf663dc4971b15eb3fcc4d3df8d",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_6d5bd4bfc76d4fc18552c5875eda605d",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 87,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 88,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 89,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 90,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 91,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_fc38f5078bc84394a14b05ee668e93c6",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 92,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_68fa0c6fe43f4888bd8919e84885911a",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_fa34baf7e8304811bb58d791e0a3b073",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 14,
+            "textOperators": false
+          },
+          {
+            "page": 1,
+            "mcid": 93,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_39f93bb6229c4505af34fb567793c2ce",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_5d6b6c1b8e454859b97b01590d178ab4",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 94,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 95,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 96,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 97,
+            "textOperators": true
+          },
+          {
+            "page": 1,
+            "mcid": 98,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_deef0c58a6784c178c1c67eda93dba7a",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 1,
+            "mcid": 99,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_b710d3b21dbe453fb6bb3d0bb23896fb",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_87027c754e224b6f91efdaa3fdba769f",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 0,
+            "textOperators": false
+          },
+          {
+            "page": 2,
+            "mcid": 14,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_e991b6c8ae6843bba8dba5cdc8669b02",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_af9e76768e4d4f9399635539edb8f6fe",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 15,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 16,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 17,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 18,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 19,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_9a5f1914f79a46a19e6b04e9dcf6dd07",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 20,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_598104850cad4b979030b8aa9912a3c5",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_a19a0030d7774026bca2a24b51b3059b",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 1,
+            "textOperators": false
+          },
+          {
+            "page": 2,
+            "mcid": 21,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_72ba7350d967478b9ee69a5532e94072",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_9dec495023de454482f5bc2fccea0ee9",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 22,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 23,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 24,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 25,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 26,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_f6af5e21b343403c95cbe5406bfc9d47",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 27,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_0e8b8e1624ba4411937bd3ed7f4d505a",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_80f79c546ebc490e984d98d7755a2dbd",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 2,
+            "textOperators": false
+          },
+          {
+            "page": 2,
+            "mcid": 28,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_f9ca86b9ebfb4bb3b8625004dbaeb5bb",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_76d822847a754e4b9f587af5143af76b",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 29,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 30,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 31,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 32,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 33,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_ea634554f7ec448086825580aa8fe34b",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 34,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_7e6d780ee40e408ab3b8c8b05b4c1c22",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_f6acfdc00ceb4dbeb232ddda8eacacac",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 3,
+            "textOperators": false
+          },
+          {
+            "page": 2,
+            "mcid": 35,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_41a458e02f38446ba968aafeb68ea30a",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_88fe061d10654119b122719e062cb936",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 36,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 37,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 38,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 39,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 40,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_81e8cb82dfce42a19258033c60aa4af3",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 41,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_b3b9163165fa4ce6814ee286720d9f91",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_576017c9c51541a0b8fc2b12ce36fef2",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 4,
+            "textOperators": false
+          },
+          {
+            "page": 2,
+            "mcid": 42,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_9d1385c13413479da59525da0f4493de",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_578abc1e269c45499c8b5c19a6ffc63c",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 43,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 44,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 45,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 46,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 47,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_328ef8ad32f5406b990242dddcea5a58",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 48,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_5d1b1b86f8754245a610e1607cd2e897",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_2af9872090ec4a0e879c92aa3867035a",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 5,
+            "textOperators": false
+          },
+          {
+            "page": 2,
+            "mcid": 49,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_02dfd42a4b4f4249a0e8b618b855c1b8",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_0200ac18cd9844d398578e113a2ce080",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 50,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 51,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 52,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 53,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 54,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_e51c23d5ba5e4c1f98ff8f15069f3e13",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 55,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_9677f8f9a15549fcb2b9889274393d41",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_9d79b5ca45424a3ba5d1a844f62e6ba7",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 6,
+            "textOperators": false
+          },
+          {
+            "page": 2,
+            "mcid": 56,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_6772126698074e84b40a40423ba6fcab",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_5f663164dc8841cbbacb780dff326181",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 57,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 58,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 59,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 60,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 61,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_128351116db74f288025d5aa3c245035",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 62,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_1a91ebc66172453394effbf92bef0461",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_81dfaeabfc644036a477ac531d9e3418",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 7,
+            "textOperators": false
+          },
+          {
+            "page": 2,
+            "mcid": 63,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_f5339f8658b64170a0f0f5566bfdd9f2",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_6e7b6c156ff349908463f916969feb3b",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 64,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 65,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 66,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 67,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 68,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_0d004280599340ad9cc3d400f91d829b",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 69,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_f70bea5faa5b46da87d5ae654c9b165c",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_27798a13fdd54a01a0e1d0934421acb5",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 8,
+            "textOperators": false
+          },
+          {
+            "page": 2,
+            "mcid": 70,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_bc3a96c925a64137891b7e61bdbc325e",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_fe4f1f87c3f1417083963214097a03ee",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 71,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 72,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 73,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 74,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 75,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_3ad935c65a8c47f9a898fc43cce0897f",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 76,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_a8acafa53bc34024b99271ed6b1d2cb7",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_67ba53aeef07470cbb995a83661d6e84",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 9,
+            "textOperators": false
+          },
+          {
+            "page": 2,
+            "mcid": 77,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_862c2034819b48b98697901b2290f8b9",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_921f12e247354cc0a8b2398df92751d0",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 78,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 79,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 80,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 81,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 82,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_2df6f2218f1642229d4674f1753a1af1",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 83,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_2f67ba478cd746a68f139dfa8c65a7a9",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_9743dea8e5714b84b7a391774ef0c3d7",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 10,
+            "textOperators": false
+          },
+          {
+            "page": 2,
+            "mcid": 84,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_6aa8683176e647e9913b7af226a56627",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_d4e687a3645e42d1bed25a0a8f2760b5",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 85,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 86,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 87,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 88,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 89,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_b592dec553dd4089963c0aec1ab3545f",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 90,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_2c9986ede8484ef8999c014d191713e2",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_f63745b7e8ae4988aec2d0b45d70cc09",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 11,
+            "textOperators": false
+          },
+          {
+            "page": 2,
+            "mcid": 91,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_7282b4e6bfb940268f4c05ef401ba3ba",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_5744740907d84c65b63ea5169e15f6cc",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 92,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 93,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 94,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 95,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 96,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_1ebe658d190c4c9e8f9e8bf963451146",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 97,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_9eacc1342eef47899087ad6d42ca08a7",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_e8caa3c5e75f4c5e9b4455778f2615c6",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 12,
+            "textOperators": false
+          },
+          {
+            "page": 2,
+            "mcid": 98,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_d4c9ec4716054bb8b42777c9a903c142",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_58d4735f1d804988bb5e939b0a702423",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 99,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 100,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 101,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 102,
+            "textOperators": true
+          },
+          {
+            "page": 2,
+            "mcid": 103,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_77674a4741ad4697a3d4d07892f915d4",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 2,
+            "mcid": 104,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_265c477c9d8d49819fb6e5644aa15e2a",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_d24974b596ef4836baf956bbbab0e738",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 0,
+            "textOperators": false
+          },
+          {
+            "page": 3,
+            "mcid": 6,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_a9d0d08c42ce47e7914b30179c6c816f",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_8a4676171a574ecdb0b51237624334d2",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 7,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 8,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 9,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 10,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 11,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_973c4b6a1a694cf2bf920143f257397c",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 12,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_b4931428a8f045f9a2b2777df2beead3",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_a1d24247b05e4f519058476d73ab2f6e",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 1,
+            "textOperators": false
+          },
+          {
+            "page": 3,
+            "mcid": 13,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_7608233e88b94884a64e637b99bd719d",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_9d469d57d33d4beca22b78157ab5b85f",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 14,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 15,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 16,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 17,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 18,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_cd40c9f2dde54b86897009e2e0b096ae",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 19,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_1f59e6876f754299b33572dc52ec19ed",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_248d154029c846d9bc7356b8d8d3cac3",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 2,
+            "textOperators": false
+          },
+          {
+            "page": 3,
+            "mcid": 20,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_e03d46e7fc994cfcb459737bd520d551",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_7337716b8d874cb7abe83cd023fc7994",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 21,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 22,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 23,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 24,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 25,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_6d7c3217c80240439b2dff2f0968e2f2",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 26,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_03cc950d09eb4b72b047c4abf65a95f9",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_2b7696a6098e4c1cb5bc58a76312f305",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 3,
+            "textOperators": false
+          },
+          {
+            "page": 3,
+            "mcid": 27,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_d74d6fe110544185a3020e57ec14ee5b",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_e9149e402f2a4a4593cc00810713ceec",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 28,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 29,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 30,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 31,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 32,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_a64b5fcb3e774f1794e9b7e5f113ef62",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 33,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_21ed3a2d32e94c92aba75bccbb4b63f4",
+        "role": "TR",
+        "rendererRole": "TR",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_44f3a6c7e6d74757b111af48b86f8e99",
+        "role": "TH",
+        "rendererRole": "TH",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 4,
+            "textOperators": false
+          },
+          {
+            "page": 3,
+            "mcid": 34,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_fda6b2cd63a943e884f961f7e428d11a",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_4693686af156437b9b1f788ae3ca9747",
+        "role": "P",
+        "rendererRole": "P",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 35,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 36,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 37,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 38,
+            "textOperators": true
+          },
+          {
+            "page": 3,
+            "mcid": 39,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      },
+      {
+        "node": "n_c856e5bd084a4365bbf8160f47a7d96f",
+        "role": "TD",
+        "rendererRole": "TD",
+        "mcids": [
+          {
+            "page": 3,
+            "mcid": 40,
+            "textOperators": true
+          }
+        ],
+        "status": "MATCHED"
+      }
+    ]
+  },
+  "structureTrace": [
+    {
+      "node": "n_d993b55cce8049468851fd2b986d9145",
+      "role": "H1",
+      "pdfObject": 415,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 0
+        },
+        {
+          "page": 1,
+          "mcid": 16
+        },
+        {
+          "page": 1,
+          "mcid": 17
+        },
+        {
+          "page": 1,
+          "mcid": 18
+        },
+        {
+          "page": 1,
+          "mcid": 19
+        },
+        {
+          "page": 1,
+          "mcid": 20
+        }
+      ]
+    },
+    {
+      "node": "n_8703447534364cbcaa2d9f0b1e052345",
+      "role": "Caption",
+      "pdfObject": 423,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 21
+        },
+        {
+          "page": 1,
+          "mcid": 22
+        },
+        {
+          "page": 1,
+          "mcid": 23
+        },
+        {
+          "page": 1,
+          "mcid": 24
+        },
+        {
+          "page": 1,
+          "mcid": 25
+        }
+      ]
+    },
+    {
+      "node": "n_70d07e6835214b45adbfc2ab40f0fff9",
+      "role": "TH",
+      "pdfObject": 431,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 1
+        },
+        {
+          "page": 1,
+          "mcid": 26
+        }
+      ]
+    },
+    {
+      "node": "n_d2f291f7159a459389a50e346d1201fc",
+      "role": "TH",
+      "pdfObject": 434,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 2
+        },
+        {
+          "page": 1,
+          "mcid": 27
+        }
+      ]
+    },
+    {
+      "node": "n_bd0dc0cbd91545dfbc5941ee54e7e6fe",
+      "role": "TR",
+      "pdfObject": 430,
+      "mcids": []
+    },
+    {
+      "node": "n_0150c4ba61364f17a6c793c52829b075",
+      "role": "TH",
+      "pdfObject": 438,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 3
+        },
+        {
+          "page": 1,
+          "mcid": 28
+        }
+      ]
+    },
+    {
+      "node": "n_ae861edc95ae4f5083c353a439406826",
+      "role": "TH",
+      "pdfObject": 441,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 4
+        },
+        {
+          "page": 1,
+          "mcid": 29
+        }
+      ]
+    },
+    {
+      "node": "n_4915ffb908ac41169a39aa3c3c86302f",
+      "role": "TR",
+      "pdfObject": 437,
+      "mcids": []
+    },
+    {
+      "node": null,
+      "role": "THead",
+      "pdfObject": 429,
+      "mcids": []
+    },
+    {
+      "node": "n_2734a6a1123c4fa3957277fd25043e08",
+      "role": "TH",
+      "pdfObject": 446,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 5
+        },
+        {
+          "page": 1,
+          "mcid": 30
+        }
+      ]
+    },
+    {
+      "node": "n_d50ab403bfa4446586fe5559199a9324",
+      "role": "P",
+      "pdfObject": 450,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 31
+        },
+        {
+          "page": 1,
+          "mcid": 32
+        },
+        {
+          "page": 1,
+          "mcid": 33
+        },
+        {
+          "page": 1,
+          "mcid": 34
+        },
+        {
+          "page": 1,
+          "mcid": 35
+        }
+      ]
+    },
+    {
+      "node": "n_17ceea5978a84aecae97ecc92cf028c1",
+      "role": "TD",
+      "pdfObject": 449,
+      "mcids": []
+    },
+    {
+      "node": "n_aeb4a98e831c41f9ae8105f275c62c86",
+      "role": "TD",
+      "pdfObject": 456,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 36
+        }
+      ]
+    },
+    {
+      "node": "n_fda0dbd03c324599aea4bf6ff7000936",
+      "role": "TR",
+      "pdfObject": 445,
+      "mcids": []
+    },
+    {
+      "node": "n_7b183df753f0446e8f242fd29e1211e2",
+      "role": "TH",
+      "pdfObject": 459,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 6
+        },
+        {
+          "page": 1,
+          "mcid": 37
+        }
+      ]
+    },
+    {
+      "node": "n_e1facd42508e422b88f3a33c046c43b5",
+      "role": "P",
+      "pdfObject": 463,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 38
+        },
+        {
+          "page": 1,
+          "mcid": 39
+        },
+        {
+          "page": 1,
+          "mcid": 40
+        },
+        {
+          "page": 1,
+          "mcid": 41
+        },
+        {
+          "page": 1,
+          "mcid": 42
+        }
+      ]
+    },
+    {
+      "node": "n_df792d1cbe924c5d8b9b7042fe593c48",
+      "role": "TD",
+      "pdfObject": 462,
+      "mcids": []
+    },
+    {
+      "node": "n_bd9be79d7a704282af7e7a089f35dfa0",
+      "role": "TD",
+      "pdfObject": 469,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 43
+        }
+      ]
+    },
+    {
+      "node": "n_f34c4aa8216447f28e62476513909498",
+      "role": "TR",
+      "pdfObject": 458,
+      "mcids": []
+    },
+    {
+      "node": "n_c89e743ba93b418d90b4d513619b6c1f",
+      "role": "TH",
+      "pdfObject": 472,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 7
+        },
+        {
+          "page": 1,
+          "mcid": 44
+        }
+      ]
+    },
+    {
+      "node": "n_2d92f12af6e74b7398549aa39b701d5b",
+      "role": "P",
+      "pdfObject": 476,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 45
+        },
+        {
+          "page": 1,
+          "mcid": 46
+        },
+        {
+          "page": 1,
+          "mcid": 47
+        },
+        {
+          "page": 1,
+          "mcid": 48
+        },
+        {
+          "page": 1,
+          "mcid": 49
+        }
+      ]
+    },
+    {
+      "node": "n_1a6bd92fb7a1494aad233785bc289e28",
+      "role": "TD",
+      "pdfObject": 475,
+      "mcids": []
+    },
+    {
+      "node": "n_0e09ca3b3c094759953f2a534c002a3e",
+      "role": "TD",
+      "pdfObject": 482,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 50
+        }
+      ]
+    },
+    {
+      "node": "n_5105c8ce96b940a3aea876a91a03806a",
+      "role": "TR",
+      "pdfObject": 471,
+      "mcids": []
+    },
+    {
+      "node": "n_3f31baa570fe414490057aed20c3d4fd",
+      "role": "TH",
+      "pdfObject": 485,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 8
+        },
+        {
+          "page": 1,
+          "mcid": 51
+        }
+      ]
+    },
+    {
+      "node": "n_451a05d6453c4c7b887750f741d79be7",
+      "role": "P",
+      "pdfObject": 489,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 52
+        },
+        {
+          "page": 1,
+          "mcid": 53
+        },
+        {
+          "page": 1,
+          "mcid": 54
+        },
+        {
+          "page": 1,
+          "mcid": 55
+        },
+        {
+          "page": 1,
+          "mcid": 56
+        }
+      ]
+    },
+    {
+      "node": "n_1a4e75f2cbe9474ba7385ca82bc8adcc",
+      "role": "TD",
+      "pdfObject": 488,
+      "mcids": []
+    },
+    {
+      "node": "n_e9ba40364df34b9cb049b3b07d416b48",
+      "role": "TD",
+      "pdfObject": 495,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 57
+        }
+      ]
+    },
+    {
+      "node": "n_d6463f8ba2fd48898decd1aee70b89af",
+      "role": "TR",
+      "pdfObject": 484,
+      "mcids": []
+    },
+    {
+      "node": "n_dd7a043dfbd14fdea43fe5b1b4ff7ec4",
+      "role": "TH",
+      "pdfObject": 498,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 9
+        },
+        {
+          "page": 1,
+          "mcid": 58
+        }
+      ]
+    },
+    {
+      "node": "n_8115d584dcc6441a856bf49cd0d70ffa",
+      "role": "P",
+      "pdfObject": 502,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 59
+        },
+        {
+          "page": 1,
+          "mcid": 60
+        },
+        {
+          "page": 1,
+          "mcid": 61
+        },
+        {
+          "page": 1,
+          "mcid": 62
+        },
+        {
+          "page": 1,
+          "mcid": 63
+        }
+      ]
+    },
+    {
+      "node": "n_56a2fda452d14d888de3c495f2ce7f5e",
+      "role": "TD",
+      "pdfObject": 501,
+      "mcids": []
+    },
+    {
+      "node": "n_223d0c59dc0340e7ac0769ae801a3235",
+      "role": "TD",
+      "pdfObject": 508,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 64
+        }
+      ]
+    },
+    {
+      "node": "n_7552ecf99910414683b8ac10163fa23e",
+      "role": "TR",
+      "pdfObject": 497,
+      "mcids": []
+    },
+    {
+      "node": "n_2ab4e64fd1af42e189c1aadb96f2a76c",
+      "role": "TH",
+      "pdfObject": 511,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 10
+        },
+        {
+          "page": 1,
+          "mcid": 65
+        }
+      ]
+    },
+    {
+      "node": "n_165841c8e9814be8b5d0d1223b4ccf19",
+      "role": "P",
+      "pdfObject": 515,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 66
+        },
+        {
+          "page": 1,
+          "mcid": 67
+        },
+        {
+          "page": 1,
+          "mcid": 68
+        },
+        {
+          "page": 1,
+          "mcid": 69
+        },
+        {
+          "page": 1,
+          "mcid": 70
+        }
+      ]
+    },
+    {
+      "node": "n_87439491067c4b259038e2d1e322404d",
+      "role": "TD",
+      "pdfObject": 514,
+      "mcids": []
+    },
+    {
+      "node": "n_4fbd9717969c4db9b54b6c68ad262ba8",
+      "role": "TD",
+      "pdfObject": 521,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 71
+        }
+      ]
+    },
+    {
+      "node": "n_8668c4836286469c9716d9f66452f12b",
+      "role": "TR",
+      "pdfObject": 510,
+      "mcids": []
+    },
+    {
+      "node": "n_8bd064a72a9e4620b17358440bed1fd1",
+      "role": "TH",
+      "pdfObject": 524,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 11
+        },
+        {
+          "page": 1,
+          "mcid": 72
+        }
+      ]
+    },
+    {
+      "node": "n_cff5284efb61429282b42fe173a01b2f",
+      "role": "P",
+      "pdfObject": 528,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 73
+        },
+        {
+          "page": 1,
+          "mcid": 74
+        },
+        {
+          "page": 1,
+          "mcid": 75
+        },
+        {
+          "page": 1,
+          "mcid": 76
+        },
+        {
+          "page": 1,
+          "mcid": 77
+        }
+      ]
+    },
+    {
+      "node": "n_6c6703000896458396dc72e66c3a97e8",
+      "role": "TD",
+      "pdfObject": 527,
+      "mcids": []
+    },
+    {
+      "node": "n_c7a6ffe70d6646a2b0209e2f7bceaabc",
+      "role": "TD",
+      "pdfObject": 534,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 78
+        }
+      ]
+    },
+    {
+      "node": "n_f589a0693fb34aa291cb6cd35425a7d7",
+      "role": "TR",
+      "pdfObject": 523,
+      "mcids": []
+    },
+    {
+      "node": "n_999ea155f1e043cfb56ca5ca0f7f78a6",
+      "role": "TH",
+      "pdfObject": 537,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 12
+        },
+        {
+          "page": 1,
+          "mcid": 79
+        }
+      ]
+    },
+    {
+      "node": "n_2d95ef2c60014c9185ec8fb94d94c026",
+      "role": "P",
+      "pdfObject": 541,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 80
+        },
+        {
+          "page": 1,
+          "mcid": 81
+        },
+        {
+          "page": 1,
+          "mcid": 82
+        },
+        {
+          "page": 1,
+          "mcid": 83
+        },
+        {
+          "page": 1,
+          "mcid": 84
+        }
+      ]
+    },
+    {
+      "node": "n_b347725db3ad43c0a02167a9f10759a4",
+      "role": "TD",
+      "pdfObject": 540,
+      "mcids": []
+    },
+    {
+      "node": "n_dd9e10eb965244fdaff9d7422af37cd5",
+      "role": "TD",
+      "pdfObject": 547,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 85
+        }
+      ]
+    },
+    {
+      "node": "n_1b56a53652e54722b63085f55bbae6e4",
+      "role": "TR",
+      "pdfObject": 536,
+      "mcids": []
+    },
+    {
+      "node": "n_aa51a739b63b46eeb173c831b6152d2d",
+      "role": "TH",
+      "pdfObject": 550,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 13
+        },
+        {
+          "page": 1,
+          "mcid": 86
+        }
+      ]
+    },
+    {
+      "node": "n_6d5bd4bfc76d4fc18552c5875eda605d",
+      "role": "P",
+      "pdfObject": 554,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 87
+        },
+        {
+          "page": 1,
+          "mcid": 88
+        },
+        {
+          "page": 1,
+          "mcid": 89
+        },
+        {
+          "page": 1,
+          "mcid": 90
+        },
+        {
+          "page": 1,
+          "mcid": 91
+        }
+      ]
+    },
+    {
+      "node": "n_0e5a8bf663dc4971b15eb3fcc4d3df8d",
+      "role": "TD",
+      "pdfObject": 553,
+      "mcids": []
+    },
+    {
+      "node": "n_fc38f5078bc84394a14b05ee668e93c6",
+      "role": "TD",
+      "pdfObject": 560,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 92
+        }
+      ]
+    },
+    {
+      "node": "n_ed3990b4131741c6b6eae66ad2a39d2e",
+      "role": "TR",
+      "pdfObject": 549,
+      "mcids": []
+    },
+    {
+      "node": "n_fa34baf7e8304811bb58d791e0a3b073",
+      "role": "TH",
+      "pdfObject": 563,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 14
+        },
+        {
+          "page": 1,
+          "mcid": 93
+        }
+      ]
+    },
+    {
+      "node": "n_5d6b6c1b8e454859b97b01590d178ab4",
+      "role": "P",
+      "pdfObject": 567,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 94
+        },
+        {
+          "page": 1,
+          "mcid": 95
+        },
+        {
+          "page": 1,
+          "mcid": 96
+        },
+        {
+          "page": 1,
+          "mcid": 97
+        },
+        {
+          "page": 1,
+          "mcid": 98
+        }
+      ]
+    },
+    {
+      "node": "n_39f93bb6229c4505af34fb567793c2ce",
+      "role": "TD",
+      "pdfObject": 566,
+      "mcids": []
+    },
+    {
+      "node": "n_deef0c58a6784c178c1c67eda93dba7a",
+      "role": "TD",
+      "pdfObject": 573,
+      "mcids": [
+        {
+          "page": 1,
+          "mcid": 99
+        }
+      ]
+    },
+    {
+      "node": "n_68fa0c6fe43f4888bd8919e84885911a",
+      "role": "TR",
+      "pdfObject": 562,
+      "mcids": []
+    },
+    {
+      "node": "n_87027c754e224b6f91efdaa3fdba769f",
+      "role": "TH",
+      "pdfObject": 576,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 0
+        },
+        {
+          "page": 2,
+          "mcid": 14
+        }
+      ]
+    },
+    {
+      "node": "n_af9e76768e4d4f9399635539edb8f6fe",
+      "role": "P",
+      "pdfObject": 580,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 15
+        },
+        {
+          "page": 2,
+          "mcid": 16
+        },
+        {
+          "page": 2,
+          "mcid": 17
+        },
+        {
+          "page": 2,
+          "mcid": 18
+        },
+        {
+          "page": 2,
+          "mcid": 19
+        }
+      ]
+    },
+    {
+      "node": "n_e991b6c8ae6843bba8dba5cdc8669b02",
+      "role": "TD",
+      "pdfObject": 579,
+      "mcids": []
+    },
+    {
+      "node": "n_9a5f1914f79a46a19e6b04e9dcf6dd07",
+      "role": "TD",
+      "pdfObject": 586,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 20
+        }
+      ]
+    },
+    {
+      "node": "n_b710d3b21dbe453fb6bb3d0bb23896fb",
+      "role": "TR",
+      "pdfObject": 575,
+      "mcids": []
+    },
+    {
+      "node": "n_a19a0030d7774026bca2a24b51b3059b",
+      "role": "TH",
+      "pdfObject": 589,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 1
+        },
+        {
+          "page": 2,
+          "mcid": 21
+        }
+      ]
+    },
+    {
+      "node": "n_9dec495023de454482f5bc2fccea0ee9",
+      "role": "P",
+      "pdfObject": 593,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 22
+        },
+        {
+          "page": 2,
+          "mcid": 23
+        },
+        {
+          "page": 2,
+          "mcid": 24
+        },
+        {
+          "page": 2,
+          "mcid": 25
+        },
+        {
+          "page": 2,
+          "mcid": 26
+        }
+      ]
+    },
+    {
+      "node": "n_72ba7350d967478b9ee69a5532e94072",
+      "role": "TD",
+      "pdfObject": 592,
+      "mcids": []
+    },
+    {
+      "node": "n_f6af5e21b343403c95cbe5406bfc9d47",
+      "role": "TD",
+      "pdfObject": 599,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 27
+        }
+      ]
+    },
+    {
+      "node": "n_598104850cad4b979030b8aa9912a3c5",
+      "role": "TR",
+      "pdfObject": 588,
+      "mcids": []
+    },
+    {
+      "node": "n_80f79c546ebc490e984d98d7755a2dbd",
+      "role": "TH",
+      "pdfObject": 602,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 2
+        },
+        {
+          "page": 2,
+          "mcid": 28
+        }
+      ]
+    },
+    {
+      "node": "n_76d822847a754e4b9f587af5143af76b",
+      "role": "P",
+      "pdfObject": 606,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 29
+        },
+        {
+          "page": 2,
+          "mcid": 30
+        },
+        {
+          "page": 2,
+          "mcid": 31
+        },
+        {
+          "page": 2,
+          "mcid": 32
+        },
+        {
+          "page": 2,
+          "mcid": 33
+        }
+      ]
+    },
+    {
+      "node": "n_f9ca86b9ebfb4bb3b8625004dbaeb5bb",
+      "role": "TD",
+      "pdfObject": 605,
+      "mcids": []
+    },
+    {
+      "node": "n_ea634554f7ec448086825580aa8fe34b",
+      "role": "TD",
+      "pdfObject": 612,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 34
+        }
+      ]
+    },
+    {
+      "node": "n_0e8b8e1624ba4411937bd3ed7f4d505a",
+      "role": "TR",
+      "pdfObject": 601,
+      "mcids": []
+    },
+    {
+      "node": "n_f6acfdc00ceb4dbeb232ddda8eacacac",
+      "role": "TH",
+      "pdfObject": 615,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 3
+        },
+        {
+          "page": 2,
+          "mcid": 35
+        }
+      ]
+    },
+    {
+      "node": "n_88fe061d10654119b122719e062cb936",
+      "role": "P",
+      "pdfObject": 619,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 36
+        },
+        {
+          "page": 2,
+          "mcid": 37
+        },
+        {
+          "page": 2,
+          "mcid": 38
+        },
+        {
+          "page": 2,
+          "mcid": 39
+        },
+        {
+          "page": 2,
+          "mcid": 40
+        }
+      ]
+    },
+    {
+      "node": "n_41a458e02f38446ba968aafeb68ea30a",
+      "role": "TD",
+      "pdfObject": 618,
+      "mcids": []
+    },
+    {
+      "node": "n_81e8cb82dfce42a19258033c60aa4af3",
+      "role": "TD",
+      "pdfObject": 625,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 41
+        }
+      ]
+    },
+    {
+      "node": "n_7e6d780ee40e408ab3b8c8b05b4c1c22",
+      "role": "TR",
+      "pdfObject": 614,
+      "mcids": []
+    },
+    {
+      "node": "n_576017c9c51541a0b8fc2b12ce36fef2",
+      "role": "TH",
+      "pdfObject": 628,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 4
+        },
+        {
+          "page": 2,
+          "mcid": 42
+        }
+      ]
+    },
+    {
+      "node": "n_578abc1e269c45499c8b5c19a6ffc63c",
+      "role": "P",
+      "pdfObject": 632,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 43
+        },
+        {
+          "page": 2,
+          "mcid": 44
+        },
+        {
+          "page": 2,
+          "mcid": 45
+        },
+        {
+          "page": 2,
+          "mcid": 46
+        },
+        {
+          "page": 2,
+          "mcid": 47
+        }
+      ]
+    },
+    {
+      "node": "n_9d1385c13413479da59525da0f4493de",
+      "role": "TD",
+      "pdfObject": 631,
+      "mcids": []
+    },
+    {
+      "node": "n_328ef8ad32f5406b990242dddcea5a58",
+      "role": "TD",
+      "pdfObject": 638,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 48
+        }
+      ]
+    },
+    {
+      "node": "n_b3b9163165fa4ce6814ee286720d9f91",
+      "role": "TR",
+      "pdfObject": 627,
+      "mcids": []
+    },
+    {
+      "node": "n_2af9872090ec4a0e879c92aa3867035a",
+      "role": "TH",
+      "pdfObject": 641,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 5
+        },
+        {
+          "page": 2,
+          "mcid": 49
+        }
+      ]
+    },
+    {
+      "node": "n_0200ac18cd9844d398578e113a2ce080",
+      "role": "P",
+      "pdfObject": 645,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 50
+        },
+        {
+          "page": 2,
+          "mcid": 51
+        },
+        {
+          "page": 2,
+          "mcid": 52
+        },
+        {
+          "page": 2,
+          "mcid": 53
+        },
+        {
+          "page": 2,
+          "mcid": 54
+        }
+      ]
+    },
+    {
+      "node": "n_02dfd42a4b4f4249a0e8b618b855c1b8",
+      "role": "TD",
+      "pdfObject": 644,
+      "mcids": []
+    },
+    {
+      "node": "n_e51c23d5ba5e4c1f98ff8f15069f3e13",
+      "role": "TD",
+      "pdfObject": 651,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 55
+        }
+      ]
+    },
+    {
+      "node": "n_5d1b1b86f8754245a610e1607cd2e897",
+      "role": "TR",
+      "pdfObject": 640,
+      "mcids": []
+    },
+    {
+      "node": "n_9d79b5ca45424a3ba5d1a844f62e6ba7",
+      "role": "TH",
+      "pdfObject": 654,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 6
+        },
+        {
+          "page": 2,
+          "mcid": 56
+        }
+      ]
+    },
+    {
+      "node": "n_5f663164dc8841cbbacb780dff326181",
+      "role": "P",
+      "pdfObject": 658,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 57
+        },
+        {
+          "page": 2,
+          "mcid": 58
+        },
+        {
+          "page": 2,
+          "mcid": 59
+        },
+        {
+          "page": 2,
+          "mcid": 60
+        },
+        {
+          "page": 2,
+          "mcid": 61
+        }
+      ]
+    },
+    {
+      "node": "n_6772126698074e84b40a40423ba6fcab",
+      "role": "TD",
+      "pdfObject": 657,
+      "mcids": []
+    },
+    {
+      "node": "n_128351116db74f288025d5aa3c245035",
+      "role": "TD",
+      "pdfObject": 664,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 62
+        }
+      ]
+    },
+    {
+      "node": "n_9677f8f9a15549fcb2b9889274393d41",
+      "role": "TR",
+      "pdfObject": 653,
+      "mcids": []
+    },
+    {
+      "node": "n_81dfaeabfc644036a477ac531d9e3418",
+      "role": "TH",
+      "pdfObject": 667,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 7
+        },
+        {
+          "page": 2,
+          "mcid": 63
+        }
+      ]
+    },
+    {
+      "node": "n_6e7b6c156ff349908463f916969feb3b",
+      "role": "P",
+      "pdfObject": 671,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 64
+        },
+        {
+          "page": 2,
+          "mcid": 65
+        },
+        {
+          "page": 2,
+          "mcid": 66
+        },
+        {
+          "page": 2,
+          "mcid": 67
+        },
+        {
+          "page": 2,
+          "mcid": 68
+        }
+      ]
+    },
+    {
+      "node": "n_f5339f8658b64170a0f0f5566bfdd9f2",
+      "role": "TD",
+      "pdfObject": 670,
+      "mcids": []
+    },
+    {
+      "node": "n_0d004280599340ad9cc3d400f91d829b",
+      "role": "TD",
+      "pdfObject": 677,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 69
+        }
+      ]
+    },
+    {
+      "node": "n_1a91ebc66172453394effbf92bef0461",
+      "role": "TR",
+      "pdfObject": 666,
+      "mcids": []
+    },
+    {
+      "node": "n_27798a13fdd54a01a0e1d0934421acb5",
+      "role": "TH",
+      "pdfObject": 680,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 8
+        },
+        {
+          "page": 2,
+          "mcid": 70
+        }
+      ]
+    },
+    {
+      "node": "n_fe4f1f87c3f1417083963214097a03ee",
+      "role": "P",
+      "pdfObject": 684,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 71
+        },
+        {
+          "page": 2,
+          "mcid": 72
+        },
+        {
+          "page": 2,
+          "mcid": 73
+        },
+        {
+          "page": 2,
+          "mcid": 74
+        },
+        {
+          "page": 2,
+          "mcid": 75
+        }
+      ]
+    },
+    {
+      "node": "n_bc3a96c925a64137891b7e61bdbc325e",
+      "role": "TD",
+      "pdfObject": 683,
+      "mcids": []
+    },
+    {
+      "node": "n_3ad935c65a8c47f9a898fc43cce0897f",
+      "role": "TD",
+      "pdfObject": 690,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 76
+        }
+      ]
+    },
+    {
+      "node": "n_f70bea5faa5b46da87d5ae654c9b165c",
+      "role": "TR",
+      "pdfObject": 679,
+      "mcids": []
+    },
+    {
+      "node": "n_67ba53aeef07470cbb995a83661d6e84",
+      "role": "TH",
+      "pdfObject": 693,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 9
+        },
+        {
+          "page": 2,
+          "mcid": 77
+        }
+      ]
+    },
+    {
+      "node": "n_921f12e247354cc0a8b2398df92751d0",
+      "role": "P",
+      "pdfObject": 697,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 78
+        },
+        {
+          "page": 2,
+          "mcid": 79
+        },
+        {
+          "page": 2,
+          "mcid": 80
+        },
+        {
+          "page": 2,
+          "mcid": 81
+        },
+        {
+          "page": 2,
+          "mcid": 82
+        }
+      ]
+    },
+    {
+      "node": "n_862c2034819b48b98697901b2290f8b9",
+      "role": "TD",
+      "pdfObject": 696,
+      "mcids": []
+    },
+    {
+      "node": "n_2df6f2218f1642229d4674f1753a1af1",
+      "role": "TD",
+      "pdfObject": 703,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 83
+        }
+      ]
+    },
+    {
+      "node": "n_a8acafa53bc34024b99271ed6b1d2cb7",
+      "role": "TR",
+      "pdfObject": 692,
+      "mcids": []
+    },
+    {
+      "node": "n_9743dea8e5714b84b7a391774ef0c3d7",
+      "role": "TH",
+      "pdfObject": 706,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 10
+        },
+        {
+          "page": 2,
+          "mcid": 84
+        }
+      ]
+    },
+    {
+      "node": "n_d4e687a3645e42d1bed25a0a8f2760b5",
+      "role": "P",
+      "pdfObject": 710,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 85
+        },
+        {
+          "page": 2,
+          "mcid": 86
+        },
+        {
+          "page": 2,
+          "mcid": 87
+        },
+        {
+          "page": 2,
+          "mcid": 88
+        },
+        {
+          "page": 2,
+          "mcid": 89
+        }
+      ]
+    },
+    {
+      "node": "n_6aa8683176e647e9913b7af226a56627",
+      "role": "TD",
+      "pdfObject": 709,
+      "mcids": []
+    },
+    {
+      "node": "n_b592dec553dd4089963c0aec1ab3545f",
+      "role": "TD",
+      "pdfObject": 716,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 90
+        }
+      ]
+    },
+    {
+      "node": "n_2f67ba478cd746a68f139dfa8c65a7a9",
+      "role": "TR",
+      "pdfObject": 705,
+      "mcids": []
+    },
+    {
+      "node": "n_f63745b7e8ae4988aec2d0b45d70cc09",
+      "role": "TH",
+      "pdfObject": 719,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 11
+        },
+        {
+          "page": 2,
+          "mcid": 91
+        }
+      ]
+    },
+    {
+      "node": "n_5744740907d84c65b63ea5169e15f6cc",
+      "role": "P",
+      "pdfObject": 723,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 92
+        },
+        {
+          "page": 2,
+          "mcid": 93
+        },
+        {
+          "page": 2,
+          "mcid": 94
+        },
+        {
+          "page": 2,
+          "mcid": 95
+        },
+        {
+          "page": 2,
+          "mcid": 96
+        }
+      ]
+    },
+    {
+      "node": "n_7282b4e6bfb940268f4c05ef401ba3ba",
+      "role": "TD",
+      "pdfObject": 722,
+      "mcids": []
+    },
+    {
+      "node": "n_1ebe658d190c4c9e8f9e8bf963451146",
+      "role": "TD",
+      "pdfObject": 729,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 97
+        }
+      ]
+    },
+    {
+      "node": "n_2c9986ede8484ef8999c014d191713e2",
+      "role": "TR",
+      "pdfObject": 718,
+      "mcids": []
+    },
+    {
+      "node": "n_e8caa3c5e75f4c5e9b4455778f2615c6",
+      "role": "TH",
+      "pdfObject": 732,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 12
+        },
+        {
+          "page": 2,
+          "mcid": 98
+        }
+      ]
+    },
+    {
+      "node": "n_58d4735f1d804988bb5e939b0a702423",
+      "role": "P",
+      "pdfObject": 736,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 99
+        },
+        {
+          "page": 2,
+          "mcid": 100
+        },
+        {
+          "page": 2,
+          "mcid": 101
+        },
+        {
+          "page": 2,
+          "mcid": 102
+        },
+        {
+          "page": 2,
+          "mcid": 103
+        }
+      ]
+    },
+    {
+      "node": "n_d4c9ec4716054bb8b42777c9a903c142",
+      "role": "TD",
+      "pdfObject": 735,
+      "mcids": []
+    },
+    {
+      "node": "n_77674a4741ad4697a3d4d07892f915d4",
+      "role": "TD",
+      "pdfObject": 742,
+      "mcids": [
+        {
+          "page": 2,
+          "mcid": 104
+        }
+      ]
+    },
+    {
+      "node": "n_9eacc1342eef47899087ad6d42ca08a7",
+      "role": "TR",
+      "pdfObject": 731,
+      "mcids": []
+    },
+    {
+      "node": "n_d24974b596ef4836baf956bbbab0e738",
+      "role": "TH",
+      "pdfObject": 745,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 0
+        },
+        {
+          "page": 3,
+          "mcid": 6
+        }
+      ]
+    },
+    {
+      "node": "n_8a4676171a574ecdb0b51237624334d2",
+      "role": "P",
+      "pdfObject": 749,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 7
+        },
+        {
+          "page": 3,
+          "mcid": 8
+        },
+        {
+          "page": 3,
+          "mcid": 9
+        },
+        {
+          "page": 3,
+          "mcid": 10
+        },
+        {
+          "page": 3,
+          "mcid": 11
+        }
+      ]
+    },
+    {
+      "node": "n_a9d0d08c42ce47e7914b30179c6c816f",
+      "role": "TD",
+      "pdfObject": 748,
+      "mcids": []
+    },
+    {
+      "node": "n_973c4b6a1a694cf2bf920143f257397c",
+      "role": "TD",
+      "pdfObject": 755,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 12
+        }
+      ]
+    },
+    {
+      "node": "n_265c477c9d8d49819fb6e5644aa15e2a",
+      "role": "TR",
+      "pdfObject": 744,
+      "mcids": []
+    },
+    {
+      "node": "n_a1d24247b05e4f519058476d73ab2f6e",
+      "role": "TH",
+      "pdfObject": 758,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 1
+        },
+        {
+          "page": 3,
+          "mcid": 13
+        }
+      ]
+    },
+    {
+      "node": "n_9d469d57d33d4beca22b78157ab5b85f",
+      "role": "P",
+      "pdfObject": 762,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 14
+        },
+        {
+          "page": 3,
+          "mcid": 15
+        },
+        {
+          "page": 3,
+          "mcid": 16
+        },
+        {
+          "page": 3,
+          "mcid": 17
+        },
+        {
+          "page": 3,
+          "mcid": 18
+        }
+      ]
+    },
+    {
+      "node": "n_7608233e88b94884a64e637b99bd719d",
+      "role": "TD",
+      "pdfObject": 761,
+      "mcids": []
+    },
+    {
+      "node": "n_cd40c9f2dde54b86897009e2e0b096ae",
+      "role": "TD",
+      "pdfObject": 768,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 19
+        }
+      ]
+    },
+    {
+      "node": "n_b4931428a8f045f9a2b2777df2beead3",
+      "role": "TR",
+      "pdfObject": 757,
+      "mcids": []
+    },
+    {
+      "node": "n_248d154029c846d9bc7356b8d8d3cac3",
+      "role": "TH",
+      "pdfObject": 771,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 2
+        },
+        {
+          "page": 3,
+          "mcid": 20
+        }
+      ]
+    },
+    {
+      "node": "n_7337716b8d874cb7abe83cd023fc7994",
+      "role": "P",
+      "pdfObject": 775,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 21
+        },
+        {
+          "page": 3,
+          "mcid": 22
+        },
+        {
+          "page": 3,
+          "mcid": 23
+        },
+        {
+          "page": 3,
+          "mcid": 24
+        },
+        {
+          "page": 3,
+          "mcid": 25
+        }
+      ]
+    },
+    {
+      "node": "n_e03d46e7fc994cfcb459737bd520d551",
+      "role": "TD",
+      "pdfObject": 774,
+      "mcids": []
+    },
+    {
+      "node": "n_6d7c3217c80240439b2dff2f0968e2f2",
+      "role": "TD",
+      "pdfObject": 781,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 26
+        }
+      ]
+    },
+    {
+      "node": "n_1f59e6876f754299b33572dc52ec19ed",
+      "role": "TR",
+      "pdfObject": 770,
+      "mcids": []
+    },
+    {
+      "node": "n_2b7696a6098e4c1cb5bc58a76312f305",
+      "role": "TH",
+      "pdfObject": 784,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 3
+        },
+        {
+          "page": 3,
+          "mcid": 27
+        }
+      ]
+    },
+    {
+      "node": "n_e9149e402f2a4a4593cc00810713ceec",
+      "role": "P",
+      "pdfObject": 788,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 28
+        },
+        {
+          "page": 3,
+          "mcid": 29
+        },
+        {
+          "page": 3,
+          "mcid": 30
+        },
+        {
+          "page": 3,
+          "mcid": 31
+        },
+        {
+          "page": 3,
+          "mcid": 32
+        }
+      ]
+    },
+    {
+      "node": "n_d74d6fe110544185a3020e57ec14ee5b",
+      "role": "TD",
+      "pdfObject": 787,
+      "mcids": []
+    },
+    {
+      "node": "n_a64b5fcb3e774f1794e9b7e5f113ef62",
+      "role": "TD",
+      "pdfObject": 794,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 33
+        }
+      ]
+    },
+    {
+      "node": "n_03cc950d09eb4b72b047c4abf65a95f9",
+      "role": "TR",
+      "pdfObject": 783,
+      "mcids": []
+    },
+    {
+      "node": "n_44f3a6c7e6d74757b111af48b86f8e99",
+      "role": "TH",
+      "pdfObject": 797,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 4
+        },
+        {
+          "page": 3,
+          "mcid": 34
+        }
+      ]
+    },
+    {
+      "node": "n_4693686af156437b9b1f788ae3ca9747",
+      "role": "P",
+      "pdfObject": 801,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 35
+        },
+        {
+          "page": 3,
+          "mcid": 36
+        },
+        {
+          "page": 3,
+          "mcid": 37
+        },
+        {
+          "page": 3,
+          "mcid": 38
+        },
+        {
+          "page": 3,
+          "mcid": 39
+        }
+      ]
+    },
+    {
+      "node": "n_fda6b2cd63a943e884f961f7e428d11a",
+      "role": "TD",
+      "pdfObject": 800,
+      "mcids": []
+    },
+    {
+      "node": "n_c856e5bd084a4365bbf8160f47a7d96f",
+      "role": "TD",
+      "pdfObject": 807,
+      "mcids": [
+        {
+          "page": 3,
+          "mcid": 40
+        }
+      ]
+    },
+    {
+      "node": "n_21ed3a2d32e94c92aba75bccbb4b63f4",
+      "role": "TR",
+      "pdfObject": 796,
+      "mcids": []
+    },
+    {
+      "node": null,
+      "role": "TBody",
+      "pdfObject": 444,
+      "mcids": []
+    },
+    {
+      "node": "n_28bc3adfc53b497c9432b8c1c3f6567a",
+      "role": "Table",
+      "pdfObject": 422,
+      "mcids": []
+    },
+    {
+      "node": "n_9beb39f769a549ef818ebb3fc833f438",
+      "role": "Sect",
+      "pdfObject": 414,
+      "mcids": []
+    },
+    {
+      "node": null,
+      "role": "Document",
+      "pdfObject": 413,
+      "mcids": []
+    }
+  ],
+  "rewriteCounts": [
+    {
+      "page": 1,
+      "actualText": 36,
+      "emptied": 48,
+      "artifacts": 1,
+      "assigned": 99
+    },
+    {
+      "page": 2,
+      "actualText": 39,
+      "emptied": 52,
+      "artifacts": 1,
+      "assigned": 104
+    },
+    {
+      "page": 3,
+      "actualText": 15,
+      "emptied": 20,
+      "artifacts": 1,
+      "assigned": 40
+    }
+  ],
+  "repairedOutlineDestinations": 1,
+  "repairedLinkDestinations": 0,
+  "compilerBoundary": {
+    "changes": [
+      "structure tree",
+      "parent tree",
+      "marked-content properties",
+      "artifacts",
+      "metadata",
+      "PDF header"
+    ],
+    "unchanged": [
+      "text showing operators",
+      "glyph codes",
+      "fonts",
+      "images",
+      "paths",
+      "layout",
+      "line breaking",
+      "shaping"
+    ]
+  }
+}

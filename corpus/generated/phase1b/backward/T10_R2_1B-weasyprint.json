@@ -1,0 +1,353 @@
+{
+  "coverage": {
+    "expected": 25,
+    "mapped": 12,
+    "ratio": 0.48
+  },
+  "document": "d_b213c48262f542568c65df4d17ed3363",
+  "fixedRendition": "f_228cb0b460f44458a688a8f92209ecce",
+  "fixedRenditionHash": "sha256:466ed4cb0d5482f2a5c54e24fc28d60bc832537a615c481bae6e56a8355e6765",
+  "mappings": [
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.18897675,
+            76.82512199999996,
+            352.02897675,
+            76.82512199999996,
+            352.02897675,
+            100.82512199999996,
+            48.18897675,
+            100.82512199999996
+          ],
+          "textRange": [
+            0,
+            24
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_e1e27d7e576d46219081f50d0cd56bad"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.18897675,
+            143.36604599999987,
+            113.47947675,
+            143.36604599999987,
+            113.47947675,
+            159.86604599999987,
+            48.18897675,
+            159.86604599999987
+          ],
+          "textRange": [
+            0,
+            8
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_4d653aed047d4e0a964d933d0a501b60"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.18897675,
+            213.04137300000002,
+            116.81247675000002,
+            213.04137300000002,
+            116.81247675000002,
+            229.54137300000002,
+            48.18897675,
+            229.54137300000002
+          ],
+          "textRange": [
+            0,
+            7
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_93a0e44bfa0a447686070c33ecc50e2f"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.18897675,
+            282.71669999999995,
+            103.08447675000001,
+            282.71669999999995,
+            103.08447675000001,
+            299.21669999999995,
+            48.18897675,
+            299.21669999999995
+          ],
+          "textRange": [
+            0,
+            7
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_bad2af0c0ebe4af2ae02f0db4ee4be38"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.18897675,
+            319.13290801200003,
+            460.9676635739999,
+            319.13290801200003,
+            460.9676635739999,
+            335.489182356,
+            48.18897675,
+            335.489182356
+          ],
+          "textRange": [
+            0,
+            84
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_62b117c8760e4f649a3a75104353d5cc"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            55.77559049999999,
+            385.84785226200006,
+            372.38255397,
+            385.84785226200006,
+            372.38255397,
+            396.84736426200004,
+            55.77559049999999,
+            396.84736426200004
+          ],
+          "textRange": [
+            0,
+            13
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_3e8c5ca57d7d4a88afca65cf229d8de8"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            55.77559049999999,
+            385.84785226200006,
+            99.949630692,
+            385.84785226200006,
+            99.949630692,
+            396.84736426200004,
+            55.77559049999999,
+            396.84736426200004
+          ],
+          "textRange": [
+            0,
+            7
+          ]
+        }
+      ],
+      "kind": "table-cell",
+      "node": "n_52a40cdfc38a4e5ab22d57bd46fbc1fa"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            344.22380325,
+            385.84785226200006,
+            372.38255397,
+            385.84785226200006,
+            372.38255397,
+            396.84736426200004,
+            344.22380325,
+            396.84736426200004
+          ],
+          "textRange": [
+            0,
+            5
+          ]
+        }
+      ],
+      "kind": "table-cell",
+      "node": "n_b11e2250e55f4a62acbc3f9680abc63b"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            55.77559049999999,
+            417.85759876200007,
+            372.338555922,
+            417.85759876200007,
+            372.338555922,
+            433.157354856,
+            55.77559049999999,
+            433.157354856
+          ],
+          "textRange": [
+            0,
+            10
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_9e6c9d7203d74368babebcd11f01d2f5"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            268.52020162199995,
+            319.13290801200003,
+            295.469006022,
+            319.13290801200003,
+            295.469006022,
+            330.132420012,
+            268.52020162199995,
+            330.132420012
+          ],
+          "textRange": [
+            0,
+            4
+          ]
+        }
+      ],
+      "kind": "table-cell",
+      "node": "n_399984b70c6b4b7c99a57b382c8fcff6"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            344.22380325,
+            422.157842856,
+            372.338555922,
+            422.157842856,
+            372.338555922,
+            433.157354856,
+            344.22380325,
+            433.157354856
+          ],
+          "textRange": [
+            0,
+            5
+          ]
+        }
+      ],
+      "kind": "table-cell",
+      "node": "n_3376d51dbd504c8cbd6a3de6d2af255c"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.18897675,
+            697.53973425,
+            132.25647675,
+            697.53973425,
+            132.25647675,
+            714.03973425,
+            48.18897675,
+            714.03973425
+          ],
+          "textRange": [
+            0,
+            10
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_01b49b464d47494783e29fe4b9cd7c66"
+    }
+  ],
+  "pages": [
+    {
+      "height": 841.889764,
+      "id": "pg_1",
+      "unit": "pt",
+      "width": 595.275591
+    }
+  ],
+  "renderer": "weasyprint-pdfplumber",
+  "revision": "r_9079e0d5d262499091d1769953a51ded",
+  "schemaVersion": "0.1-experimental",
+  "unmatched": [
+    {
+      "node": "n_59352efefabe484481c9e027e4718876",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_871b808bf4f540e8b28c3fc7397c8457",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_314cfbeb93dc46a3906cfcb3197a0f8b",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_30db2c84068d4a55836ec6f0a9b5bd40",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_a551b6341c354a0ca9810cacb1bb82ca",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_4dbab7fd89d9499ba950b71a70f6f40a",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_399762edc9454ad99febef796332e253",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_ea04b45dcdd9405d9dd4a439c9fa89b8",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_559de0617f284db3ab11591c9fc8b1f6",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_94ad42069c4b4dd1ac0f5059ce81a3d2",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_a4a3a86eb73b46e9901db7176d72b5e1",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_68ef20b32ad04df39b6d165e910f74bb",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_c2d012ffd6d44b448f15a9a1b6a8d6a8",
+      "reason": "logical token sequence not found in extracted PDF words"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "optional-remote-image": [],
+  "escaped-remote-import": [],
+  "inline-remote-style": [],
+  "custom-property-resource": [],
+  "nested-svg-remote": [
+    "EPUB/picture.svg"
+  ],
+  "inline-foreignobject": [],
+  "prefixed-svg-script": [],
+  "encoded-executable-link": [],
+  "iframe-srcdoc": [],
+  "object-embed": [],
+  "active-form": [],
+  "meta-refresh": [],
+  "base-overrides": [],
+  "network-hints": [],
+  "local-css-font-image": [
+    "EPUB/assets/sample.png",
+    "EPUB/font.ttf",
+    "EPUB/import.css"
+  ],
+  "local-import-cycle": [
+    "EPUB/one.css",
+    "EPUB/two.css"
+  ],
+  "static-svg-local": [
+    "EPUB/picture.svg"
+  ],
+  "inert-controls": [],
+  "local-media": [
+    "EPUB/silence.mp3"
+  ],
+  "media-autoplay": [
+    "EPUB/silence.mp3"
+  ],
+  "static-animation-declaration": [],
+  "mathml-local-glyph": [
+    "EPUB/assets/sample.png"
+  ],
+  "mathml-remote-glyph": [],
+  "inert-hostile-metadata": [],
+  "zip-special-modes": [],
+  "decoded-path-collision": [
+    "EPUB/collision.txt",
+    "EPUB/%63ollision.txt"
+  ],
+  "zip-header-mismatch": [],
+  "bounded-expansion": [
+    "META-INF/padding.txt"
+  ],
+  "unmapped-epub-title": [],
+  "script-data-block": [],
+  "standalone-svg-script": [
+    "EPUB/picture.svg"
+  ],
+  "svg-event-handler": [
+    "EPUB/picture.svg"
+  ],
+  "plain-iframe": [],
+  "authoritative-canvas": [],
+  "ordinary-hyperlink": [],
+  "nested-rule-remote": [],
+  "annotation-xml-active": []
+}

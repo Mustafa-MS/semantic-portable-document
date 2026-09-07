@@ -1,0 +1,53 @@
+{
+  "format": "Semantic Portable Document Format 0.1 Draft",
+  "purpose": "Validator B independent reproducibility record; not normative SPD metadata",
+  "schemas": [
+    {
+      "relativePath": "schemas/annotation-extension.schema.json",
+      "byteLength": 1777,
+      "sha256": "1b339e09fdee792fa1cb17ce7ab4b86085c794bf0dc8a6adb60bb434e97dbece",
+      "schemaId": "https://example.invalid/spd/0.1/annotation-extension.schema.json",
+      "schemaDraft": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "relativePath": "schemas/conformance-result.schema.json",
+      "byteLength": 1097,
+      "sha256": "57ec68acfcab28b51961c3ae618858f00e0805d4ad431f649dae2253cfb751c6",
+      "schemaId": "https://example.invalid/spd/0.1/conformance-result.schema.json",
+      "schemaDraft": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "relativePath": "schemas/document-state.schema.json",
+      "byteLength": 3390,
+      "sha256": "c2b0b96b4d23ad64ccd6670b8dfec9c00aaaeb3e98136893be95c75a79b5af18",
+      "schemaId": "https://example.invalid/spd/0.1/document-state.schema.json",
+      "schemaDraft": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "relativePath": "schemas/mapping.schema.json",
+      "byteLength": 4637,
+      "sha256": "ff2a3df4819c9f8c34cc0668effcd37ec6c5ec979e618a7eaca8d78a20a37412",
+      "schemaId": "https://example.invalid/spd/0.1/mapping.schema.json",
+      "schemaDraft": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "relativePath": "schemas/resource-inventory.schema.json",
+      "byteLength": 1823,
+      "sha256": "06d6e17eb9bcf9938ff2af646efd345b462e7b979629efd6dfb94849d6e7ae3f",
+      "schemaId": "https://example.invalid/spd/0.1/resource-inventory.schema.json",
+      "schemaDraft": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "relativePath": "schemas/state.schema.json",
+      "byteLength": 2622,
+      "sha256": "33f2b16c60581ecca2d927a89c454c0f41fd8a8c3f122f810e85f587ebb015d5",
+      "schemaId": "https://example.invalid/spd/0.1/state.schema.json",
+      "schemaDraft": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ],
+  "validatorBSchemaSetDigest": {
+    "algorithm": "For each schema in lexicographic UTF-8 relative-path order: UTF8(path), NUL, ASCII(byteLength), NUL, ASCII(lowercase SHA-256), LF; concatenate records and SHA-256",
+    "sha256": "8baf64736240b33c043ecf10fbb75a2dd07cf4db90a421dc0a937d16b3f42a45",
+    "classification": "NON_NORMATIVE_EXPERIMENT_REPRODUCIBILITY_METADATA"
+  }
+}

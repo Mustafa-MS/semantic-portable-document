@@ -1,0 +1,90 @@
+{
+  "coverage": {
+    "expected": 10,
+    "mapped": 1,
+    "ratio": 0.1
+  },
+  "document": "d_aa9e242c036c4cda92beb881f05b36c6",
+  "fixedRendition": "f_179fca1acdd9433788a37fc41752679b",
+  "fixedRenditionHash": "sha256:1ce215ec873675d0d03e71d9a856e3f4afc57f36d9a36d8a3d2f1a212dddda00",
+  "mappings": [
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.18897675,
+            76.82512199999996,
+            373.72497675,
+            76.82512199999996,
+            373.72497675,
+            100.82512199999996,
+            48.18897675,
+            100.82512199999996
+          ],
+          "textRange": [
+            0,
+            28
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_fd5b6a5b3dbf41238d3594a19672aef1"
+    }
+  ],
+  "pages": [
+    {
+      "height": 841.889764,
+      "id": "pg_1",
+      "unit": "pt",
+      "width": 595.275591
+    },
+    {
+      "height": 841.889764,
+      "id": "pg_2",
+      "unit": "pt",
+      "width": 595.275591
+    }
+  ],
+  "renderer": "weasyprint-pdfplumber",
+  "revision": "r_20dc44b1288c47b982a8633e6650dc5f",
+  "schemaVersion": "0.1-experimental",
+  "unmatched": [
+    {
+      "node": "n_3bb07718e8434aa49b274c8e3333d811",
+      "reason": "ancestor text exceeds exact-match experiment limit"
+    },
+    {
+      "node": "n_b2310d4cea284760975dd4aced7689f9",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_6e94095798e54907957f190a7a3613f0",
+      "reason": "ancestor text exceeds exact-match experiment limit"
+    },
+    {
+      "node": "n_101cf96016234f33807238102380f269",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_c00b1917887049c58e11def91e5d4d83",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_903ff3df7cdf45c9ab0122d8b02cd9d7",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_2461ceb55c1e4fff99d8dd72ebb89b35",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_448d244160984fa3b1c2b4d483846534",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_338b3d0116fd42198316bfd0d729a79a",
+      "reason": "logical token sequence not found in extracted PDF words"
+    }
+  ]
+}

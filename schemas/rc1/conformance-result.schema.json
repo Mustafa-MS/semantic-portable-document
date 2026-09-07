@@ -1,0 +1,70 @@
+{
+  "$id": "urn:uuid:c4ea11c4-ebca-52e6-9768-17c830f15f42",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "base": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "NOT_TESTED"
+      ]
+    },
+    "capabilities": {
+      "additionalProperties": {
+        "enum": [
+          "PASS",
+          "FAIL",
+          "NOT_CLAIMED",
+          "PRESENT_EXPERIMENTAL",
+          "NOT_NORMATIVELY_CERTIFIED",
+          "NOT_TESTED"
+        ]
+      },
+      "type": "object"
+    },
+    "fixture": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "notes": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "violations": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "detail": {
+            "type": "string"
+          },
+          "node": {
+            "type": "string"
+          },
+          "requirement": {
+            "pattern": "^SPD-[A-Z0-9]+-[0-9]{3}$",
+            "type": "string"
+          },
+          "resource": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "requirement"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "fixture",
+    "base",
+    "capabilities",
+    "violations"
+  ],
+  "title": "SPD 0.1 fixture expected result",
+  "type": "object"
+}

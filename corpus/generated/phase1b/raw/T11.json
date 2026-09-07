@@ -1,0 +1,1161 @@
+{
+  "catalog": {
+    "nodes": {
+      "n_b94253ce8f054cc1ab0303195092df74": {
+        "tag": "article",
+        "visibleInSourceLayout": true,
+        "sourceText": "\n\n\n\n",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_9c8518b9527846c291a8f0fd239317b9": {
+        "tag": "header",
+        "visibleInSourceLayout": true,
+        "sourceText": "EXPERIMENTAL AGREEMENT - PAGE HEADER",
+        "expectedNonWhitespaceCharacters": 32,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_d5b8e334534347ca98a48c0e2de3276e": {
+        "tag": "h1",
+        "visibleInSourceLayout": true,
+        "sourceText": "Research Services Agreement",
+        "expectedNonWhitespaceCharacters": 25,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_b7ee3915c57e48b384e29dd950163cee": {
+        "tag": "ol",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_e0ac347b8f2e4841acf6519e982c12d9": {
+        "tag": "li",
+        "visibleInSourceLayout": true,
+        "sourceText": "Definitions.",
+        "expectedNonWhitespaceCharacters": 12,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_ddfda0d404444cd886629b0bfd6289cd": {
+        "tag": "li",
+        "visibleInSourceLayout": true,
+        "sourceText": "“Document” means the semantic source and bound rendition.",
+        "expectedNonWhitespaceCharacters": 50,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_52f141ad569941eb965196943f3a6aaa": {
+        "tag": "li",
+        "visibleInSourceLayout": true,
+        "sourceText": "“Revision” means one immutable semantic state.",
+        "expectedNonWhitespaceCharacters": 41,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_78cc5fd5f57f4da48403d4eba5f60042": {
+        "tag": "li",
+        "visibleInSourceLayout": true,
+        "sourceText": "Obligations. Each party shall preserve identifiers.",
+        "expectedNonWhitespaceCharacters": 46,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_e5496eb82c5b464aa85fcb91de81e148": {
+        "tag": "table",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_42713de35f4746f1a4882dabbee5c5b9": {
+        "tag": "tr",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_d05baf63b68146bfba1575fa22ddfa8e": {
+        "tag": "th",
+        "visibleInSourceLayout": true,
+        "sourceText": "Party A",
+        "expectedNonWhitespaceCharacters": 6,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_dbb98499581d4ee39ba72c69ac747562": {
+        "tag": "th",
+        "visibleInSourceLayout": true,
+        "sourceText": "Party B",
+        "expectedNonWhitespaceCharacters": 6,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_76bd0bc23c5843cbb7efddec2b6a21a3": {
+        "tag": "tr",
+        "visibleInSourceLayout": true,
+        "sourceText": "",
+        "expectedNonWhitespaceCharacters": 0,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_ce0717d6d1a64bebb6a44906b5e0002c": {
+        "tag": "td",
+        "visibleInSourceLayout": true,
+        "sourceText": "Signature: __________",
+        "expectedNonWhitespaceCharacters": 20,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_3db7f94e37ab4a4399e582ebb2390956": {
+        "tag": "td",
+        "visibleInSourceLayout": true,
+        "sourceText": "Signature: __________",
+        "expectedNonWhitespaceCharacters": 20,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_b8ff80953d1a475daf84f9c9c6b5cc80": {
+        "tag": "p",
+        "visibleInSourceLayout": true,
+        "sourceText": "This clause begins on a fixed new page and tests page-oriented use.",
+        "expectedNonWhitespaceCharacters": 56,
+        "nonVisualNonWhitespaceCharacters": 0
+      },
+      "n_8c66784d2d134131a1fd6ee039c5b5b5": {
+        "tag": "footer",
+        "visibleInSourceLayout": true,
+        "sourceText": "CONFIDENTIAL - PAGE FOOTER",
+        "expectedNonWhitespaceCharacters": 23,
+        "nonVisualNonWhitespaceCharacters": 0
+      }
+    },
+    "documentId": "d_640d90a389a54e74ad773a277465d7e2",
+    "revisionId": "r_a061b5d2478147ce95e9242e113d485d",
+    "title": "Business/Legal Document",
+    "lang": "en",
+    "dir": "ltr"
+  },
+  "pages": [
+    {
+      "id": "pg_1",
+      "widthCssPx": 793.688,
+      "heightCssPx": 1122.516
+    },
+    {
+      "id": "pg_2",
+      "widthCssPx": 793.688,
+      "heightCssPx": 1122.516
+    }
+  ],
+  "blockFragments": [
+    {
+      "node": "n_b94253ce8f054cc1ab0303195092df74",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        68.031,
+        729.438,
+        392.359
+      ]
+    },
+    {
+      "node": "n_9c8518b9527846c291a8f0fd239317b9",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        68.031,
+        729.438,
+        83.813
+      ]
+    },
+    {
+      "node": "n_d5b8e334534347ca98a48c0e2de3276e",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        105.25,
+        729.438,
+        173.5
+      ]
+    },
+    {
+      "node": "n_b7ee3915c57e48b384e29dd950163cee",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        194.938,
+        729.438,
+        281.75
+      ]
+    },
+    {
+      "node": "n_e0ac347b8f2e4841acf6519e982c12d9",
+      "page": "pg_1",
+      "rectCssPx": [
+        104.25,
+        194.938,
+        729.438,
+        260.047
+      ]
+    },
+    {
+      "node": "n_ddfda0d404444cd886629b0bfd6289cd",
+      "page": "pg_1",
+      "rectCssPx": [
+        144.25,
+        216.641,
+        729.438,
+        238.344
+      ]
+    },
+    {
+      "node": "n_52f141ad569941eb965196943f3a6aaa",
+      "page": "pg_1",
+      "rectCssPx": [
+        144.25,
+        238.344,
+        729.438,
+        260.047
+      ]
+    },
+    {
+      "node": "n_78cc5fd5f57f4da48403d4eba5f60042",
+      "page": "pg_1",
+      "rectCssPx": [
+        104.25,
+        260.047,
+        729.438,
+        281.75
+      ]
+    },
+    {
+      "node": "n_e5496eb82c5b464aa85fcb91de81e148",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.25,
+        308.203,
+        729.438,
+        392.359
+      ]
+    },
+    {
+      "node": "n_42713de35f4746f1a4882dabbee5c5b9",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.75,
+        308.703,
+        728.938,
+        350.281
+      ]
+    },
+    {
+      "node": "n_d05baf63b68146bfba1575fa22ddfa8e",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.75,
+        308.703,
+        396.844,
+        350.281
+      ]
+    },
+    {
+      "node": "n_dbb98499581d4ee39ba72c69ac747562",
+      "page": "pg_1",
+      "rectCssPx": [
+        396.844,
+        308.703,
+        728.938,
+        350.281
+      ]
+    },
+    {
+      "node": "n_76bd0bc23c5843cbb7efddec2b6a21a3",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.75,
+        350.281,
+        728.938,
+        391.859
+      ]
+    },
+    {
+      "node": "n_ce0717d6d1a64bebb6a44906b5e0002c",
+      "page": "pg_1",
+      "rectCssPx": [
+        64.75,
+        350.281,
+        396.844,
+        391.859
+      ]
+    },
+    {
+      "node": "n_3db7f94e37ab4a4399e582ebb2390956",
+      "page": "pg_1",
+      "rectCssPx": [
+        396.844,
+        350.281,
+        728.938,
+        391.859
+      ]
+    },
+    {
+      "node": "n_b94253ce8f054cc1ab0303195092df74",
+      "page": "pg_2",
+      "rectCssPx": [
+        64.25,
+        82.688,
+        729.438,
+        134.828
+      ]
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "rectCssPx": [
+        64.25,
+        82.688,
+        729.438,
+        104.391
+      ]
+    },
+    {
+      "node": "n_8c66784d2d134131a1fd6ee039c5b5b5",
+      "page": "pg_2",
+      "rectCssPx": [
+        64.25,
+        119.047,
+        729.438,
+        134.828
+      ]
+    }
+  ],
+  "textFragments": [
+    {
+      "node": "n_9c8518b9527846c291a8f0fd239317b9",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        12
+      ],
+      "rectCssPx": [
+        64.25,
+        68.031,
+        146.438,
+        83.031
+      ],
+      "renderedText": "EXPERIMENTAL"
+    },
+    {
+      "node": "n_9c8518b9527846c291a8f0fd239317b9",
+      "page": "pg_1",
+      "logicalRange": [
+        13,
+        22
+      ],
+      "rectCssPx": [
+        150.219,
+        68.031,
+        217.578,
+        83.031
+      ],
+      "renderedText": "AGREEMENT"
+    },
+    {
+      "node": "n_9c8518b9527846c291a8f0fd239317b9",
+      "page": "pg_1",
+      "logicalRange": [
+        23,
+        24
+      ],
+      "rectCssPx": [
+        221.359,
+        68.031,
+        226.484,
+        83.031
+      ],
+      "renderedText": "-"
+    },
+    {
+      "node": "n_9c8518b9527846c291a8f0fd239317b9",
+      "page": "pg_1",
+      "logicalRange": [
+        25,
+        29
+      ],
+      "rectCssPx": [
+        230.266,
+        68.031,
+        258.297,
+        83.031
+      ],
+      "renderedText": "PAGE"
+    },
+    {
+      "node": "n_9c8518b9527846c291a8f0fd239317b9",
+      "page": "pg_1",
+      "logicalRange": [
+        30,
+        36
+      ],
+      "rectCssPx": [
+        262.078,
+        68.031,
+        306.281,
+        83.031
+      ],
+      "renderedText": "HEADER"
+    },
+    {
+      "node": "n_d5b8e334534347ca98a48c0e2de3276e",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        8
+      ],
+      "rectCssPx": [
+        64.25,
+        107.25,
+        197.5,
+        150.25
+      ],
+      "renderedText": "Research"
+    },
+    {
+      "node": "n_d5b8e334534347ca98a48c0e2de3276e",
+      "page": "pg_1",
+      "logicalRange": [
+        9,
+        17
+      ],
+      "rectCssPx": [
+        206.328,
+        107.25,
+        328.781,
+        150.25
+      ],
+      "renderedText": "Services"
+    },
+    {
+      "node": "n_d5b8e334534347ca98a48c0e2de3276e",
+      "page": "pg_1",
+      "logicalRange": [
+        18,
+        27
+      ],
+      "rectCssPx": [
+        337.609,
+        107.25,
+        505.594,
+        150.25
+      ],
+      "renderedText": "Agreement"
+    },
+    {
+      "node": "n_e0ac347b8f2e4841acf6519e982c12d9",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        12
+      ],
+      "rectCssPx": [
+        104.25,
+        194.938,
+        177,
+        214.938
+      ],
+      "renderedText": "Definitions."
+    },
+    {
+      "node": "n_ddfda0d404444cd886629b0bfd6289cd",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        10
+      ],
+      "rectCssPx": [
+        144.25,
+        216.641,
+        222.813,
+        236.641
+      ],
+      "renderedText": "“Document”"
+    },
+    {
+      "node": "n_ddfda0d404444cd886629b0bfd6289cd",
+      "page": "pg_1",
+      "logicalRange": [
+        11,
+        16
+      ],
+      "rectCssPx": [
+        226.844,
+        216.641,
+        269.125,
+        236.641
+      ],
+      "renderedText": "means"
+    },
+    {
+      "node": "n_ddfda0d404444cd886629b0bfd6289cd",
+      "page": "pg_1",
+      "logicalRange": [
+        17,
+        20
+      ],
+      "rectCssPx": [
+        273.156,
+        216.641,
+        294.094,
+        236.641
+      ],
+      "renderedText": "the"
+    },
+    {
+      "node": "n_ddfda0d404444cd886629b0bfd6289cd",
+      "page": "pg_1",
+      "logicalRange": [
+        21,
+        29
+      ],
+      "rectCssPx": [
+        298.125,
+        216.641,
+        355.688,
+        236.641
+      ],
+      "renderedText": "semantic"
+    },
+    {
+      "node": "n_ddfda0d404444cd886629b0bfd6289cd",
+      "page": "pg_1",
+      "logicalRange": [
+        30,
+        36
+      ],
+      "rectCssPx": [
+        359.719,
+        216.641,
+        402.375,
+        236.641
+      ],
+      "renderedText": "source"
+    },
+    {
+      "node": "n_ddfda0d404444cd886629b0bfd6289cd",
+      "page": "pg_1",
+      "logicalRange": [
+        37,
+        40
+      ],
+      "rectCssPx": [
+        406.406,
+        216.641,
+        430.797,
+        236.641
+      ],
+      "renderedText": "and"
+    },
+    {
+      "node": "n_ddfda0d404444cd886629b0bfd6289cd",
+      "page": "pg_1",
+      "logicalRange": [
+        41,
+        46
+      ],
+      "rectCssPx": [
+        434.828,
+        216.641,
+        477.266,
+        236.641
+      ],
+      "renderedText": "bound"
+    },
+    {
+      "node": "n_ddfda0d404444cd886629b0bfd6289cd",
+      "page": "pg_1",
+      "logicalRange": [
+        47,
+        57
+      ],
+      "rectCssPx": [
+        481.297,
+        216.641,
+        543.125,
+        236.641
+      ],
+      "renderedText": "rendition."
+    },
+    {
+      "node": "n_52f141ad569941eb965196943f3a6aaa",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        10
+      ],
+      "rectCssPx": [
+        144.25,
+        238.344,
+        208.547,
+        258.344
+      ],
+      "renderedText": "“Revision”"
+    },
+    {
+      "node": "n_52f141ad569941eb965196943f3a6aaa",
+      "page": "pg_1",
+      "logicalRange": [
+        11,
+        16
+      ],
+      "rectCssPx": [
+        212.578,
+        238.344,
+        254.859,
+        258.344
+      ],
+      "renderedText": "means"
+    },
+    {
+      "node": "n_52f141ad569941eb965196943f3a6aaa",
+      "page": "pg_1",
+      "logicalRange": [
+        17,
+        20
+      ],
+      "rectCssPx": [
+        258.891,
+        238.344,
+        283.453,
+        258.344
+      ],
+      "renderedText": "one"
+    },
+    {
+      "node": "n_52f141ad569941eb965196943f3a6aaa",
+      "page": "pg_1",
+      "logicalRange": [
+        21,
+        30
+      ],
+      "rectCssPx": [
+        287.484,
+        238.344,
+        356.859,
+        258.344
+      ],
+      "renderedText": "immutable"
+    },
+    {
+      "node": "n_52f141ad569941eb965196943f3a6aaa",
+      "page": "pg_1",
+      "logicalRange": [
+        31,
+        39
+      ],
+      "rectCssPx": [
+        360.891,
+        238.344,
+        418.453,
+        258.344
+      ],
+      "renderedText": "semantic"
+    },
+    {
+      "node": "n_52f141ad569941eb965196943f3a6aaa",
+      "page": "pg_1",
+      "logicalRange": [
+        40,
+        46
+      ],
+      "rectCssPx": [
+        422.484,
+        238.344,
+        456.953,
+        258.344
+      ],
+      "renderedText": "state."
+    },
+    {
+      "node": "n_78cc5fd5f57f4da48403d4eba5f60042",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        12
+      ],
+      "rectCssPx": [
+        104.25,
+        260.047,
+        181.922,
+        280.047
+      ],
+      "renderedText": "Obligations."
+    },
+    {
+      "node": "n_78cc5fd5f57f4da48403d4eba5f60042",
+      "page": "pg_1",
+      "logicalRange": [
+        13,
+        17
+      ],
+      "rectCssPx": [
+        185.953,
+        260.047,
+        215.906,
+        280.047
+      ],
+      "renderedText": "Each"
+    },
+    {
+      "node": "n_78cc5fd5f57f4da48403d4eba5f60042",
+      "page": "pg_1",
+      "logicalRange": [
+        18,
+        23
+      ],
+      "rectCssPx": [
+        219.938,
+        260.047,
+        253.188,
+        280.047
+      ],
+      "renderedText": "party"
+    },
+    {
+      "node": "n_78cc5fd5f57f4da48403d4eba5f60042",
+      "page": "pg_1",
+      "logicalRange": [
+        24,
+        29
+      ],
+      "rectCssPx": [
+        257.219,
+        260.047,
+        286.297,
+        280.047
+      ],
+      "renderedText": "shall"
+    },
+    {
+      "node": "n_78cc5fd5f57f4da48403d4eba5f60042",
+      "page": "pg_1",
+      "logicalRange": [
+        30,
+        38
+      ],
+      "rectCssPx": [
+        290.328,
+        260.047,
+        345.391,
+        280.047
+      ],
+      "renderedText": "preserve"
+    },
+    {
+      "node": "n_78cc5fd5f57f4da48403d4eba5f60042",
+      "page": "pg_1",
+      "logicalRange": [
+        39,
+        51
+      ],
+      "rectCssPx": [
+        349.422,
+        260.047,
+        416.391,
+        280.047
+      ],
+      "renderedText": "identifiers."
+    },
+    {
+      "node": "n_d05baf63b68146bfba1575fa22ddfa8e",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        5
+      ],
+      "rectCssPx": [
+        205.422,
+        318.641,
+        241.813,
+        338.641
+      ],
+      "renderedText": "Party"
+    },
+    {
+      "node": "n_d05baf63b68146bfba1575fa22ddfa8e",
+      "page": "pg_1",
+      "logicalRange": [
+        6,
+        7
+      ],
+      "rectCssPx": [
+        245.859,
+        318.641,
+        256.172,
+        338.641
+      ],
+      "renderedText": "A"
+    },
+    {
+      "node": "n_dbb98499581d4ee39ba72c69ac747562",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        5
+      ],
+      "rectCssPx": [
+        537.969,
+        318.641,
+        574.359,
+        338.641
+      ],
+      "renderedText": "Party"
+    },
+    {
+      "node": "n_dbb98499581d4ee39ba72c69ac747562",
+      "page": "pg_1",
+      "logicalRange": [
+        6,
+        7
+      ],
+      "rectCssPx": [
+        578.406,
+        318.641,
+        587.813,
+        338.641
+      ],
+      "renderedText": "B"
+    },
+    {
+      "node": "n_ce0717d6d1a64bebb6a44906b5e0002c",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        10
+      ],
+      "rectCssPx": [
+        74.688,
+        360.219,
+        139.625,
+        380.219
+      ],
+      "renderedText": "Signature:"
+    },
+    {
+      "node": "n_ce0717d6d1a64bebb6a44906b5e0002c",
+      "page": "pg_1",
+      "logicalRange": [
+        11,
+        21
+      ],
+      "rectCssPx": [
+        143.656,
+        360.219,
+        204.516,
+        380.219
+      ],
+      "renderedText": "__________"
+    },
+    {
+      "node": "n_3db7f94e37ab4a4399e582ebb2390956",
+      "page": "pg_1",
+      "logicalRange": [
+        0,
+        10
+      ],
+      "rectCssPx": [
+        406.781,
+        360.219,
+        471.719,
+        380.219
+      ],
+      "renderedText": "Signature:"
+    },
+    {
+      "node": "n_3db7f94e37ab4a4399e582ebb2390956",
+      "page": "pg_1",
+      "logicalRange": [
+        11,
+        21
+      ],
+      "rectCssPx": [
+        475.75,
+        360.219,
+        536.609,
+        380.219
+      ],
+      "renderedText": "__________"
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "logicalRange": [
+        0,
+        4
+      ],
+      "rectCssPx": [
+        64.25,
+        82.688,
+        71.938,
+        102.688
+      ],
+      "renderedText": "This"
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "logicalRange": [
+        0,
+        4
+      ],
+      "rectCssPx": [
+        71.938,
+        82.688,
+        90.016,
+        102.688
+      ],
+      "renderedText": "This"
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "logicalRange": [
+        5,
+        11
+      ],
+      "rectCssPx": [
+        94.047,
+        82.688,
+        134.016,
+        102.688
+      ],
+      "renderedText": "clause"
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "logicalRange": [
+        12,
+        18
+      ],
+      "rectCssPx": [
+        138.047,
+        82.688,
+        181.047,
+        102.688
+      ],
+      "renderedText": "begins"
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "logicalRange": [
+        19,
+        21
+      ],
+      "rectCssPx": [
+        185.078,
+        82.688,
+        201.969,
+        102.688
+      ],
+      "renderedText": "on"
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "logicalRange": [
+        22,
+        23
+      ],
+      "rectCssPx": [
+        206,
+        82.688,
+        213.469,
+        102.688
+      ],
+      "renderedText": "a"
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "logicalRange": [
+        24,
+        29
+      ],
+      "rectCssPx": [
+        217.5,
+        82.688,
+        248.672,
+        102.688
+      ],
+      "renderedText": "fixed"
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "logicalRange": [
+        30,
+        33
+      ],
+      "rectCssPx": [
+        252.703,
+        82.688,
+        279.266,
+        102.688
+      ],
+      "renderedText": "new"
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "logicalRange": [
+        34,
+        38
+      ],
+      "rectCssPx": [
+        283.297,
+        82.688,
+        315.688,
+        102.688
+      ],
+      "renderedText": "page"
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "logicalRange": [
+        39,
+        42
+      ],
+      "rectCssPx": [
+        319.719,
+        82.688,
+        344.109,
+        102.688
+      ],
+      "renderedText": "and"
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "logicalRange": [
+        43,
+        48
+      ],
+      "rectCssPx": [
+        348.141,
+        82.688,
+        378.188,
+        102.688
+      ],
+      "renderedText": "tests"
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "logicalRange": [
+        49,
+        62
+      ],
+      "rectCssPx": [
+        382.219,
+        82.688,
+        474.938,
+        102.688
+      ],
+      "renderedText": "page-oriented"
+    },
+    {
+      "node": "n_b8ff80953d1a475daf84f9c9c6b5cc80",
+      "page": "pg_2",
+      "logicalRange": [
+        63,
+        67
+      ],
+      "rectCssPx": [
+        478.969,
+        82.688,
+        504.344,
+        102.688
+      ],
+      "renderedText": "use."
+    },
+    {
+      "node": "n_8c66784d2d134131a1fd6ee039c5b5b5",
+      "page": "pg_2",
+      "logicalRange": [
+        0,
+        12
+      ],
+      "rectCssPx": [
+        64.25,
+        119.047,
+        71.422,
+        134.047
+      ],
+      "renderedText": "CONFIDENTIAL"
+    },
+    {
+      "node": "n_8c66784d2d134131a1fd6ee039c5b5b5",
+      "page": "pg_2",
+      "logicalRange": [
+        0,
+        12
+      ],
+      "rectCssPx": [
+        71.422,
+        119.047,
+        146.031,
+        134.047
+      ],
+      "renderedText": "CONFIDENTIAL"
+    },
+    {
+      "node": "n_8c66784d2d134131a1fd6ee039c5b5b5",
+      "page": "pg_2",
+      "logicalRange": [
+        13,
+        14
+      ],
+      "rectCssPx": [
+        149.813,
+        119.047,
+        154.938,
+        134.047
+      ],
+      "renderedText": "-"
+    },
+    {
+      "node": "n_8c66784d2d134131a1fd6ee039c5b5b5",
+      "page": "pg_2",
+      "logicalRange": [
+        15,
+        19
+      ],
+      "rectCssPx": [
+        158.719,
+        119.047,
+        186.75,
+        134.047
+      ],
+      "renderedText": "PAGE"
+    },
+    {
+      "node": "n_8c66784d2d134131a1fd6ee039c5b5b5",
+      "page": "pg_2",
+      "logicalRange": [
+        20,
+        26
+      ],
+      "rectCssPx": [
+        190.531,
+        119.047,
+        233.813,
+        134.047
+      ],
+      "renderedText": "FOOTER"
+    }
+  ],
+  "discardedOffPageFragments": [],
+  "adapter": {
+    "method": "forward:pagedjs-dom",
+    "version": "0.4.3",
+    "paginationTimeMs": 114,
+    "preview": {
+      "total": 2,
+      "performance": 38.399999998509884
+    }
+  }
+}

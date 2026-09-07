@@ -1,0 +1,193 @@
+{
+  "tool": "EPUBCheck",
+  "version": "5.3.0",
+  "applicableCount": 31,
+  "results": [
+    {
+      "fixture": "edge/cjk-vertical",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "edge/combining-character-range",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "edge/css-change-stales-fixed",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "edge/deep-lists",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "edge/emoji-range",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "edge/empty-section",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "edge/font-change-stales-fixed",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "edge/node-not-visible",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "edge/partial-mapping",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "edge/rtl-range",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "edge/table-spanning-pages",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "edge/unsupported-mapping",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "edge/very-long-paragraph",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/accessible",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/annotations",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/arabic",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/figure-svg",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/fixed-without-mapping",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/lineage-scoped-annotation",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/mapped",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/mapping-with-current-fixed",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/mathml",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/minimal-base",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/mixed-bidi",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/multi-spine",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/revision-scoped-annotation",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/same-semantic-different-revision-id",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/sealed",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/semantic-change-new-revision",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/semantic-only-sealed",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    },
+    {
+      "fixture": "valid/table",
+      "epubcheckVersion": "5.3.0 (operator-supplied path)",
+      "exitCode": 0,
+      "normalizedResult": "PASS"
+    }
+  ]
+}

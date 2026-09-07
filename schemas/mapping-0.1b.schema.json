@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/semantic-fixed/mapping-0.1b.schema.json",
+  "title": "Experimental forward semantic-to-fixed mapping 0.1B",
+  "type": "object",
+  "required": ["schemaVersion", "document", "revision", "fixedRendition", "fixedRenditionHash", "adapter", "coordinateSystem", "pages", "records", "mappingFidelity"],
+  "properties": {
+    "schemaVersion": {"const": "0.1B-experimental"},
+    "document": {"type": "string", "pattern": "^d_"},
+    "revision": {"type": "string", "pattern": "^r_"},
+    "fixedRendition": {"type": "string", "pattern": "^f_"},
+    "fixedRenditionHash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["node", "status", "method", "confidence", "fragments"],
+        "properties": {
+          "node": {"type": "string", "pattern": "^n_"},
+          "status": {"enum": ["MAPPED", "PARTIALLY_MAPPED", "NOT_VISIBLE", "UNMAPPABLE", "UNSUPPORTED"]},
+          "confidence": {"enum": ["EXACT_IDENTITY_PROPAGATION", "EXACT_TEXT_RANGE_LAYOUT", "GEOMETRIC_INFERENCE", "PDF_TOKEN_MATCH", "MANUAL_VERIFICATION", "UNVERIFIED"]},
+          "fragments": {"type": "array"}
+        }
+      }
+    }
+  }
+}
+

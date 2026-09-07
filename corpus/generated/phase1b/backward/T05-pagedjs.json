@@ -1,0 +1,106 @@
+{
+  "coverage": {
+    "expected": 6,
+    "mapped": 3,
+    "ratio": 0.5
+  },
+  "document": "d_8f68572f4f0e445483c7511a5d8f07b9",
+  "fixedRendition": "f_09d2472055a04fd69eae31d32028dffe",
+  "fixedRenditionHash": "sha256:e900d28aea864d25684940ad6832c3b3632979b20ac75b0e39b2de3addaa5d41",
+  "mappings": [
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.187497992187495,
+            76.52343425152344,
+            193.98046135748046,
+            76.52343425152344,
+            193.98046135748046,
+            100.52343325152344,
+            48.187497992187495,
+            100.52343325152344
+          ],
+          "textRange": [
+            0,
+            11
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_4582b08af87047de9e75cba1df0951a3"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            244.0781148300781,
+            163.19773014691907,
+            351.17590944335615,
+            163.19773014691907,
+            351.17590944335615,
+            190.69272885129408,
+            244.0781148300781,
+            190.69272885129408
+          ],
+          "textRange": [
+            0,
+            19
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_ce8ce1040a294f408f80cf718f6dd0a7"
+    },
+    {
+      "fragments": [
+        {
+          "page": "pg_1",
+          "quad": [
+            48.187497992187495,
+            207.0144787639499,
+            264.27524920161125,
+            207.0144787639499,
+            264.27524920161125,
+            218.00947815582492,
+            48.187497992187495,
+            218.00947815582492
+          ],
+          "textRange": [
+            0,
+            44
+          ]
+        }
+      ],
+      "kind": "text",
+      "node": "n_4e4eef195e5e4dd8bae3a40f2ab458a7"
+    }
+  ],
+  "pages": [
+    {
+      "height": 841.91998,
+      "id": "pg_1",
+      "unit": "pt",
+      "width": 594.95996
+    }
+  ],
+  "renderer": "pagedjs-pdfplumber",
+  "revision": "r_49983f18d883450bb0cb221c72ce11d8",
+  "schemaVersion": "0.1-experimental",
+  "unmatched": [
+    {
+      "node": "n_8f23974349fc489aa4261ab98458ee70",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_949f133a4666441e93e79e99077544de",
+      "reason": "logical token sequence not found in extracted PDF words"
+    },
+    {
+      "node": "n_fe95e579d6954c8c9962ebc3d219dd54",
+      "reason": "logical token sequence not found in extracted PDF words"
+    }
+  ]
+}

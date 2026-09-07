@@ -1,0 +1,158 @@
+{
+  "expectedArabicPhrases": [
+    "نص عربي وإنجليزي Mixed RTL/LTR",
+    "هذه النتيجة FROC = 0.906 مقارنة بالطريقة السابقة.",
+    "شغّل النموذج Model-X (v2.1) على https://example.org/run?id=42، ثم قارن ١٢٣ مع 123.",
+    "المعادلة x = 0.906 مذكورة في المرجع [Smith 2025]."
+  ],
+  "extractors": {
+    "mupdf": {
+      "mixedBidiProbes": {
+        "123": true,
+        "FROC = 0.906": true,
+        "Model-X": false,
+        "[Smith 2025]": true,
+        "https://example.org/run?id=42": true,
+        "x = 0.906": true,
+        "١٢٣": false
+      },
+      "outputs": {
+        "NFC": "Mixed RTL/LTR  ﻥﺹ ﻉﺭﺏﻱ ﻭﺇﻥﺝﻝﻱﺯﻱ\n.  ﻡﻕﺍﺭﻥﺓ ﺏﺍﻝﻁﺭﻱﻕﺓ ﺍﻝﺱﺍﺏﻕﺓFROC = 0.906  ﻩﺫﻩ ﺍﻝﻥﺕﻱﺝﺓ\n.123   ﻡﻉ۱۲۳  ، ﺙﻡ ﻕﺍﺭﻥhttps://example.org/run?id=42  ( ﻉﻝﻯModel­X (v2.1  ﺵﻍّﻝ ﺍﻝﻥﻡﻭﺫﺝ\n.[Smith 2025]   ﻡﺫﻙﻭﺭﺓ ﻑﻱ ﺍﻝﻡﺭﺝﻉx = 0.906  ﺍﻝﻡﻉﺍﺩﻝﺓ\n",
+        "NFKC": "Mixed RTL/LTR  نص عربي وإنجليزي\n.  مقارنة بالطريقة السابقةFROC = 0.906  هذه النتيجة\n.123   مع۱۲۳  ، ثم قارنhttps://example.org/run?id=42  ( علىModel­X (v2.1  شغّل النموذج\n.[Smith 2025]   مذكورة في المرجعx = 0.906  المعادلة\n",
+        "raw": "Mixed RTL/LTR  ﻥﺹ ﻉﺭﺏﻱ ﻭﺇﻥﺝﻝﻱﺯﻱ\n.  ﻡﻕﺍﺭﻥﺓ ﺏﺍﻝﻁﺭﻱﻕﺓ ﺍﻝﺱﺍﺏﻕﺓFROC = 0.906  ﻩﺫﻩ ﺍﻝﻥﺕﻱﺝﺓ\n.123   ﻡﻉ۱۲۳  ، ﺙﻡ ﻕﺍﺭﻥhttps://example.org/run?id=42  ( ﻉﻝﻯModel­X (v2.1  ﺵﻍّﻝ ﺍﻝﻥﻡﻭﺫﺝ\n.[Smith 2025]   ﻡﺫﻙﻭﺭﺓ ﻑﻱ ﺍﻝﻡﺭﺝﻉx = 0.906  ﺍﻝﻡﻉﺍﺩﻝﺓ\n"
+      },
+      "phraseRecovery": {
+        "NFC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "NFKC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "raw": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        }
+      }
+    },
+    "pdfjs": {
+      "mixedBidiProbes": {
+        "123": true,
+        "FROC = 0.906": true,
+        "Model-X": false,
+        "[Smith 2025]": false,
+        "https://example.org/run?id=42": true,
+        "x = 0.906": true,
+        "١٢٣": false
+      },
+      "outputs": {
+        "NFC": "Mixed RTL/LTR   ﻥﺹ ﻉﺭﺏﻱ ﻭﺇﻥﺝﻝﻱﺯﻱ \nﻡﻕﺍﺭﻥﺓ ﺏﺍﻝﻁﺭﻱﻕﺓ ﺍﻝﺱﺍﺏﻕﺓ.   FROC = 0.906   ﻩﺫﻩ ﺍﻝﻥﺕﻱﺝﺓ \n. 123   ﻡﻉ   ۱۲۳   ، ﺙﻡ ﻕﺍﺭﻥ https://example.org/run?id=42   ( ﻉﻝﻯ ModelX (v2.1   ﺵﻍّﻝ ﺍﻝﻥﻡﻭﺫﺝ \n.[ Smith 2025 ﻡﺫﻙﻭﺭﺓ ﻑﻱ ﺍﻝﻡﺭﺝﻉ ]   x = 0.906   ﺍﻝﻡﻉﺍﺩﻝﺓ",
+        "NFKC": "Mixed RTL/LTR   نص عربي وإنجليزي \nمقارنة بالطريقة السابقة.   FROC = 0.906   هذه النتيجة \n. 123   مع   ۱۲۳   ، ثم قارن https://example.org/run?id=42   ( على ModelX (v2.1   شغّل النموذج \n.[ Smith 2025 مذكورة في المرجع ]   x = 0.906   المعادلة",
+        "raw": "Mixed RTL/LTR   ﻥﺹ ﻉﺭﺏﻱ ﻭﺇﻥﺝﻝﻱﺯﻱ \nﻡﻕﺍﺭﻥﺓ ﺏﺍﻝﻁﺭﻱﻕﺓ ﺍﻝﺱﺍﺏﻕﺓ.   FROC = 0.906   ﻩﺫﻩ ﺍﻝﻥﺕﻱﺝﺓ \n. 123   ﻡﻉ   ۱۲۳   ، ﺙﻡ ﻕﺍﺭﻥ https://example.org/run?id=42   ( ﻉﻝﻯ ModelX (v2.1   ﺵﻍّﻝ ﺍﻝﻥﻡﻭﺫﺝ \n.[ Smith 2025 ﻡﺫﻙﻭﺭﺓ ﻑﻱ ﺍﻝﻡﺭﺝﻉ ]   x = 0.906   ﺍﻝﻡﻉﺍﺩﻝﺓ"
+      },
+      "phraseRecovery": {
+        "NFC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "NFKC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "raw": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        }
+      }
+    },
+    "pdfplumber": {
+      "mixedBidiProbes": {
+        "123": true,
+        "FROC = 0.906": true,
+        "Model-X": false,
+        "[Smith 2025]": true,
+        "https://example.org/run?id=42": true,
+        "x = 0.906": true,
+        "١٢٣": false
+      },
+      "outputs": {
+        "NFC": "Mixed RTL/LTR ﻱﺯﻱﻝﺝﻥﺇﻭ ﻱﺏﺭﻉ ﺹﻥ\n.ﺓﻕﺏﺍﺱﻝﺍ ﺓﻕﻱﺭﻁﻝﺍﺏ ﺓﻥﺭﺍﻕﻡ FROC = 0.906 ﺓﺝﻱﺕﻥﻝﺍ ﻩﺫﻩ\n.123 ﻉﻡ ۱۲۳ ﻥﺭﺍﻕ ﻡﺙ ، https://example.org/run?id=42 ﻯﻝﻉ ( Model­X (v2.1 ﺝﺫﻭﻡﻥﻝﺍ ﻝّﻍﺵ\n.[Smith 2025] ﻉﺝﺭﻡﻝﺍ ﻱﻑ ﺓﺭﻭﻙﺫﻡ x = 0.906 ﺓﻝﺩﺍﻉﻡﻝﺍ",
+        "NFKC": "Mixed RTL/LTR يزيلجنإو يبرع صن\n.ةقباسلا ةقيرطلاب ةنراقم FROC = 0.906 ةجيتنلا هذه\n.123 عم ۱۲۳ نراق مث ، https://example.org/run?id=42 ىلع ( Model­X (v2.1 جذومنلا لّغش\n.[Smith 2025] عجرملا يف ةروكذم x = 0.906 ةلداعملا",
+        "raw": "Mixed RTL/LTR ﻱﺯﻱﻝﺝﻥﺇﻭ ﻱﺏﺭﻉ ﺹﻥ\n.ﺓﻕﺏﺍﺱﻝﺍ ﺓﻕﻱﺭﻁﻝﺍﺏ ﺓﻥﺭﺍﻕﻡ FROC = 0.906 ﺓﺝﻱﺕﻥﻝﺍ ﻩﺫﻩ\n.123 ﻉﻡ ۱۲۳ ﻥﺭﺍﻕ ﻡﺙ ، https://example.org/run?id=42 ﻯﻝﻉ ( Model­X (v2.1 ﺝﺫﻭﻡﻥﻝﺍ ﻝّﻍﺵ\n.[Smith 2025] ﻉﺝﺭﻡﻝﺍ ﻱﻑ ﺓﺭﻭﻙﺫﻡ x = 0.906 ﺓﻝﺩﺍﻉﻡﻝﺍ"
+      },
+      "phraseRecovery": {
+        "NFC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "NFKC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "raw": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        }
+      }
+    },
+    "poppler_pdftotext": {
+      "reason": "pdftotext executable absent; bundled Poppler contains only pdfinfo and pdftoppm",
+      "status": "NOT AVAILABLE"
+    },
+    "pypdf": {
+      "mixedBidiProbes": {
+        "123": true,
+        "FROC = 0.906": true,
+        "Model-X": false,
+        "[Smith 2025]": false,
+        "https://example.org/run?id=42": true,
+        "x = 0.906": true,
+        "١٢٣": false
+      },
+      "outputs": {
+        "NFC": "Mixed RTL/LTR \n  FROC = 0.906  \n.123    https://example.org/run?id=42 ( Model­X (v2.1 \n.[Smith 2025  x = 0.906  ",
+        "NFKC": "Mixed RTL/LTR \n  FROC = 0.906  \n.123    https://example.org/run?id=42 ( Model­X (v2.1 \n.[Smith 2025  x = 0.906  ",
+        "raw": "Mixed RTL/LTR \n  FROC = 0.906  \n.123    https://example.org/run?id=42 ( Model­X (v2.1 \n.[Smith 2025  x = 0.906  "
+      },
+      "phraseRecovery": {
+        "NFC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "NFKC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "raw": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        }
+      }
+    }
+  }
+}

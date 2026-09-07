@@ -1,0 +1,22 @@
+[
+  {
+    "validator": "a",
+    "command": "cargo test --offline --test corpus corpus_normalized_classification",
+    "scope": "Final 107 package native oracle after S25 mode completion",
+    "chunk_id": "b19885",
+    "wall_time_seconds": 0.000005,
+    "exit_code": 0,
+    "original_token_count": 36,
+    "output": "test corpus_normalized_classification ... ok\n\ntest result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 4 filtered out; finished in 20.30s\n\n"
+  },
+  {
+    "validator": "b",
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_convergence.py::test_current_corpus_against_independent_native_oracle",
+    "scope": "Final 107 package native oracle after S25 mode completion",
+    "chunk_id": "8e8060",
+    "wall_time_seconds": 0.0000052,
+    "exit_code": 0,
+    "original_token_count": 35,
+    "output": ".                                              [100%]\r\n\r\n======================== 1 passed in 60.96s (0:01:00) =========================\r\n"
+  }
+]

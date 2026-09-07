@@ -1,0 +1,158 @@
+{
+  "expectedArabicPhrases": [
+    "نص عربي وإنجليزي Mixed RTL/LTR",
+    "هذه النتيجة FROC = 0.906 مقارنة بالطريقة السابقة.",
+    "شغّل النموذج Model-X (v2.1) على https://example.org/run?id=42، ثم قارن ١٢٣ مع 123.",
+    "المعادلة x = 0.906 مذكورة في المرجع [Smith 2025]."
+  ],
+  "extractors": {
+    "mupdf": {
+      "mixedBidiProbes": {
+        "123": true,
+        "FROC = 0.906": true,
+        "Model-X": true,
+        "[Smith 2025]": false,
+        "https://example.org/run?id=42": true,
+        "x = 0.906": false,
+        "١٢٣": false
+      },
+      "outputs": {
+        "NFC": "Mixed RTL/LTR نص عربي وإنجليزي\n. مقارنة بالطريقة السابقةFROC = 0.906 هذه النتيجة\n.123 ، ثم قارن ٣٢١ معhttps://example.org/run?id=42  عىلModel-X (v2.1) شغّل النموذج\n المعادلةx\n=\n0.906\n.]Smith 2025[  مذكورة في المرجع\n1\n",
+        "NFKC": "Mixed RTL/LTR نص عربي وإنجليزي\n. مقارنة بالطريقة السابقةFROC = 0.906 هذه النتيجة\n.123 ، ثم قارن ٣٢١ معhttps://example.org/run?id=42  عىلModel-X (v2.1) شغّل النموذج\n المعادلةx\n=\n0.906\n.]Smith 2025[  مذكورة في المرجع\n1\n",
+        "raw": "Mixed RTL/LTR نص عربي وإنجليزي\n. مقارنة بالطريقة السابقةFROC = 0.906 هذه النتيجة\n.123 ، ثم قارن ٣٢١ معhttps://example.org/run?id=42  عىلModel-X (v2.1) شغّل النموذج\n المعادلةx\n=\n0.906\n.]Smith 2025[  مذكورة في المرجع\n1\n"
+      },
+      "phraseRecovery": {
+        "NFC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "NFKC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "raw": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        }
+      }
+    },
+    "pdfjs": {
+      "mixedBidiProbes": {
+        "123": true,
+        "FROC = 0.906": false,
+        "Model-X": false,
+        "[Smith 2025]": false,
+        "https://example.org/run?id=42": false,
+        "x = 0.906": true,
+        "١٢٣": true
+      },
+      "outputs": {
+        "NFC": "Mixed RTL/LTR   نص عربي وإنجليزي \nمقارنة بالطريقة السابقة.   FROC =   هذه النتيجة 0.906 \n، ثم قارن ١٢٣ مع 123. https : //example . org/run?id= عىل 42   Model - X (v 2.1 )   شغّل النموذج \nالمعادلة x = 0.906 . ]Smith   2025 [   مذكورة في المرجع \n1",
+        "NFKC": "Mixed RTL/LTR   نص عربي وإنجليزي \nمقارنة بالطريقة السابقة.   FROC =   هذه النتيجة 0.906 \n، ثم قارن ١٢٣ مع 123. https : //example . org/run?id= عىل 42   Model - X (v 2.1 )   شغّل النموذج \nالمعادلة x = 0.906 . ]Smith   2025 [   مذكورة في المرجع \n1",
+        "raw": "Mixed RTL/LTR   نص عربي وإنجليزي \nمقارنة بالطريقة السابقة.   FROC =   هذه النتيجة 0.906 \n، ثم قارن ١٢٣ مع 123. https : //example . org/run?id= عىل 42   Model - X (v 2.1 )   شغّل النموذج \nالمعادلة x = 0.906 . ]Smith   2025 [   مذكورة في المرجع \n1"
+      },
+      "phraseRecovery": {
+        "NFC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "NFKC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "raw": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        }
+      }
+    },
+    "pdfplumber": {
+      "mixedBidiProbes": {
+        "123": true,
+        "FROC = 0.906": false,
+        "Model-X": false,
+        "[Smith 2025]": false,
+        "https://example.org/run?id=42": false,
+        "x = 0.906": false,
+        "١٢٣": true
+      },
+      "outputs": {
+        "NFC": "Mixed RTL/LTR\nيزيلجنإو يبرع صن\n.ةقباسلا ةقيرطلاب ةنراقم\nFROC =\n0.906 ةجيتنلا هذه\n.123 عم ١٢٣ نراق مث ،\nhttps\n:\n//example\n.\norg/run?id=\n42 لىع\nModel\n-\nX (v\n2.1\n)\nجذومنلا لّ غش\nةلداعملا\nx =\n0.906 .\n]Smith\n2025\n[\nعجرملا يف ةروكذم\n1",
+        "NFKC": "Mixed RTL/LTR\nيزيلجنإو يبرع صن\n.ةقباسلا ةقيرطلاب ةنراقم\nFROC =\n0.906 ةجيتنلا هذه\n.123 عم ١٢٣ نراق مث ،\nhttps\n:\n//example\n.\norg/run?id=\n42 لىع\nModel\n-\nX (v\n2.1\n)\nجذومنلا لّ غش\nةلداعملا\nx =\n0.906 .\n]Smith\n2025\n[\nعجرملا يف ةروكذم\n1",
+        "raw": "Mixed RTL/LTR\nيزيلجنإو يبرع صن\n.ةقباسلا ةقيرطلاب ةنراقم\nFROC =\n0.906 ةجيتنلا هذه\n.123 عم ١٢٣ نراق مث ،\nhttps\n:\n//example\n.\norg/run?id=\n42 لىع\nModel\n-\nX (v\n2.1\n)\nجذومنلا لّ غش\nةلداعملا\nx =\n0.906 .\n]Smith\n2025\n[\nعجرملا يف ةروكذم\n1"
+      },
+      "phraseRecovery": {
+        "NFC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "NFKC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "raw": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        }
+      }
+    },
+    "poppler_pdftotext": {
+      "reason": "pdftotext executable absent; bundled Poppler contains only pdfinfo and pdftoppm",
+      "status": "NOT AVAILABLE"
+    },
+    "pypdf": {
+      "mixedBidiProbes": {
+        "123": false,
+        "FROC = 0.906": false,
+        "Model-X": true,
+        "[Smith 2025]": false,
+        "https://example.org/run?id=42": false,
+        "x = 0.906": false,
+        "١٢٣": false
+      },
+      "outputs": {
+        "NFC": "Mixed RTL/LTRنص عربي وإنجليزي\n مقارنة بالطريقة السابقة.FROC =هذه النتيجة\n، ثم قارن ٣٢١ معhttps://example.org/run?id= عModel-X (v2.1)شغّل النموذج\nالمعادلة x=0.906.]Smith 2025[ مذكورة في المرجع\n1",
+        "NFKC": "Mixed RTL/LTRنص عربي وإنجليزي\n مقارنة بالطريقة السابقة.FROC =هذه النتيجة\n، ثم قارن ٣٢١ معhttps://example.org/run?id= عModel-X (v2.1)شغّل النموذج\nالمعادلة x=0.906.]Smith 2025[ مذكورة في المرجع\n1",
+        "raw": "Mixed RTL/LTRنص عربي وإنجليزي\n مقارنة بالطريقة السابقة.FROC =هذه النتيجة\n، ثم قارن ٣٢١ معhttps://example.org/run?id= عModel-X (v2.1)شغّل النموذج\nالمعادلة x=0.906.]Smith 2025[ مذكورة في المرجع\n1"
+      },
+      "phraseRecovery": {
+        "NFC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "NFKC": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        },
+        "raw": {
+          "expected": 4,
+          "matched": 0,
+          "matchedPhrases": [],
+          "ratio": 0.0
+        }
+      }
+    }
+  }
+}
