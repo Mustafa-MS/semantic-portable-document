@@ -11,5 +11,15 @@ jobs:
         with:
           python-version: "3.13"
           cache: pip
+      - name: Install pinned EPUBCheck 5.3.0
+        shell: pwsh
+        run: |
+          $archive = 'validator-b/tools/epubcheck-5.3.0.zip'
+          $toolDir = 'validator-b/tools/official-5.3.0'
+          New-Item -ItemType Directory -Force -Path (Split-Path $archive), $toolDir | Out-Null
+          Invoke-WebRequest 'https://github.com/w3c/epubcheck/releases/download/v5.3.0/epubcheck-5.3.0.zip' -OutFile $archive
+          $actual = (Get-FileHash -Algorithm SHA256 $archive).Hash.ToLowerInvariant()
+          if ($actual -ne '6c07e68584b2e2ce2f89fe06e1246dfead3eb36b46b340e7d93524f29dcff6c5') { throw "EPUBCheck archive hash mismatch: $actual" }
+          Expand-Archive -LiteralPath $archive -DestinationPath $toolDir
       - run: python -m pip install -e ".\validator-b[test]"
       - run: python -m pytest validator-b/tests
